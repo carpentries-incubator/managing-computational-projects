@@ -1,5 +1,5 @@
 ---
-title: "Introduction"
+title: "Motivation - Starting with the scientific process."
 teaching: 0
 exercises: 0
 questions:
