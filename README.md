@@ -1,4 +1,4 @@
-# Introduction to Data Science for Biomedical Scientists 
+# Data Science for Biomedical Scientists: Managing Open and Reproducible Computational Projects
 
 [![Create a Slack Account with us](https://img.shields.io/badge/Create_Slack_Account-The_Carpentries-071159.svg)](https://swc-slack-invite.herokuapp.com/)
 
