@@ -1,6 +1,6 @@
 # Data Science for Biomedical Scientists: Managing Open and Reproducible Computational Projects
 
-[![Create a Slack Account with us](https://img.shields.io/badge/Create_Slack_Account-The_Carpentries-071159.svg)](https://swc-slack-invite.herokuapp.com/)
+*This is one of the two masterclasses being developed under Data Science for Biomedical Scientists: the Turing/Crick partnership project. For the first masterclass, please visit: https://github.com/carpentries-incubator/data-science-ai-senior-researchers.*
 
 **Thanks for contributing to The Carpentries Incubator!**
 This repository provides a blank starting point for lessons to be developed here.
