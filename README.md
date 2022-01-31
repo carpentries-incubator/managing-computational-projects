@@ -7,7 +7,7 @@ Materials developed through this project will enable (1) a foundational understa
 
 *This is one of the two masterclasses being developed under **Data Science for Biomedical Scientists: The Turing/Crick partnership project**. For the first masterclass, please visit: https://github.com/carpentries-incubator/data-science-ai-senior-researchers.*
 
-For details about the project and track management related information, please the [Project Management Repository](visit: https://github.com/alan-turing-institute/data-training-for-bioscience/).
+For details about the project and track management related information, please the [Project Management Repository](https://github.com/alan-turing-institute/data-training-for-bioscience/).
 
 ## Maintainer(s)
 
