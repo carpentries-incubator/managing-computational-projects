@@ -1,9 +1,29 @@
-# FIXME Lesson title
-
-[![Create a Slack Account with us](https://img.shields.io/badge/Create_Slack_Account-The_Carpentries-071159.svg)](https://swc-slack-invite.herokuapp.com/)
+# Data Science for Biomedical Scientists: Managing Open and Reproducible Computational Projects
 
 **Thanks for contributing to The Carpentries Incubator!**
+This repository is part of the **Data Science for Biomedical Scientists: The Turing/Crick partnership project**.
+This project will facilitate the development of training resources on data science practices for senior researchers, group leaders, late PhD/Postdocs and mid- to late-career biomedical scientists. 
+Materials developed through this project will enable (1) a foundational understanding of AI and data science in the context of biosciences and (2) recommendations for managing (as well as supervising and facilitating) open and reproducible research for the wider biology community.
+
+*This is one of the two masterclasses being developed under **Data Science for Biomedical Scientists: The Turing/Crick partnership project**. For the first masterclass, please visit: https://github.com/carpentries-incubator/data-science-ai-senior-researchers.*
+
+For details about the project and track management related information, please the [Project Management Repository](https://github.com/alan-turing-institute/data-training-for-bioscience/).
+
+## Maintainer(s)
+
+Current maintainers of this lesson are
+
+* Lydia France
+* Malvika Sharan
+* Federico Nanni
+
+------
+
+## The Carpentries Incubator Programme
+
 This repository provides a blank starting point for lessons to be developed here.
+
+A member of the Carpentries Curriculum Team will work with you to get your lesson listed on the Community Developed Lessons page and make sure you have everything you need to begin developing your new lesson.
 
 A member of the [Carpentries Curriculum Team](https://carpentries.org/team/)
 will work with you to get your lesson listed on the
@@ -55,16 +75,6 @@ repository. For making your contribution, we use the GitHub flow, which is
 nicely explained in the chapter [Contributing to a Project](http://git-scm.com/book/en/v2/GitHub-Contributing-to-a-Project) in Pro Git
 by Scott Chacon.
 Look for the tag ![good_first_issue](https://img.shields.io/badge/-good%20first%20issue-gold.svg). This indicates that the maintainers will welcome a pull request fixing this issue.
-
-
-## Maintainer(s)
-
-Current maintainers of this lesson are
-
-* Lydia France
-* Malvika Sharan
-* Federico Nanni
-
 
 ## Authors
 
