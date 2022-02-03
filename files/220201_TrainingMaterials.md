@@ -2,13 +2,34 @@
 # Training Materials
 
 
-## Starting with the Scientific Process
+## `1` Starting with the Scientific Process
 
+In reproducible scientific research, someone should be able to look at your work and understand in detail what was done and why. Those wishing to reproduce your work would have the means to do so. Guiding principles aside, there are also selfish reasons for reproducible workflows and records of critical decision points.
 
-## Setting up a Computational Project
+> "Anything that can go wrong will go wrong."
+>
+> Murphy's First Law
 
-### Intention to Release
+And so, whether due to mistakes or extending projects, *"anything you do you will probably have to be done again"*. [^murphy] Despite few life scientists having formal training in computer science, the majority of research now requires computational methods, whether creating a figure, testing a model, or training a neural network. As a group leader, there is a responsibility to ensure your team creates modular and reproducible workflows whether they are working in a lab or in RStudio. 
 
+As things stand, published papers should  the logic behind generating hypotheses and experimental designs are ideally shared in the Introduction section of a publication. Data collection protocols are shared through Methodology sections in published papers. Some lab workflows are shared globally and become universal. However, the steps involved with data processing/analyses are not transparent:
+
+![](https://i.postimg.cc/RVyw9TQZ/Screenshot-2022-02-03-at-14-55-08.png)
+
+> *When reading a published paper, not all the steps involved are clear.*
+
+The missing steps 
+
+[^murphy]:  A Quick Guide to Organizing Computational Biology Projects
+Noble WS (2009) A Quick Guide to Organizing Computational Biology Projects. PLOS Computational Biology 5(7): e1000424. https://doi.org/10.1371/journal.pcbi.1000424
+
+<a name="murphy">1</a>: Footnote content goes here
+
+## `2` Setting up a Computational Project
+
+### `2.1` Intention to Release
+
+A modular and documented workflow requires energy and intent from the start. In lab work, it is easy to skip writing in a lab book to save minutes, but further down the line weeks or months are lost unpicking or redoing the work. 
 
 
 **Pre-registration**
@@ -16,9 +37,9 @@
 **License**
 
 
-### Project Board
+### `2.2` Project Board
 
-### Version Control & Tools
+### `2.3` Version Control & Tools
 
 **Git**
 
@@ -31,17 +52,17 @@ Tutorial by coderefinery https://coderefinery.github.io/git-intro/
 **Open Tools**
 
 
-### Onboarding Team Members
+### `2.4` Onboarding Team Members
 
 **Training**
 
 **Access**
 
-## Method Selection
+## `3` Method Selection
 
-### Building on Existing Knowledge
+### `3.1` Building on Existing Knowledge
 
-### Resource Requirement
+### `3.2` Resource Requirement
 
 **Storage, Hosting and Archiving**
 
@@ -49,44 +70,47 @@ Tutorial by coderefinery https://coderefinery.github.io/git-intro/
 
 **Data Safe Havens**
 
-### Is AI Suitable?
+### `3.3` Is AI Suitable?
 
 
-## Implementation and Management
+## `4` Implementation and Management
 
-**Literate Programming & Notebooks**
+### `4.1` Literate Programming & Notebooks
 
 **FAIR Principles**
 
-**Reproducible Environments**
+### `4.2` Reproducible Environments
+
+### `4.3` Code Reviews & Sprints
 
 **Managing Code Reviews**
 
 **Managing Group Reviews**
 
+**Code Sprints & Hackathons**
 
-## Data Analysis and Results
+## `5` Data Analysis and Results
 
-**Data Wrangling**
+### `5.1` Data Wrangling
 
-**Tests**
+### `5.2` Tests
 
-**Data Exploration & Insights**
+### `5.3` Data Exploration & Insights
 
-**Communicating Results**
+### `5.4` Communicating Results
 
-## Publication and Release
+## `6` Publication and Release
 
-**Code Release**
+### `6.1` Code Release
 
-**Data Release**
+### `6.2` Data Release
 
-**Open Tool Contribution**
+### `6.3` Open Tool Contribution
 
-**Preprints**
+### `6.4` Preprints
 
-**Interactive pages**
 
+---
 
 
 # Disorganised Notes
