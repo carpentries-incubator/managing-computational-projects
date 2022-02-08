@@ -1,6 +1,6 @@
 ---
 title: "Introduction to this course"
-teaching: 0
+teaching: 10
 exercises: 0
 questions:
 - "Why should you read/use this?"
