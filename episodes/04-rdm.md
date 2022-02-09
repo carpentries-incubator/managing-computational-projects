@@ -27,13 +27,12 @@ Data should be stored in multiple locations and backed-up regularly to prevent l
 Clearly describing data using documentation and metadata ensures that others know how to access, use and reuse your data, and also enable conditions for sharing and publishing data to be outlined.
 
 > ## Why This is Useful
-
+>
 > Managing your data allows you to always find your data and ensure the quality of scientific practice.
 > Storing your data properly and and backing-up regularly prevents data loss.
 > It can help with recognition for all research outputs.
 > It stimulates collaboration with others, who will find it easier to understand and reuse your data.
 > RDM is cost/time efficient, as you will always be able to find and use your data.
-
 {: .callout}
 
 ## Defining Data
