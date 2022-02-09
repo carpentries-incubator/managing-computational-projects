@@ -27,8 +27,8 @@ We have adopted a modular format, covering a range of topics and integrating rea
 
 The following masterclasses are part of this project that provide a collection of modular episodes covering topics across overarching themes:
 
--   Introduction to data science, Machine Learning, Deep Learning, AI
--   Managing and supervising computational Projects
+-   Introduction to data science, Machine Learning, Deep Learning, AI (Under development)
+-   Managing and supervising computational Projects (Current Lesson)
 
 Each lesson is supplemented with technical resources and learning opportunities that can be used by senior researchers in guiding the learning and application of skills by other researchers in their team.
 
