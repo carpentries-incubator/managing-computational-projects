@@ -8,7 +8,7 @@ permalink: index.html  # Is the only page that doesn't follow the pattern /:path
 This training material covers best practices for managing and supervising computational projects in biology and related fields.
 Although the training course is tailored to the biomedical sciences community, materials will be generally transferable and directly relevant for data science projects across different domains.</p>
 
-<p>All materials are developed online openly under CC-BY 4.0 License using The Carpentries training format and The Carpentries Incubator lesson infrastructure.
+<p>This project massively reuses and builds on <a href="https://the-turing-way.netlify.app/">The Turing Way</a>, <a href="https://carpentries.org/">The Carpentries</a> and <a href="https://openlifesci.org/">Open Life Science</a> practices and is shared under CC-BY 4.0 License.
 Anyone interested in collaboration and improvements of this material is welcome to connect with the development team on GitHub (<a href="https://github.com/carpentries-incubator/managing-computational-projects">see the repository</a>).
 <!-- this is an html comment -->
 
@@ -25,8 +25,6 @@ Anyone interested in collaboration and improvements of this material is welcome 
 > * Our learners have a good understanding of designing or contributing to a scientific project throughout its lifecycle.
 > * They have a computational project in mind for which funding and research ethics have been approved.
 > * We also assume that the research team of any size is (either partially or fully) established.
-> 
-> This project massively reuses and builds on [The Turing Way](https://the-turing-way.netlify.app/), [The Carpentries](https://carpentries.org/) and [Open Life Science](https://openlifesci.org/) practices and provides resources for references.
 {: .prereq}
 
 {% include links.md %}
