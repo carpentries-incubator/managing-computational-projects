@@ -21,7 +21,7 @@ Although the training course is tailored to the biomedical sciences community, m
 > In defining the scope of this project for our target audience, we make the some assumptions about the learner groups:
 >
 > * Our learners have a good understanding of designing or contributing to a scientific project throughout its lifecycle.
-> * They have a computational project in mind for which funding and research ethics have been approved.
+> * They have a computational project in mind for which funding and research ethics approval have been recieved.
 > * We also assume that the research team of any size is (either partially or fully) established.
 {: .prereq}
 
