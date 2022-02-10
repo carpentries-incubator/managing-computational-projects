@@ -4,7 +4,7 @@ root: .  # Is the only page that doesn't follow the pattern /:path/index.html
 permalink: index.html  # Is the only page that doesn't follow the pattern /:path/index.html
 ---
 
-<p>The <strong>Data Science for Biomedical Scientists</strong> project is funded by [The Alan Turing Institute](https://www.turing.ac.uk)’s <a href="https://www.turing.ac.uk/research/asg">AI for Science and Government</a> (ASG) Research Programme.
+<p>The <strong>Data Science for Biomedical Scientists</strong> project is funded by <a href="https://www.turing.ac.uk">The Alan Turing Institute</a> - <a href="https://www.turing.ac.uk/research/asg">AI for Science and Government</a> (ASG) Research Programme.
 This training material covers best practices for managing and supervising computational projects in biology and related fields.
 Although the training course is tailored to the biomedical sciences community, materials will be generally transferable and directly relevant for data science projects across different domains.</p>
 
