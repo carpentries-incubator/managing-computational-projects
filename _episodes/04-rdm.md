@@ -160,7 +160,7 @@ If the data is not in a repository a text file with machine-readable metadata ca
 ## Next Steps
 
 In addition to the referenced linked under different sections in this lesson, please see the following references:
-- [Ask Lydia to check and fill theis.]
+- [Ask Lydia to check this section]
 
 ## Acknowledgement
 
