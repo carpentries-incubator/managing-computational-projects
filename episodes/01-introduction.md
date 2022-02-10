@@ -19,25 +19,27 @@ Over the last decade, several training materials and computational resources hav
 
 Specifically in biomedical research and related fields, there is growing demand to accessibly communicate the importance and application of data science, Artificial Intelligence and Machine Learning (AI/ML), so that senior researchers can make informed decisions around their application.
 
-The [**Data Science for Biomedical Scientists**](https://github.com/alan-turing-institute/data-training-for-bioscience) project helps address this gap in training by equipping experimental biomedical scientists with the computational skills essential for carrying out meaningful analyses of research datasets through data exploration, management, and visualisation. We aim to present unfamiliar or complex material to biologists in a relatable and easily accessible way. Although the training course is tailored to the biomedical sciences community, materials will be generally transferable and directly relevant for data science projects across different domains.
+The [**Data Science for Biomedical Scientists**](https://github.com/alan-turing-institute/data-training-for-bioscience) project helps address this gap in training by equipping experimental biomedical scientists with the computational skills. We discuss essential practices for computational reproducibility required for carrying out meaningful analyses of research datasets through data exploration, processing, visualisation and communication. We present unfamiliar or complex topics from computational data science to biologists by providing examples and recommendations from their fields. The goal is to enable effective management and sharing of their computational projects. 
+Although the training materials are tailored to the biomedical sciences community, materials will be generally transferable and directly relevant for data science projects across different domains.
 
 ## Masterclasses for Modular and Flexible Learning
 
-We have adopted a modular format, covering a range of topics and integrating real-world examples that should engage senior researchers who are often short in time. The goal is to provide an overview (without diving into technical details) of (1) data science and AI/ML practices that could be relevant to life science domains and (2) good practices for handling open reproducible computational data science.
+We have adopted a modular format, covering a range of topics and integrating real-world examples that should engage senior researchers. Most senior esearchers can't attend long workshops due to lack of time or don't find technical training directly useful for managing their work. 
+Therefore, the goal of this project is to provide an overview (without diving into technical details) of data science and AI/ML practices that could be relevant to life science domains and  good practices for handling open reproducible computational data science.
 
-The following masterclasses are part of this project that provide a collection of modular episodes covering topics across overarching themes:
+We have designed multiple modular episodes covering topics across two overarching themes, that we will refer to as "masterclasses":
 
--   Introduction to data science, Machine Learning, Deep Learning, AI (Under development)
--   Managing and supervising computational Projects (Current Lesson)
+1. Introduction to data science, Machine Learning, Deep Learning, AI (Under development)
+2. Managing and supervising computational Projects (Current Lesson)
 
-Each lesson is supplemented with technical resources and learning opportunities that can be used by senior researchers in guiding the learning and application of skills by other researchers in their team.
+Each masterclass is supplemented with technical resources and learning opportunities that can be used by senior researchers in guiding the learning and application of skills by other researchers in their team.
 
 ## Target audience
 
 Experimental biologists and biomedical research communities, with a focus on two key professional/career groups:
 
 1.  Group leaders without prior experience with Data Science and ML/AI - interested in understanding the potential additionality and application in their areas of expertise
-2.  Postdoc/Lab scientists – next-generation senior leaders - interested in additionality, but also the group more likely to benefit from tools to equip them with the requirements to enable the integration of computational science into biosciences
+2.  Postdoc and lab scientists (next-generation senior leaders) interested in additionality, but also the group more likely to benefit from tools to equip them with the requirements to enable the integration of computational science into biosciences
 
 ## Pre-requisites and Assumptions
 
@@ -48,7 +50,7 @@ In defining the scope of this project, we make the following assumptions about t
 - This training doesn't cover processes of designing a research proposal, managing grant/funding or evaluating ethical considerations for research. However, we assume that learners have a computational project in mind for which funding and research ethics have been approved and comprehensive documentation capturing this information is available to share with the research team.
 - We also assume that the research team of any size is (either partially or fully) established.
 
-## Learning Outcomes
+## Learning Outcomes of this Masterclass
 
 At the end of this masterclass, attendees will gain a better understanding of:
 
@@ -61,16 +63,16 @@ At the end of this masterclass, attendees will gain a better understanding of:
 
 Each masterclass has been developed on separate repositories as standalone training materials but will be linked and cross-referenced for completeness. This modularity will allow researchers to dip in and out of the training materials and take advantage of a flexible self-paced learning format.
 
-In the future, these materials could be coupled with pre-recorded introduction and training videos (to be hosted on the Turing online learning platform - details TBA).
+In the future, these masterclasses could be coupled with pre-recorded introduction and training videos (to be hosted on the Turing online learning platform and The Turing Way YouTube channel).
 
-They can also be delivered by trainers and domain experts, who can mix and match episodes from across the two masterclasses and present them in an interactive workshop format.
+They can also be delivered by trainers and domain experts, who can mix and match lessons/episodes from across the two masterclasses and present them in an interactive workshop format.
 
 ## Next Steps after this Training
 
-After this training we recommend our learners take these next steps:
+After this masterclass we recommend our learners take these next steps:
 
--   Go through the "Introduction to Data Science and AI for senior researchers" if not already completed
--   Explore the set of resources provided at the end of each episode for deeper dive into various technical topics required to learn or guide the application of Data and computational research best practices in real-world projects
+-   Go through the "Introduction to Data Science and AI for senior researchers" masterclass (if not already completed)
+-   Explore the set of resources provided at the end of each lesson for deeper dive into various technical topics required to learn or guide the application of Data and computational research best practices in real-world projects
 -   Establish connections with other training and training materials offered by The Alan Turing Institute, The Crick Institute, The Carpentries, The Turing Way and other projects/organisations involved in the maintenance and development of this training material
 -   Connect with other research communities and projects in open research, data science and AI that offers opportunities to develop/enhance technical skills
 -   Collaborate with domain experts such as librarians, research software engineers, community managers, statisticians or people with specialised skills in your organisation who can provide specific support in your project.
