@@ -114,8 +114,11 @@ Data loss can be catastrophic for your research project and can happen often. Yo
 Especially if you are handling personal or sensitive data, you need to ensure the cloud option is compliant with any data protection rules the data is bound by. To add an extra layer of security, you should encrypt devices and files where needed.
 Your institution might provide local storage solutions and policies or guidelines restricting what you can use. Thus, we recommend you familiarise yourself with your local policies and recommendations.
 
--   Some concepts discussed in the previous chapter such as setting up project repository, version controlling, pre-registration, and licensing apply to this point.
--   Also consider FAIR practices, data organisation and handling sensitive data practices, as well as metadata and documentation that are discussed below.
+> ## Note
+>
+> -   Some concepts discussed in the previous chapter such as setting up project repository, version controlling, pre-registration, and licensing apply to this point.
+> -   Also consider FAIR practices, data organisation and handling sensitive data practices, as well as metadata and documentation that are discussed below.
+{: .callout}
 
 Spreadsheets, such as Microsoft Excel files, google sheets, and their Open Source alternative [(for instance) LibreOffice](https://www.libreoffice.org), are commonly used by wet-lab experimentalists to collect, store, manipulate, analyse, and share research data. Spreadsheets are convenient and easy-to-use tools for organising information into an easy to write and easy to read forms for humans. However, one should use them with caution, as the use of an inappropriate spreadsheet is a major cause of mistakes in the data analysis workflow.
 Please refer to the [best practices for managing data in spreadsheet](https://the-turing-way.netlify.app/reproducible-research/rdm/rdm-spreadsheets.html) to avoid future errors in your studies.
