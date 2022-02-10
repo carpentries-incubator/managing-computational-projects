@@ -37,15 +37,6 @@ Kanban boards can be very helpful for a snapshot of multiple research projects w
 
 > *Github also allows different summary views for collaborative issues across multiple repos.*
 
-
-## Research Data Management
-- Introduction to Research Data Management
-- FAIR principles
-- Revisiting Version Control License
-https://the-turing-way.netlify.app/reproducible-research/vcs/vcs-data.html 
-- Metadata standards
-https://the-turing-way.netlify.app/reproducible-research/rdm.html 
-
 ## Collaborative Research Practices
 
 - Functional programming (approach for reproducibility)
