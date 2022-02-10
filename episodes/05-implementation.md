@@ -22,14 +22,17 @@ https://the-turing-way.netlify.app/reproducible-research/vcs/vcs-data.html
 https://the-turing-way.netlify.app/reproducible-research/rdm.html 
 
 ## Collaborative Research Practices
-- 1:1 and lab meetings
-- Code Review
-- Narrating code and software steps (documentation, pseudocode, describing how to run the code) 
+
 - Functional programming (approach for reproducibility)
-- Testing and quality check
 - Reproducible environment
 - Literate programming: Jupyter Notebook
 - Binderise your repo
+
+
+### Code Review
+
+- 1:1 and lab meetings
+- Narrating code and software steps (documentation, pseudocode, describing how to run the code) 
 - Asynchronous vs synchronous
 
 
@@ -64,9 +67,11 @@ https://the-turing-way.netlify.app/reproducible-research/rdm.html
 > *Keep it a safe environment, i.e. make sure chastising is relatively gentle even when deserved (but do point out when code doesn’t meet the required standard – frame it as a learning experience though).*
 
 
-## Group Review
+### Group Code Review and Writing
+
+- Code presentations
 - Hackathon
-- Document sprint
+- Documentation sprint
 - Sharing burden for knowledge exchange and support
 
 > [Turing Way: Recommendations for Code Reviewing](https://the-turing-way.netlify.app/reproducible-research/reviewing/reviewing-recommend.html)
@@ -74,6 +79,11 @@ https://the-turing-way.netlify.app/reproducible-research/rdm.html
 > *Unlike traditional, “academic-style” peer review, most code review systems have a number of advantages: they’re rarely anonymous, they’re public-facing, and without the middleman of an editor, contact between reviewer and reviewee can be direct and rapid. This means code review is typically a fast, flexible, and interactive process.*
 >
 >
+
+### Testing
+
+- Testing and quality checks
+- Continuous integration
 
 ## Conclusion
 - What gaps have we filled in this section
