@@ -78,11 +78,13 @@ A Data Management Plan is a roadmap for you to manage your data efficiently and 
 
 The FAIR guiding principles for scientific data management and stewardship are guidelines to improve the **F**indability, **A**ccessibility, **I**nteroperability and **R**eusability of digital assets; all of which support research reproducibility. The FAIR principles help create DMP for your project ensuring that research data is available to others for reuse.
 
-FAIR data should be:
-- **Findable**: The first step in (re)using data is to find them! Descriptive metadata (information about the data such as keywords) are essential.
-- **Accessible**: Once the user finds the data and software they need to know how to access it. Data could be openly available but it is also possible that authentication and authorisation procedures are necessary.
-- **Interoperable**: Data needs to be integrated with other data and interoperate with applications or workflows.
-- **Reusable**: Data should be well-described so that they can be used, combined, and extended in different settings.
+> ## FAIR data should be:
+>
+> - **Findable**: The first step in (re)using data is to find them! Descriptive metadata (information about the data such as keywords) are essential.
+> - **Accessible**: Once the user finds the data and software they need to know how to access it. Data could be openly available but it is also possible that authentication and authorisation procedures are necessary.
+> - **Interoperable**: Data needs to be integrated with other data and interoperate with applications or workflows.
+> - **Reusable**: Data should be well-described so that they can be used, combined, and extended in different settings.
+{: .callout}
 
 Making data ‘FAIR’ is not the same as making it ‘open’. Accessible means that there is a procedure in place to access the data. Data should be as open as possible, and as closed as necessary.
 It is also important to say that the FAIR principles are aspirational: they do not strictly define how to achieve a state of FAIRness, but rather describe a continuum of features, attributes, and behaviours that will move a digital resource closer to that goal.
