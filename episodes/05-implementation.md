@@ -11,7 +11,32 @@ keypoints:
 ---
 
 ## Keep and overview of selected tools and methods
-- Project board
+
+## Project Management Tools
+For computational projects with researchers already using Github for version control, there are also many features for project management.
+
+Issues can be anything from a project milestone (releasing an R package, submitting to an online data repository, a working simulation) but also specific issues with code (fixing a bug, adding a function, updating tests). 
+
+Kanban boards can be very helpful for a snapshot of multiple research projects within a lab and what multiple people are currently working on. 
+
+<img src="https://i.postimg.cc/3wDm4Qw4/Screenshot-2022-02-10-at-19-47-35.png" alt="drawing" width="1000"/>
+
+> *An example Kanban for researcher project management. Boards can be given any name.*
+>
+>
+
+---
+
+<img src="https://i.postimg.cc/Kzfz40t3/Screenshot-2022-02-10-at-19-55-23.png" alt="drawing" width="600"/>
+
+> *A more traditional Kanban for a collaborative computational project. Keeping track of bugs and what everyone is working on.*
+
+---
+
+<img src="https://i.postimg.cc/d37Yv66Y/Screenshot-2022-02-10-at-19-47-51.png" alt="drawing" width="600"/>
+
+> *Github also allows different summary views for collaborative issues across multiple repos.*
+
 
 ## Research Data Management
 - Introduction to Research Data Management
