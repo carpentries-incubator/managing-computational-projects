@@ -13,14 +13,6 @@ keypoints:
 ## Keep and overview of selected tools and methods
 - Project board
 
-## Research Data Management
-- Introduction to Research Data Management
-- FAIR principles
-- Revisiting Version Control License
-https://the-turing-way.netlify.app/reproducible-research/vcs/vcs-data.html 
-- Metadata standards
-https://the-turing-way.netlify.app/reproducible-research/rdm.html 
-
 ## Collaborative Research Practices
 - 1:1 and lab meetings
 - Code Review
