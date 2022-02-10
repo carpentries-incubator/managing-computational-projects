@@ -19,7 +19,7 @@ Over the last decade, several training materials and computational resources hav
 
 Specifically in biomedical research and related fields, there is growing demand to accessibly communicate the importance and application of data science, Artificial Intelligence and Machine Learning (AI/ML), so that senior researchers can make informed decisions around their application.
 
-The **Data Science for Biomedical Scientists** project helps address this gap in training by equipping experimental biomedical scientists with the computational skills essential for carrying out meaningful analyses of research datasets through data exploration, management, and visualisation. We aim to present unfamiliar or complex material to biologists in a relatable and easily accessible way. Although the training course is tailored to the biomedical sciences community, materials will be generally transferable and directly relevant for data science projects across different domains.
+The [**Data Science for Biomedical Scientists**](https://github.com/alan-turing-institute/data-training-for-bioscience) project helps address this gap in training by equipping experimental biomedical scientists with the computational skills essential for carrying out meaningful analyses of research datasets through data exploration, management, and visualisation. We aim to present unfamiliar or complex material to biologists in a relatable and easily accessible way. Although the training course is tailored to the biomedical sciences community, materials will be generally transferable and directly relevant for data science projects across different domains.
 
 ## Masterclasses for Modular and Flexible Learning
 
@@ -77,7 +77,7 @@ After this training we recommend our learners take these next steps:
 
 ## Funding and Collaboration
 
-Data Science for Biomedical Scientists is funded by The Alan Turing Institute's [AI for Science and Government](https://www.turing.ac.uk/research/asg) (ASG) Research Programme. It is an extension of [The Crick-Turing Biomedical Data Science Awards](https://www.turing.ac.uk/research/research-projects/crick-turing-biomedical-data-science-awards) that strongly indicated an urgent need to provide introductory resources for data science in bioscience researchers. This project extension will leverage strategic engagement between Turing's data science community and Crick's biosciences communities.
+Data Science for Biomedical Scientists is funded by [The Alan Turing Institute](https://www.turing.ac.uk)'s [AI for Science and Government](https://www.turing.ac.uk/research/asg) (ASG) Research Programme. It is an extension of [The Crick-Turing Biomedical Data Science Awards](https://www.turing.ac.uk/research/research-projects/crick-turing-biomedical-data-science-awards) that strongly indicated an urgent need to provide introductory resources for data science in bioscience researchers. This project extension will leverage strategic engagement between Turing's data science community and Crick's biosciences communities.
 
 Pulling together existing training materials, infrastructure support and domain expertise from [The Turing Way](https://the-turing-way.netlify.app/), [The Carpentries](https://carpentries.org/), [Open Life Science](https://openlifesci.org/) and the [Turing ‘omics interest group](https://www.turing.ac.uk/research/interest-groups/omics-data-generation-and-analysis-group), we will design and deliver a resource that is accessible and comprehensible for the biomedical and wet-lab biology researchers.
 
