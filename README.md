@@ -56,10 +56,6 @@ nicely explained in the chapter [Contributing to a Project](http://git-scm.com/b
 by Scott Chacon.
 Look for the tag ![good_first_issue](https://img.shields.io/badge/-good%20first%20issue-gold.svg). This indicates that the maintainers will welcome a pull request fixing this issue.
 
-## Authors
-
-A list of contributors to the lesson can be found in [AUTHORS](AUTHORS)
-
 ## Citation
 
 To cite this lesson, please consult with [CITATION](CITATION)
