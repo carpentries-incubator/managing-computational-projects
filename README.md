@@ -1,6 +1,6 @@
 # Data Science for Biomedical Scientists: Managing Open and Reproducible Computational Projects
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-5-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 **Thanks for contributing to The Carpentries Incubator!**
@@ -106,6 +106,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/LydiaFrance"><img src="https://avatars.githubusercontent.com/u/85945427?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Lydia France</b></sub></a><br /><a href="#content-LydiaFrance" title="Content">🖋</a> <a href="#ideas-LydiaFrance" title="Ideas, Planning, & Feedback">🤔</a> <a href="#example-LydiaFrance" title="Examples">💡</a></td>
     <td align="center"><a href="https://github.com/EstherPlomp"><img src="https://avatars.githubusercontent.com/u/46314469?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Esther Plomp</b></sub></a><br /><a href="#content-EstherPlomp" title="Content">🖋</a> <a href="https://github.com/carpentries-incubator/managing-computational-projects/pulls?q=is%3Apr+reviewed-by%3AEstherPlomp" title="Reviewed Pull Requests">👀</a></td>
     <td align="center"><a href="http://concarneau.mnhn.fr/"><img src="https://avatars.githubusercontent.com/u/7910679?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Yvan Le Bras</b></sub></a><br /><a href="https://github.com/carpentries-incubator/managing-computational-projects/issues?q=author%3Ayvanlebras" title="Bug reports">🐛</a></td>
+    <td align="center"><a href="https://github.com/fedenanni"><img src="https://avatars.githubusercontent.com/u/8415204?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Federico Nanni</b></sub></a><br /><a href="#mentoring-fedenanni" title="Mentoring">🧑‍🏫</a> <a href="#projectManagement-fedenanni" title="Project Management">📆</a> <a href="#ideas-fedenanni" title="Ideas, Planning, & Feedback">🤔</a></td>
   </tr>
 </table>
 
