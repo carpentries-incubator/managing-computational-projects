@@ -58,7 +58,8 @@ Look for the tag ![good_first_issue](https://img.shields.io/badge/-good%20first%
 
 ## Citation
 
-To cite this lesson, please consult with [CITATION](CITATION)
+This lesson will be realeased on Zenodo for DOI (digital object identifier). Meanwhile, please cite this repository as:
+*Data Science for Biomedical Scientists: Managing Open and Reproducible Computational Projects, 2022, https://github.com/carpentries-incubator/managing-computational-projects*
 
 [cdh]: https://cdh.carpentries.org
 [cdh-topic-tags]: https://cdh.carpentries.org/the-carpentries-incubator.html#topic-tags
