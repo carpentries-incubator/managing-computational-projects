@@ -160,10 +160,10 @@ When you are ready to release the data to the wider community, you can also sear
 ## Conclusion
 - [Add biological context for what gaps have we filled in this section]
 
-## Next Steps
+## Resources and References for Technical Details
 
 In addition to the referenced linked under different sections in this lesson, please see the following references:
-- [Ask Lydia to check this section]
+- [Add recommendations from 1:1 interviews, open communities such as Open Life Science and The Turing Way.]
 
 ## Acknowledgement
 
