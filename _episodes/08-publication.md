@@ -41,5 +41,10 @@ keypoints:
 
 - ​​Turing Data Stories, The Turing Way, Shiny app
 
+## Next Steps
+
+In addition to the referenced linked under different sections in this lesson, please see the following references:
+- [Add recommendations from 1:1 interviews, open communities such as Open Life Science and The Turing Way.]
+
 {% include links.md %}
 
