@@ -19,12 +19,12 @@ Over the last decade, several training materials and computational resources hav
 
 Specifically in biomedical research and related fields, there is growing demand to accessibly communicate the importance and application of data science, Artificial Intelligence and Machine Learning (AI/ML), so that senior researchers can make informed decisions around their application.
 
-The [**Data Science for Biomedical Scientists**](https://github.com/alan-turing-institute/data-training-for-bioscience) project helps address this gap in training by equipping experimental biomedical scientists with the computational skills. We discuss essential practices for computational reproducibility required for carrying out meaningful analyses of research datasets through data exploration, processing, visualisation and communication. We present unfamiliar or complex topics from computational data science to biologists by providing examples and recommendations from their fields. The goal is to enable effective management and sharing of their computational projects. 
+The [**Data Science for Biomedical Scientists**](https://github.com/alan-turing-institute/data-training-for-bioscience) project helps address this gap in training by equipping experimental biomedical scientists with computational skills. We discuss essential practices for computational reproducibility required for carrying out meaningful analyses of research datasets through data exploration, processing, visualisation and communication. We present unfamiliar or complex topics from computational data science to biologists by providing examples and recommendations from their fields. The goal is to enable effective management and sharing of their computational projects. 
 Although the training materials are tailored to the biomedical sciences community, materials will be generally transferable and directly relevant for data science projects across different domains.
 
 ## Masterclasses for Modular and Flexible Learning
 
-We have adopted a modular format, covering a range of topics and integrating real-world examples that should engage senior researchers. Most senior esearchers can't attend long workshops due to lack of time or don't find technical training directly useful for managing their work. 
+We have adopted a modular format, covering a range of topics and integrating real-world examples that should engage mid-career and senior researchers. Most senior researchers can't attend long workshops due to lack of time or don't find technical training directly useful for managing their work. 
 Therefore, the goal of this project is to provide an overview (without diving into technical details) of data science and AI/ML practices that could be relevant to life science domains and  good practices for handling open reproducible computational data science.
 
 We have designed multiple modular episodes covering topics across two overarching themes, that we will refer to as "masterclasses":
@@ -32,14 +32,14 @@ We have designed multiple modular episodes covering topics across two overarchin
 1. Introduction to data science, Machine Learning, Deep Learning, AI (Under development)
 2. Managing and supervising computational Projects (Current Lesson)
 
-Each masterclass is supplemented with technical resources and learning opportunities that can be used by senior researchers in guiding the learning and application of skills by other researchers in their team.
+Each masterclass is supplemented with technical resources and learning opportunities that can be used by project supervisors or senior researchers in guiding the learning and application of skills by other researchers in their teams.
 
 ## Target audience
 
 Experimental biologists and biomedical research communities, with a focus on two key professional/career groups:
 
-1.  Group leaders without prior experience with Data Science and ML/AI - interested in understanding the potential additionality and application in their areas of expertise
-2.  Postdoc and lab scientists (next-generation senior leaders) interested in additionality, but also the group more likely to benefit from tools to equip them with the requirements to enable the integration of computational science into biosciences
+1.  Group leaders without prior experience with Data Science and ML/AI - interested in understanding the potential additionality and application in their areas of expertise.
+2.  Postdoc and lab scientists - next-generation senior leaders, who are interested in additionality, but also the group more likely to benefit from tools to equip them with the requirements to enable the integration of computational science into biosciences.
 
 ## Pre-requisites and Assumptions
 
