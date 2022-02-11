@@ -97,7 +97,7 @@ A Data Management Plan is a roadmap for you to manage your data efficiently and 
 ## The FAIR Principles
 
 The FAIR guiding principles for scientific data management and stewardship are guidelines to improve the **F**indability, **A**ccessibility, **I**nteroperability and **R**eusability of digital assets; all of which support research reproducibility. 
-The FAIR principles help in organisation and management of research data ensuring ensuring their availability for others to reuse.
+The FAIR principles facilitate the availability of research data so that others can reuse data.
 
 > ## FAIR data should be:
 >
