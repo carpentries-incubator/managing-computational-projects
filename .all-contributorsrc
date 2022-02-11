@@ -39,6 +39,15 @@
         "content",
         "review"
       ]
+    },
+    {
+      "login": "yvanlebras",
+      "name": "Yvan Le Bras",
+      "avatar_url": "https://avatars.githubusercontent.com/u/7910679?v=4",
+      "profile": "http://concarneau.mnhn.fr/",
+      "contributions": [
+        "bug"
+      ]
     }
   ],
   "contributorsPerLine": 7,
