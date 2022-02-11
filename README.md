@@ -14,7 +14,7 @@ For details about the project and track management related information, please t
 
 ## Maintainer(s)
 
-Current maintainers of this lesson are
+Current developers and maintainers of this lesson are
 
 * Lydia France
 * Malvika Sharan
