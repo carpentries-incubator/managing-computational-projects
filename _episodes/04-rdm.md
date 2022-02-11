@@ -29,7 +29,7 @@ Clearly describing data using documentation and metadata ensures that others kno
 > ## Why This is Useful
 >
 > Managing your data allows you to always find your data and ensure the quality of scientific practice.
-> Storing your data properly and and backing-up regularly prevents data loss.
+> Storing your data properly and backing-up regularly prevents data loss.
 > It can help with recognition for all research outputs.
 > It stimulates collaboration with others, who will find it easier to understand and reuse your data.
 > RDM is cost/time efficient, as you will always be able to find and use your data.
