@@ -31,6 +31,8 @@ https://goodresearch.dev/setup.html
 - Basic training requirements
 - Giving access to resources and documentation
 
+![](http://nikola.me/assets/img/folder_structure.png)
+
 ## Conclusion
 - What gaps have we filled in this section
 - Project management overview 
