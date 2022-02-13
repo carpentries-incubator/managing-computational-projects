@@ -240,9 +240,9 @@ This aspect is discussed in detail in the Research Data Management episode.
 
 [What gaps have we filled in this section - add biological context]
 
-## Resources to take project setup to next level 
+## Resources and References for Technical Details
 
-- *The Turing Way*. The Turing Way Community. (2021). The Turing Way: A handbook for reproducible, ethical and collaborative research (1.0.1). Zenodo. https://doi.org/10.5281/zenodo.5671094 
+- *The Turing Way*. *The Turing Way Community. (2021). The Turing Way: A handbook for reproducible, ethical and collaborative research (1.0.1). Zenodo. [DOI: 10.5281/zenodo.5671094](https://doi.org/10.5281/zenodo.5671094)
   - [Guide to Project Design](https://the-turing-way.netlify.app/project-design/project-repo.html) 
   - [Creating Project Repositories](https://the-turing-way.netlify.app/project-design/project-repo.html)
   - [Naming files, folders and other things](https://the-turing-way.netlify.app/project-design/filenaming.html)
@@ -253,8 +253,8 @@ This aspect is discussed in detail in the Research Data Management episode.
   - [Managing a New Community and Team](https://the-turing-way.netlify.app/collaboration/new-community.html)
   - [Making Research Objects Citable](https://the-turing-way.netlify.app/communication/citable.html)
 - [The Good Research Code Handbook](https://goodresearch.dev/setup.html) by Patrick Mineault.
-- What is a Registered Report? (2022, February 12). Retrieved from https://support.jmir.org/hc/en-us/articles/360003450852-What-is-a-Registered-Report-
-- [Open Life Science training and Mentoring Programme](https://openlifesci.org). Batut, Bérénice, Yehudi, Yo, Sharan, Malvika, Tsang, Emmy, & Open Life Science Community. (2021). Open Life Science - Training and Mentoring programme - Website release 2019-2021 (1.0.0). Zenodo. https://doi.org/10.5281/zenodo.5636584
+- [What is a Registered Report?](https://support.jmir.org/hc/en-us/articles/360003450852-What-is-a-Registered-Report-) by JMIR, referencing to [Registered Reports by Center for Open Science](https://www.cos.io/initiatives/registered-reports).
+- [Open Life Science training and Mentoring Programme](https://openlifesci.org). *Batut, Bérénice, Yehudi, Yo, Sharan, Malvika, Tsang, Emmy, & Open Life Science Community. (2021). Open Life Science - Training and Mentoring programme - Website release 2019-2021 (1.0.0). Zenodo. [DOI: 10.5281/zenodo.5636584](https://doi.org/10.5281/zenodo.5636584)*
 
 {% include links.md %}
 
