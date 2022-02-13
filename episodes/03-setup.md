@@ -114,11 +114,22 @@ To learn more about how to add a license to your project, read the [Licensing ch
 
 ### Consider Computational Reproducibility
 
-![Reproducibility is when same analysis is applied to same data it gives same result.](https://zenodo.org/api/iiif/v2/fa529424-d420-461e-8b2c-6e7b36bda0ce:011c0c3b-0e09-4ef9-9fd3-4ddce57c4b08:ResearchCycle.jpg/full/750,/0/default.jpg)
+![A matrix showing data and analysis in two axis and iterating that reproducibility is when same analysis is applied to same data it gives same result.](https://the-turing-way.netlify.app/_images/reproducible-matrix.jpg)
 
 *Documentation as a guiding light for people who may feel lost otherwise. The Turing Way project illustration by Scriberia for The Turing Way Community Shared under CC-BY 4.0 License. Zenodo. http://doi.org/10.5281/zenodo.3332807*
 
-Thinking about which software, tools and platforms to use will greatly affect how you analyse and process data, as well as how you share your results.
+The different dimensions of reproducible research described in the matrix above have the following definitions directy taken from *The Turing Way* Guide to Reproducible Research:
+
+- **Reproducible:** A result is reproducible when the _same_ analysis steps performed on the _same_ dataset consistently produces the _same_ answer.
+- **Replicable:** A result is replicable when the _same_ analysis performed on _different_ datasets produces qualitatively similar answers.
+- **Robust:** A result is robust when the _same_ dataset is subjected to _different_ analysis workflows to answer the same research question (for example one pipeline written in R and another written in Python) and a qualitatively similar or identical answer is produced.
+  Robust results show that the work is not dependent on the specificities of the programming language chosen to perform the analysis.
+- **Generalisable:** Combining replicable and robust findings allow us to form generalisable results.
+  Note that running an analysis on a different software implementation and with a different dataset does not provide _generalised_ results.
+  There will be many more steps to know how well the work applies to all the different aspects of the research question.
+  Generalisation is an important step towards understanding that the result is not dependent on a particular dataset nor a particular version of the analysis pipeline.
+
+Thinking about which software, tools and platforms to use will greatly affect how you analyse and process data, as well as how you share your results for computational reproducibility.
 The idea is to facilitate others in recreating the setup process necessary to reproduce your research. 
 Some tools that can be used to enable these are the following:
 * **Dependency managers** such as [Conda](https://docs.conda.io/en/latest/) keep dependencies updated and make sure the same version of dependencies used in the development environments are also used when reproducing a result.
@@ -232,6 +243,10 @@ Encourage taking small steps towards openness as a shared responsibility in your
 There are many community-driven resources, guidance and opportunities in open science that provided structured support to learn about open science.
 For instance, [FOSTER Open Science](https://www.fosteropenscience.eu/learning/what-is-open-science/#/id/5ab8ea32dd1827131b90e3ac) provides an introductory course to help your team members understand what open science is and why it is something you should care about. 
 Another hands-on opportunity is provided by [Open Life Science](https://openlifesci.org), which is a 16-week long training and mentoring for anyone in research interested in going through the programme to apply open science practices systematically in their research projects.
+
+Open doesn't mean sharing everything, but making it 'as open as possible and as closed as necessary.
+Your research can still be reproducible without all parts necessarily being open.
+Research projects that use sensitive data should be more careful and follow research data management plans closely (discussed in the next chapter).
 
 ## Conclusion
 
