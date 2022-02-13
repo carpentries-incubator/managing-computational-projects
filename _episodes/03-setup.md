@@ -258,7 +258,7 @@ This aspect is discussed in detail in the Research Data Management episode.
 
 ## Resources and References for Technical Details
 
-- *The Turing Way*. *The Turing Way Community. (2021). The Turing Way: A handbook for reproducible, ethical and collaborative research (1.0.1). Zenodo. [DOI: 10.5281/zenodo.5671094](https://doi.org/10.5281/zenodo.5671094)
+- *The Turing Way*. *The Turing Way Community. (2021). The Turing Way: A handbook for reproducible, ethical and collaborative research (1.0.1). Zenodo. [DOI: 10.5281/zenodo.5671094](https://doi.org/10.5281/zenodo.5671094)*
   - [Guide to Project Design](https://the-turing-way.netlify.app/project-design/project-repo.html) 
   - [Creating Project Repositories](https://the-turing-way.netlify.app/project-design/project-repo.html)
   - [Naming files, folders and other things](https://the-turing-way.netlify.app/project-design/filenaming.html)
