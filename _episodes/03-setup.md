@@ -10,7 +10,7 @@ objectives:
 - "Describe best practices for setting a project repository"
 - "Build a basis for collaboration and co-creation in team projects"
 - "Apply computational reproducibility and project management practices"
-- "Make is easy for each contributor to participate, attributed and develop"
+- "Make is easy for each contributor to participate, contribute and be recognised for their work"
 keypoints:
 - "Shared and version controlled repository with well structured and organised files are crucial for starting a project"
 - "Documentation is as important as data and code to understand the different aspects of the project and communicate about the research."
@@ -19,10 +19,11 @@ keypoints:
 
 ## Setting up a Project
 
-Setting up a project takes place at the project design phase to ensure that all stakeholders can work together efficiently, apply reproducibility methods and communicate their work effectively with each other in the team, as well as externally. 
-This requires project leads, managers and organisers to be deliberate and clear about the tools and platform choices in the project, as well as expectations from each contributors from the beginning.
-Dedicating some time in designind and setting up a project in the beginning saves time ensuring successful implementation of research plans at different stages of research.
-Careful planning at the set-up stage doesn't mean that everything will always go as planned or there will be no unexpected challenges, but it helps prepare in advance for risk management and adapt to changes better.
+Setting up a project takes place at the project design phase to ensure that all members of your research team can work together efficiently at all stages of the project.
+With an overarching motivation to maintain research integrity and ethics, you should consider from the start how you will ensure reproducibility methods, collaborative approaches and transparent communication within the team, as well as with external stakeholders. 
+As project leads, managers and organisers, it is crucial to be deliberate and clear about the tools and platform choices in the project, as well as expectations from each contributors from the beginning.
+Dedicating some time in thinking through and documenting the setup of a project in the beginning saves time, ensuring successful implementation of research plans at different stages of research.
+At this stage, you can't be sure that everything will always go as planned or there will be no unexpected challenges, but it helps prepare in advance for risk management and adapt to changes when needed.
 
 ## Main Concerns and Challenges
 
