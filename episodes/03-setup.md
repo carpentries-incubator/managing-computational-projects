@@ -5,12 +5,12 @@ exercises: 0
 questions:
 - "How to set up a computational project?"
 - "What main concerns and challenges exist and how to address them?"
-- "How to creating a project repository for sharing, collaboration and an intention to release?"
+- "How to create a project repository for sharing, collaboration and an intention to release?"
 objectives:
 - "Describe best practices for setting a project repository"
 - "Build a basis for collaboration and co-creation in team projects"
 - "Apply computational reproducibility and project management practices"
-- "Make is easy for each contributor to participate, contribute and be recognised for their work"
+- "Make it easy for each contributor to participate, contribute and be recognised for their work"
 keypoints:
 - "Shared and version controlled repository with well structured and organised files are crucial for starting a project"
 - "Documentation is as important as data and code to understand the different aspects of the project and communicate about the research."
@@ -27,6 +27,12 @@ At this stage, you can't be sure that everything will always go as planned or th
 
 ## Main Concerns and Challenges
 
+![The research process is represented as a perpetual cycle of generating research ideas, performing data planning and design, data collection, and data processing and analysis, publishing, preserving and hence, allowing re-use of data.](https://zenodo.org/api/iiif/v2/fa529424-d420-461e-8b2c-6e7b36bda0ce:011c0c3b-0e09-4ef9-9fd3-4ddce57c4b08:ResearchCycle.jpg/full/750,/0/default.jpg)
+
+*Research Lifecycle. The Turing Way project illustration by Scriberia for The Turing Way Community Shared under CC-BY 4.0 License. Zenodo. http://doi.org/10.5281/zenodo.3332807*
+
+Scientific results and evidence are strengthened if those results can be replicated and confirmed by several independent researchers.
+This means understanding and documenting the research process, describing what steps are involved, what decisions are made from design to analysis to implementation stages and publishing them for others to validate.
 Research projects already start with multiple documents such as project proposal, institutional policies and recommendations (including project timeline, data management plan, open access policy, grant requirements and ethical committee recommendations), which should be available to the entire research team at all times.
 Furthermore, throughout the lifecycle of a project we handle experimental materials such as data and code, refer to different published studies, establish collaboration with others, generate research outputs including figures, graphs and publications, many of which undergo multiple versions. 
 Then there is a general need to document the team's way of working, different roles and contribution types, project workflows, research process, learning resources and templates (such as for presentation, documentation, project reporting and manuscript) for your research team.
@@ -57,10 +63,17 @@ Provide resources on ways of working to ensure fair participation of stakeholder
 It reduces or addresses concerns about the project’s progress towards meeting goals and prevent potential fallout between project stakeholders.
 When possible, such as in an open source project, provide these details for those outside the current group, especially when you want to encourage people outside the project to be involved.
 
-## Maintain History through a Version Control
+## Maintain History through Version Control
+
+![Contrast in project history management. On the left - choosing between ambiguosly named files. On the right - picking between successive versions (from V1 to V6).](https://zenodo.org/api/iiif/v2/0c0188d3-d03c-4830-a6e3-00405f5c22fa:df931888-09af-4eac-945f-0c208be0c26b:ProjectHistory.jpg/full/750,/0/default.jpg)
+
+*Version control allows tracking of history and go back to different versions as needed. The Turing Way project illustration by Scriberia for The Turing Way Community Shared under CC-BY 4.0 License. Zenodo. http://doi.org/10.5281/zenodo.3332807*
 
 Practices and recommendations described in this lesson are applicable to all areas of biological research. What can be considered slightly different in computational projects is that every object required to carry out the research exist in digital form. Starting from research workflow, data, software, analysis process, resulting outcomes as well as how researchers involved in the project communicate with each other. This means that research objects can be organised and maintained without losing the provenance or missing knowledge of how each of these objects is connected in the context of your project.
-Management of changes or revisions to any type of information made in a file or project is called versioning. Using a version control system, all changes made in a file or research object over time is recorded. It allows all collaborators to track history, review any changes, give appropriate credit to all contributors, track and fix errors when they appear and revert or go back to earlier versions. Different version control systems can be used through a program with web browser-based applications (such as [Google Docs](https://docs.google.com/) for documents) and more dynamically for code and all kinds of data through command-line tools (such as [Git](https://en.wikipedia.org/wiki/Git)) and their integration into the graphical user interface ([Visual Studio Code](https://code.visualstudio.com/) editor, [Git-gui](https://git-scm.com/downloads/guis) and [gitkraken](https://www.gitkraken.com/)).
+
+Management of changes or revisions to any type of information made in a file or project is called versioning. Using a version control system, all changes made in a file or research object over time is recorded. It allows all collaborators to track history, review any changes, give appropriate credit to all contributors, track and fix errors when they appear and revert or go back to earlier versions. 
+
+Different version control systems can be used through a program with web browser-based applications (such as [Google Docs](https://docs.google.com/) for documents) and more dynamically for code and all kinds of data through command-line tools (such as [Git](https://en.wikipedia.org/wiki/Git)) and their integration into the graphical user interface ([Visual Studio Code](https://code.visualstudio.com/) editor, [Git-gui](https://git-scm.com/downloads/guis) and [gitkraken](https://www.gitkraken.com/)).
 The practice of versioning is particularly important to allow non-linear or branched development of different parts of the project, testing a new feature, debugging and error or reusing code from one project to different data by different contributors.
 
 [GitLab](https://about.gitlab.com/), [GitHub](https://github.com/), or [BitBucket](https://bitbucket.org) are online platforms that allow version-controlled projects online and allow multiple collaborators to participate. Different members can download a copy of the online repository (most recent version), make changes by adding their contributions locally on their computer and push the changes to GitLab/GitHub/BitBucket (a new version!) allowing others to build on the new development.
@@ -101,44 +114,124 @@ To learn more about how to add a license to your project, read the [Licensing ch
 
 ### Consider Computational Reproducibility
 
+![Reproducibility is when same analysis is applied to same data it gives same result.](https://zenodo.org/api/iiif/v2/fa529424-d420-461e-8b2c-6e7b36bda0ce:011c0c3b-0e09-4ef9-9fd3-4ddce57c4b08:ResearchCycle.jpg/full/750,/0/default.jpg)
+
+*Documentation as a guiding light for people who may feel lost otherwise. The Turing Way project illustration by Scriberia for The Turing Way Community Shared under CC-BY 4.0 License. Zenodo. http://doi.org/10.5281/zenodo.3332807*
+
 Thinking about which software, tools and platforms to use will greatly affect how you analyse and process data, as well as how you share your results.
 The idea is to facilitate others in recreating the setup process necessary to reproduce your research. 
 Some tools that can be used to enable these are the following:
 * **Dependency managers** such as [Conda](https://docs.conda.io/en/latest/) keep dependencies updated and make sure the same version of dependencies used in the development environments are also used when reproducing a result.
 * **Containers** such as [Docker](https://www.docker.com/) is a way to create computational environments with configurations required for developing, testing and using research software isolated/independent from other applications.
-* **Literate Programming** using [Jupyter Notebook](https://jupyter.org/) is an extremely powerful way to use a web-based online interactive computing environment to execute code and script, while adding notes and additional information about the application.
+* **Literate Programming** using [Jupyter Notebook](https://jupyter.org/) is an extremely powerful way to use a web-based online interactive computing environment to execute code and script while adding notes and additional information about the application.
 To learn more about how to create a reproducible environment, the chapter on [Reproducible Environments](https://the-turing-way.netlify.app/reproducible-research/renv.html) in *The Turing way* is a good place to start.
 
 ### Provide a Process for Documentation
 
-TBA
+![Image shows a person putting lamp-posts of documentation, helping a researcher who was lost because of lack of information about the research.](https://zenodo.org/api/iiif/v2/867e0f11-b7cb-460e-9c3b-487ac75ada36:ee8aceae-1007-40ce-aedf-a52c28a5935a:documentation.jpg/full/750,/0/default.jpg)
 
-<!--
-- Documentation Sprint, visible ways to recognise and incentivise the process of documenting, making explicit time in the project workflow and time line from the start.
-- Beginning of a project with making simple template for documentation and keeping it simple.
-- transparent about early and interim research outcomes, thus receiving the proper credit for those
-- equity, diversity and inclusion is surely relevant whether it's experimental work or not
-- Agile [teamwork](https://the-turing-way.netlify.app/collaboration/new-community/new-community-teamwork.html) -->
+*Documentation as a guiding light for people who may feel lost otherwise. The Turing Way project illustration by Scriberia for The Turing Way Community Shared under CC-BY 4.0 License. Zenodo. http://doi.org/10.5281/zenodo.3332807*
 
-> ## Registered Report
+Most researchers find documentation daunting, as they think that research-related responsibilities are already overwhelming for them.
+It's obvious that they see documentation as an  'added labour' and not important enough for carrying out a research design, implementation, analysis or publication work. 
+
+The reality is that documentation is an integral part of all research processes, from start to finish.
+A systematic process for documentation is more than a formal book-keeping practice because it: 
+* allows everyone in your research to understand the research direction and track progress;
+* adds validity to your research work when systematically built on published peer-reviewed work;
+* communicates different ways to contribute, enabling diverse participation in the co-development;
+* upholds practices to ensure equity, diversity and inclusion;
+* recognises contributions fairly;
+* gives and shares credits for all work;
+* tracks the history of what worked or what did not work;
+* creates transparency about early and intermediate research outcomes;
+* makes auditing easy for funders, advisors or data managers;
+* helps reframe research narratives by connecting different work;
+* explains all decisions and stakeholders impacted by that;
+* gives the starting point for writing manuscript and publication; and more!
+
+### Facilitating Documentation in your Team
+
+> ## IMPORTANT NOTE
 > 
-> After you have decided how to collect your data, analyze it and which tools to use, a good way to document these decisions is by writing a Registered Report.
-> A Registered Report highlights the importance of the research question and the methods that will be used.
-> They are peer-reviewed before the research, switching the focus of the review from the results to the substance of the research methods.
+> Whatever your approach is, be firm about making documentation a shared responsibility so that this job does not solely fall on the shoulders of early career researchers, members from traditionally marginalised groups or support staff.
 {: .callout}
+
+The biggest question here is probably not 'why' but 'how' to facilitate documentation so that it is not challenging or burdensome for the team members.
+Here are a few recommendations to make documentation easier:
+- Allocate some time at the beginning of the project to discuss with the main stakeholders of the project about what should be documented.
+- Keep the tasks simple by establishing a shared repository for documentation with standard templates and basic guidelines for what should be recorded (it is always more difficult to start with an empty sheet).
+- Add documentation sprint to your project timelines and milestones to make sure that everyone is aware of their importance in the project.
+- Create visible ways to recognise and incentivise the process of documenting.
+
+### Team Framework
+
+To ensure that all team members have a shared understanding of ways of working, select or adapt a [Team Framework](https://the-turing-way.netlify.app/collaboration/new-community/new-community-teamwork.html) that provides guidance on how to best work in your team. For instance, Agile workflow for teamwork enables iterative development, with frequent interaction between interested parties to decide and update requirements.
+See [Teamwork for Research Software Development](https://nlesc.github.io/teamwork-for-research-software-development/) tutorial by Netherlands eScience Center with lessons on teamwork, agile and scrum framework, project board such as kanban, challenges and practical recommendations. 
+
+### Registered Report
+
+After you have decided how to collect your data, analyze it and which tools to use, a good way to document these decisions is by writing a [Registered Report](https://support.jmir.org/hc/en-us/articles/360003450852-What-is-a-Registered-Report-).
+A Registered Report highlights the importance of the research question and the methods that will be used.
+They are peer-reviewed before the research, switching the focus of the review from the results to the substance of the research methods.
 
 ## Apply Open Science Best Practices
 
-TBA
+Open Science invites all researchers to share their work, data and research components openly so that others can read, reuse, reproduce, build upon and share them. 
+Particularly in computational research and software development projects, open source practices are widely promoted. 
+Unfortunately, making research components open doesn’t always mean that they can be easily discovered by everyone, can be reproduced and built upon by others or everyone will know how to use them. 
+Applying open and inclusive principles to Open Science requires time, intention, resources and collaboration, which can be overwhelming for many (see [Ten arguments against Open Science that you can win](https://www.software.ac.uk/blog/2020-12-17-ten-arguments-against-open-science-you-can-win)).
 
-> ## Practice Openness from the Start
+However, by normalising day-to-day research practices with open science principles, we can ensure that your team members build a habit to open their work for others in the team, ask for regular feedback, get attributed for their work and enjoy the process of collaboration.
+
+### Important Reasons for Practicing Openness
+
+> ## Open Science in Research
 >
-> * **Maintains transparency**: When a project is designed in an open repository, it allows all stakeholders to track the progress, raise errors and collaborate to improve the project.
-> * **Allows others to attribute your work fairly**: When developed openly, such as on GitLab or through the registered report, it is easy to point to the timeline when an idea or experiment was proposed and track how that was developed, who contributed and how others can attribute your work properly.
-> * **Stops others from reinventing the wheel**: Having your research open from the start can help others working in similar subjects or starting research. It allows them to conduct their review work effectively and build on the existing work, rather than starting from scratch, or 'reinventing the wheel'.
-> * **Makes your work easy to release**: All research objects can be released with little effort, such as by [connecting your online repository with Zenodo](https://docs.github.com/en/repositories/archiving-a-github-repository/referencing-and-citing-content) to add persistent identifiers. It allows you to show connections between different parts of research with little effort as well as cite different objects from your work independently.
-> * **Invite collaborators from anywhere in the world**: With open repositories, and descriptions for where you need help or how others can collaborate, you can get people in your area with complementing skills and new ideas interested in your work, even when you don't know them.
+> * **Maintains transparency**
+> * **Allows others to attribute your work fairly**
+> * **Stops others from reinventing the wheel**
+> * **Invite collaborators from anywhere in the world**
+> * **Makes your work easy to release with citable identifiers (DOI)**
 {: .callout}
+
+![Image shows a person having internal debate about open vesus closed research. Open means new opportunities and inclusivity but closed maybe required to ensure data sensitivity or wrongly assumed for funding for novel work.](https://zenodo.org/api/iiif/v2/5c8c70c9-4119-4917-91d1-bc955943f586:b7d2f709-d5f6-4091-bd12-27455cd9e239:open-vs-close-research-with-text.jpg/full/750,/0/default.jpg)
+
+*Open versus Closed Research. The Turing Way project illustration by Scriberia for The Turing Way Community Shared under CC-BY 4.0 License. Zenodo. http://doi.org/10.5281/zenodo.3332807*
+
+* When a project is designed in an open repository, it **allows all stakeholders to track the progress, raise errors and collaborate** to improve the project.
+* When developed openly, such as on GitLab or through the registered report, it is easy to point to the timeline when an idea or experiment was proposed and **exhibit how the project developed, who contributed and how others can attribute the work**.
+* Having your research open from the start can **help others working in similar subjects or starting research**. It allows them to conduct their review work effectively and build on the existing work, rather than starting from scratch, or 'reinventing the wheel'.
+* With open repositories and descriptions for where you need help or how others can collaborate, you can **get people in your area with complementing skills and new ideas interested in your work**, even when you don't know them.
+
+### Research Objects can be Released with Digital Object Identifiers (DOI)
+
+DOIs are alphanumerical unique and persistent identifiers with a permanent web address for different research objects that can be cited by you and other researchers. 
+Each pre-print and publication is published with a DOI, but independent of the paper, different research objects can be published online on servers that offer DOIs at any stage of your research. 
+Some of these servers are [Zenodo](https://zenodo.org/), [FigShare](https://figshare.com/), [Data Dryad](https://datadryad.org/stash) (for data), [Open Grants](https://www.ogrants.org/) (for grant proposals) and [Open Science Framework](https://osf.io/) (OSF) (for different components of an open research project).
+It allows you to show connections between different parts of research as well as cite different objects from your work independently.
+
+When working on GitHub for instance, you can [connect the project repository with Zenodo](https://docs.github.com/en/repositories/archiving-a-github-repository/referencing-and-citing-content) to get a DOI for your repository.
+The [Citation File Format](https://citation-file-format.github.io/), then lets you provide citation metadata, for software or datasets, in plaintext files that are easy to read by both humans and machines.
+Read the [Making Research Objects Citable](https://the-turing-way.netlify.app/communication/citable.html) chapter in *The Turing Way* Guide to Communication.
+
+### Every Little Step Counts towards Openness
+
+Open Science can be as simple as ensuring that:
+* everyone has added an appropriate license to their project repository,
+* recorded their work and shared their project's roadmap on a README/landing page,
+* provided some basic manual for how to use their work and how to contribute,
+* given credit to previous work upon which they build, and
+* regularly communicate about their research.
+
+![Image shows a woman slowly gaining trust and confidence in opening up her research project and benefitting from open collaboration](https://zenodo.org/api/iiif/v2/514d0fdf-b1b3-4e94-842d-85b09f344668:1016fa41-7b71-425b-8aa9-436f42008339:EvolutionOpenResearch.jpg/full/750,/0/default.jpg)
+
+*Small steps towards open science. The Turing Way project illustration by Scriberia for The Turing Way Community Shared under CC-BY 4.0 License. Zenodo. http://doi.org/10.5281/zenodo.3332807*
+
+Encourage taking small steps towards openness as a shared responsibility in your team.
+There are many community-driven resources, guidance and opportunities in open science that provided structured support to learn about open science.
+For instance, [FOSTER Open Science](https://www.fosteropenscience.eu/learning/what-is-open-science/#/id/5ab8ea32dd1827131b90e3ac) provides an introductory course to help your team members understand what open science is and why it is something you should care about. 
+Another hands-on opportunity is provided by [Open Life Science](https://openlifesci.org), which is a 16-week long training and mentoring for anyone in research interested in going through the programme to apply open science practices systematically in their research projects.
 
 ## Conclusion
 
@@ -149,7 +242,8 @@ This aspect is discussed in detail in the Research Data Management episode.
 
 ## Resources to take project setup to next level 
 
-- The Turing Way [Guide to Project Design](https://the-turing-way.netlify.app/project-design/project-repo.html) 
+- *The Turing Way*. The Turing Way Community. (2021). The Turing Way: A handbook for reproducible, ethical and collaborative research (1.0.1). Zenodo. https://doi.org/10.5281/zenodo.5671094 
+  - [Guide to Project Design](https://the-turing-way.netlify.app/project-design/project-repo.html) 
   - [Creating Project Repositories](https://the-turing-way.netlify.app/project-design/project-repo.html)
   - [Naming files, folders and other things](https://the-turing-way.netlify.app/project-design/filenaming.html)
   - [Licensing](https://the-turing-way.netlify.app/reproducible-research/licensing.html)
@@ -160,7 +254,7 @@ This aspect is discussed in detail in the Research Data Management episode.
   - [Making Research Objects Citable](https://the-turing-way.netlify.app/communication/citable.html)
 - [The Good Research Code Handbook](https://goodresearch.dev/setup.html) by Patrick Mineault.
 - What is a Registered Report? (2022, February 12). Retrieved from https://support.jmir.org/hc/en-us/articles/360003450852-What-is-a-Registered-Report-
-- Open Life Science training and Mentoring to integrare open science practices in research systematically. [Visit website](https://openlifesci.org)
+- [Open Life Science training and Mentoring Programme](https://openlifesci.org). Batut, Bérénice, Yehudi, Yo, Sharan, Malvika, Tsang, Emmy, & Open Life Science Community. (2021). Open Life Science - Training and Mentoring programme - Website release 2019-2021 (1.0.0). Zenodo. https://doi.org/10.5281/zenodo.5636584
 
 {% include links.md %}
 
