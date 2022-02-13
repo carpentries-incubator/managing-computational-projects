@@ -118,7 +118,7 @@ To learn more about how to add a license to your project, read the [Licensing ch
 
 *Documentation as a guiding light for people who may feel lost otherwise. The Turing Way project illustration by Scriberia for The Turing Way Community Shared under CC-BY 4.0 License. Zenodo. http://doi.org/10.5281/zenodo.3332807*
 
-The different dimensions of reproducible research described in the matrix above have the following definitions directy taken from *The Turing Way* Guide to Reproducible Research:
+The different dimensions of reproducible research described in the matrix above have the following definitions directy taken from *The Turing Way* Guide to Reproducible Research (see the [oveview chapter](https://the-turing-way.netlify.app/reproducible-research/overview.html)):
 
 - **Reproducible:** A result is reproducible when the _same_ analysis steps performed on the _same_ dataset consistently produces the _same_ answer.
 - **Replicable:** A result is replicable when the _same_ analysis performed on _different_ datasets produces qualitatively similar answers.
@@ -171,7 +171,7 @@ A systematic process for documentation is more than a formal book-keeping practi
 The biggest question here is probably not 'why' but 'how' to facilitate documentation so that it is not challenging or burdensome for the team members.
 Here are a few recommendations to make documentation easier:
 - Allocate some time at the beginning of the project to discuss with the main stakeholders of the project about what should be documented.
-- Keep the tasks simple by establishing a shared repository for documentation with standard templates and basic guidelines for what should be recorded (it is always more difficult to start with an empty sheet).
+- Keep the tasks simple by establishing a shared repository for documentation with standard templates to guide how one should go about documenting their work (*It is always easier to start with a template than an empty sheet!*).
 - Add documentation sprint to your project timelines and milestones to make sure that everyone is aware of their importance in the project.
 - Create visible ways to recognise and incentivise the process of documenting.
 
@@ -190,10 +190,13 @@ They are peer-reviewed before the research, switching the focus of the review fr
 
 Open Science invites all researchers to share their work, data and research components openly so that others can read, reuse, reproduce, build upon and share them. 
 Particularly in computational research and software development projects, open source practices are widely promoted. 
-Unfortunately, making research components open doesn’t always mean that they can be easily discovered by everyone, can be reproduced and built upon by others or everyone will know how to use them. 
-Applying open and inclusive principles to Open Science requires time, intention, resources and collaboration, which can be overwhelming for many (see [Ten arguments against Open Science that you can win](https://www.software.ac.uk/blog/2020-12-17-ten-arguments-against-open-science-you-can-win)).
+Unfortunately, making research components open doesn’t always mean that they can be easily discovered by everyone, can be reproduced and built upon by others or everyone will know how to use them.
+Applying open and inclusive principles to open science and reproducible research requires time, intention, resources and collaboration, which can be overwhelming for many (see [Ten arguments against Open Science that you can win](https://www.software.ac.uk/blog/2020-12-17-ten-arguments-against-open-science-you-can-win)).
+However, by normalising the use of research best practices on a day-to-day basis, you can ensure that everyone has a chance to build habits around opening their work for others in the team, asking for regular feedback, getting attributed for their work and enjoying the process of collaboration.
 
-However, by normalising day-to-day research practices with open science principles, we can ensure that your team members build a habit to open their work for others in the team, ask for regular feedback, get attributed for their work and enjoy the process of collaboration.
+Open doesn't mean sharing everything, but making it 'as open as possible and as closed as necessary'.
+Your research can still be reproducible without all parts necessarily being open.
+Research projects that use sensitive data should be more careful and follow research data management plans closely (discussed in the next chapter).
 
 ### Important Reasons for Practicing Openness
 
@@ -202,8 +205,8 @@ However, by normalising day-to-day research practices with open science principl
 > * **Maintains transparency**
 > * **Allows others to attribute your work fairly**
 > * **Stops others from reinventing the wheel**
-> * **Invite collaborators from anywhere in the world**
-> * **Makes your work easy to release with citable identifiers (DOI)**
+> * **Invites collaborators from all around the world**
+> * **Makes your work easy to release to be cited by others**
 {: .callout}
 
 ![Image shows a person having internal debate about open vesus closed research. Open means new opportunities and inclusivity but closed maybe required to ensure data sensitivity or wrongly assumed for funding for novel work.](https://zenodo.org/api/iiif/v2/5c8c70c9-4119-4917-91d1-bc955943f586:b7d2f709-d5f6-4091-bd12-27455cd9e239:open-vs-close-research-with-text.jpg/full/750,/0/default.jpg)
@@ -228,7 +231,9 @@ Read the [Making Research Objects Citable](https://the-turing-way.netlify.app/co
 
 ### Every Little Step Counts towards Openness
 
-Open Science can be as simple as ensuring that:
+Open Science can mean different things in different contexts: open data, open source code, open access publication, open scholarship, open hardware, open education, open notebook, citizen science and inclusive research.
+Expert open science practitioners might consider applying a combination of open science practices and make decisions in their work to maintain different kinds of openness.
+However, for the new starters in your team, open science can be as simple as ensuring that:
 * everyone has added an appropriate license to their project repository,
 * recorded their work and shared their project's roadmap on a README/landing page,
 * provided some basic manual for how to use their work and how to contribute,
@@ -239,14 +244,10 @@ Open Science can be as simple as ensuring that:
 
 *Small steps towards open science. The Turing Way project illustration by Scriberia for The Turing Way Community Shared under CC-BY 4.0 License. Zenodo. http://doi.org/10.5281/zenodo.3332807*
 
-Encourage taking small steps towards openness as a shared responsibility in your team.
+Encourage taking small steps towards openness as a responsibility towards research integrity in your team.
 There are many community-driven resources, guidance and opportunities in open science that provided structured support to learn about open science.
-For instance, [FOSTER Open Science](https://www.fosteropenscience.eu/learning/what-is-open-science/#/id/5ab8ea32dd1827131b90e3ac) provides an introductory course to help your team members understand what open science is and why it is something you should care about. 
+For instance, *The Turing Way* [chapter on Open Research](https://the-turing-way.netlify.app/reproducible-research/open.html) and [FOSTER Open Science](https://www.fosteropenscience.eu/learning/what-is-open-science/#/id/5ab8ea32dd1827131b90e3ac) provides an introduction to help researchers understand what open science is and why it is something you should care about. 
 Another hands-on opportunity is provided by [Open Life Science](https://openlifesci.org), which is a 16-week long training and mentoring for anyone in research interested in going through the programme to apply open science practices systematically in their research projects.
-
-Open doesn't mean sharing everything, but making it 'as open as possible and as closed as necessary.
-Your research can still be reproducible without all parts necessarily being open.
-Research projects that use sensitive data should be more careful and follow research data management plans closely (discussed in the next chapter).
 
 ## Conclusion
 
