@@ -3,7 +3,9 @@ title: "Implementating tools and methods"
 teaching: 0
 exercises: 0
 questions:
-- "Key question (FIXME)"
+- "What tools are useful for managing and overseeing projects/data?"
+- "What are best practices for reviewing code?"
+- "How can teams work together on the same code?"
 objectives:
 - "First learning objective. (FIXME)"
 keypoints:
