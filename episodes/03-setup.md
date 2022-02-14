@@ -19,17 +19,30 @@ keypoints:
 
 ## Setting up a Project
 
-Setting up a project takes place at the project design phase to ensure that all members of your research team can work together efficiently at all stages of the project.
+![The research process is represented as a perpetual cycle of generating research ideas, performing data planning and design, data collection, and data processing and analysis, publishing, preserving and hence, allowing re-use of data.](https://zenodo.org/api/iiif/v2/fa529424-d420-461e-8b2c-6e7b36bda0ce:011c0c3b-0e09-4ef9-9fd3-4ddce57c4b08:ResearchCycle.jpg/full/750,/0/default.jpg)
+
+*Research Lifecycle. The Turing Way project illustration by Scriberia for The Turing Way Community Shared under CC-BY 4.0 License. Zenodo. http://doi.org/10.5281/zenodo.3332807*
+
+A research project starts right with a research idea. 
+We start by communicating that with other researchs in our team.
+Then come the following steps:
+1. planning and designing the research work
+2. describing the research protocols
+3. deciding how data will be collected 
+4. selecting methods and practices for processing and wrangling data
+5. conducting our studies and analysis
+6. publishing all the research objects so everybody can access it
+7. archiving it to ensure that our research is reusable, meaning, that someone else can go through this whole process of reproducing or building upon our work.
+
+Each of these steps is important for every single researcher, irrespective of their roles in the project.
+However, a project lead (such as Principal Investigators, managers and supervisors) have an added responsibility to set up the project in a way that ensures that all members of their research team can work together efficiently at all stages of the project.
+
 With an overarching goal to maintain research integrity and ethical practices from the start, we need to consider reproducibility methods, collaborative approaches and transparent communication processes for the research team as well as the external stakeholders. 
 As project leads, managers and team organisers, it is crucial to be deliberate and clear about the tools and platforms selected for the project, as well as expectations from each contributor from the beginning.
 Dedicating some time in thinking through and documenting the setup of a project saves time, ensuring successful implementation of research plans at different stages of research.
 At this stage, you can't be sure that everything will always go as planned or there will be no unexpected challenges, but it helps prepare in advance for risk management and adapt to changes when needed.
 
 ## Main Concerns and Challenges
-
-![The research process is represented as a perpetual cycle of generating research ideas, performing data planning and design, data collection, and data processing and analysis, publishing, preserving and hence, allowing re-use of data.](https://zenodo.org/api/iiif/v2/fa529424-d420-461e-8b2c-6e7b36bda0ce:011c0c3b-0e09-4ef9-9fd3-4ddce57c4b08:ResearchCycle.jpg/full/750,/0/default.jpg)
-
-*Research Lifecycle. The Turing Way project illustration by Scriberia for The Turing Way Community Shared under CC-BY 4.0 License. Zenodo. http://doi.org/10.5281/zenodo.3332807*
 
 Scientific results and evidence are strengthened if those results can be replicated and confirmed by several independent researchers.
 This means understanding and documenting the research process, describing what steps are involved, what decisions are made from design to analysis to implementation stages and publishing them for others to validate.
