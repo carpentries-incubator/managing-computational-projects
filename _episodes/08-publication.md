@@ -3,7 +3,7 @@ title: "Publication and release"
 teaching: 0
 exercises: 0
 questions:
-- "Why should I make my code/data available?"
+- "Why should I make my research objects available?"
 - "What tools are there for open science?"
 - "How to invite contributions to your project?" 
 objectives:
