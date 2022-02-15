@@ -12,6 +12,12 @@ keypoints:
 
 ## Starting with Scientific Process
 
+Software and coding are becoming universally used across the life and biomedical sciences. More insights and methodology rely on computational power for calculations, visualisations, and analysis. While scientists are trained in how to run experiments in a lab, many of us are only introduced to programming on the fly and with only patchwork training offered.
+
+![](https://media.nature.com/lw800/magazine-assets/d41586-021-00075-2/d41586-021-00075-2_18964266.jpg) 
+![](https://media.nature.com/lw800/magazine-assets/d41586-021-00075-2/d41586-021-00075-2_18880300.jpg)
+> Nature:
+
 In reproducible scientific research, someone should be able to look at your work and understand in detail what was done and why. Those wishing to reproduce your work would have the means to do so. Guiding principles aside, there are also selfish reasons for reproducible workflows and records of critical decision points.
 
 > "Anything that can go wrong will go wrong."
