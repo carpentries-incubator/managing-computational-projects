@@ -141,13 +141,7 @@ Moreover, we can go beyond research articles and publications with publishing da
 [^murphy]:  A Quick Guide to Organizing Computational Biology Projects
 Noble WS (2009) A Quick Guide to Organizing Computational Biology Projects. PLOS Computational Biology 5(7): e1000424. https://doi.org/10.1371/journal.pcbi.1000424
 
-## Understanding this process in computational projects
-
-- What challenges and issues exist
-- Identify components for project management 
-- Approach: We will use the workflow shown in the image to guide interactive session to find different components in each stage of research (design stage - experiment - data analysis - publication), this will be revisited in the beginning of each chapter to show where we are in that workflow/process when talking about a new concept/practice
-
-Intention to Release
+##  Intention to Release
 
 A modular and documented workflow requires energy and intent from the start. In lab work, it is easy to skip writing in a lab book to save minutes, but further down the line weeks or months are lost unpicking or redoing the work. 
 
