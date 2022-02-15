@@ -3,6 +3,7 @@ title: "Starting with the scientific process"
 teaching: 0
 exercises: 0
 questions:
+- "How does this training relate to your work?"
 - "What can go wrong with working on data/code?"
 - "What are the challenges for teams and management?"
 - "Are there procedures and protocols that can help?"
