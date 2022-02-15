@@ -4,7 +4,7 @@ teaching: 0
 exercises: 0
 questions:
 - "Why should I make my research objects available?"
-- "What tools are there for open science?"
+- "What open source tools to use for applying data science practices in bioscience?"
 - "How to invite contributions to your project?" 
 objectives:
 - "First learning objective. (FIXME)"
