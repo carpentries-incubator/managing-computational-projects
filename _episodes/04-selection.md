@@ -3,7 +3,7 @@ title: "Method selection"
 teaching: 0
 exercises: 0
 questions:
-- "How can I build on existing work"
+- "How can I build on existing work?"
 - "What resources/infrastructure should I consider?"
 - "Is machine learning suitable for my project?"
 objectives:
