@@ -3,7 +3,9 @@ title: "Method selection"
 teaching: 0
 exercises: 0
 questions:
-- "Key question (FIXME)"
+- "How can I build on existing work?"
+- "What resources/infrastructure should I consider?"
+- "Is machine learning suitable for my project?"
 objectives:
 - "First learning objective. (FIXME)"
 keypoints:

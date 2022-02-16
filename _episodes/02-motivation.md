@@ -3,7 +3,10 @@ title: "Starting with the scientific process"
 teaching: 0
 exercises: 0
 questions:
-- "Key question (FIXME)"
+- "How does this training relate to your work?"
+- "What can go wrong with working on data/code?"
+- "What are the challenges for teams and management?"
+- "Are there procedures and protocols that can help?"
 objectives:
 - "First learning objective. (FIXME)"
 keypoints:
@@ -26,6 +29,7 @@ Writing, using, and sharing code and data within biomedical and life sciences is
 
 
 ## Reproducibility Crisis
+
 <img src="https://opendreamkit.org/public/images/use-cases/reproducible_logbook_scenario.png" alt="drawing" width="600"/> 
 
 However, while scientists are trained in how to run experiments in a lab, many of us are only introduced to programming on the fly and with only patchwork training offered. As a result, many scientists and students are not trained in reproducible methods for their coding or data management. The pitfalls of hidden-off, closed science are numerous, and are of growing attention and concern. 
@@ -55,7 +59,6 @@ These resources are *not* about learning how to write code, but introducing meth
 <img src="https://the-turing-way.netlify.app/_images/distributed-collaboration.jpg" alt="drawing" width="250"/><img src="https://www.turing.ac.uk/sites/default/files/inline-images/Culture%20shift.jpg" alt="drawing" width="500"/> 
 
 
-
 There are rapid developments in how scientific results and methods are shared and collaborations have never been more global or rapid. Published articles are limited, and newer tools are available to reach broader audiences and enable greater collaboration. Having impact beyond citations may involve being part of a collaborative community. Computational tools you produce in your lab can be released as open source and credit given globally. 
 
 
@@ -77,7 +80,6 @@ Jupyter notebooks (which can use Python, R, or Julia) are growing in popularity 
 
 
 
-
 ## Starting with Scientific Process
 
 Computational projects or software development can sound like the realm of big tech rather than a research lab. It can be difficult to know where to begin or that the path to reproducibility is too difficult and costly to even begin. Instead, data and code are part of the scientific pipeline and so we can begin with what we already know.
@@ -85,7 +87,6 @@ Computational projects or software development can sound like the realm of big t
 While the terminology is unfamiliar, we can see parallels with the usual experimental workflow:
 
 <img src="https://i.imgur.com/I9EKxdF.png" alt="drawing" width="800"/> 
-
 
 
 In reproducible scientific research, someone should be able to look at your work and understand in detail what was done and why. Those wishing to reproduce your lab work or analysis would have the means to do so. Guiding principles aside, there are also selfish reasons for reproducible workflows and records of critical decision points.
@@ -100,7 +101,6 @@ As things stand, the following is too often familiar. In the Introduction sectio
 
 
 <img src="https://i.postimg.cc/RVyw9TQZ/Screenshot-2022-02-03-at-14-55-08.png" alt="drawing" width="600"/> 
-
 
 
 There are too often missing steps from measurement to statistical results. For those reading the journal paper or returning to work after a summer holiday, the black box nature of code or data processing is frustration, time consuming, and can hide glaring mistakes. We have peer review to scrutinise our logic and experiments,and data and code requires the same oversight. 
@@ -126,7 +126,6 @@ Noble WS (2009) A Quick Guide to Organizing Computational Biology Projects. PLOS
 ## What can (and does) go wrong in projects?
 
 As a group leader or anyone who collaborates, multiple people working on data and code is difficult to manage. Without energy and input from the start... human errror, entropy and bad luck take over. 
-
 
 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQr_cBH3hn8KABqOprui_R07skPTSAzparvxXojp1aTyPEybLZxcxy2hBy3kjNZ8Gb_bSw&usqp=CAU" alt="drawing" width="200"/>
 
@@ -155,5 +154,7 @@ So here we see a Postdoc 1 working on his analysis and results separately to the
 
 Whether the results of computational methods within your lab group are to produce a figure in a publication or a new open tool. By establishing data protocols, your team members can undo mistakes and collaborate without confusion, and their work redone if (when) the need arises or by peer review.  Beyond that, this course is about teaching how to manage, facilitate, and release the impactful results of your research to the wider community.
 
-{% include links.md %}
 
+Moreover, we can go beyond research articles and publications with publishing data and code repositories. This provides more opportunity to increase the impact of scientific research. Funding bodies and journals often make accessible data compulsory, and it is becoming more common to release code as well. 
+
+{% include links.md %}
