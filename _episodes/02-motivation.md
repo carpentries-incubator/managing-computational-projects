@@ -18,6 +18,8 @@ keypoints:
 
 <img src="https://zenodo.org/record/3678226/files/ReproducibleJourney.jpg" alt="drawing" width="500"/>
 
+_What to expect in your reproducibilty journey. The Turing Way project illustration by Scriberia for The Turing Way Community Shared under CC-BY 4.0 License. Zenodo. http://doi.org/10.5281/zenodo.3332807_
+
 
 Writing, using, and sharing code and data within biomedical and life sciences is growing rapidly. Software is not only the realm of big tech and startups, with more and more scientists becoming programmers as part of their workflow. From computational power comes greater calculations, modelling, visualisations and analyses, and therefore expanding our insights and methodologies. Regardless of the tools and languages we use, coding is integral to science. 
 
