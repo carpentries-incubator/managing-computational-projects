@@ -13,7 +13,7 @@ keypoints:
 - "First key point. Brief Answer to questions. (FIXME)"
 ---
 
-## Why are we thinking about coding in biomedical and life sciences?
+## Why Are We Thinking about Computation and Data Science in Biomedical and Life Sciences?
 
 
 <img src="https://zenodo.org/record/3678226/files/ReproducibleJourney.jpg" alt="drawing" width="500"/>
