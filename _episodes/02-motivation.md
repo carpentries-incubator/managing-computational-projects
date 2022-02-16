@@ -50,16 +50,14 @@ However, while scientists are trained in how to run experiments in a lab, many o
 ## Managing Projects: People, Code, and Data
 
 <img src="https://openworking.files.wordpress.com/2021/11/2259thea_book-dash_9th-november_v1_mk_0017_3-data-steward-text.jpg?w=1024" alt="drawing" width="400"/>
-<img src="https://the-turing-way.netlify.app/_images/project-design.jpg" alt="drawing" width="300"/>
+
+_Data stewardship in research. The Turing Way project illustration by Scriberia for The Turing Way Community Shared under CC-BY 4.0 License. Zenodo. http://doi.org/10.5281/zenodo.3332807_
 
 Managing how one or multiple people work on the same code requires different skillsets than those taught in traditional science courses *and* a typical coding class. Resources online may be more tailored to hopeful software engineers rather than a geneticist group leader. Collecting important data sets may require specific stewardship for its greater impact beyond your lab. Within science teams, group work is critical for experimental design and implementation, whether it is in the lab or in R. Computational methods might be as complex as a neural network, but even statistical tests and producing figures for a publication require data science and coding methods and should be just as reproducible. 
 
 These resources are *not* about learning how to write code but introducing methods and concepts to manage individuals and teams working on any computational method or language.
 
 ## Communicating Science
-
-<img src="https://the-turing-way.netlify.app/_images/distributed-collaboration.jpg" alt="drawing" width="250"/><img src="https://www.turing.ac.uk/sites/default/files/inline-images/Culture%20shift.jpg" alt="drawing" width="500"/> 
-
 
 There are rapid developments in how scientific results and methods are shared and collaborations have never been more global or rapid. Published articles are limited, and newer tools are available to reach broader audiences and enable greater collaboration. Having impact beyond citations may involve being part of a collaborative community. Computational tools you produce in your lab can be released as open source and credit given globally. 
 
@@ -130,7 +128,6 @@ Noble WS (2009) A Quick Guide to Organizing Computational Biology Projects. PLOS
 As a group leader or anyone who collaborates, multiple people working on data and code is difficult to manage. Without energy and input from the start... human error, entropy and bad luck take over. 
 
 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQr_cBH3hn8KABqOprui_R07skPTSAzparvxXojp1aTyPEybLZxcxy2hBy3kjNZ8Gb_bSw&usqp=CAU" alt="drawing" width="200"/>
-
 
 The following example may be painfully familiar. 
 
