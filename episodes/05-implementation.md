@@ -25,18 +25,6 @@ Kanban boards can be very helpful for a snapshot of multiple research projects w
 >
 >
 
----
-
-<img src="https://i.postimg.cc/Kzfz40t3/Screenshot-2022-02-10-at-19-55-23.png" alt="drawing" width="600"/>
-
-> *A more traditional Kanban for a collaborative computational project. Keeping track of bugs and what everyone is working on.*
-
----
-
-<img src="https://i.postimg.cc/d37Yv66Y/Screenshot-2022-02-10-at-19-47-51.png" alt="drawing" width="600"/>
-
-> *Github also allows different summary views for collaborative issues across multiple repos.*
-
 
 ## Research Data Management
 - Introduction to Research Data Management
@@ -53,8 +41,53 @@ https://the-turing-way.netlify.app/reproducible-research/rdm.html
 - Literate programming: Jupyter Notebook
 - Binderise your repo
 
+## Functional Programming
 
-### Code Review
+Functional programming is about writing code that works as modular steps. Each step is clearly commented and carefully produced so that it can be reused in different contexts. We can think of this on a broad scale, say one student's computational work has the following steps, where blue shows data cleaning, pink shows visualisation code, and yellow the analysis and statistics. 
+
+```mermaid
+%%{init: {'theme': 'neutral' } }%%
+graph LR
+
+A(Raw Data) --> B(transform to table)
+B -->C(subset data)
+C--> D(visualise data)
+D--> E(run model XYZ)
+E--> F(run statistics)
+
+style A fill:#fff,stroke:#333,stroke-width:0px
+style B fill:#cbdef6,stroke:#333,stroke-width:0px
+style C fill:#cbdef6,stroke:#333,stroke-width:0px
+style D fill:#e6b2cf,stroke:#333,stroke-width:0px
+style E fill:#fcedb0,stroke:#333,stroke-width:0px
+style F fill:#fcedb0,stroke:#333,stroke-width:0px
+
+```
+
+Another student can take reuse the data cleaning and initial visualisation steps because her data was from the same source and is in the same format. She can later add her own model:
+
+```mermaid
+%%{init: {'theme': 'neutral' } }%%
+graph LR
+
+A(Raw Data) --> B(transform to table)
+B -->C(subset data)
+C--> D(visualise data)
+D--> E(run model ABC)
+E--> F(run statistics)
+
+style A fill:#fff,stroke:#333,stroke-width:0px
+style B fill:#cbdef6,stroke:#333,stroke-width:0px
+style C fill:#cbdef6,stroke:#333,stroke-width:0px
+style D fill:#e6b2cf,stroke:#333,stroke-width:0px
+style E fill:#FCC981,stroke:#333,stroke-width:0px
+style F fill:#fcedb0,stroke:#333,stroke-width:0px
+
+```
+
+On the micro scale, however, functional programming is about the 
+
+## Code Review
 
 A simple objective of the review process is to catch bugs and elementary errors. Code review can also help to ensure that code is readable and easy to understand.
 
@@ -62,19 +95,52 @@ Code review is often done in pairs, with each reviewer also having some of their
 
 There are different methods to code review. 
 
-- **Synchronous/Looking Over The Shoulder** Helping the student go through their scripts and solving bugs side by side. 
-- **Synchronous/Code Tour** The student may present their pipeline to describe the logical steps. Narrating code and software steps (documentation, pseudocode, describing how to run the code). 
-- **Asynchronous/I'll get back to you on that** Supervisor or collaborator runs the code themselves using a reproducible environment, or simply reads through the steps. Github has features to help with this (see below)
+### Synchronous/Looking Over The Shoulder
+
+<img src="https://i.imgur.com/mOnmoOh.png" alt="drawing" width="250"/>
+
+Helping the student go through their scripts and solving bugs side by side. 
+
+> The PI sits down with her PhD student who has been writing a function for cleaning bioinformatics data. The PI knows Python well, and takes the opportunity to teach the student how to organise the code better. The student shows the PI some odd errors and so they run some tests with expected outcomes to find what the problem is and solve it. The PhD student learns how unit tests can help make code robust. 
+
+The problem with synchronous coding sessions is making time for it and whether or not the supervisor has experience with the specific language.  
+
+### Synchronous/Group Code Tour
+
+<img src="https://i.imgur.com/l8H8nUG.png" alt="drawing" width="300"/>
 
 
-Reviewing code in small chunks incrementally as the project is developing can help make the code review process a lot more efficient.
+The researcher may present their pipeline to describe the logical steps. Narrating code and software steps (documentation, pseudocode, describing how to run the code). 
+
+> A postdoc has been working on some analysis that provides statistics results that he hopes to publish soon. During a lab meeting, the postdoc presents the steps of the analysis code in as logical steps. The lines of code are shown for those in the meeting that know R, but the postdoc explains the steps verbally as well for those who don't understand R. The group discuss and provide comments on the choices and order of the analysis pipeline, a PhD student notices a jump in logic that wasn't picked up previously, and an advanced R user in the lab makes suggestions about making some parts run faster.
+
+These sessions do not rely on everyone knowing the language, and it is the responsibility for the coder to present their work clearly and logically for everyone to follow. Group discussions can be very informative for everyone involved, and puts the analysis under scrutiny. However, making sure everyone is free for the at the same time for a lab meeting can be challenging. 
+
+
+
+### Asynchronous/I'll get back to you on that
+
+<img src="https://i.imgur.com/dpmxqfW.png" alt="drawing" width="250"/>
+
+
+Supervisor or collaborator runs the code themselves using a reproducible environment, or simply reads through the scripts. Github has features to help with this (see extra file for a tutorial in GitHub reviews)
+
+> A postdoc has created a model in Python and creates a Binder with all the dependencies necessary. She sends the file to her supervisor who can run the code within her browser, no installation required. The supervisor can then run the code herself to review it and check the individual parts over the next week. The supervisor adds a commented version of the script to the postdoc's repo with a merge request. 
+
+Reviewing code in small chunks incrementally as the project is developing can help make the code review process a lot more efficient. Asynchronous feedback removes the time pressure but can be easily forgotten!
+
 >
-> *Don’t review more than 400 lines of code (LOC) at a time, less than 200 LOC is better. Don’t review more than 500 LOC/hour*.
+> *Don’t review more than 400 lines of code at a time, less than 200 lines is better. Don’t review more than 500 lines an hour.*
 
+Multiple people can also review the code asynchronously. 
 
+> [Turing Way: Recommendations for Code Reviewing](https://the-turing-way.netlify.app/reproducible-research/reviewing/reviewing-recommend.html)
+>
+> *Unlike traditional, “academic-style” peer review, most code review systems have a number of advantages: they’re rarely anonymous, they’re public-facing, and without the middleman of an editor, contact between reviewer and reviewee can be direct and rapid. This means code review is typically a fast, flexible, and interactive process.*
+>
+### *Reviewing is not about creating more work, nor the PI rewriting everything.*
 
-***Reviewing is not about creating more work, nor the PI rewriting everything.***
-
+Instead, it is just another part of peer review and accountability within the scientific process. It is also an opportunity for everyone to learn better practices from eachother, and solve issues that has plagued one person for weeks!
 
 >
 > *Scientists are very aware that their understanding of code dissipates over time and that this is a large hidden cost. Equally, they suspect that they spend a lot of time reinventing wheels. They may not know how code review will help with that, but they hope that it will.* 
@@ -103,72 +169,86 @@ Further considerations in code review can be found here:
 
 ### What to look for during Code Review
 
-Knowledge of the language is not always necessary!
+<img src="https://the-turing-way.netlify.app/_images/readable-code.jpg" alt="drawing" width="400"/>
+
+
+Reviewing code makes a big difference. Knowledge of the language is not always necessary!
+
 
 **Bugs/Potential bugs**
 - Repetitive code
-- Disagreements between the code and the spec
+- Code saying one thing, documentation saying another
 - Off-by-one errors
-- Global variables and other "too-large" scopes
-- Optimistic, undefensive programming
-- Magic numbers
+- Making sure each function does one thing only
+- Lack of tests and sanity checks for what different parts are doing
+- Magic numbers (a number hardcoded in the script)
 
 **Unclear, messy code**
 - Bad variable/method names
 - Inconsistent indentation
-- Convoluted control flow
-- Too much on one line (80 characters preferred!)
-- Trivial comments
-- Variables used for more than one purpose
+- The order of the different steps
+- Too much on one line
+- Lack of comments and signposting
 
-**Misused design concepts**
-- Incomplete specification
-- Representation exposure for data abstraction
-- Immutable datatypes exposed to change
-- Unstated invariants
+**Fragile and non-reuseable code**
+- Tailor made and manual steps
+- Only works with the given data
 
-> [*What to look for when code reviewing*](https://www.cs.swarthmore.edu/~alinen/cs71/labs/lab03.html)
+*Modified from [*What to look for when code reviewing*](https://www.cs.swarthmore.edu/~alinen/cs71/labs/lab03.html)*
 
-### What Code Review Looks Like in GitHub
----
-**Commit changes**: uploading snapshots when the code changes. The history of all changes are therefore saved and can be reverted.
+### Benefits of Code Review
 
-<img src="https://i.postimg.cc/MHm8X1zX/Screenshot-2022-02-10-at-16-35-50.png" alt="drawing" width="600"/>
+The main benefit is finding problems, and finding them early enough that there aren't frustrating consequences. The penalty for finding a bug once all the figures have been produced and conclusions draw, or, worst case scenario, after a publication is much higher than the penalty for taking the time to review.
 
----
+> *In a group of 11 programs developed by the same group of people, the first 5 were developed without reviews. The remaining 6 were developed with reviews. After all the programs were released to production, the first 5 had an average of 4.5 errors per 100 lines of code. The 6 that had been inspected had an average of only 0.82 errors per 100. Reviews cut the errors by over 80 percent.*
+> 
 
-**Branching**: keep a version of the code separate while making experimental changes or keeping track of collaborative work. Can try out new functionality or edit in parallel without impacting the code base. 
+For your team members writing code, they also benefit directly:
 
-<img src="https://i.postimg.cc/6p5v0Nb1/Screenshot-2022-02-10-at-18-52-47.png" alt="drawing" width="200"/>
+- Less time redoing work or refactoring
+- Increased productivity
+- Greater confidence in own work
+- Learning better techniques
+- Reduced time debugging alone
+- Knowledge exhange and group cohesion
 
----
-**Pull Request**: Bring the changes made on a branch over to the main code base. Can be used to request a code review (see Reviewers on the right panel)
+For a group leader the benefits include:
 
-<img src="https://i.postimg.cc/5tgv5Rpm/Screenshot-2022-02-10-at-18-44-07.png" alt="drawing" width="600"/>
+- Better understanding of the projects
+- More maintainable and better documented code that are easy to understand and modify
+- Better insight into any problems with data
+- Earlier visibility of quality issues
+- Group reviews reduces work burden
+- More robust analysis pipelines that can be reused and modified 
+- High quality code that can be released
 
----
+**Important things to bear in mind:**
 
-**Review**: A pull request can be reviewed and commented on. 
+Code reviews should not be used to evaluate individuals and their skill levels. An open and safe environment where revealing mistakes and errors should not come with penalties or shame. Code reviews should also be done early and often, to protect "egos":
 
-<img src="https://i.postimg.cc/9XDbVyWQ/Screenshot-2022-02-10-at-19-11-58.png" alt="drawing" width="400"/>
-
-
----
-
-### Group Code Review and Writing
-
-- Code presentations
-- Hackathon
-- Documentation sprint
-- Sharing burden for knowledge exchange and support
-
-> [Turing Way: Recommendations for Code Reviewing](https://the-turing-way.netlify.app/reproducible-research/reviewing/reviewing-recommend.html)
+> *The temptation to perfect the product before you allow another pair of eyes to see it. This is an ego-protecting strategy: you won’t feel embarrassed about your mistakes if no one else sees them. 
+> ...review [is not] a seal of approval but rather in-process quality-improvement activity. Such reluctance has several unfortunate consequences.*
 >
-> *Unlike traditional, “academic-style” peer review, most code review systems have a number of advantages: they’re rarely anonymous, they’re public-facing, and without the middleman of an editor, contact between reviewer and reviewee can be direct and rapid. This means code review is typically a fast, flexible, and interactive process.*
->
->
+> *If your work isn’t reviewed until you think it’s complete, you are psychologically resistant to suggestions for
+changes. If the program runs, how bad can it be? You are likely to rationalize away possible bugs because you believe you’ve finished and you’re eager to move on to the next task. Relying on your own deskchecking and unit testing ignores the greater efficiency of a peer review for finding many defects*
+> **Peer Reviews in Software: A Practical Guide by Karl E. Wiegers**
 
-### Testing
+
+---
+
+## Group Code Writing
+
+As well as reviewing specific scripts and analyses written by a single individual, it can be very beneficial to solve programming problems as a team. Setting aside an afternoon to work as a group will help teach less experienced members of the group and more efficiently solve very difficult problems. 
+
+Groups of people working on a specific problem are often known as "Hackathons" in programming. These can last multiple days (hopefully with downtime!). With very large groups, people can work in pairs or small groups with delegated parts of the problem to solve, and regularly meeting back together to discuss and revaluate. If there is a complex solution in computational methods that most people in the group need, it makes sense to find it together. 
+
+Similarly, documentation sprints are useful to dedicate time to regularly bring a code base to a good minimum standard. By splitting hte task across the team as an event, creating documentation and working examples for code repos and releasing it can help others use your computational methods and tools to icrease the impact of your work. Having regularly updated documentation also reduces onboarding time for new members picking up the shared methods in the lab. 
+
+Group work shares the burden, allows knowledge exchange and support within the team. 
+
+
+
+## Testing
 
 - Testing and quality checks
 - Continuous integration
