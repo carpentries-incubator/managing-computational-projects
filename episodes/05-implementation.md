@@ -43,7 +43,7 @@ https://the-turing-way.netlify.app/reproducible-research/rdm.html
 
 ## Functional Programming
 
-Functional programming is about writing code that works as modular steps. Each step is clearly commented and carefully produced so that it can be reused in different contexts. We can think of this on a broad scale, say one student's computational work has the following steps, where blue shows data cleaning, pink shows visualisation code, and yellow the analysis and statistics. 
+Functional programming is about writing code that works as modular steps. Each step is clearly commented and carefully produced so that it can be reused in different contexts. We can think of this on a broad scale, say one student's computational work has the following steps, where blue shows data cleaning, and yellow the analysis and statistics. 
 
 ```mermaid
 %%{init: {'theme': 'neutral' } }%%
@@ -51,14 +51,12 @@ graph LR
 
 A(Raw Data) --> B(transform to table)
 B -->C(subset data)
-C--> D(visualise data)
-D--> E(run model XYZ)
+C--> E(run model XYZ)
 E--> F(run statistics)
 
 style A fill:#fff,stroke:#333,stroke-width:0px
 style B fill:#cbdef6,stroke:#333,stroke-width:0px
 style C fill:#cbdef6,stroke:#333,stroke-width:0px
-style D fill:#e6b2cf,stroke:#333,stroke-width:0px
 style E fill:#fcedb0,stroke:#333,stroke-width:0px
 style F fill:#fcedb0,stroke:#333,stroke-width:0px
 
@@ -72,16 +70,14 @@ graph LR
 
 A(Raw Data) --> B(transform to table)
 B -->C(subset data)
-C--> D(visualise data)
-D--> E(run model ABC)
+C--> E(run model ABC)
 E--> F(run statistics)
 
 style A fill:#fff,stroke:#333,stroke-width:0px
 style B fill:#cbdef6,stroke:#333,stroke-width:0px
 style C fill:#cbdef6,stroke:#333,stroke-width:0px
-style D fill:#e6b2cf,stroke:#333,stroke-width:0px
 style E fill:#FCC981,stroke:#333,stroke-width:0px
-style F fill:#fcedb0,stroke:#333,stroke-width:0px
+style F fill:#FCC981,stroke:#333,stroke-width:0px
 
 ```
 
