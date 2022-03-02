@@ -10,7 +10,47 @@ keypoints:
 - "First key point. Brief Answer to questions. (FIXME)"
 ---
 
-## Keep and overview of selected tools and methods
+## Overview and Introduction
+
+
+
+
+## Research Data Management
+
+### FAIR Principles
+
+[From The Turing Way](https://the-turing-way.netlify.app/reproducible-research/rdm/rdm-fair.html):
+
+> *In brief, FAIR data should be:*
+>
+> ***Findable***: *The first step in (re)using data is to find them! Descriptive metadata (information about the data such as keywords) are essential.*
+>
+> ***Accessible***: *Once the user finds the data and software they need to know how to access it. Data could be openly available but it is also possible that authentication and authorisation procedures are necessary.*
+>
+> ***Interoperable***: *Data needs to be integrated with other data and interoperate with applications or workflows.*
+>
+> ***Reusable***: *Data should be well-described so that they can be used, combined, and extended in different settings.*
+>
+> *You can find a [more detailed overview of the FAIR principles by GO FAIR](https://www.go-fair.org/fair-principles) of what the FAIR principles recommend. You can also read [A FAIRy tale](https://doi.org/10.5281/zenodo.2248200) for an understandable explanation of each principle.*
+
+### Metadata Standards
+
+> ***Case Study***
+>
+> *The Crick Institute Electron Microscope has produced around 5 petabytes (5,000,000 GB) of data since the institute opening. These files are stored safely and privately, and have not been standardised. As a result they are in danger of being lost forever, stored but never used. With metadata, this could form a transformative training data set for machine learning tools and possibly lead to new discoveries and insights. Creating Alpha Fold and other machine learning/AI tools you need large data sets. Meta data allows data to be future proofed for further research and even innovative research not currently possible.*
+
+
+- Metadata standards
+https://the-turing-way.netlify.app/reproducible-research/rdm.html 
+
+
+### Version Control Licence
+
+
+- Revisiting Version Control License
+https://the-turing-way.netlify.app/reproducible-research/vcs/vcs-data.html 
+
+
 
 ## Project Management Tools
 For computational projects with researchers already using Github for version control, there are also many features for project management.
@@ -26,14 +66,6 @@ Kanban boards can be very helpful for a snapshot of multiple research projects w
 >
 
 
-## Research Data Management
-- Introduction to Research Data Management
-- FAIR principles
-- Revisiting Version Control License
-https://the-turing-way.netlify.app/reproducible-research/vcs/vcs-data.html 
-- Metadata standards
-https://the-turing-way.netlify.app/reproducible-research/rdm.html 
-
 ## Collaborative Research Practices
 
 - Functional programming (approach for reproducibility)
@@ -41,9 +73,30 @@ https://the-turing-way.netlify.app/reproducible-research/rdm.html
 - Literate programming: Jupyter Notebook
 - Binderise your repo
 
+---
+# Good Code 
+
+Writing code often comes down to decisions about when to save time. Code fast, and you have a solution within hours or days. Coding well requires early investment that might be ignored in favour of "I'll just find a quick solution..." But more often than not the time penalty is magnified as a result further down the line:
+
+<img src="https://i.imgur.com/QjYWFvg.png" alt="drawing" width="600"/>
+
+Writing good code early means losing days to deliberate good practice. But trying to undo mistakes and work with "good enough" code can take weeks or months, and still ending up having to start again anyway. The blow to morale can also not be understated. "Good enough" fast code tends to have mistakes and is hard for others to review, which is not good for scientific pipelines. Even if you end up with workable code, it is not suitable for release or publication at the end of the project. 
+
+As a supervisor you can influence where these time investments happen and help your students avoid the soul-destroying process of working with "spaghetti" code and having to start from scratch. Good code is not about perfection, it is about general principles your students and postdocs can get training in.
+
 ## Functional Programming
 
-Functional programming is about writing code that works as modular steps. Each step is clearly commented and carefully produced so that it can be reused in different contexts. We can think of this on a broad scale, say one student's computational work has the following steps, where blue shows data cleaning, and yellow the analysis and statistics. 
+
+> ***Case Study***
+>
+> *My postdoc wants to work with messy genomics data. I know my previous postdoc had to do the same thing and it took her months.... but it's difficult to read her files so my new postdoc will have to work it out again.*
+
+Applying methods from one person's work and applying it to another problem can take weeks, if not months, of work. Applying methods from publications is even harder: static PDF files can’t describe the lines of code and data that lead to those discoveries. This is an increasingly important problem in the face of growing mistrust in science, and a reproducibility crisis plaguing the sciences.
+
+Instead, functional programming is about writing code that works as modular steps. Each step is clearly commented and carefully produced so that it can be reused in different contexts. Often when you are analysing data, you need to repeat the same task many times. For example, you might have several files that all need loading and cleaning in the same way, or you might need to perform the same analysis for multiple species or parameters. Rather than copying and pasting, writing a function and calling that function leads to fewer errors and confusion over all. 
+
+
+We can think of this on a broad scale, say one student's computational work has the following steps, where blue shows data cleaning, and yellow the analysis and statistics. 
 
 ```mermaid
 %%{init: {'theme': 'neutral' } }%%
@@ -81,11 +134,39 @@ style F fill:#FCC981,stroke:#333,stroke-width:0px
 
 ```
 
-On the micro scale, however, functional programming is about the 
+On the micro scale, functional programming ensures that each code file itself is comprised of modular blocks, whether for data processing, analysis pipeline, or simulation, and so on. Depending on your programming language, these may be used as a package or a library, or saved in files that are available for installing. Just the same as the diagram above, making sure functions are robust and reuseable means they can be shared throughout different workflows and for different projects. 
+
+> Training in functional programming is usually an excellent pre-requisite for members of your lab. 
+
+A first step can be to **draw out** and create diagrams to plan code before starting, and identify the modular steps involved. This does not require technical knowledge of a language, and is therefore a great exercise for direct supervision. 
+
+To find out more...
+
+https://www.britishecologicalsociety.org/wp-content/uploads/2017/12/guide-to-reproducible-code.pdf
+
+## Literate Programming
+
+
+Literate programming is about comments and documentation, and telling other humans what is happening in your pipeline. Depending on the scale of your computational projects this will include:
+
+- Inline comments 
+- A Readme file
+- An RMarkdown or Jupyter Notebook with examples
+- An online documentation wiki 
+
+Markdown is a way of writing plain text that doesn't need specific software to read it (so not Microsoft Word), which can be converted to many formats including HTML, PDF or even Word documents. Many online tools like popular messaging services use markdown, and marking up your text is not difficult, for example:
+
+`**bold**`
+`_italics_`
+`# Title`
+`## Heading`
+`### Subheading`
+
+
 
 ## Code Review
 
-A simple objective of the review process is to catch bugs and elementary errors. Code review can also help to ensure that code is readable and easy to understand.
+A simple objective of the review process is to catch bugs and elementary errors. Code review can also help to ensure that code is readable and easy to understand. As a group leader you can also make sure code is functional and literate as early as possible, and encouraging your students avoid messy "good enough" code that causes chaos later. 
 
 Code review is often done in pairs, with each reviewer also having some of their code reviewed by their partner. Doing this can help programmers to see and discuss issues and alternative approaches to tasks, and to learn new tips and tricks.
 
