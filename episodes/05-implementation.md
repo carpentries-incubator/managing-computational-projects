@@ -80,6 +80,8 @@ Writing code often comes down to decisions about when to save time. Code fast, a
 
 <img src="https://i.imgur.com/QjYWFvg.png" alt="drawing" width="600"/>
 
+> *Adapted from the more pessimistic comic by [XKCD](https://xkcd.com/844/)*
+
 Writing good code early means losing days to deliberate good practice. But trying to undo mistakes and work with "good enough" code can take weeks or months, and still ending up having to start again anyway. The blow to morale can also not be understated. "Good enough" fast code tends to have mistakes and is hard for others to review, which is not good for scientific pipelines. Even if you end up with workable code, it is not suitable for release or publication at the end of the project. 
 
 As a supervisor you can influence where these time investments happen and help your students avoid the soul-destroying process of working with "spaghetti" code and having to start from scratch. Good code is not about perfection, it is about general principles your students and postdocs can get training in.
