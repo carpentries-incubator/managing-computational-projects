@@ -15,24 +15,6 @@ keypoints:
 
 
 
-## Research Data Management
-
-### FAIR Principles
-
-[From The Turing Way](https://the-turing-way.netlify.app/reproducible-research/rdm/rdm-fair.html):
-
-> *In brief, FAIR data should be:*
->
-> ***Findable***: *The first step in (re)using data is to find them! Descriptive metadata (information about the data such as keywords) are essential.*
->
-> ***Accessible***: *Once the user finds the data and software they need to know how to access it. Data could be openly available but it is also possible that authentication and authorisation procedures are necessary.*
->
-> ***Interoperable***: *Data needs to be integrated with other data and interoperate with applications or workflows.*
->
-> ***Reusable***: *Data should be well-described so that they can be used, combined, and extended in different settings.*
->
-> *You can find a [more detailed overview of the FAIR principles by GO FAIR](https://www.go-fair.org/fair-principles) of what the FAIR principles recommend. You can also read [A FAIRy tale](https://doi.org/10.5281/zenodo.2248200) for an understandable explanation of each principle.*
-
 ### Metadata Standards
 
 > ***Case Study***
