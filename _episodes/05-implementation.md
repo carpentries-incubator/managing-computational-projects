@@ -84,10 +84,18 @@ Writing code often comes down to decisions about when to save time. Code fast, a
 
 Writing good code early means losing days to deliberate good practice. But trying to undo mistakes and work with "good enough" code can take weeks or months, and still ending up having to start again anyway. The blow to morale can also not be understated. "Good enough" fast code tends to have mistakes and is hard for others to review, which is not good for scientific pipelines. Even if you end up with workable code, it is not suitable for release or publication at the end of the project. 
 
-As a supervisor you can influence where these time investments happen and help your students avoid the soul-destroying process of working with "spaghetti" code and having to start from scratch. Good code is not about perfection, it is about general principles your students and postdocs can get training in.
+As a supervisor you can influence 
 
-## Functional Programming
+The horrible feeling of finding bugs
 
+Example of doing maths fast
+
+where these time investments happen and help your students avoid the soul-destroying process of working with "spaghetti" code and having to start from scratch. Good code is not about perfection, it is about general principles your students and postdocs can get training in.
+
+## Modular Programming (Functions)
+- do a diagram of directories
+- no copying and pasting
+- mindset stable and not changed immutable
 
 > ***Case Study***
 >
@@ -193,6 +201,9 @@ The researcher may present their pipeline to describe the logical steps. Narrati
 
 > A postdoc has been working on some analysis that provides statistics results that he hopes to publish soon. During a lab meeting, the postdoc presents the steps of the analysis code in as logical steps. The lines of code are shown for those in the meeting that know R, but the postdoc explains the steps verbally as well for those who don't understand R. The group discuss and provide comments on the choices and order of the analysis pipeline, a PhD student notices a jump in logic that wasn't picked up previously, and an advanced R user in the lab makes suggestions about making some parts run faster.
 
+- more detail about the flat heirachy, not scalabel to have the expert to the review
+- doesn't need to be an expert
+
 These sessions do not rely on everyone knowing the language, and it is the responsibility for the coder to present their work clearly and logically for everyone to follow. Group discussions can be very informative for everyone involved, and puts the analysis under scrutiny. However, making sure everyone is free for the at the same time for a lab meeting can be challenging. 
 
 
@@ -253,6 +264,7 @@ Further considerations in code review can be found here:
 
 Reviewing code makes a big difference. Knowledge of the language is not always necessary!
 
+These are very common, everyone does this.
 
 **Bugs/Potential bugs**
 - Repetitive code
