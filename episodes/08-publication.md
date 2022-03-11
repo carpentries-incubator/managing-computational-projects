@@ -38,6 +38,10 @@ What can be released:
 
 Researchers often worry that they need to hide their code to prevent others stealing it. 
 
+> “After giving talks about open science I’ve sometimes been approached by skeptics who say, ‘Why would I help out my competitors by sharing ideas and data on these new websites? Isn’t that just inviting other people to steal my data, or to scoop me? Only someone naive could think this will ever be widespread.’ As things currently stand, there’s a lot of truth to this point of view. But it’s also important to understand its limits. What these skeptics forget is that they already freely share their ideas and discoveries, whenever they publish papers describing their own scientific work. They’re so stuck inside the citation-measurement-reward system for papers that they view it as a natural law, and forget that it’s socially constructed. It’s an agreement. And because it’s a social agreement, that agreement can be changed. All that’s needed for open science to succeed is for the sharing of scientific knowledge in new media to carry the same kind of cachet that papers do today”
+>
+> Nielsen, M. Reinventing Discovery: The New Era of Networked Science. Princeton University Press, 2011.
+
 https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3000246
 
 ## Code release
