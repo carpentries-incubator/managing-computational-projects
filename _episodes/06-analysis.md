@@ -132,6 +132,7 @@ In fact, you can also call this function in other scripts. It can make sense to 
 > 
 > *Instead, the postdoc could have saved his functions as a library and the PhD students can import them into their scripts. Now when the postdoc changes the functions these can be saved as a new version and the PhD students can choose which version to import in each case.*
 
+The output of analysis code may be statistics results that are reported in a paper, and therefore the steps required to reproduce that are critically important. 
 
 ## Communicating Results
 
@@ -139,24 +140,32 @@ In fact, you can also call this function in other scripts. It can make sense to 
 
 ## Producing figures
 
-For publication, well constructed figures improve science communication and help improve the impact of your research. It is therefore worth taking the time for researchers to learn the technical skills in R, Python, or another language. Producing figures in Excel is limiting and often frustrating, particularly as there are only limited options in layout and type of figure. Being able to produce multipanel figures with annotations and different colour schemes is complex but one of the advantages of learning a data science language. 
+With the analysis complete, data visualisation is usually used to communicate results. The code used to produce figures is the next step in the data pipeline. 
 
-![](http://www.sthda.com/sthda/RDoc/figure/ggplot2/ggplot2-cheatsheet-histogram-1.png)
+<img src="https://i.imgur.com/YnWOBja.png" alt="drawing" width="800"/>
 
-![](https://www.oreilly.com/library/view/python-data-science/9781491912126/assets/pyds_04in33.png)
+For publications or posters, well constructed figures improve science communication and help improve the impact of your research. Being able to produce multipanel figures with annotations and different colour schemes is complex but one of the advantages of learning a data science language. 
 
-![](https://www.oreilly.com/library/view/python-data-science/9781491912126/assets/pyds_04in126.png)
+It is therefore worth taking the time for researchers to learn the technical skills in R, Python, or another language to produce visualisations. Producing figures in Excel is limiting and often frustrating, particularly as there are only limited options in layout and type of figure. 
 
+<img src="https://www.biorxiv.org/content/biorxiv/early/2021/12/19/2021.12.16.473013/F1.large.jpg?width=800&height=600&carousel=1" alt="box plots" width="500"/>
 
-The code to produce the following figure is below. Libraries like `matplotlib` do a lot of the hard work for you, and there are countless tutorials for different kinds of visualisations.
+> *Exploring constraints on a wetland methane emission ensemble (WetCHARTs) using GOSAT observations, Parker et al 2020*
+>
+> https://doi.org/10.5194/bg-17-5669-2020
 
-![](https://www.oreilly.com/library/view/python-data-science/9781491912126/assets/pyds_04in39.png)
+<img src="https://www.pnas.org/cms/10.1073/pnas.1912459116/asset/86065128-2b04-47e8-ba0f-6a649ff72e3e/assets/graphic/pnas.1912459116fig04.jpeg" alt="box plots" width="600"/>
 
+> *Spatial transcriptome profiling by MERFISH reveals subcellular RNA compartmentalization and cell cycle-dependent gene expression, Xia et al 2019*
+> *https://www.pnas.org/doi/10.1073/pnas.1912459116*
 
-``` 
-plt.hexbin(x, y, gridsize=30, cmap='Blues')
-cb = plt.colorbar(label='count in bin')
-```
+<img src="https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41593-019-0559-0/MediaObjects/41593_2019_559_Fig1_HTML.png?as=webp" alt="box plots" width="600"/>
+
+These figures are more than just visualising data, they're about communication and require adjusting the styles and formats within `ggplot` or `matplotlib` or other libraries. 
+
+As before, any code used to produce visualisations should be reproducible and literatre. Often in peer review figures need to be adjusted or altered, and having the code to do so makes the process much simpler. 
+
+It is usually cleaner to keep data visualisation code separate from analysis, just to keep a code base organised and modular. 
 
 In general there are best practises for coherent and engaging figures, 
 
