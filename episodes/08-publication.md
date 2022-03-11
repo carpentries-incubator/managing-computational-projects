@@ -12,8 +12,33 @@ keypoints:
 
 ## Publications
 
+<img src="https://the-turing-way.netlify.app/_images/evolution-open-research.jpg" alt="drawing" width="500"/> 
+
 While the output of research projects is usually centred around publishing a journal article, this format of science communication and knowledge sharing is increasingly restrictive with the new ways scientific research is conducted. The requirements from journals themselves is also expanding, you are now often asked to upload data sets and code as part of your publication. Releasing data is increasingly a requirement from funding bodies, and outputs from research groups can go beyond a single paper, releasing tools and methods that can be used worldwide.
 
+In general there are different degrees of openness. 
+
+- Fully private data and code, unavailable
+- Pseudo-open -- "available on request"
+- Released static code parallel to a research paper, see Zenodo or Figshare
+- Open online repository -- CRAN, GitHub
+- Collaborative, open science tool with ongoing development
+
+What can be released:
+
+
+- **Open Data**: Documenting and sharing research data openly for re-use.
+- **Open Source Software**: Documenting research code and routines, and making them freely accessible and available.
+- **Open Hardware**: Documenting designs, materials, and other relevant information related to hardware, and making them freely accessible and available.
+- **Open Access**: Making all published outputs freely accessible for maximum use and impact.
+- **Open Notebooks**: An emerging practice, documenting and sharing the experimental process of trial and error.
+> https://the-turing-way.netlify.app/reproducible-research/open.html
+
+## Open or Private?
+
+Researchers often worry that they need to hide their code to prevent others stealing it. 
+
+https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3000246
 
 ## Code release
 
@@ -78,14 +103,10 @@ When using specifically R, you could release R packages on [CRAN](https://cran.r
 
 
 
-## Open or Private?
-
-
-
 
 ## Open Science Tools -- Research Software with Impact
 
-An example of an open science tool in ongoing development: 
+Many research groups produce widely used tools and software that are used across biomedical and life sciences. Examples of an open science tool in ongoing development and collaboration: 
 
 #### DeepLabCut 
 https://github.com/DeepLabCut/DeepLabCut
