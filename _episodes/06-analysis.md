@@ -27,10 +27,12 @@ Cleaning data means it can be easily read and analysed by machines and used in a
 Within a computational project, these steps may accidentally become obscure and so specific effort is required to make sure no one is manually processing data in a way that can't be repeated and that all the steps are recorded. 
 
 ```
-DataProcessingScript.py
+genomeProject/processing/data_cleaning.py
+
+import pandas as pd
 
 # Reads raw data from a directory.
-df = pd.read_csv('Datasets/220103_GenomicData.csv')
+df = pd.read_csv('genomeProject/data/220103_GenomicData.csv')
 
 # Shows the first 5 rows of the data set.
 df.head(5)
@@ -46,6 +48,9 @@ df.head(5)
 
 # Change the index of the data to an ID
 df = df.set_index('ID')
+
+# Save processed data set
+df.to_csv(genomeProject/data/220103_GenomicData_processed)
 ```
 
 ## Data exploration and insights
@@ -72,24 +77,27 @@ cb = plt.colorbar(label='count in bin')
 
 ## Data Analysis and Statistics
 
+> (Need to discuss this further, what is patronising?)
 
+With readable, clean, processed data that you have explored using figures, the next stage of the data pipeline is analysis. 
 
+<img src="https://i.imgur.com/YnWOBja.png" alt="drawing" width="800"/>
 
-(Need to discuss this further, what is patronising?)
+Depending on your computational project, this may involve elaborate and complex analyses, modelling, simulation, even machine learning. However, even if this step is just running a single statistics test, keeping the code modular in clearly defined steps is key. 
 
-- Choices for statistical analysis
-
+Here is an example of applying a Butterworth filter to some data in Python. The specifics don't matter, you can consider this code pseudocode for any kind of analysis step. 
 
 ```
-# Define a butterworth filter function
+genomeProject/analysis/01_butterworth_filter.py
+
 
 import numpy as np
 from scipy.signal import butter,filtfilt
 
-df = pd.read_csv('Datasets/220103_ProcessedGenomicData.csv')
+# (A) Read processed data from file
+df = pd.read_csv('genomeProject/data/220103_GenomicData_processed.csv')
 
-# Filter requirements.
-
+# (B) Defining filter parameters
 T = 5.0         # Sample Period
 fs = 30.0       # sample rate, Hz
 cutoff = 2      # desired cutoff frequency of the filter, Hz
@@ -97,6 +105,7 @@ nyq = 0.5 * fs  # Nyquist Frequency
 order = 2       # quadratic
 n = int(T * fs) # total number of samples
 
+# (C) Define the Butterworth Filter Function
 def butter_lowpass_filter(data, cutoff, fs, order):
     normal_cutoff = cutoff / nyq
 
@@ -106,9 +115,23 @@ def butter_lowpass_filter(data, cutoff, fs, order):
 
     return filtered_data
 
-# Apply filter to the data
+# (D) Apply Butterworth Filter Function to the data
 filtered_data = butter_lowpass_filter(data, cutoff, fs, order)
+
 ```
+
+(A) the processed data is read into the script. Next, (B) the fixed paramaters are set and named with comments. These fixed numbers are saved as variables with names.  In (C) the filter itself is written as a Python Function, which means it can be called multiple times throughout the script. Because the parameters are not written into the function directly (so it doesn't say `b, a = butter(2, 15,btype='low', analog=False)` but instead uses variables) this code is reuseable without having to paste and edit the numbers every time you apply a function. 
+
+In fact, you can also call this function in other scripts. It can make sense to produce a file with the functions inside that can be imported into different scripts in case other projects also have similar methods.  This is known as a package or library. This means altering a function doesn't mean searching across every file on every project and changing it dozens of times. 
+
+> ***Case Study***
+>
+> *A postdoc wrote a helpful series of functions for data analysis with neurophysiology recordings. The postdoc wrote them as reuseable, and so two PhD students copied and pasted these blocks of code into their code and used it to analyse the data for their projects.* 
+>
+> *The postdoc later discovers a better way of writing the functions. One PhD student also wants to change the method and so has to search through his files to replace the code. The other PhD student wants the old method in some files and the new method in others, and so does not change all of them. It is therefore complex to follow the differences in the methods across the projects, and this is very open to errors in typos.*
+> 
+> *Instead, the postdoc could have saved his functions as a library and the PhD students can import them into their scripts. Now when the postdoc changes the functions these can be saved as a new version and the PhD students can choose which version to import in each case.*
+
 
 ## Communicating Results
 
