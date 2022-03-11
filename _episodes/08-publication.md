@@ -58,11 +58,32 @@ See more at [The Turing Way: CITATION.cff](https://the-turing-way.netlify.app/co
 https://the-turing-way.netlify.app/_images/software-credit.jpg
 
 
-### Collaborative Open Code
+## Collaborative Open Code
 
-Downloading code and data files can be useful when someone wants to review your the final outcome of your computational work. However, with an open GitHub repository, sharing code becomes much more collaborative and in real-time. 
+<img src="https://the-turing-way.netlify.app/_images/decolonising-knowledge.jpg" alt="drawing" width="300"/> 
+
+Downloading code and data files from Zenodo or other open access repositories can be useful when someone wants to review your the final outcome of your computational work. However, with an open GitHub repository, sharing code becomes much more collaborative and in real-time. 
+
+
+
+<img src="https://foundations.projectpythia.org/_images/GitHub-logo.png" alt="drawing" width="200"/> 
+
+Uploading code in progress to an open GitHub Repo is the best and most well-used method for programming collaboration. 
 
 As you develop a tool or methodology, users have the ability to use your code while it is a work in progress and others can contribute or add features. 
+
+<img src="https://cran.r-project.org/CRANlogo.png" alt="drawing" width="150"/> 
+
+When using specifically R, you could release R packages on [CRAN](https://cran.r-project.org/) where anyone can then download and use you code. 
+
+
+
+## Open or Private?
+
+
+
+
+## Open Science Tools -- Research Software with Impact
 
 An example of an open science tool in ongoing development: 
 
@@ -90,7 +111,7 @@ A generalist algorithm for cell and nucleus segmentation.
 https://github.com/qupath/qupath
 
 Extensive tools to annotate and view images, including whole slide & microscopy images. Interactive machine learning for both object & pixel classification.
-<img src="https://qupath.readthedocs.io/en/stable/_images/ki67_auto_original.jpg" alt="drawing" width="500"/>
+<img src="https://qupath.readthedocs.io/en/stable/_images/ki67_detecting_final_markup.jpg" alt="drawing" width="500"/>
 
 
 
@@ -117,7 +138,6 @@ Extensive tools to annotate and view images, including whole slide & microscopy 
 - Interactive page for your project
 - Jupyter/Binder
 
-## Open or Private?
 
 ## Conclusion
 - What gaps have we filled in this section
