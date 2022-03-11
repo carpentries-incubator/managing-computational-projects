@@ -124,21 +124,18 @@ filtered_data = butter_lowpass_filter(data, cutoff, fs, order)
 
 In fact, you can also call this function in other scripts. It can make sense to produce a file with the functions inside that can be imported into different scripts in case other projects also have similar methods.  This is known as a package or library. This means altering a function doesn't mean searching across every file on every project and changing it dozens of times. 
 
+> 
 > ***Case Study***
 >
 > *A postdoc wrote a helpful series of functions for data analysis with neurophysiology recordings. The postdoc wrote them as reuseable, and so two PhD students copied and pasted these blocks of code into their code and used it to analyse the data for their projects.* 
 >
 > *The postdoc later discovers a better way of writing the functions. One PhD student also wants to change the method and so has to search through his files to replace the code. The other PhD student wants the old method in some files and the new method in others, and so does not change all of them. It is therefore complex to follow the differences in the methods across the projects, and this is very open to errors in typos.*
 > 
-> *Instead, the postdoc could have saved his functions as a library and the PhD students can import them into their scripts. Now when the postdoc changes the functions these can be saved as a new version and the PhD students can choose which version to import in each case.*
+> *Instead, the postdoc could have saved his functions in the lab's private repo which becomes the master copy and students pull from this. With the functions saved in a library the PhD students can import them into their scripts. Now when the postdoc changes the functions and saves it to the repo, PhD students can choose to update their version of the functions. The students should document which version they have used.*
 
 The output of analysis code may be statistics results that are reported in a paper, and therefore the steps required to reproduce that are critically important. 
 
-## Communicating Results
-
-- What elements are involved
-
-## Producing figures
+## Figures for Communicating Results
 
 With the analysis complete, data visualisation is usually used to communicate results. The code used to produce figures is the next step in the data pipeline. 
 
@@ -167,14 +164,21 @@ As before, any code used to produce visualisations should be reproducible and li
 
 It is usually cleaner to keep data visualisation code separate from analysis, just to keep a code base organised and modular. 
 
-In general there are best practises for coherent and engaging figures, 
+### Accessibility
+- For simple figures, using shaded vs unshaded and a single colour is best when considering publications may be printed in black and white
+- Colours should be colourblind friendly, [resources are available](https://colorbrewer2.org/) for this. 
 
-- Best practices
-- Versions
-- Publication with persistent identifier
+<img src="https://ristretto.black/wp-content/uploads/2018/12/palette_recommended-1-1024x374.png" alt="box plots" width="500"/>
 
-- Data Visualisation as a tool
-  - Reference: https://helenajambor.wordpress.com/2022/01/04/science-visualization-trends-of-2021/
+- If using colour map, avoid the standard rainbow. Other rainbows like [viridis colour maps]() can be downloaded. The brightness varies across the rainbow which leads to visual artifacts that do not exist:
+
+<img src="https://www.researchgate.net/profile/Mohammad-Raji/publication/311530664/figure/fig1/AS:841506323705857@1577642150559/Typical-example-illustrating-the-aesthetics-of-a-good-b-vs-a-bad-a-colormap-Color.png" alt="box plots" width="400"/>
+
+> *The transition between greens to yellow and red are more prominent than the transitions between greens and blues, making stark boundaries that do not exist. A rainbow with equal brightness solves the problem.* 
+>
+> *Sisneros et al (2016) Chasing Rainbows: A Color-Theoretic Framework for Improving and Preserving Bad Colormaps. https://doi.org/10.1007/978-3-319-50835-1_36*
+
+- Keeping readability in mind with text size/font and similar considerations
 
 ## Conclusion
 - What gaps have we filled in this section
@@ -183,6 +187,11 @@ In general there are best practises for coherent and engaging figures,
 ## Resources for taking this to next level
 
 - ​​https://the-turing-way.netlify.app/collaboration/new-community.html 
+
+
+- Data Visualisation as a tool
+  - Reference: https://helenajambor.wordpress.com/2022/01/04/science-visualization-trends-of-2021/
+
 
 {% include links.md %}
 
