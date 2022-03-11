@@ -50,12 +50,30 @@ df = df.set_index('ID')
 
 ## Data exploration and insights
 
+The first part of data analysis is exploration. It is usually helpful to look at the data directly, and this might involve:
+
+- Printing rows of a dataset in a notebook/IDE
+- Printing the sumamry statistics for each row of a column
+- Producing a scatter plot or histogram for a column of data
+
+Visualising processed data before any analysis is usually always helpful. When working with data sets, `ggplot` (in R) or `matplotlib`/`seaborn` (in Python) libraries provide attractive figures that can be produced very quickly. Visualising data is useful for exploring data from the start, and also illustrate methodology or the steps of an analysis. This is particularly valuable in Jupyter Notebooks. Code to produce figures should be literate, functional, reuseable in the same way as data cleaning and analysis code. That way future visualisations can be easily updated or reused. 
+
+Unlike data visualisations for release/communicating results/publications, these figures may be more practical than aesthetic. It is perfectly acceptable to open 25 histograms at once when exploring data, even though in an eventual paper you would only show one. Data visualisation is a tool, and small functions or scripts can make sure exploring data is practical and easy to repeat. 
+
+The code to produce the following figure is below. Libraries like `matplotlib` do a lot of the hard work for you, and there are countless tutorials for different kinds of visualisations.
+
+![](https://www.oreilly.com/library/view/python-data-science/9781491912126/assets/pyds_04in39.png)
+
+
+``` 
+plt.hexbin(x, y, gridsize=30, cmap='Blues')
+cb = plt.colorbar(label='count in bin')
+```
 
 ## Data Analysis and Statistics
 
 
 
-Visualising processed data before any analysis is usually always helpful. When working with data sets, `ggplot` (in R) or `matplotlib`/`seaborn` (in Python) libraries provide attractive figures that can be produced very quickly. Visualising data is useful for exploring data from the start, and also illustrate methodology or the steps of an analysis. This is particularly valuable in Jupyter Notebooks. Code to produce figures should be literate, functional, reuseable in the same way as data cleaning and analysis code. That way future visualisations can be easily updated or reused. 
 
 (Need to discuss this further, what is patronising?)
 
