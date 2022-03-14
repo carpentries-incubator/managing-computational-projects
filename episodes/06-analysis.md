@@ -3,7 +3,9 @@ title: "Data analysis and results"
 teaching: 0
 exercises: 0
 questions:
-- "Key question (FIXME)"
+- "What is the role of data wrangling?"
+- "What are good practices for keeping code in check?"
+- "How to use data visualisation for insight and communication?" 
 objectives:
 - "First learning objective. (FIXME)"
 keypoints:
