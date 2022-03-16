@@ -60,7 +60,7 @@ Kanban boards can be very helpful for a snapshot of multiple research projects w
 
 Writing code often comes down to decisions about when to save time. Code fast, and you have a solution within hours or days. Coding well requires early investment that might be ignored in favour of "I'll just find a quick solution..." But more often than not the time penalty is magnified as a result further down the line:
 
-<img src="../fig/codefastorwell.png" alt="drawing" width="600"/>
+<img src="../fig/IMP-codefastorwell.png" alt="drawing" width="600"/>
 
 > *Adapted from the more pessimistic comic by [XKCD](https://xkcd.com/844/)*
 
