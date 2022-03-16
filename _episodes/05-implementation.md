@@ -90,41 +90,14 @@ Instead, functional programming is about writing code that works as modular step
 
 We can think of this on a broad scale, say one student's computational work has the following steps, where blue shows data cleaning, and yellow the analysis and statistics. 
 
-```mermaid
-%%{init: {'theme': 'neutral' } }%%
-graph LR
 
-A(Raw Data) --> B(transform to table)
-B -->C(subset data)
-C--> E(run model XYZ)
-E--> F(run statistics)
+<img src="../fig/IMP-pipeline1.png" alt="drawing" width="600"/>
 
-style A fill:#fff,stroke:#333,stroke-width:0px
-style B fill:#cbdef6,stroke:#333,stroke-width:0px
-style C fill:#cbdef6,stroke:#333,stroke-width:0px
-style E fill:#fcedb0,stroke:#333,stroke-width:0px
-style F fill:#fcedb0,stroke:#333,stroke-width:0px
-
-```
 
 Another student can take reuse the data cleaning and initial visualisation steps because her data was from the same source and is in the same format. She can later add her own model:
 
-```mermaid
-%%{init: {'theme': 'neutral' } }%%
-graph LR
+<img src="../fig/IMP-pipeline2.png" alt="drawing" width="600"/>
 
-A(Raw Data) --> B(transform to table)
-B -->C(subset data)
-C--> E(run model ABC)
-E--> F(run statistics)
-
-style A fill:#fff,stroke:#333,stroke-width:0px
-style B fill:#cbdef6,stroke:#333,stroke-width:0px
-style C fill:#cbdef6,stroke:#333,stroke-width:0px
-style E fill:#FCC981,stroke:#333,stroke-width:0px
-style F fill:#FCC981,stroke:#333,stroke-width:0px
-
-```
 
 On the micro scale, functional programming ensures that each code file itself is comprised of modular blocks, whether for data processing, analysis pipeline, or simulation, and so on. Depending on your programming language, these may be used as a package or a library, or saved in files that are available for installing. Just the same as the diagram above, making sure functions are robust and reuseable means they can be shared throughout different workflows and for different projects. 
 
