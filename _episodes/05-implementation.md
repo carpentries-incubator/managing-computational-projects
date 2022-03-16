@@ -41,7 +41,7 @@ Issues can be anything from a project milestone (releasing an R package, submitt
 
 Kanban boards can be very helpful for a snapshot of multiple research projects within a lab and what multiple people are currently working on. 
 
-<img src="https://i.postimg.cc/3wDm4Qw4/Screenshot-2022-02-10-at-19-47-35.png" alt="drawing" width="1000"/>
+<img src="../fig/IMP-kanbanResearch.png" alt="drawing" width="1000"/>
 
 > *An example Kanban for researcher project management. Boards can be given any name.*
 >
