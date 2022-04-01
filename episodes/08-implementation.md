@@ -18,8 +18,7 @@ keypoints:
 
 ## Project Management Tools
 
-In the previous chapters, we have already discussed practices that enable the effective management of projects.
-We discussed the importance and best practices for: 
+In the previous chapters, we have already discussed practices that enable the effective management of projects in:
 - setting up shared resources; 
 - defining the vision, mission and roadmap of your project; 
 - managing data and other research-related resources; and
@@ -54,7 +53,25 @@ You can read more about [Project Board in GitHub Documentation](https://docs.git
 
 <img src="https://i.postimg.cc/3wDm4Qw4/Screenshot-2022-02-10-at-19-47-35.png" alt="drawing" width="1000"/>
 
-*An example is Kanban for researcher project management. Boards can be given any name.*
+*An example is Kanban for researcher project management. GitHub boards can be given any name.*
+
+> ## Tutorial: Kanban Boards for Project Management (Click to view)
+>
+> Within Github, the Projects Tab can provide a board with cards to organise issues collaboratively. If a team is already working within Github, this can be beneficial as everything remains in the same place.
+> "Issues" can be used as a record of ToDos or others flagging up bugs and features that need to be addressed. They can be attached to particular repos and assigned to people.
+>
+> <img src="https://i.postimg.cc/Kzfz40t3/Screenshot-2022-02-10-at-19-55-23.png" alt="drawing" width="600"/>
+> *A traditional Kanban for a collaborative computational project. Keeping track of bugs and what everyone is working on.*
+>
+> The Kanban board can be modified to whatever layout or structure makes sense to you. This example uses the concept to publication/release pipeline. 
+>
+> <img src="https://i.postimg.cc/3wDm4Qw4/Screenshot-2022-02-10-at-19-47-35.png" alt="drawing" width="1000"/>
+>
+> Github also allows different summary views for collaborative issues across multiple repos, which can be helpful for organising larger teams. 
+>
+> <img src="https://i.postimg.cc/d37Yv66Y/Screenshot-2022-02-10-at-19-47-51.png" alt="drawing" width="600"/>
+>
+{: .solution}
 
 ## Collaborating on Computational Projects
 
@@ -86,12 +103,15 @@ Do you use spaces or tabs for indentation?
 Where do you put comments describing what the code chunk does? 
 Consistently using the same style throughout, code becomes easier to read, understand and collaborate on even for non-coding contributors.
 
-Some opportunities where all members of a team have the chance to share/show examples from their work such as:
-- finding tricky bugs in their code and the process of debugging (reading error messages, tracking the bug, fixing it!)
-- doing maths and statistics fast
-- visualising data that provide useful insights
-- tools and methods that improved their efficiency
-- review and test code (we discuss this in the next lesson)
+> ## Opportunities where all members of a team have the chance to share examples from their work
+>
+> - Cases where they found tricky bugs in their code and the process of debugging (reading error messages, tracking the bug, fixing it!)
+> - Project where they applied maths and statistics approaches using existing packages
+> - Creative visualisation of data that provides useful insights
+> - Tools and methods that improved their efficiency
+> - Code review and testing methods they learned about
+>
+{: .callout}
 
 These are where these time investments happen and help your students avoid the soul-destroying process of working with inefficient code and having to start from scratch. 
 Good code is not about perfection, it is about general principles your students and postdocs can get training in.
@@ -105,11 +125,9 @@ For more details, please read the [Code Quality](https://the-turing-way.netlify.
 - mindset stable and not changed immutably
 -->
 
-> ***Case Study***
->
 > *My postdoc wants to work with messy genomics data. I know my previous postdoc had to do the same thing and it took her months.... but it's difficult to read her files so my new postdoc will have to work it out again.*
 >
-{: .callout}
+{: .testimonial}
 
 Applying methods from one person's work and applying it to another problem can take weeks, if not months, of work. 
 Applying methods from publications is even harder: static PDF files can’t describe the lines of code and data that lead to those discoveries. 
@@ -154,13 +172,16 @@ This is why code testing is vital.
 
 Testing is a learned skill that needs to become a part of working on/improving a project. 
 After changing their code, researchers should always check that their changes or fixes have not broken anything. 
-
 There are several different kinds of testing and each has best practices specific to them.
-A few examples are:
-- **Smoke testing**: Very brief initial checks that ensure the basic requirements required to run the project hold. If these fail there is no point in proceeding to additional levels of testing until they are fixed.
-- **Unit testing**: A level of the software testing process where individual units of a software are tested. The purpose is to validate that each unit of the software performs as designed.
-- **Integration testing**: A level of software testing where individual units are combined and tested as a group. The purpose of this level of testing is to expose faults in the interaction between integrated units.
-- **System testing**: A level of the software testing process where a complete, integrated system is tested. The purpose of this test is to evaluate whether the system as a whole gives the correct outputs for given inputs.
+
+> ## A few important testing types
+>
+> * **Smoke testing**: Very brief initial checks that ensure the basic requirements required to run the project hold. If these fail there is no point in proceeding to additional levels of testing until they are fixed.
+> * **Unit testing**: A level of the software testing process where individual units of a software are tested. The purpose is to validate that each unit of the software performs as designed.
+> * **Integration testing**: A level of software testing where individual units are combined and tested as a group. The purpose of this level of testing is to expose faults in the interaction between integrated units.
+> * **System testing**: A level of the software testing process where a complete, integrated system is tested. The purpose of this test is to evaluate whether the system as a whole gives the correct outputs for given inputs.
+>
+{: .checklist}
 
 No matter the type of testing you use, general guidance is to start by writing any test and make a habit of running tests often.
 - Make improvements where you can, and do your best to include tests with new code you write even if it’s not feasible to write tests for all the code that’s already written.
