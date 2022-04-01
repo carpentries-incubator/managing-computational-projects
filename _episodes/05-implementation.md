@@ -12,8 +12,6 @@ keypoints:
 - "First key point. Brief Answers to questions. (FIXME)"
 ---
 
-## Overview and Introduction
-
 ## Project Management Tools
 
 Researchers who already use Github/GitLab to store and version control their projects can use several online features for project management.
@@ -44,7 +42,6 @@ You can read more about [Project Board in GitHub Documentation](https://docs.git
 - Literate programming: Jupyter Notebook
 - Binderise your repo
 
----
 # Good Code 
 
 Writing code often comes down to decisions about when to save time. 
