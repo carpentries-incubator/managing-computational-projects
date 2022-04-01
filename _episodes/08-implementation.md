@@ -179,16 +179,16 @@ Markdown is a way of writing plain text in any simple text editor that doesn't n
 Many online tools including GitHub support Markdown files (.md files). 
 
 Marking up your text and code is quite simple:
-`**bold**` --> **bold**
-`_italics_` --> _italics_
-"`code snippet`" --> `code snippet`
-'[LINK](https://carpentries-incubator.github.io/managing-computational-projects/)` --> [LINK](https://carpentries-incubator.github.io/managing-computational-projects/)
+* `**bold**` --> **bold**
+* `_italics_` --> _italics_
+* "`code snippet`" --> `code snippet`
+* `[LINK](https://carpentries-incubator.github.io/managing-computational-projects/)` --> [LINK](https://carpentries-incubator.github.io/managing-computational-projects/)
 
 You can do much more:
-* "# Title" (first level header)
-* "## Heading" (second level header)
-* "### Subheading" (third level header)
-* "![IMAGE](image-path/link)" (insert via a link)
+* `# Title` (first level header)
+* `## Heading` (second level header)
+* `### Subheading` (third level header)
+* `![IMAGE](image-path/link)` (insert via a link)
 
 See more in the [MarkDown cheatsheet](https://www.markdownguide.org/cheat-sheet/).
 
@@ -207,14 +207,14 @@ If the project environment is not captured and the researchers need to return to
 a computational environment is a system where a program is run. 
 This includes features of hardware (such as the numbers of cores in any CPUs) and features of the software (such as the operating system, programming languages, supporting packages, other pieces of installed software, along with their versions and configurations).
 
+![Ways of capturing computational environments](https://the-turing-way.netlify.app/_images/computational-environments.jpg)
+
 There are several ways of capturing computational environments. The major ones covered in this chapter will be Package Management Systems, Binder, Virtual Machines, and Containers. Each has its pros and cons, and the most appropriate option for you will depend on the nature of your project.
 They can be broadly split into two categories: those that capture only the software and its versions used in an environment (Package Management Systems), and those that replicate an entire computational environment - including the operating system and customised settings (Virtual Machines and Containers).
 
 Another way these can be split is by how the reproduced research is presented to the reproducer. 
 Using **Binder** or a **Virtual Machine** creates a much more graphical, GUI-type result. In contrast, the outputs of **Containers** and **Package Management** Systems are more easily interacted with via the command line.
 Please read more about each of these concepts and their practice use, please visit [Capturing Computational Environments](https://the-turing-way.netlify.app/reproducible-research/renv/renv-options.html) in *The Turing Way*.
-
-![Ways of capturing computational environments](https://the-turing-way.netlify.app/_images/computational-environments.jpg)
 
 
 ### Continuous integration
