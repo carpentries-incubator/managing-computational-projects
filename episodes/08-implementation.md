@@ -131,6 +131,39 @@ A first step can be to **draw out** and create diagrams to plan code before star
 This does not require technical knowledge of a language and is, therefore, a great exercise for direct supervision. 
 You can find practical details on reproducible code in the [Guides to Better Science by British Ecological Society](https://www.britishecologicalsociety.org/publications/guides-to).
 
+### Code Testing
+
+> You should not skip writing tests because you are short on time, you should write tests because you are short on time. 
+
+![](https://the-turing-way.netlify.app/_images/error-management.jpg)
+*The Turing Way project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: 10.5281/zenodo.3332807.*
+
+It is very, very easy to make mistakes when coding. 
+A single wrong use of a character can cause a program’s output to be entirely wrong. 
+Missing one data point, writing plus instead of minus symbol or using feet instead of meters might be a genuine human mistake, but in research, the results can be catastrophic. 
+Careers can be damaged/ended, vast sums of research funds can be wasted, and valuable time may be lost exploring incorrect avenues. 
+This is why code testing is vital.
+
+Testing is a learned skill that needs to become a part of working on/improving a project. 
+After changing their code, researchers should always check that their changes or fixes have not broken anything. 
+
+There are several different kinds of testing and each has best practices specific to them.
+A few examples are:
+- **Smoke testing**: Very brief initial checks that ensure the basic requirements required to run the project hold. If these fail there is no point in proceeding to additional levels of testing until they are fixed.
+- **Unit testing**: A level of the software testing process where individual units of a software are tested. The purpose is to validate that each unit of the software performs as designed.
+- **Integration testing**: A level of software testing where individual units are combined and tested as a group. The purpose of this level of testing is to expose faults in the interaction between integrated units.
+- **System testing**: A level of the software testing process where a complete, integrated system is tested. The purpose of this test is to evaluate whether the system as a whole gives the correct outputs for given inputs.
+
+No matter the type of testing you use, general guidance is to start by writing any test and make a habit of running tests often.
+- Make improvements where you can, and do your best to include tests with new code you write even if it’s not feasible to write tests for all the code that’s already written.
+- Make the cases you test as realistic as possible. If for example, you have dummy data to run tests on you should make sure that data is as similar as possible to the actual data. If your actual data is messy with a lot of null values, so should your test dataset be.
+
+There are tools available to make writing and running tests easier, these are known as testing frameworks. Find one you like, learn about the features it offers, and make use of them. 
+
+Writing tests typically encourage researchers to write cleaner, more modular code as such code is far easier to write tests for, leading to an improvement in code quality.
+As well as advantaging individual researchers testing also benefits research as a whole. It makes research more reproducible by answering the question “how do we even know this code works”.
+To gain an in-depth understanding of different kinds of tests, please see [Code Testing](https://the-turing-way.netlify.app/reproducible-research/testing.html) chapter in *The Turing Way*.
+
 ### Literate Programming
 
 Literate programming is about comments and documentation and telling other humans what is happening in your pipeline. 
@@ -155,45 +188,34 @@ You can do much more:
 * "# Title" (first level header)
 * "## Heading" (second level header)
 * "### Subheading" (third level header)
-*"![IMAGE](image/link)" (image inserted voa link)
+* "![IMAGE](image-path/link)" (insert via a link)
 
 See more in the [MarkDown cheatsheet](https://www.markdownguide.org/cheat-sheet/).
 
 MarkDown files are however static, meaning that you can only read the files, but not execute code.
 [R Markdown](https://rmarkdown.rstudio.com/) and [Jupyter Notebook](https://jupyter.org/) provide an interactive environment to work and share your code with documentation and examples for your project.
-These options are useful for communicating about the analysis workflow and results at any stage with other collaborators or the wider research community when developing open source code.
-
 For practice details about R Markdown, please see [The Definitive Guide](https://bookdown.org/yihui/rmarkdown) and for Jupyter Notebook, please see [Jupyter/IPython Notebook Quick Start Guide](https://jupyter-notebook-beginner-guide.readthedocs.io/en/latest/what_is_jupyter.html]).
 
+These options are useful for communicating about the analysis workflow and results at any stage with other collaborators or the wider research community when developing open source code.
+Please note that sharing code in any format would require your collaborators to run and test your code locally.
+There are easier optionn to allow to run code in the browser using [Binder](http://mybinder.org/), which we will discuss in the last lesson.
 
-### Code Testing
+### Reproducible Research Environment
 
-> You should not skip writing tests because you are short on time, you should write tests because you are short on time. 
+Researchers’ working environments evolve as they update software, install new software, and move to different computers. 
+If the project environment is not captured and the researchers need to return to their project after months or years (as is common in research), they will be unable to do so confidently. 
+a computational environment is a system where a program is run. 
+This includes features of hardware (such as the numbers of cores in any CPUs) and features of the software (such as the operating system, programming languages, supporting packages, other pieces of installed software, along with their versions and configurations).
 
-It is very, very easy to make mistakes when coding. 
-A single wrong use of a character can cause a program’s output to be entirely wrong. 
-Missing one data point, writing plus instead of minus symbol or using feet instead of meters might be a genuine human mistake, but in research, the results can be catastrophic. 
-Careers can be damaged/ended, vast sums of research funds can be wasted, and valuable time may be lost exploring incorrect avenues. 
-This is why code testing is vital.
+There are several ways of capturing computational environments. The major ones covered in this chapter will be Package Management Systems, Binder, Virtual Machines, and Containers. Each has its pros and cons, and the most appropriate option for you will depend on the nature of your project.
+They can be broadly split into two categories: those that capture only the software and its versions used in an environment (Package Management Systems), and those that replicate an entire computational environment - including the operating system and customised settings (Virtual Machines and Containers).
 
-Testing is a learned skill that needs to become a part of working on/improving a project. 
-After changing their code, researchers should always check that their changes or fixes have not broken anything. 
-There are several different kinds of testing and each has best practices specific to them.
-- Smoke testing: Very brief initial checks that ensure the basic requirements required to run the project hold. If these fail there is no point in proceeding to additional levels of testing until they are fixed.
-- Unit testing: A level of the software testing process where individual units of a software are tested. The purpose is to validate that each unit of the software performs as designed.
-- Integration testing: A level of software testing where individual units are combined and tested as a group. The purpose of this level of testing is to expose faults in the interaction between integrated units.
-- System testing: A level of the software testing process where a complete, integrated system is tested. The purpose of this test is to evaluate whether the system as a whole gives the correct outputs for given inputs.
-- Acceptance testing: A level of the software testing process where a system is tested for acceptability. The purpose of this test is to evaluate the system’s compliance with the project requirements and assess whether it is acceptable for the purpose.
+Another way these can be split is by how the reproduced research is presented to the reproducer. 
+Using **Binder** or a **Virtual Machine** creates a much more graphical, GUI-type result. In contrast, the outputs of **Containers** and **Package Management** Systems are more easily interacted with via the command line.
+Please read more about each of these concepts and their practice use, please visit [Capturing Computational Environments](https://the-turing-way.netlify.app/reproducible-research/renv/renv-options.html) in *The Turing Way*.
 
-No matter the type of testing you use, general guidance is to start by writing any test and make a habit of running tests often.
-- Make improvements where you can, and do your best to include tests with new code you write even if it’s not feasible to write tests for all the code that’s already written.
-- Make the cases you test as realistic as possible. If for example, you have dummy data to run tests on you should make sure that data is as similar as possible to the actual data. If your actual data is messy with a lot of null values, so should your test dataset be.
+![Ways of capturing computational environments](https://the-turing-way.netlify.app/_images/computational-environments.jpg)
 
-There are tools available to make writing and running tests easier, these are known as testing frameworks. Find one you like, learn about the features it offers, and make use of them. 
-
-Writing tests typically encourage researchers to write cleaner, more modular code as such code is far easier to write tests for, leading to an improvement in code quality.
-As well as advantaging individual researchers testing also benefits research as a whole. It makes research more reproducible by answering the question “how do we even know this code works”.
-To gain an in-depth understanding of different kinds of tests, please see [Code Testing](https://the-turing-way.netlify.app/reproducible-research/testing.html) chapter in *The Turing Way*.
 
 ### Continuous integration
 
@@ -204,25 +226,9 @@ By making users aware of bugs as early as possible researchers (if the project i
 There are many CI service providers, such as GitHub Actions that come with their own advantages and disadvantages.
 
 ![Continuous Integration with GitHub Actions](https://the-turing-way.netlify.app/_images/github-actions.jpg)
-*The Turing Way project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: 10.5281/zenodo.3332807.¶*
+*The Turing Way project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: 10.5281/zenodo.3332807.*
 
 To learn more about different CI tools and how to use them, please read the [Continuous Integration](https://the-turing-way.netlify.app/reproducible-research/ci/ci-options.html) chapter in *The Turing Way*.
-
-### Reproducible Research Environment
-
-Researchers’ working environments evolve as they update software, install new software, and move to different computers. 
-If the project environment is not captured and the researchers need to return to their project after months or years (as is common in research), they will be unable to do so confidently. 
-a computational environment is a system where a program is run. 
-This includes features of hardware (such as the numbers of cores in any CPUs) and features of the software (such as the operating system, programming languages, supporting packages, other pieces of installed software, along with their versions and configurations).
-
-![](https://the-turing-way.netlify.app/_images/computational-environments.jpg)
-
-There are several ways of capturing computational environments. The major ones covered in this chapter will be Package Management Systems, Binder, Virtual Machines, and Containers. Each has its pros and cons, and the most appropriate option for you will depend on the nature of your project.
-They can be broadly split into two categories: those that capture only the software and its versions used in an environment (Package Management Systems), and those that replicate an entire computational environment - including the operating system and customised settings (Virtual Machines and Containers).
-
-Another way these can be split is by how the reproduced research is presented to the reproducer. 
-Using **Binder** or a **Virtual Machine** creates a much more graphical, GUI-type result. In contrast, the outputs of **Containers** and **Package Management** Systems are more easily interacted with via the command line.
-Please read more about each of these concepts and their practice use, please visit [Capturing Computational Environments](https://the-turing-way.netlify.app/reproducible-research/renv/renv-options.html) in *The Turing Way*.
 
 ## References
 
