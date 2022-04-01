@@ -29,6 +29,7 @@ keypoints:
 ## Conclusion
 - What gaps have we filled in this section
 - Project management overview 
+- Reproducible environment
 
 ## Resources for taking this to next level
 
