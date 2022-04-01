@@ -41,7 +41,7 @@ keypoints:
 
 ## Resources for taking this to next level
 
-- ​​Turing Data Stories, The Turing Way, Shiny app
+- Turing Data Stories, The Turing Way, Shiny app
 
 ## Next Steps
 
