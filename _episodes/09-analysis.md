@@ -207,6 +207,29 @@ It is usually cleaner to keep data visualisation code separate from analysis, ju
 > *Sisneros et al (2016) Chasing Rainbows: A Color-Theoretic Framework for Improving and Preserving Bad Colormaps. https://doi.org/10.1007/978-3-319-50835-1_36*
 
 - Keeping readability in mind with text size/font and similar considerations
+=======
+- "First key point. Brief Answer to questions. (FIXME)"
+---
+
+## Data exploration and insights
+
+- Data wrangling
+- Data Visualisation as a tool
+  - Reference: https://helenajambor.wordpress.com/2022/01/04/science-visualization-trends-of-2021/
+
+## Statistical analysis
+
+- Choices for statistical analysis
+
+## Communicating Results
+
+- What elements are involved
+
+## Producing figures
+
+- Best practices
+- Versions
+- Publication with persistent identifier
 
 ## Conclusion
 - What gaps have we filled in this section
@@ -215,11 +238,8 @@ It is usually cleaner to keep data visualisation code separate from analysis, ju
 ## Resources for taking this to next level
 
 - https://the-turing-way.netlify.app/collaboration/new-community.html 
-
-
 - Data Visualisation as a tool
   - Reference: https://helenajambor.wordpress.com/2022/01/04/science-visualization-trends-of-2021/
-
 
 {% include links.md %}
 
