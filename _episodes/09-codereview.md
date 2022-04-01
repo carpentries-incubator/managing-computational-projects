@@ -195,15 +195,6 @@ Having regularly updated documentation also reduces onboarding time for new memb
 
 Group work shares the burden and allows knowledge exchange and support within the team. 
 
-## Testing
-
-- Testing and quality checks
-- Continuous integration
-
-## Conclusion
-- What gaps have we filled in this section
-- Project management overview 
-
 ## Resources for taking this to next level
 
 - https://the-turing-way.netlify.app/collaboration/new-community.html 

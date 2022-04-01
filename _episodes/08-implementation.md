@@ -14,7 +14,20 @@ keypoints:
 
 ## Project Management Tools
 
-Researchers who already use Github/GitLab to store and version control their projects can use several online features for project management.
+In the previous chapters, we have already discussed practices that enable the effective management of projects.
+We discussed the importance and best practices for setting up shared resources; defining the project's vision, mission and roadmap; managing resources; versioning and tracking progress. 
+
+It is important to communicate tasks and responsibilities to different stakeholders of the project.
+However, what is even more important is to allow all members to understand where in the entire project their tasks fit and how they can track the progress of the entire project.
+Project management tools such as Kanban provide a visual overview of the tasks, their status (to do, in progress, done) and the people responsible for them.
+These tasks are visualised on a digital board where different columns can present different statuses, different task groups or priorities. 
+
+Some tools that are popular among research community is [Asana](https://asana.com/), [Trello](https://trello.com/en-GB), [Todoist](https://blog.doist.com/todoist-project-management/) and [Notion](https://www.notion.so/).
+
+For computational projects, researchers already use online repositories on Github/GitLab to store and version control their projects.
+They can use several advanced features on these platforms for project management.
+
+### GitHub for Project Management
 
 **Issue** is a GitHub integrated feature that allows everyone to track the project's progress on GitHub.
 Similar to a 'To-Do List', issues can be anything from a project milestone (releasing an R package, submitting to an online data repository, a working simulation) but also specific issues with code (fixing a bug, adding a function, updating tests). 
@@ -33,16 +46,14 @@ You can read more about [Project Board in GitHub Documentation](https://docs.git
 
 <img src="https://i.postimg.cc/3wDm4Qw4/Screenshot-2022-02-10-at-19-47-35.png" alt="drawing" width="1000"/>
 
-> *An example Kanban for researcher project management. Boards can be given any name.*
+*An example is Kanban for researcher project management. Boards can be given any name.*
 
-## Collaborative Research Practices
+## Collaborating on Computational Projects
 
-- Functional programming (approach for reproducibility)
-- Reproducible environment
-- Literate programming: Jupyter Notebook
-- Binderise your repo
+Much research is now collaborative and a shared code repository can be effectively used to enable collaboration at all stages of code development at the analysis and implementation stage.
+Below we discuss selected research practices that allow collaboration while achieving computational reproducibility.
 
-# Good Code 
+### Code Quality
 
 Writing code often comes down to decisions about when to save time. 
 Code fast, and you have a solution within hours or days. 
@@ -50,7 +61,7 @@ Coding well requires an early investment that might be ignored in favour of "I'l
 
 <img src="../fig/IMP-codefastorwell.png" alt="drawing" width="600"/>
 
-> *Adapted from the more pessimistic comic by [XKCD](https://xkcd.com/844/)*
+*Adapted from the more pessimistic comic by [XKCD](https://xkcd.com/844/)*
 
 Writing good code early means losing days to deliberate good practice. 
 But trying to undo mistakes and work with "good enough" code can take weeks or months, and still end up having to start again anyway. 
@@ -58,19 +69,33 @@ The blow to morale can also not be understated.
 "Good enough" fast code tends to have mistakes and is hard for others to review, which is not good for scientific pipelines. 
 Even if you end up with workable code, it is not suitable for release or publication at the end of the project. 
 
-As a supervisor you can influence by sharing or demonstrating:
+There are several ways to improve code quality that require relatively little effort. 
+By following a coding style, code will be easier for the code developer and you (and others) to understand, even when you may not develop code yourself.
 
-- the horrible feeling of finding bugs, but the interesting process of debugging (reading error messages, tracking the bug, fixing it!)
-- examples of doing maths and statistics fast, and explaining their importance in data
+A coding style is a set of conventions on how to format code. 
+For instance, what do you call your variables? 
+Do you use spaces or tabs for indentation? 
+Where do you put comments describing what the code chunk does? 
+Consistently using the same style throughout, code becomes easier to read, understand and collaborate on even for non-coding contributors.
 
-These are where these time investments happen and help your students avoid the soul-destroying process of working with "spaghetti" code and having to start from scratch. 
+Some opportunities where all members of a team have the chance to share/show examples from their work such as:
+- finding tricky bugs in their code and the process of debugging (reading error messages, tracking the bug, fixing it!)
+- doing maths and statistics fast
+- visualising data that provide useful insights
+- tools and methods that improved their efficiency
+- review and test code (we discuss this in the next lesson)
+
+These are where these time investments happen and help your students avoid the soul-destroying process of working with inefficient code and having to start from scratch. 
 Good code is not about perfection, it is about general principles your students and postdocs can get training in.
+For more details, please read the [Code Quality](https://the-turing-way.netlify.app/reproducible-research/code-quality.html) chapter in *The Turing Way*.
 
-## Modular Programming (Functions)
+#### Modular Programming (Functions)
 
+<!--
 - do a diagram of directories
 - no copying and pasting
 - mindset stable and not changed immutably
+-->
 
 > ***Case Study***
 >
@@ -90,7 +115,6 @@ Rather than copying and pasting, writing a function and calling that function le
 
 We can think of this on a broad scale, say one student's computational work has the following steps, where blue shows data cleaning, and yellow the analysis and statistics. 
 
-
 <img src="../fig/IMP-pipeline1.png" alt="drawing" width="600"/>
 
 Another student can take reuse the data cleaning and initial visualisation steps because her data was from the same source and is in the same format. She can later add her own model:
@@ -105,46 +129,111 @@ Just the same as the diagram above, making sure functions are robust and reuseab
 
 A first step can be to **draw out** and create diagrams to plan code before starting and identifying the modular steps involved. 
 This does not require technical knowledge of a language and is, therefore, a great exercise for direct supervision. 
+You can find practical details on reproducible code in the [Guides to Better Science by British Ecological Society](https://www.britishecologicalsociety.org/publications/guides-to).
 
-To find out more...
-
-https://www.britishecologicalsociety.org/wp-content/uploads/2017/12/guide-to-reproducible-code.pdf
-
-## Literate Programming
-
+### Literate Programming
 
 Literate programming is about comments and documentation and telling other humans what is happening in your pipeline. 
-Depending on the scale of your computational projects this will include:
+Depending on the scale of your computational projects, you may use one or multiple of these options:
 
-- Inline comments 
-- A Readme file
-- An RMarkdown or Jupyter Notebook with examples
-- An online documentation wiki 
+- Inline comments when writing code (directly written in the script file)
+- A README file describing what your code does
+- An online documentation as a user and developer guide with step-by-step explanation
+- RMarkdown or Jupyter Notebook with examples
 
-Markdown is a way of writing plain text that doesn't need specific software to read it (so not Microsoft Word), which can be converted to many formats including HTML, PDF or even Word documents. 
-Many online tools like popular messaging services use markdown, and marking up your text is not difficult, for example:
+Most of these files can be written in Markdown.
+Markdown is a way of writing plain text in any simple text editor that doesn't need specific (proprietary) software to read it (no need for Microsoft Word), which can be converted to many formats including HTML, PDF or even Word documents. 
+Many online tools including GitHub support Markdown files (.md files). 
 
-`**bold**`
-`_italics_`
-`# Title`
-`## Heading`
-`### Subheading`
+Marking up your text and code is quite simple:
+`**bold**` --> **bold**
+`_italics_` --> _italics_
+"`code snippet`" --> `code snippet`
+'[LINK](https://carpentries-incubator.github.io/managing-computational-projects/)` --> [LINK](https://carpentries-incubator.github.io/managing-computational-projects/)
 
-## Testing
+You can do much more:
+* "# Title" (first level header)
+* "## Heading" (second level header)
+* "### Subheading" (third level header)
+*"![IMAGE](image/link)" (image inserted voa link)
 
-<Move some content on testing here>
+See more in the [MarkDown cheatsheet](https://www.markdownguide.org/cheat-sheet/).
 
-- Testing and quality checks
-- Continuous integration
+MarkDown files are however static, meaning that you can only read the files, but not execute code.
+[R Markdown](https://rmarkdown.rstudio.com/) and [Jupyter Notebook](https://jupyter.org/) provide an interactive environment to work and share your code with documentation and examples for your project.
+These options are useful for communicating about the analysis workflow and results at any stage with other collaborators or the wider research community when developing open source code.
 
-## Conclusion
-  
-- What gaps have we filled in this section
-- Project management overview 
+For practice details about R Markdown, please see [The Definitive Guide](https://bookdown.org/yihui/rmarkdown) and for Jupyter Notebook, please see [Jupyter/IPython Notebook Quick Start Guide](https://jupyter-notebook-beginner-guide.readthedocs.io/en/latest/what_is_jupyter.html]).
 
-## Resources for taking this to next level
 
-- https://the-turing-way.netlify.app/collaboration/new-community.html 
+### Code Testing
+
+> You should not skip writing tests because you are short on time, you should write tests because you are short on time. 
+
+It is very, very easy to make mistakes when coding. 
+A single wrong use of a character can cause a program’s output to be entirely wrong. 
+Missing one data point, writing plus instead of minus symbol or using feet instead of meters might be a genuine human mistake, but in research, the results can be catastrophic. 
+Careers can be damaged/ended, vast sums of research funds can be wasted, and valuable time may be lost exploring incorrect avenues. 
+This is why code testing is vital.
+
+Testing is a learned skill that needs to become a part of working on/improving a project. 
+After changing their code, researchers should always check that their changes or fixes have not broken anything. 
+There are several different kinds of testing and each has best practices specific to them.
+- Smoke testing: Very brief initial checks that ensure the basic requirements required to run the project hold. If these fail there is no point in proceeding to additional levels of testing until they are fixed.
+- Unit testing: A level of the software testing process where individual units of a software are tested. The purpose is to validate that each unit of the software performs as designed.
+- Integration testing: A level of software testing where individual units are combined and tested as a group. The purpose of this level of testing is to expose faults in the interaction between integrated units.
+- System testing: A level of the software testing process where a complete, integrated system is tested. The purpose of this test is to evaluate whether the system as a whole gives the correct outputs for given inputs.
+- Acceptance testing: A level of the software testing process where a system is tested for acceptability. The purpose of this test is to evaluate the system’s compliance with the project requirements and assess whether it is acceptable for the purpose.
+
+No matter the type of testing you use, general guidance is to start by writing any test and make a habit of running tests often.
+- Make improvements where you can, and do your best to include tests with new code you write even if it’s not feasible to write tests for all the code that’s already written.
+- Make the cases you test as realistic as possible. If for example, you have dummy data to run tests on you should make sure that data is as similar as possible to the actual data. If your actual data is messy with a lot of null values, so should your test dataset be.
+
+There are tools available to make writing and running tests easier, these are known as testing frameworks. Find one you like, learn about the features it offers, and make use of them. 
+
+Writing tests typically encourage researchers to write cleaner, more modular code as such code is far easier to write tests for, leading to an improvement in code quality.
+As well as advantaging individual researchers testing also benefits research as a whole. It makes research more reproducible by answering the question “how do we even know this code works”.
+To gain an in-depth understanding of different kinds of tests, please see [Code Testing](https://the-turing-way.netlify.app/reproducible-research/testing.html) chapter in *The Turing Way*.
+
+### Continuous integration
+
+Continuous Integration (CI) is the practice of integrating changes to a project made by individuals into a main, shared version frequently (usually multiple times per day). 
+CI is also typically used to identify any conflicts and bugs that are introduced by changes, so they are found and fixed early, minimising the effort required to do so. 
+Running tests regularly also saves humans from needing to do it manually. 
+By making users aware of bugs as early as possible researchers (if the project is a research project) do not waste a lot of time doing work that may need to be thrown away, which may be the case if tests are run infrequently and results are produced using faulty code.
+There are many CI service providers, such as GitHub Actions that come with their own advantages and disadvantages.
+
+![Continuous Integration with GitHub Actions](https://the-turing-way.netlify.app/_images/github-actions.jpg)
+*The Turing Way project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: 10.5281/zenodo.3332807.¶*
+
+To learn more about different CI tools and how to use them, please read the [Continuous Integration](https://the-turing-way.netlify.app/reproducible-research/ci/ci-options.html) chapter in *The Turing Way*.
+
+### Reproducible Research Environment
+
+Researchers’ working environments evolve as they update software, install new software, and move to different computers. 
+If the project environment is not captured and the researchers need to return to their project after months or years (as is common in research), they will be unable to do so confidently. 
+a computational environment is a system where a program is run. 
+This includes features of hardware (such as the numbers of cores in any CPUs) and features of the software (such as the operating system, programming languages, supporting packages, other pieces of installed software, along with their versions and configurations).
+
+![](https://the-turing-way.netlify.app/_images/computational-environments.jpg)
+
+There are several ways of capturing computational environments. The major ones covered in this chapter will be Package Management Systems, Binder, Virtual Machines, and Containers. Each has its pros and cons, and the most appropriate option for you will depend on the nature of your project.
+They can be broadly split into two categories: those that capture only the software and its versions used in an environment (Package Management Systems), and those that replicate an entire computational environment - including the operating system and customised settings (Virtual Machines and Containers).
+
+Another way these can be split is by how the reproduced research is presented to the reproducer. 
+Using **Binder** or a **Virtual Machine** creates a much more graphical, GUI-type result. In contrast, the outputs of **Containers** and **Package Management** Systems are more easily interacted with via the command line.
+Please read more about each of these concepts and their practice use, please visit [Capturing Computational Environments](https://the-turing-way.netlify.app/reproducible-research/renv/renv-options.html) in *The Turing Way*.
+
+## References
+
+- This episode is a reuse follwing *The Turing Way* chapters:
+  - [Continuous Integration](https://the-turing-way.netlify.app/reproducible-research/ci/ci-options.html)
+  - [Code Testing](https://the-turing-way.netlify.app/reproducible-research/testing.html)
+  - [Code Quality](https://the-turing-way.netlify.app/reproducible-research/code-quality.html) chapter in *The Turing Way*.
+  - [Capturing Computational Environments](https://the-turing-way.netlify.app/reproducible-research/renv/renv-options.html)
+- [The Definitive Guide](https://bookdown.org/yihui/rmarkdown) 
+- [Jupyter/IPython Notebook Quick 
+- [Guides to Better Science by British Ecological Society](https://www.britishecologicalsociety.org/publications/guides-to).
 
 {% include links.md %}
 
