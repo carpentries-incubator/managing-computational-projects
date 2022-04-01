@@ -238,7 +238,7 @@ To learn more about different CI tools and how to use them, please read the [Con
   - [Code Quality](https://the-turing-way.netlify.app/reproducible-research/code-quality.html) chapter in *The Turing Way*.
   - [Capturing Computational Environments](https://the-turing-way.netlify.app/reproducible-research/renv/renv-options.html)
 - [The Definitive Guide](https://bookdown.org/yihui/rmarkdown) 
-- [Jupyter/IPython Notebook Quick 
+- [Jupyter/IPython Notebook Quick Start Guide](https://jupyter-notebook-beginner-guide.readthedocs.io/en/latest/what_is_jupyter.html)
 - [Guides to Better Science by British Ecological Society](https://www.britishecologicalsociety.org/publications/guides-to).
 
 {% include links.md %}
