@@ -3,24 +3,32 @@ title: "Implementing tools and methods"
 teaching: 0
 exercises: 0
 questions:
-- "What tools are useful for managing and overseeing projects/data?"
-- "What are best practices for reviewing code?"
-- "How can teams work together on the same code?"
+- "How to manage and oversee tasks and track project progress?"
+- "Why code quality, testing, and communication practices are important to enable collaboration on code?"
 objectives:
-- "First learning objective. (FIXME)"
+- "Demonstrate GitHub Project Board to combine code development with project management."
+- "Discuss the importance of code quality, modular programming, and code testing to enable reusable error-free code."
+- "Encourage researchers to combine code with documentation to communicate their work."
+- "Learn about methods to capture reproducible research environments."
 keypoints:
-- "First key point. Brief Answers to questions. (FIXME)"
+- "Make group leaders familiar with practices that are crucial for their teams to develop reproducible code."
+- "Encourage researchers to think about code reproducibility through quality check, testing, sharing their code as well as a research environment."
+- "Introduce Continuous Integration for automating the testing process."
 ---
 
 ## Project Management Tools
 
 In the previous chapters, we have already discussed practices that enable the effective management of projects.
-We discussed the importance and best practices for setting up shared resources; defining the project's vision, mission and roadmap; managing resources; versioning and tracking progress. 
+We discussed the importance and best practices for: 
+- setting up shared resources; 
+- defining the vision, mission and roadmap of your project; 
+- managing data and other research-related resources; and
+- versioning and tracking progress. 
 
 It is important to communicate tasks and responsibilities to different stakeholders of the project.
 However, what is even more important is to allow all members to understand where in the entire project their tasks fit and how they can track the progress of the entire project.
 Project management tools such as Kanban provide a visual overview of the tasks, their status (to do, in progress, done) and the people responsible for them.
-These tasks are visualised on a digital board where different columns can present different statuses, different task groups or priorities. 
+These tasks can be visualised on a digital board where different columns can present different statuses, different task groups or priorities. 
 
 Some tools that are popular among research community is [Asana](https://asana.com/), [Trello](https://trello.com/en-GB), [Todoist](https://blog.doist.com/todoist-project-management/) and [Notion](https://www.notion.so/).
 
@@ -29,14 +37,14 @@ They can use several advanced features on these platforms for project management
 
 ### GitHub for Project Management
 
-**Issue** is a GitHub integrated feature that allows everyone to track the project's progress on GitHub.
+**Issue** is a GitHub integrated feature that allows everyone to track the progress on GitHub.
 Similar to a 'To-Do List', issues can be anything from a project milestone (releasing an R package, submitting to an online data repository, a working simulation) but also specific issues with code (fixing a bug, adding a function, updating tests). 
 
 Based on the tasks described in an issue, your collaborators can address them and save or 'commit' changes in their local copy of the repository.
 Local changes then can be 'pushed' to the repository on GitHub for 'review' via the **Pull Request** feature.
 Once a pull request is opened, different collaborators can discuss and review the potential changes and add follow-up commits before those changes are 'merged' into the main repository.
 
-**Project boards** are kanban like features on GitHub that help you visualise (list of tasks), categorise (in columns) and prioritise (drag/move around) different tasks. 
+**Project boards** are kanban-like features on GitHub that help you visualise (list of tasks), categorise (in columns) and prioritise (drag/move around) different tasks. 
 A collection of project boards can be created for a different set of tasks, comprehensive roadmaps, or even release checklists. 
 By linking **issues and Pull Requests**, project boards can create workflows.
 The Project board shows metadata for issues and pull requests, like labels, assignees, the status, and who opened it.
@@ -198,7 +206,7 @@ For practice details about R Markdown, please see [The Definitive Guide](https:/
 
 These options are useful for communicating about the analysis workflow and results at any stage with other collaborators or the wider research community when developing open source code.
 Please note that sharing code in any format would require your collaborators to run and test your code locally.
-There are easier optionn to allow to run code in the browser using [Binder](http://mybinder.org/), which we will discuss in the last lesson.
+There are easier options to allow to run code in the browser using [Binder](http://mybinder.org/), which we will discuss in the last lesson.
 
 ### Reproducible Research Environment
 
@@ -232,7 +240,7 @@ To learn more about different CI tools and how to use them, please read the [Con
 
 ## References
 
-- This episode is a reuse follwing *The Turing Way* chapters:
+- *The Turing Way* Community. (2021). The Turing Way: A handbook for reproducible, ethical and collaborative research (1.0.1). Zenodo. https://doi.org/10.5281/zenodo.5671094. This episode reuses contents from the following *The Turing Way* chapters:
   - [Continuous Integration](https://the-turing-way.netlify.app/reproducible-research/ci/ci-options.html)
   - [Code Testing](https://the-turing-way.netlify.app/reproducible-research/testing.html)
   - [Code Quality](https://the-turing-way.netlify.app/reproducible-research/code-quality.html) chapter in *The Turing Way*.
@@ -242,4 +250,3 @@ To learn more about different CI tools and how to use them, please read the [Con
 - [Guides to Better Science by British Ecological Society](https://www.britishecologicalsociety.org/publications/guides-to).
 
 {% include links.md %}
-
