@@ -128,6 +128,7 @@ Asynchronous feedback removes the time pressure but can be easily forgotten!
 > <img src="https://i.postimg.cc/9XDbVyWQ/Screenshot-2022-02-10-at-19-11-58.png" alt="drawing" width="400"/>
 >
 > **Author: Lydia France (Junior Data Scientist, The Alan Turing Institute, UK)**
+>
 {: .solution}
 
 ### Reviewing is not about creating more work, nor the PI rewriting everything
