@@ -71,6 +71,8 @@ You can read more about [Project Board in GitHub Documentation](https://docs.git
 >
 > <img src="https://i.postimg.cc/d37Yv66Y/Screenshot-2022-02-10-at-19-47-51.png" alt="drawing" width="600"/>
 >
+> **Author: Lydia France (Junior Data Scientist, The Alan Turing Institute, UK)**
+>
 {: .solution}
 
 ## Collaborating on Computational Projects
