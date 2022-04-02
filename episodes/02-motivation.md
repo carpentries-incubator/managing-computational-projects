@@ -25,9 +25,10 @@ Writing, using, and sharing code and data within biomedical and life sciences is
 From computational power comes greater calculations, modelling, visualisations and analyses, therefore expanding our insights and methodologies. 
 Regardless of the tools and languages we use, coding is integral to science. 
 
-<img src="https://media.nature.com/lw800/magazine-assets/d41586-021-00075-2/d41586-021-00075-2_18964266.jpg" alt="drawing" width="300"/> <img src="https://media.nature.com/lw800/magazine-assets/d41586-021-00075-2/d41586-021-00075-2_18880300.jpg" alt="drawing" width="288"/
+<img src="https://media.nature.com/lw800/magazine-assets/d41586-021-00075-2/d41586-021-00075-2_18964266.jpg" alt="drawing" width="300"/> 
+<img src="https://media.nature.com/lw800/magazine-assets/d41586-021-00075-2/d41586-021-00075-2_18880300.jpg" alt="drawing" width="288"/>
  
-*Image from: Perkel, J. M. (2021). Ten computer codes that transformed science. Nature, 589, 344–348. DOI: [10.1038/d41586-021-00075-2](https://doi.org/10.1038/d41586-021-00075-2)*
+*Images from: Perkel, J. M. (2021). Ten computer codes that transformed science. Nature, 589, 344–348. DOI: [10.1038/d41586-021-00075-2](https://doi.org/10.1038/d41586-021-00075-2)*
 
 ## Reproducibility Crisis
 
