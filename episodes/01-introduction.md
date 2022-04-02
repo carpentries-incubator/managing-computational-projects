@@ -53,9 +53,9 @@ Experimental biologists and biomedical research communities, with a focus on two
 1. Group leaders without prior experience with Data Science and ML/AI - interested in understanding the potential additionality and application in their areas of expertise.
 2. Postdoc and lab scientists - next-generation senior leaders, who are interested in additionality, but also the group more likely to benefit from tools to equip them with the requirements to enable the integration of computational science into biosciences.
 
-## Learning Outcomes of this Masterclass
+## Learning Outcomes
 
-At the end of this masterclass, attendees will gain a better understanding of:
+At the end of this lesson (training material), attendees will gain a better understanding of:
 
 > - designing computational projects using collaborative, reproducible and open science approaches
 > - examining challenges and potential pitfalls in applying best practices in Data Science
