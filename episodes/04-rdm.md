@@ -23,15 +23,16 @@ keypoints:
 
 ## Main Challenges and Concerns
 
-> ## Case Study
+> ## Need to consider standard file formats for future use of data!
 >
-> *The Crick Institute Electron Microscope has produced around 5 petabytes (5,000,000 GB) of data since the institute opening. 
+> *Electron Microscope Facility in our institute has produced around 5 petabytes (5,000,000 GB) of data since the institute opening. 
 > These files are stored safely and privately, and have not been standardised. 
 > As a result they are in danger of being lost forever, stored but never used. 
 > With metadata, this could form a transformative training data set for machine learning tools and possibly lead to new discoveries and insights. 
 > Creating Alpha Fold and other machine learning/AI tools you need large data sets. 
 > Meta data allows data to be future proofed for further research and even innovative research not currently possible.*
-> {: .callout}
+> 
+> {: .testimonial}
 
 ## Overview of Research Data Management
 
