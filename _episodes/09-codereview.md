@@ -1,17 +1,17 @@
 ---
 title: "Code Review"
-teaching: 0
+teaching: 10
 exercises: 0
 questions:
-- "What are objectives and best practices for reviewing code?"
+- "What are the maon objectives and best practices for reviewing code?"
 - "What are the difference between synchronous and asynchronous code reviews?"
-- "How can group leaders can facilitate a safe environment for code review?"
+- "How can group leaders facilitate a collaborative environment for code review?"
 objectives:
 - "Explain different processes and best practices for code review."
 - "Discuss tips, tricks and benefits of code review."
 - "Share some ways to involve all members of the group in code review."
 keypoints:
-- "There are many benefits of code review and this should be implemented and practised in research  team culture as early and frequently as possible."
+- "There are many benefits of code review and this should be implemented and practised in research  team culture as early and as frequently as possible."
 - "Synchronous code review creates opportunities for researchers to get feedback and learn from others in real-time."
 - "Asynchronous code review is a good practice when working with busy researchers or collaborators in different time zones"
 ---

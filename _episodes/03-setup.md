@@ -1,6 +1,6 @@
 ---
 title: "Setting up a computational project"
-teaching: 0
+teaching: 20
 exercises: 0
 questions:
 - "How to set up a computational project?"
@@ -129,11 +129,14 @@ The different dimensions of reproducible research described in the matrix above 
 
 Thinking about which software, tools and platforms to use will greatly affect how you analyse and process data, as well as how you share your results for computational reproducibility.
 The idea is to facilitate others in recreating the setup process necessary to reproduce your research. 
-Some tools that can be used to enable these are the following:
-* **Dependency managers** such as [Conda](https://docs.conda.io/en/latest/) keep dependencies updated and make sure the same version of dependencies used in the development environments are also used when reproducing a result.
-* **Containers** such as [Docker](https://www.docker.com/) is a way to create computational environments with configurations required for developing, testing and using research software isolated/independent from other applications.
-* **Literate Programming** using [Jupyter Notebook](https://jupyter.org/) is an extremely powerful way to use a web-based online interactive computing environment to execute code and script while adding notes and additional information about the application.
-To learn more about how to create a reproducible environment, the chapter on [Reproducible Environments](https://the-turing-way.netlify.app/reproducible-research/renv.html) in *The Turing way* is a good place to start.
+
+> ## Some tools that can be used to enable these are the following:
+> * **Dependency managers** such as [Conda](https://docs.conda.io/en/latest/) keep dependencies updated and make sure the same version of dependencies used in the development environments are also used when reproducing a result.
+> * **Containers** such as [Docker](https://www.docker.com/) is a way to create computational environments with configurations required for developing, testing and using research software isolated/independent from other applications.
+> * **Literate Programming** using [Jupyter Notebook](https://jupyter.org/) is an extremely powerful way to use a web-based online interactive computing environment to execute code and script while adding notes and additional information about the application.
+> To learn more about how to create a reproducible environment, the chapter on [Reproducible Environments](https://the-turing-way.netlify.app/reproducible-research/renv.html) in *The Turing way* is a good place to start.
+>
+{: .callout}
 
 ### Provide a Process for Documentation
 
@@ -145,23 +148,26 @@ Most researchers find documentation daunting, as they think that research-relate
 It's obvious that they see documentation as an  'added labour' and not important enough for carrying out a research design, implementation, analysis or publication work. 
 
 The reality is that documentation is an integral part of all research processes, from start to finish.
-A systematic process for documentation is more than a formal book-keeping practice because it: 
-* allows everyone in your research to understand the research direction and track progress;
-* adds validity to your research work when systematically built on published peer-reviewed work;
-* communicates different ways to contribute, enabling diverse participation in the co-development;
-* upholds practices to ensure equity, diversity and inclusion;
-* recognises contributions fairly;
-* gives and shares credits for all work;
-* tracks the history of what worked or what did not work;
-* creates transparency about early and intermediate research outcomes;
-* makes auditing easy for funders, advisors or data managers;
-* helps reframe research narratives by connecting different work;
-* explains all decisions and stakeholders impacted by that;
-* gives the starting point for writing manuscript and publication; and more!
+
+> ## A systematic process for documentation is more than a formal book-keeping practice because it: 
+> * allows everyone in your research to understand the research direction and track progress;
+> * adds validity to your research work when systematically built on published peer-reviewed work;
+> * communicates different ways to contribute, enabling diverse participation in the co-development;
+> * upholds practices to ensure equity, diversity and inclusion;
+> * recognises contributions fairly;
+> * gives and shares credits for all work;
+> * tracks the history of what worked or what did not work;
+> * creates transparency about early and intermediate research outcomes;
+> * makes auditing easy for funders, advisors or data managers;
+> * helps reframe research narratives by connecting different work;
+> * explains all decisions and stakeholders impacted by that;
+> * gives the starting point for writing manuscript and publication; and more!
+>
+{: .checklist}
 
 ### Facilitating Documentation in your Team
 
-> ## IMPORTANT NOTE
+> ## NOTE
 > 
 > Whatever your approach is, be firm about making documentation a shared responsibility so that this job does not solely fall on the shoulders of early career researchers, members from traditionally marginalised groups or support staff.
 {: .callout}

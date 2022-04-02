@@ -1,6 +1,6 @@
 ---
 title: "Publication and release"
-teaching: 0
+teaching: 10
 exercises: 0
 questions:
 - "Why should I make my research objects available?"

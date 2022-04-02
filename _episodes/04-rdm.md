@@ -1,6 +1,6 @@
 ---
 title: "Research Data Management"
-teaching: 30
+teaching: 20
 exercises: 0
 questions:
 - "What is considered research data?"
