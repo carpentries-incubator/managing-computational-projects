@@ -1,6 +1,6 @@
 ---
 title: "Data analysis and results"
-teaching: 0
+teaching: 20
 exercises: 0
 questions:
 - "What is the role of data wrangling?"

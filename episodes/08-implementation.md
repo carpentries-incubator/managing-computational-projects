@@ -1,13 +1,13 @@
 ---
 title: "Implementing tools and methods"
-teaching: 0
+teaching: 20
 exercises: 0
 questions:
-- "How to manage and oversee tasks and track project progress?"
-- "Why code quality, testing, and communication practices are important to enable collaboration on code?"
+- "How to manage and oversee tasks and track progress of your projects?"
+- "How collaborative practices help ensure code quality, testing and reuse?"
 objectives:
-- "Demonstrate GitHub Project Board to combine code development with project management."
-- "Discuss the importance of code quality, modular programming, and code testing to enable reusable error-free code."
+- "Demonstrate GitHub Project Board to enable project management."
+- "Discuss the importance of code quality, modular programming, and code testing for reusable error-free code."
 - "Encourage researchers to combine code with documentation to communicate their work."
 - "Learn about methods to capture reproducible research environments."
 keypoints:

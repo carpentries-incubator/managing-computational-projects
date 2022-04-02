@@ -1,6 +1,6 @@
 ---
 title: "Version Control and Open Science Practices"
-teaching: 0
+teaching: 10
 exercises: 0
 questions:
 - "How is version control system relevant for biomedical research?"

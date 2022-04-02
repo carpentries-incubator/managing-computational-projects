@@ -13,51 +13,96 @@ keypoints:
 - "This training aims to build a shared understanding and facilitate the integration of computational reproducibility in data science."
 ---
 
-## Data Science for Biomedical Scientists
+# Data Science for Biomedical Scientists Project
 
-Over the last decade, several training materials and computational resources have been developed for early career researchers to learn about and apply data science approaches in their work. However, to ensure that there is a shared understanding at the leadership and decision-making levels, there is a need to engage and educate senior researchers on these concepts. We believe that targeted measures and opportunities for researchers who work as supervisors and research advisors can help them build a better understanding of data science and good practices for reproducible research in their work.
+Recent ground-breaking examples from data science, Artificial Intelligence (AI) and Machine Learning (ML) enabled research projects in biomedical research and related fields have increased the desire among researchers to understand and make informed decisions around these practices in their work.
 
-Specifically in biomedical research and related fields, there is growing demand to accessibly communicate the importance and application of data science, Artificial Intelligence and Machine Learning (AI/ML), so that senior researchers can make informed decisions around their application.
+> ## Jargon Busting
+>
+> Below we provide a simple definition of some terms that we use in this project in the context of scientific research:
+> - **Best Practices**: *Set of procedures that have been shown by research and experience to produce optimal results and that are established or proposed as a standard suitable for widespread adoption.* [Definition by Merriam Webster](https://www.merriam-webster.com/dictionary/best%20practice)
+> - **Data Science**: An interdisciplinary scientific study to extract insights from structured or unstructured data.
+> - **Computational Project**: Applying computer programming and data science skills to scientific research.
+> - **Reproducibility**: When the same analysis approach is applied to the same data, it should give the same answer - this answer should be reproduced by others using the same analysis and data originally used.
+> - **Computational Reproducilibity**: Reproducing the same result by analysing data using the same source code (in a computer programming language) for statistical analyses.
+> - **Artificial Intelligence (AI)**: *A branch of computer science concerned with building smart machines capable of performing tasks that typically require human intelligence.* [Definition by Builtin](https://builtin.com/artificial-intelligence)
+> - **Machine Learning (ML)**: *A subset of artificial intelligence that gives systems the ability to learn and optimize processes without having to be consistently programmed. Simply put, machine learning uses data, statistics and trial and error to “learn” a specific task without ever having to be specifically coded for the task.* [Definition by Builtin](https://builtin.com/machine-learning)
+>
+{: .callout}
 
-The [**Data Science for Biomedical Scientists**](https://github.com/alan-turing-institute/data-training-for-bioscience) project helps address this gap in training by equipping experimental biomedical scientists with computational skills. We discuss essential practices for computational reproducibility required for carrying out meaningful analyses of research datasets through data exploration, processing, visualisation and communication. We present unfamiliar or complex topics from computational data science to biologists by providing examples and recommendations from their fields. The goal is to enable effective management and sharing of their computational projects. 
-Although the training materials are tailored to the biomedical sciences community, materials will be generally transferable and directly relevant for data science projects across different domains.
+Over the last decade, several tools, methods and training resources have been developed for early career researchers to learn about and apply data science skills in their work.
+However, to ensure that data science approaches are appropriately applied in domain research, such as in biosciences, there is a need to also engage and educate scientific group leaders and researchers in project leadership roles on best practices.
 
-## Masterclasses for Modular and Flexible Learning
+The [**Data Science for Biomedical Scientists**](https://github.com/alan-turing-institute/data-training-for-bioscience) project helps address this need in training by equipping experimental biomedical scientists with computational skills.
+In all the resources developed within this project, we consistently emphasise how computational and data science approaches can be applied while ensuring reproducibility, collaboration and transparent reporting.
+The goal is to maintain the highest standards of research practice and integrity. 
 
-We have adopted a modular format, covering a range of topics and integrating real-world examples that should engage mid-career and senior researchers. Most senior researchers can't attend long workshops due to lack of time or don't find technical training directly useful for managing their work. 
-Therefore, the goal of this project is to provide an overview (without diving into technical details) of data science and AI/ML practices that could be relevant to life science domains and  good practices for handling open reproducible computational data science.
+In this training material for **Managing and supervising computational Projects**, we discuss essential practices for computational reproducibility required for carrying out meaningful analyses of research datasets through data exploration, processing, visualisation and communication. 
+We present unfamiliar and complex topics from computation and data science to biologists by providing examples and recommendations from their fields. 
+The goal is to enable effective management and sharing of their computational projects. 
 
-We have designed multiple modular episodes covering topics across two overarching themes, that we will refer to as "masterclasses":
-
-1. Introduction to data science, Machine Learning, Deep Learning, AI (Under development)
-2. Managing and supervising computational Projects (Current Lesson)
-
-Each masterclass is supplemented with technical resources and learning opportunities that can be used by project supervisors or senior researchers in guiding the learning and application of skills by other researchers in their teams.
+> Targeted measures and opportunities can help build a better understanding of best practices from data science that can be effectively applied in research and supported by senior leaders.
+> Senior leaders can be academics or non-academics working in advisors, experts or supervisors roles in research projects who want to lead rigorous and impactful research through computational reproducibility, reusability and collaborative practices.
+>
+{: .callout}
 
 ## Target audience
 
 Experimental biologists and biomedical research communities, with a focus on two key professional/career groups:
 
-1.  Group leaders without prior experience with Data Science and ML/AI - interested in understanding the potential additionality and application in their areas of expertise.
-2.  Postdoc and lab scientists - next-generation senior leaders, who are interested in additionality, but also the group more likely to benefit from tools to equip them with the requirements to enable the integration of computational science into biosciences.
-
-## Pre-requisites and Assumptions
-
-In defining the scope of this project, we make the following assumptions about the learner groups, which can be considered pre-requisites for this training:
-
-- Our learners have a good understanding of designing or contributing to a scientific project throughout its lifecycle
-- They have identified a computational project with specific questions that will help them reflect on the skills, practices and technical concepts discussed in this training
-- This training doesn't cover processes of designing a research proposal, managing grant/funding or evaluating ethical considerations for research. However, we assume that learners have a computational project in mind for which funding and research ethics have been approved and comprehensive documentation capturing this information is available to share with the research team.
-- We also assume that the research team of any size is (either partially or fully) established.
+1. Group leaders without prior experience with Data Science and ML/AI - interested in understanding the potential additionality and application in their areas of expertise.
+2. Postdoc and lab scientists - next-generation senior leaders, who are interested in additionality, but also the group more likely to benefit from tools to equip them with the requirements to enable the integration of computational science into biosciences.
 
 ## Learning Outcomes of this Masterclass
 
 At the end of this masterclass, attendees will gain a better understanding of:
 
--  designing computational projects using collaborative, reproducible and open science approaches
--  examining challenges and potential pitfalls in applying best practices in Data Science
--  identifying tools and practices required for managing specific kinds of computational projects
--  applying a systematic framework introducing computational protocols in their groups as project leads and/or managers
+> - designing computational projects using collaborative, reproducible and open science approaches
+> - examining challenges and potential pitfalls in applying best practices in Data Science
+> - identifying tools and practices required for managing specific kinds of computational projects
+> - applying a systematic framework introducing computational protocols in their groups as project leads and/or managers
+>
+{: .callout}
+
+## Modular and Flexible Learning
+
+We have adopted a modular format, covering a range of topics and integrating real-world examples that should engage mid-career and senior researchers. Most senior researchers can't attend long workshops due to lack of time or don't find technical training directly useful for managing their work. 
+Therefore, the goal of this project is to provide an overview (without diving into technical details) of data science and AI/ML practices that could be relevant to life science domains and good practices for handling open reproducible computational data science.
+
+We have designed multiple modular episodes covering topics across two overarching themes, that we refer to as "masterclasses" in this project:
+
+1. [Introduction to Data Science and AI for senior researchers](https://carpentries-incubator.github.io/data-science-ai-senior-researchers/)
+2. Managing and supervising computational Projects (**THIS** training material)
+
+Each masterclass is supplemented with technical resources and learning opportunities that can be used by project supervisors or senior researchers in guiding the learning and application of skills by other researchers in their teams.
+
+### Do I need to know biology and AI/ML concepts for this training material?
+
+> **The short answer is no!** 
+>
+> Although the training materials are tailored to the biomedical sciences community, materials will be generally transferable and directly relevant for data science projects across different domains.
+> You are not expected to have already learned about AI/ML to understand what we will discuss in this training material.
+>
+{: .callout}
+
+In this training material, we will discuss best practices for managing reproducible computational projects.
+The training material "Introduction to Data Science and AI for senior researchers" is developed in parallel under the same project that introduces data science, AI and related concepts in detail.
+Although those are helpful concepts, it is not required to go through that training material to understand the practices we discuss in this training material.
+
+Both the materials discuss problems, solutions and examples from biomedical research and related fields to make our content relatable to our primary audience.
+However, the best practices are recommended and transferable across different disciplines.
+
+## Pre-requisites and Assumptions
+
+In defining the scope of this project, we make the following assumptions about the learner groups, which can be considered pre-requisites for this training:
+
+> - Our learners have a good understanding of designing or contributing to a scientific project throughout its lifecycle
+> - They have identified a computational project with specific questions that will help them reflect on the skills, practices and technical concepts discussed in this training
+> - This training doesn't cover the processes of designing a research proposal, managing grant/funding or evaluating ethical considerations for research. 
+However, we assume that learners have a computational project in mind for which funding and research ethics have been approved and comprehensive documentation capturing this information is available to share with the research team.
+> - We also assume that the research team of any size is (either partially or fully) established.
+>
+{: .callout}
 
 ## Mode of delivery
 
@@ -71,11 +116,13 @@ They can also be delivered by trainers and domain experts, who can mix and match
 
 After this masterclass we recommend our learners take these next steps:
 
--   Go through the "Introduction to Data Science and AI for senior researchers" masterclass (if not already completed)
--   Explore the set of resources provided at the end of each lesson for deeper dive into various technical topics required to learn or guide the application of Data and computational research best practices in real-world projects
--   Establish connections with other training and training materials offered by The Alan Turing Institute, The Crick Institute, The Carpentries, The Turing Way and other projects/organisations involved in the maintenance and development of this training material
--   Connect with other research communities and projects in open research, data science and AI that offers opportunities to develop/enhance technical skills
--   Collaborate with domain experts such as librarians, research software engineers, community managers, statisticians or people with specialised skills in your organisation who can provide specific support in your project.
+> - Go through the "Introduction to Data Science and AI for senior researchers" masterclass (if not already completed)
+> - Explore the set of resources provided at the end of each lesson for deeper dive into various technical topics required to learn or guide the application of Data and computational research best practices in real-world projects
+> - Establish connections with other training and training materials offered by The Alan Turing Institute, The Crick Institute, The Carpentries, The Turing Way and other projects/organisations involved in the maintenance and development of this training material
+> - Connect with other research communities and projects in open research, data science and AI that offers opportunities to develop/enhance technical skills
+> - Collaborate with domain experts such as librarians, research software engineers, community managers, statisticians or people with specialised skills in your organisation who can provide specific support in your project.
+>
+{: .callout}
 
 ## Funding and Collaboration
 
