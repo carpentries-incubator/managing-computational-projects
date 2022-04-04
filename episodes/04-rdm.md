@@ -32,7 +32,7 @@ keypoints:
 > Creating Alpha Fold and other machine learning/AI tools you need large data sets. 
 > Meta data allows data to be future proofed for further research and even innovative research not currently possible.*
 > 
-> {: .testimonial}
+{: .testimonial}
 
 ## Overview of Research Data Management
 
