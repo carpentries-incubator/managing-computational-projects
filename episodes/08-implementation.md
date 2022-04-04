@@ -3,8 +3,9 @@ title: "Implementing tools and methods"
 teaching: 20
 exercises: 0
 questions:
-- "How to manage and oversee tasks and track progress of your projects?"
+- "How to manage and oversee tasks and track progress of your projects on GitHub?"
 - "How collaborative practices help ensure code quality, testing and reuse?"
+- "What is literate programming and how does it help with early communication, testing and collaboration?"
 objectives:
 - "Demonstrate GitHub Project Board to enable project management."
 - "Discuss the importance of code quality, modular programming, and code testing for reusable error-free code."
