@@ -15,10 +15,10 @@ keypoints:
 
 # Data Science for Biomedical Scientists Project
 
-Biosciences and biomedical research regularly combine mathematics and computational methods to help interpret experimental data.
-More recently, the successful application of data science, Machine Learning (ML) and Artificial Intelligence (AI) in biomedicine and related fields has shown huge potential to transform the way we conduct research, address biological questions and share useful insights from large-scale data.
-Groundbreaking research utilising AI technologies in biomedicine has led to an enormous interest among researchers in the topic of data science.
-Therefore, it is crucial for researchers to understand best practices in data science and make informed decisions around their applications in biomedicine and related fields.
+Biosciences and biomedical researchers regularly combine mathematics and computational methods to interpret experimental data.
+With new technologies supporting the generation of large-scale data as well as successful applications of data science, Machine Learning (ML) and Artificial Intelligence (AI) in biomedicine and related fields have recently shown huge potential to transform the way we conduct research.
+Recent groundbreaking research utilising AI technologies in biomedicine has led to an enormous interest among researchers in data science, ML and AI approach to extract useful insights from big data, make new discoveries and address biological questions.
+It is more important than ever to engage researchers in understanding best practices in data science, identifying how they apply to their work and making informed decisions around their use in biomedicine and related fields.
 
 > ## Jargon Busting
 >
