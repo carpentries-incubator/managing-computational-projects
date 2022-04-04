@@ -386,3 +386,13 @@ Wilson G, Bryan J, Cranston K, Kitzes J, Nederbragt L, et al. (2017) Good enough
 ![](https://pbs.twimg.com/media/FGDrTInXwAQV08s?format=png&name=small)
 
 https://www.teaguehenry.com/strings-not-factors/2021/2/21/eight-principles-of-good-data-management
+
+Examples of real computational projects and their workflows
+http://www.practicereproducibleresearch.org/case-studies/cboettig.html
+
+![](http://www.practicereproducibleresearch.org/case-studies/chartgerink.png)
+![](http://www.practicereproducibleresearch.org/case-studies/dholland.png)
+![](http://www.practicereproducibleresearch.org/case-studies/arokem.png)
+
+Biology friendly guide to computational reproducible research
+https://www.britishecologicalsociety.org/wp-content/uploads/2017/12/guide-to-reproducible-code.pdf
