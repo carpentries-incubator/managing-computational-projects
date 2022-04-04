@@ -48,7 +48,7 @@ The goal is to maintain the highest standards of research practice and integrity
 > They may also imply the application of these technologies in domains where their collaborators previously have not needed data-intensive computational approaches. 
 > **Russ B. Altman and Michael Levitt** (2018). [Annual Review of Biomedical Data Science](https://www.annualreviews.org/doi/full/10.1146/annurev-bd-01-041718-100001)
 > 
-(: .testimonial)
+{: .testimonial}
 
 In this training material for **Managing and supervising computational Projects**, we discuss essential practices for computational reproducibility required for carrying out meaningful analyses of research datasets through data exploration, processing, visualisation and communication. 
 We present unfamiliar and complex topics from computation and data science to biologists by providing examples and recommendations from their fields. 
