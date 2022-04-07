@@ -5,7 +5,7 @@ permalink: index.html  # Is the only page that doesn't follow the pattern /:path
 ---
 
 <p>The <strong>Data Science for Biomedical Scientists</strong> project is funded by <a href="https://www.turing.ac.uk">The Alan Turing Institute</a> - <a href="https://www.turing.ac.uk/research/asg">AI for Science and Government</a> (ASG) Research Programme.
-The **Managing Open and Reproducible Computational Projects** training material covers best practices for managing and supervising computational projects in biology and related fields through data science methods, analysis, interpretation, and reporting processes.
+The Managing Open and Reproducible Computational Projects training material covers best practices for managing and supervising computational projects in biology and related fields through data science methods, analysis, interpretation, and reporting processes.
 Through applications of scientific rigour and ethical approaches, researchers will be able to combine lessons learned in this training to design reproducible, transparent and collaborative computational projects. 
 </p>
 
