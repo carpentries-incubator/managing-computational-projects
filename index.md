@@ -24,8 +24,8 @@ Through applications of scientific rigour and ethical approaches, researchers wi
 > * Our learners have a good understanding of designing or contributing to a scientific project throughout its lifecycle.
 > * They have a computational project in mind for which funding and research ethics approval have been received.
 > * We also assume that the research team of any size is (either partially or fully) established.
-
-This lesson is developed alongside the [Introduction to Data Science and AI for senior researchers](https://carpentries-incubator.github.io/data-science-ai-senior-researchers/) lesson.
+>
+> This lesson is developed alongside the [Introduction to Data Science and AI for senior researchers](https://carpentries-incubator.github.io/data-science-ai-senior-researchers/) lesson.
 > Our learners are encouraged to go through [Introduction to Data Science and AI for senior researchers](https://carpentries-incubator.github.io/data-science-ai-senior-researchers/) lesson to learn about data science and AI/ML practices that could be relevant to life science domains, where the best practices for Managing Open and Reproducible Computational Projects can be practically applied.
 {: .prereq}
 
