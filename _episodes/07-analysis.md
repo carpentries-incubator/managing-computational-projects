@@ -93,7 +93,8 @@ cb = plt.colorbar(label='count in bin')
 
 > (Need to discuss this further, what is patronising?)
 
-With readable, clean, processed data that you have explored using figures, the next stage of the data pipeline is analysis. 
+
+With readable, clean, processed data that you have explored using figures, the next stage of the data pipeline is analysis. There may be many variables that are related directly or indirectly to the objective. For that, we first need to study about all the variables whether it is nominal or ordinal. Preparing the data for analysis is done after understanding the data. While understanding we get to know about missing in the data, finding the independent and dependent variables, etc.
 
 <img src="https://i.imgur.com/YnWOBja.png" alt="drawing" width="800"/>
 
@@ -211,9 +212,70 @@ It is usually cleaner to keep data visualisation code separate from analysis, ju
 - "First key point. Brief Answer to questions. (FIXME)"
 ---
 
-## Data exploration and insights
+## Data exploration and insights 
+### Data wrangling
+#### Definition
+Data wrangling—also called data cleaning, data remediation, or data munging—refers to a variety of processes designed to transform raw data into more readily used formats. The exact methods differ from project to project depending on the data you’re leveraging and the goal you’re trying to achieve.
 
-- Data wrangling
+Some examples of data wrangling include:
+
+- Merging multiple data sources into a single dataset for analysis,
+- Identifying gaps in data (for example, empty cells in a spreadsheet) and either filling or deleting them,
+- Deleting data that’s either unnecessary or irrelevant to the project you’re working on,
+- Identifying extreme outliers in data and either explaining the discrepancies or removing them so that analysis can take place.
+
+Data wrangling can be a manual or automated process. In scenarios where datasets are exceptionally large, automated data cleaning becomes a necessity.
+
+#### Data Wrangling steps
+Each data project requires a unique approach to ensure its final dataset is reliable and accessible. That being said, several processes typically inform the approach. These are commonly referred to as data wrangling steps or activities.
+
+##### Discovery
+Discovery refers to the process of familiarizing yourself with data so you can conceptualize how you might use it. You can liken it to looking in your refrigerator before cooking a meal to see what ingredients you have at your disposal.
+
+During discovery, you may identify trends or patterns in the data, along with obvious issues, such as missing or incomplete values that need to be addressed. This is an important step, as it will inform every activity that comes afterward.
+
+##### Structuring
+Raw data is typically unusable in its raw state because it’s either incomplete or misformatted for its intended application. Data structuring is the process of taking raw data and transforming it to be more readily leveraged. The form your data takes will depend on the analytical model you use to interpret it.
+
+##### Cleaning
+Data cleaning is the process of removing inherent errors in data that might distort your analysis or render it less valuable. Cleaning can come in different forms, including deleting empty cells or rows, removing outliers, and standardizing inputs. The goal of data cleaning is to ensure there are no errors (or as few as possible) that could influence your final analysis.
+
+##### Enriching
+Once you understand your existing data and have transformed it into a more usable state, you must determine whether you have all of the data necessary for the project at hand. If not, you may choose to enrich or augment your data by incorporating values from other datasets. For this reason, it’s important to understand what other data is available for use.
+
+If you decide that enrichment is necessary, you need to repeat the steps above for any new data.
+
+##### Validating
+Data validation refers to the process of verifying that your data is both consistent and of a high enough quality. During validation, you may discover issues you need to resolve or conclude that your data is ready to be analyzed. Validation is typically achieved through various automated processes and requires programming.
+
+##### Publishing
+Once your data has been validated, you can publish it. This involves making it available to others within your organization for analysis. The format you use to share the information—such as a written report or electronic file—will depend on your data and the organization’s goals.
+
+#### Importance of Data Wrangling
+Any analyses you perform will ultimately be constrained by the data that informs you. If data is incomplete, unreliable, or faulty, then analyses will be too—diminishing the value of any insights gleaned.
+
+Data wrangling seeks to remove that risk by ensuring data is in a reliable state before it’s analyzed and leveraged. This makes it a critical part of the analytical process.
+
+It’s important to note that data wrangling can be time-consuming and taxing on resources, particularly when done manually. This is why many organizations institute policies and best practices that help employees streamline the data cleanup process—for example, requiring that data include certain information or be in a specific format before it’s uploaded to a database.
+
+For this reason, it’s vital to understand the steps of the data wrangling process and the negative outcomes associated with incorrect or faulty data.
+
+Let us now create two different DataFrames and perform the merging operations on it.
+```
+# import the pandas library
+import pandas as pd
+left = pd.DataFrame({
+         'id':[1,2,3,4,5],
+         'Name': ['Alnus', 'Agrostis', 'Betula', 'Vaccinium', 'Dactylis'],
+         'subject_id':['sub1','sub2','sub4','sub6','sub5']})
+right = pd.DataFrame(
+         {'id':[1,2,3,4,5],
+         'Name': ['Calune', 'Fallopia', 'Stachys', 'Stellaria', 'tiphy'],
+         'subject_id':['sub2','sub4','sub3','sub6','sub5']})
+print left
+print right
+```
+
 - Data Visualisation as a tool
   - Reference: https://helenajambor.wordpress.com/2022/01/04/science-visualization-trends-of-2021/
 
