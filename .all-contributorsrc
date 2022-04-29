@@ -123,6 +123,16 @@
         "review",
         "content"
       ]
+    },
+    {
+      "login": "selgebali",
+      "name": "Sara",
+      "avatar_url": "https://avatars.githubusercontent.com/u/23166543?v=4",
+      "profile": "http://@yalahowy",
+      "contributions": [
+        "ideas",
+        "content"
+      ]
     }
   ],
   "contributorsPerLine": 7,
