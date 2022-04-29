@@ -101,6 +101,17 @@
         "review",
         "content"
       ]
+    },
+    {
+      "login": "mlagisz",
+      "name": "Malgorzata Lagisz",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13009327?v=4",
+      "profile": "https://github.com/mlagisz",
+      "contributions": [
+        "ideas",
+        "review",
+        "content"
+      ]
     }
   ],
   "contributorsPerLine": 7,
