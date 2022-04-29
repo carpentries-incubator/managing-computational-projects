@@ -90,6 +90,17 @@
         "ideas",
         "content"
       ]
+    },
+    {
+      "login": "jcolomb",
+      "name": "Julien Colomb",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1876667?v=4",
+      "profile": "https://orcid.org/0000-0002-3127-5520",
+      "contributions": [
+        "ideas",
+        "review",
+        "content"
+      ]
     }
   ],
   "contributorsPerLine": 7,
