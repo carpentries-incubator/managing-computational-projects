@@ -1,6 +1,6 @@
 # Data Science for Biomedical Scientists: Managing Open and Reproducible Computational Projects
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-11-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-12-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 **Thanks for contributing to The Carpentries Incubator!**
@@ -89,6 +89,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://orcid.org/0000-0002-3127-5520"><img src="https://avatars.githubusercontent.com/u/1876667?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Julien Colomb</b></sub></a><br /><a href="#ideas-jcolomb" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/carpentries-incubator/managing-computational-projects/pulls?q=is%3Apr+reviewed-by%3Ajcolomb" title="Reviewed Pull Requests">👀</a> <a href="#content-jcolomb" title="Content">🖋</a></td>
     <td align="center"><a href="https://github.com/mlagisz"><img src="https://avatars.githubusercontent.com/u/13009327?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Malgorzata Lagisz</b></sub></a><br /><a href="#ideas-mlagisz" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/carpentries-incubator/managing-computational-projects/pulls?q=is%3Apr+reviewed-by%3Amlagisz" title="Reviewed Pull Requests">👀</a> <a href="#content-mlagisz" title="Content">🖋</a></td>
     <td align="center"><a href="https://github.com/SaraVilla"><img src="https://avatars.githubusercontent.com/u/43204602?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Sara Villa</b></sub></a><br /><a href="#ideas-SaraVilla" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/carpentries-incubator/managing-computational-projects/pulls?q=is%3Apr+reviewed-by%3ASaraVilla" title="Reviewed Pull Requests">👀</a> <a href="#content-SaraVilla" title="Content">🖋</a></td>
+    <td align="center"><a href="http://@yalahowy"><img src="https://avatars.githubusercontent.com/u/23166543?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Sara</b></sub></a><br /><a href="#ideas-selgebali" title="Ideas, Planning, & Feedback">🤔</a> <a href="#content-selgebali" title="Content">🖋</a></td>
   </tr>
 </table>
 
