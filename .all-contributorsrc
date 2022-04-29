@@ -80,6 +80,16 @@
         "ideas",
         "example"
       ]
+    },
+    {
+      "login": "jafsia",
+      "name": "JAFSIA Elisee",
+      "avatar_url": "https://avatars.githubusercontent.com/u/70091210?v=4",
+      "profile": "http://www.mboalab.africa",
+      "contributions": [
+        "ideas",
+        "content"
+      ]
     }
   ],
   "contributorsPerLine": 7,
