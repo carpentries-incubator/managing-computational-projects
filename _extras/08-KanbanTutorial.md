@@ -1,6 +1,6 @@
-
-
-# Kanban Boards for Project Management
+---
+title: Kanban Boards for Project Management
+---
 
 Within Github, the Projects Tab can provide a board with cards to organise issues collaboratively. If a team is already working within Github, this can be beneficial as everything remains in the same place.
 
