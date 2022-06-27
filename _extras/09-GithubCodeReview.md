@@ -1,6 +1,6 @@
-
-# What Code Review Looks Like in GitHub
-
+---
+title: What Code Review Looks Like in GitHub
+---
 
 **Commit changes**: uploading snapshots when the code changes. The history of all changes are therefore saved and can be reverted.
 
