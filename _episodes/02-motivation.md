@@ -1,196 +1,248 @@
 ---
-title: "Starting with the scientific process"
-teaching: 10
+title: "Better and faster research !"
+teaching: 35
 exercises: 0
 questions:
 - "How does this training relate to your work?"
+- "What are the benefits of using data science skills?"
 - "What can go wrong with working on data/code?"
 - "What are the challenges for teams and management?"
 - "Are there procedures and protocols that can help?"
 objectives:
-- "First learning objective. (FIXME)"
+- "Understand how this course will help your research (and career)."
 keypoints:
-- "First key point. Brief Answers to questions. (FIXME)"
+- "motivations"
 ---
 
-## Why Are We Thinking about Computation and Data Science in Biomedical and Life Sciences?
 
+## Your research project is a computational project.
+
+As a researcher, you are likely to use some sort of computational tools to process, analyse, and visualise data.
+You are also likely to work on your project with other members of the lab, and the success of your work may well depend on your interactions with your peers.
+**In that sense any research project can be defined as a collaborative, computational project.**
 
 <img src="https://zenodo.org/record/3678226/files/ReproducibleJourney.jpg" alt="drawing" width="500"/>
 
-_What to expect in your reproducibility journey. The Turing Way project illustration by Scriberia for The Turing Way Community Shared under CC-BY 4.0 License. Zenodo. http://doi.org/10.5281/zenodo.3332807_
+_What to expect in your reproducibility journey. The Turing Way project illustration by Scriberia for The Turing Way Community Shared under CC-BY 4.0 License. Zenodo. http://doi.org/10.5281/zenodo.3332807
+
+This course is about introducing methods and concepts to manage individuals and teams working on any computational project, i.e. any research project.
+It is *not* about learning how to write code, but learning how to facilitate collaboration and data analysis using tools like research data management, version control or code review. 
 
 
-Writing, using, and sharing code and data within biomedical and life sciences is growing rapidly. Software is not only the realm of big tech and startups, with more and more scientists becoming programmers as part of their workflow. 
-From computational power comes greater calculations, modelling, visualisations and analyses, therefore expanding our insights and methodologies. 
-Regardless of the tools and languages we use, coding is integral to science. 
+```
+TODO: Adding detail description of the course, or linking to it, when the course is stabilised
+```
 
-<img src="https://media.nature.com/lw800/magazine-assets/d41586-021-00075-2/d41586-021-00075-2_18964266.jpg" alt="drawing" width="300"/> 
-<img src="https://media.nature.com/lw800/magazine-assets/d41586-021-00075-2/d41586-021-00075-2_18880300.jpg" alt="drawing" width="288"/>
+
+We believe that the data science skills you will learn in this course will make your research process better. In the following sections, we will detail what we mean by "better".
+
+
+
  
-*Images from: Perkel, J. M. (2021). Ten computer codes that transformed science. Nature, 589, 344–348. DOI: [10.1038/d41586-021-00075-2](https://doi.org/10.1038/d41586-021-00075-2)*
+## How data science will improve your research ?
 
-## Reproducibility Crisis
+<img src="https://zenodo.org/record/6560477/files/healthy-research-tree.jpg" alt="Researchers pour water on a tree, the water represents data science, the tree is the research." width="500"/>
 
-<img src="https://opendreamkit.org/public/images/use-cases/reproducible_logbook_scenario.png" alt="drawing" width="600"/> 
+_Data science makes research flourish. The Turing Way project illustration by Scriberia for The Turing Way Community Shared under CC-BY 4.0 License. Zenodo. http://doi.org/10.5281/zenodo.3332807
 
-However, while scientists are trained in how to run experiments in a lab, many of us are only introduced to programming on the fly and with only patchwork training offered. 
-As a result, many scientists and students are not trained in reproducible methods for their coding or data management. 
-The pitfalls of hidden-off, closed science are numerous, and are of growing attention and concern. 
-
-<img src="https://iiif.elifesciences.org/journal-cms/blog-article-preview%2F2021-06%2Fpicture1_8.png/full/1234,/0/default.webp" alt="drawing" width="600"/>
-
-[*eLife: What we have learnt about preprints*](https://elifesciences.org/inside-elife/e5f8f1f7/what-we-have-learned-about-preprints)
-
-<img src="https://media.springernature.com/full/springer-static/image/art%3A10.1038%2F533452a/MediaObjects/41586_2016_BF533452a_Figd_HTML.jpg" alt="drawing" width="355"/>
-<img src="https://gcdnb.pbrd.co/images/WDmR3Jl8MDRd.png?o=1" alt="drawing" width="400"/>
-
-*Number of respondents: Biology 703, Chemistry 106, Earth and environmental 95, Medicine 203, Physics and engineering 236, Other 233. Data and image from Baker, M. (2016). 1,500 scientists lift the lid on reproducibility - Nature. Nature, 533(7604), 452–454. DOI: [10.1038/533452a](https://doi.org/10.1038/533452a)*
-
-## Managing Projects: People, Code, and Data
-
-<img src="https://openworking.files.wordpress.com/2021/11/2259thea_book-dash_9th-november_v1_mk_0017_3-data-steward-text.jpg?w=1024" alt="drawing" width="400"/>
-
-_Data stewardship in research. The Turing Way project illustration by Scriberia for The Turing Way Community Shared under CC-BY 4.0 License. Zenodo. http://doi.org/10.5281/zenodo.3332807_
-
-Managing how one or multiple people work on the same code requires different skillsets than those taught in traditional science courses *and* a typical coding class. 
-Resources online may be more tailored to hopeful software engineers rather than a geneticist group leader. 
-Collecting important data sets may require specific stewardship for its greater impact beyond your lab. 
-Within science teams, group work is critical for experimental design and implementation, whether it is in the lab or R. 
-Computational methods might be as complex as a neural network, but even statistical tests and producing figures for a publication require data science and coding methods and should be just as reproducible. 
-
-These resources are *not* about learning how to write code but about introducing methods and concepts to manage individuals and teams working on any computational method or language.
-
-## Communicating Science
-
-There are rapid developments in how scientific results and methods are shared and collaborations have never been more global or rapid. 
-Published articles are limited, and newer tools are available to reach broader audiences and enable greater collaboration. 
-Having impact beyond citations may involve being part of a collaborative community. 
-Computational tools you produce in your lab can be released as open source and credit given globally. 
-
-Preprints have become well-known as scientists worked to communicate results globally during the pandemic. 
-Now that the cat is out of the bag, the model of science communication and distribution has changed forever. 
-
-<img src="https://gcdnb.pbrd.co/images/U8bXMBJjGprk.png?o=1" alt="drawing" width="400"/> 
-
-*Image from Callaway, E. (2020). Will the pandemic permanently alter scientific publishing? Nature, 582, 167–168. DOI: [10.1038/d41586-020-01520-4](https://doi.org/10.1038/d41586-020-01520-4)*
-
-Literate programming using Jupyter notebooks (which can use Python, R, or Julia) is growing in popularity and scientists can show data and analysis side by side with written explanations and interactive visualisations. 
-
-<img src="https://onlinelibrary.wiley.com/cms/asset/a320a9d4-4795-42d3-83f8-b35aa95edd4d/cae22273-fig-0001-m.jpg" alt="drawing" width="400"/>
- 
-<img src="https://www.researchgate.net/publication/335821527/figure/fig5/AS:962232657666072@1606425551446/Example-Jupyter-Notebook-Screenshot-At-the-top-of-the-page-there-is-the-Jupyter-menu.png" alt="drawing" width="400"/> 
-
-## Starting with Scientific Process
-
-Computational projects or software development can sound like the realm of big tech rather than a research lab. It can be difficult to know where to begin or that the path to reproducibility is too difficult and costly to even begin. 
-Instead, data and code are part of the scientific pipeline and so we can begin with what we already know.
-
-While the terminology is unfamiliar, we can see parallels with the usual experimental workflow:
-
-<img src="https://i.imgur.com/I9EKxdF.png" alt="drawing" width="800"/> 
-
-In reproducible scientific research, someone should be able to look at your work and understand in detail what was done and why. 
-Those wishing to reproduce your lab work or analysis would have the means to do so. Guiding principles aside, there are also selfish reasons for reproducible workflows and records of critical decision points.
-
-> "Anything that can go wrong will go wrong."
-> - **Murphy's First Law**
+> Data science brings some structure in how data is collected, processed and analysed, making it easier to collaborate on a project, to publish extra research outputs and leveraging some extra potential your data may have.
+In the past, it helped me drive new hypotheses, detect problems with the research design early, and reduce the sample size needed to drive a solid conclusion. 
+Eventually, it made my research more robust and trustworthy.
+But in the end, my real motivation is efficiency: very soon, the time I invested in learning and applying data science in my research was recovered multiple times when a manuscript had to be written (and re-written).
 >
 {: .testimonial}
 
-And so, whether due to mistakes or extending projects, *"anything you do you will probably have to be done again"*. [^murphy] 
+There are different ways to organise the different foreseen improvement, we decided here to start with improvement in the final result, improvement in the research process, and finally aspects of community building.
 
-Despite few life scientists having formal training in computer science, the majority of research now requires computational methods, whether creating a figure, testing a model, or training a neural network. 
-As a group leader, there is a responsibility to ensure your team creates modular and reproducible workflows whether they are working with DNA assays or in RStudio. 
+### Nicer paper
 
-As things stand, the following is too often familiar. 
-In the Introduction section of a published paper, the logic behind hypotheses and experimental designs are (ideally) clear and well described.
- Data collection protocols are shared through Methodology sections, and some of these laboratory workflows are shared globally and become universal. 
- However, the steps involved with data processing/analyses are not transparent:
+#### Powerful statistics
 
-<img src="https://i.postimg.cc/RVyw9TQZ/Screenshot-2022-02-03-at-14-55-08.png" alt="drawing" width="600"/> 
+The most advanced statistical methods (like machine learning) are first developed in programming environment, and they are often difficult or impossible to implement in statistical software.
+In addition, some of the less advanced statistical methods requires intensive data processing that makes it very difficult to apply outside a coding environment.
 
-there are too often missing steps from measurement to statistical results. 
-For those reading the journal paper or returning to work after a summer holiday, the black-box nature of code or data processing is frustrating, time-consuming, and can hide glaring mistakes. 
-We have peer review to scrutinise our logic and experiments, and data and code require the same oversight. 
-
-So just as we have an experimental protocol, we can also have a **data protocol**:
-
-<img src="https://imgur.com/TDIZIl2.png" alt="drawing" width="800"/>
-
-And in more detail:
-
-<img src="https://i.imgur.com/YnWOBja.png" alt="drawing" width="800"/>
-
-This data protocol is simple but separates the general pipeline for computational methods. 
-
-So starting with **raw data** from the lab, which may be in a spreadsheet filled in by hand or generated by lab equipment, there are often steps to produce **processed data**. 
-Perhaps filtering, subsetting, translating units, renaming CSV columns.... the detail of the processing pipeline needs to be clearly described and available. 
-Later, when more data is gathered, it is possible to recreate these steps. 
-
-With **processed data**, the bulk of analysis can begin. Maybe as simple as a statistical test or as complex as a machine learning pipeline, the **analysis code** should be modular and clearly documented. 
-The results can then be visualised as graphs and images, as documented in **visualisation code**. 
-
-[^murphy]:  A Quick Guide to Organizing Computational Biology Projects
-Noble WS (2009) A Quick Guide to Organizing Computational Biology Projects. PLOS Computational Biology 5(7): e1000424. https://doi.org/10.1371/journal.pcbi.1000424
-
-## What can (and does) go wrong in projects?
-
-As a group leader or anyone who collaborates, multiple people working on data and code are difficult to manage. 
-Without energy and input from the start... human error, entropy and bad luck take over. 
-
-<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQr_cBH3hn8KABqOprui_R07skPTSAzparvxXojp1aTyPEybLZxcxy2hBy3kjNZ8Gb_bSw&usqp=CAU" alt="drawing" width="200"/>
-
-The following example may be painfully familiar. 
-
-<img src="https://i.imgur.com/jajCClL.png" alt="drawing" width="300"/>
-
-> A postdoc gathers data and emails to the PI, then begins to rearrange and process the data. 
-> A postdoc with his additional data adds to it. 
-Someone removes a subset of the data due to discovering a fault. 
-> A PhD student is sent the wrong data version and begins to filter and remove outliers manually with no oversight. 
-> They try to merge their data with the corrected data afterwards.
-> Meanwhile, the PI is processing the original data set and tries to compare her results with the postdocs'... 
+> example 1 https://logarithmic.net/langevitour/2022-useR/#2
 >
-{: .callout}
+{: .testimonial}
 
-The team saved time by not documenting changes or keeping track and sending quick emails, but the forensic work to undo the damage may take ten times as long. 
-Data may also have been irretrievably lost, and if a paper came out with this data it may need to be retracted. 
+>Results of water maze behavioural tests are better analysed using a survival analysis than an ANOVA, but the data obtained via video analysis software is often not fitted for that analysis and needs to be transformed (https://doi.org/10.1016/j.bbr.2011.03.007, see also https://doi.org/10.12688/f1000research.20072.2 if you are interested in water maze experiment analysis). Doing transformations by hand is time consuming and may introduce errors.
+>
+{: .testimonial}
 
-An alternative organisation of the group and everyone's contributions could instead be treated with the following structure:
+#### Informative (and inclusive) figures 
 
-<img src="https://i.imgur.com/CdyRjqI.png" alt="drawing" width="250"/>
+Once you start using code for analysing your data, it will become much easier to do complex and informative visualisation. 
+This often includes way to visualise and label single data points, or use  visualisation on several dimensions (producing moving gifs of a 3D scatterplot for instance).
 
-This time the data is stored as Read-Only but visible and accessible to others in a repository or cloud storage. 
-When new data needs to be added, versions are kept along with metadata about what has changed. 
-Anyone working on the data can download it from this documented storage.
+One can also automate the figure design choice, so that all figures look similar.
+Similarly, the production of several version of the same figure is very easy.
+For example, one can use different color pallette, one using the palette usually used in the field (the one your supervisor wants to see), and one for color-blind readers. 
 
-This postdoc can then write her code to process the data, which then goes through her analysis pipeline and leads to results.
-If someone adds new data independent to her workflow, there is no impact as every step of the pipeline can be recreated. 
 
-As part of a larger group, each person can work in collaboration or independently, but each of their results can be traced back to the original raw data set.
 
-<img src="https://i.imgur.com/yCZL0dN.png" alt="drawing" width="600"/>
+> Example: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC549458/
+> Single flights from different bees, shown in gifs.
+>
+{: .testimonial}
 
-So here we see Postdoc 1 working on his analysis and results separately from Postdoc 2, sharing a subset of his processed data with a PhD student so they can run a separate analysis using a separate hypothesis. 
+#### Reproducible analysis
 
-Whether the results of computational methods within your lab group are to produce a figure in a publication or a new open tool. 
-By establishing data protocols, your team members can undo mistakes and collaborate without confusion, and their work was redone if (when) the need arises or by peer review.
-Beyond that, this course is about teaching how to manage, facilitate, and release the impactful results of your research to the wider community.
+Good scientific practices are aiming at securing the robustness and reproducibility of the scientific endeavour.
+As a researcher, assuring computational reproducibility of your results is a relatively easy step in making your research more robust. 
 
-Moreover, we can go beyond research articles and publications by publishing data and code repositories. 
-This provides more opportunities to increase the impact of scientific research. 
-Funding bodies and journals often make accessible data compulsory, and it is becoming more common to release code as well. 
+The reproducibility of an experiment not only requires a detailed description of the methods and reagents used, but also a detailed description of the analysis performed.
+The ultimate description of the analysis is to provide all elements necessary for reproducing the analysis (computational reproducibility).
+This includes the data and the code used to analyse it (in a form that can be reused in a different computational environment).
+
+
+>In practice, sometimes one may not be able to provide all elements openly (for instance, some medical data cannot be shared openly for privacy reasons) for everyone to be able to reproduce all the results.
+But co-workers (and maybe reviewers) should be able to reproduce the analysis (e.g., on anonymized data).
+>
+{: .testimonial}
+
+
+
+>The emergence of reproducible reports is another aspect of computer reproducibility.
+Literate programming using Jupyter notebooks, Rmarkdown, stencila or quarto (tools that can usually use Python, R, or Julia) is indeed growing in popularity.
+These tools allow you to show data and analysis side by side, with written explanations and interactive visualisations. 
+These outputs can not only be used as blog posts, or lab reports, but can also be published as an enhanced publication, a concept called executable research articles: https://gmaciocci.medium.com/list/the-evolution-of-executable-research-articles-823e42a9fa60 
+>
+{: .testimonial}
+
+#### Diversifying research outputs
+
+While the main recognition currency in academia is still (first) authorship in peer reviewed publication, new scientometrics are developed to recognize publication of other research outputs.
+In particular, datasets and software publication are officially reviewed in the evaluation of certain grant, for example for the Marie-curie european program.
+Data science principles will make it easier to publish datasets, software, reagents or hardware you are anyway producing during the research process.
+
+
+>By publishing datasets and code, you will not only help other researchers, but gain extra recognition for your work. 
+However, open data and open code requires a specific documentation, which we will touch upon in this course.
+>
+{: .testimonial}
+
+>Computational tools you produce in your lab can be released as open source software and credit will be given globally. 
+This may also be true for hardware you design (this aspect will not be treated in this course) or datasets you collect.
+>
+{: .testimonial}
+
+### Improved Research Process
+
+#### Data quality
+
+Did you know that manually copy-pasting data is one of the primary source of data corruption ?
+Combining datasets or processing data (such as cleaning or transforming into different formats), can therefore be best achieved using code.
+The process is not only safer, but it is often faster.
+
+Another underevaluated issue is the amount of data you will collect.
+The more data you have the more sophisticated tools and workflows you may need. 
+It is also more likely that your data (or code) gets corrupted, mixed up, outdated, or lost.
+In particular, when something goes wrong during the experiment, code might be used to create warnings, so that the setup or protocol may be modified on the fly or between sessions.
+
+#### Reproducibility and automation
+
+While we already mentioned the advantage of reproducibile analysis for the quality of the research, we did not mention how useful this is during the research.
+With reproducible analysis, it is effortless to run a new dataset in the analysis workflow, 
+it becomes possible to explore the data at a single experiment level, which may enable new hypotheses, or spot issues that were not foreseen in the experimental design.
+It makes also certain that difference in the figures are due to difference in the dataset, not any manual processing of the data one may have forgotten to docuzment.
+
+
+
+
+
+#### Collaborative working
+
+>Facilitating communication and sharing, will make it easier for your colleagues to help you. 
+>{: .testimonial}
+
+Within science teams, group work is critical for experimental design and implementation.
+In addition, there are rapid developments in how scientific results and methods are shared, and collaborations have never been more global or rapid.
+This means that several people will likely be working with the same data files.
+
+Data science allows for the management of 
+how one or multiple people work on the same project (as well as the same code). 
+It requires different skillsets than those taught in traditional science courses *or* a typical coding class.
+
+
+
+
+#### Efficiency
+
+> The time invested in your data and code will be paid multiple times by the efficiency improvement in your workflow, if that investment is done early in the project.
+Because one can consider your past self as one of your collaborator,
+the advantage of working collaboratively in a project can indeed be translated directly in a project you drive mostly alone.
+>
+{: .testimonial}
+
+
+
+At this point, you may be convinced that the extra work of designing your project using data science principles will be worth it.
+But here comes the best argument of all: **in the end you will save time.**
+Early time saving comes because your future self and collaborators will be able to find all your data, reuse and modify your code, and understand your research faster. 
+
+This applies directly to the example of working on article revisions - will you still remember all the analysis details and data nuances when your papers comes back with a request for major changes?
+For instance, if a colleague cannot find what data goes with which figures, there are high chances that you will also be unable to find it three years from now.
+In addition, itt is not uncommon to modify the design of the figures multiple times (sometimes back and forth), often modifying all figures at once.
+
+>Once a reviewer ask me to overlay individual data points onto all our 5 boxplots figures.
+The project was an old one, and I had not touched the data for years.
+Finding the right data and redo the all 5 figures would usually take ages using SPSS or excel.
+But since I used code, I had all figures 15 minutes later.
+(Note, after seeing the new figures, the reviewer agreed that the original version was better).
+>{: .testimonial}
+
+Later on in the project, community advantages are coming in.
+Data and code reusability is not only a mark of research transparency and robustness, it also means you can reuse your own code and data.
+It also means you can reuse code and data produced by other researchers.
+The snow ball effect may be huge, and the objective of this course is to allow you to do **better science in less time** ( https://www.nature.com/articles/s41559-017-0160:)
+
+
+
+>As an example it was estimated that research data management  takes about 5% of your time, on the other hand, time lost due to poor data management is estimated to be 15%. 
+
+
+
+
+### Team and community building
+
+
+Data science tools will make it easier not only to collaborate with researchers in your lab, but also with researchers outside of your lab, or even with non-researchers (citizen science or software professionals).
+These may bring valuable expertise in the project.
+Being part of a collaborative community will also create
+ impact beyond citations and papers, something which starts to be valued by funding agencies, and which make research more fun, valued and interesting.
+
+We may also add to the pot that creating a network around your research is a critical aspect of building a career in academia. 
+Being known as a good and skilled collaborator can open doors to many opportunities.
+
+
+
+## A journey starts
+
+> You step into the Road, and if you don't keep your feet, there is no knowing where you might be swept off to.
+> 
+> J.R.R. Tolkien, The Lord of the Rings
+
+This course will give you somewhere to start, but implementating data science principles is a long and always renewed process.
+But you do not need to do it all at once, and you do not need to do it alone. 
+
+After the course, do not hesitate to join (or create) a community of like-minded researchers where you live (there are always some if you look).
+In addition, there may be people at your institution whose job is to help you. 
+Look for data steward or data managers, research data engineers, IT support, open science büros at your institution and be pro-active contacting them. 
+There are also almost endless online resources and helpful communities.
+
+<img src="https://the-turing-way.netlify.app/_images/welcome.jpg?w=1024" alt="drawing" width="400"/>
+
+_ The Turing Way project illustration by Scriberia for The Turing Way Community Shared under CC-BY 4.0 License. Zenodo. http://doi.org/10.5281/zenodo.3332807
+
+
 
 ## References
 
-* Perkel, J. M. (2021). Ten computer codes that transformed science. Nature, 589, 344–348. DOI: 10.1038/d41586-021-00075-2
-* What we have learned about preprints. (2021, July 01). eLife Sciences Publications, Ltd. Retrieved from https://elifesciences.org/inside-elife/e5f8f1f7/what-we-have-learned-about-preprints
-* Baker, M. (2016). 1,500 scientists lift the lid on reproducibility - Nature. Nature, 533(7604), 452–454. DOI: 10.1038/533452a
-* Callaway, E. (2020). Will the pandemic permanently alter scientific publishing? Nature, 582, 167–168. DOI: 10.1038/d41586-020-01520-4
+
 * A Quick Guide to Organizing Computational Biology Projects
 Noble WS (2009) A Quick Guide to Organizing Computational Biology Projects. PLOS Computational Biology 5(7): e1000424. https://doi.org/10.1371/journal.pcbi.1000424
 * Seddighi, M, Allanson, D, Rothwell, G, Takrouri, K. Study on the use of a combination of IPython Notebook and an industry-standard package in educating a CFD course. Comput Appl Eng Educ. 2020; 28: 952– 964. https://doi.org/10.1002/cae.22273
 * Mendez, K.M., Pritchard, L., Reinke, S.N. et al. Toward collaborative open data science in metabolomics using Jupyter Notebooks and cloud computing. Metabolomics 15, 125 (2019). https://doi.org/10.1007/s11306-019-1588-0
 
 {% include links.md %}
+
