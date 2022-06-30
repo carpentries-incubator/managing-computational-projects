@@ -13,12 +13,53 @@ keypoints:
 - "This training aims to build a shared understanding and facilitate the integration of computational reproducibility in data science."
 ---
 
-# Data Science for Biomedical Scientists Project
+# Managing Open and Reproducible Computational Projects
 
-Biosciences and biomedical researchers regularly combine mathematics and computational methods to interpret experimental data.
+Over the last decade, several tools, methods and training resources have been developed for early career researchers to learn about and apply data science skills in biomedicine.
+This is often referred to as biomedical data science, with the following definition. 
+
+>Biosciences and biomedical researchers regularly combine mathematics and computational methods to interpret experimental data. The term “data science” describes expertise associated with taking (usually large) data sets and annotating, cleaning, organizing, storing, and analyzing them for the purposes of extracting knowledge. [...]
+>The terms “biomedical data science” and “biomedical data scientist” [...] connote activities associated with the creation and application of methods to new and large sources of biological and medical data aimed at converting them into useful information and knowledge. 
+>They also connote technical activities that are data-intensive and require special skills in managing the large, noisy, and complex data typical of biology and medicine. 
+>They may also imply the application of these technologies in domains where their collaborators previously have not needed data-intensive computational approaches. 
+>
+> -- **Russ B. Altman and Michael Levitt** (2018). [Annual Review of Biomedical Data Science](https://www.annualreviews.org/doi/full/10.1146/annurev-bd-01-041718-100001)
+
+
+In contrast to the definition above (and as will be explained in the next chapters), we think research which is not data intensive would also gain in applying data science principles.
+However, to ensure that data science approaches are appropriately applied in domain research, such as in biosciences, there is a need to also engage and educate scientific group leaders and researchers in project leadership roles on best practices.
+
+> Computational methods might indeed be as complex as a neural network, but even statistical tests and producing figures for a publication require data science and coding methods.
+>
+{: .testimonial}
+
+As pictured below, researcher comes to data science to apply computer intensive and pioneering data analyses approaches to their research questions.
+As pictured below, in order to apply these tools, researcher first need to understand and apply the building blocks of data science, especially research data management, collaborative working and project management.
+
 With new technologies supporting the generation of large-scale data as well as successful applications of data science, Machine Learning (ML) and Artificial Intelligence (AI) in biomedicine and related fields have recently shown huge potential to transform the way we conduct research.
 Recent groundbreaking research utilising AI technologies in biomedicine has led to an enormous interest among researchers in data science, ML and AI approach to extract useful insights from big data, make new discoveries and address biological questions.
-It is more important than ever to engage researchers in understanding best practices in data science, identifying how they apply to their work and making informed decisions around their use in biomedicine and related fields.
+As pictured below, in order to apply these tools, researcher first need to understand and apply the building blocks of data science, especially research data management, collaborative working and project management.
+
+<img src="https://zenodo.org/record/6560477/files/research-foundation.pdf" alt="A house representing machine learing and AI is set upon bricks that one person is sliding below the house. On the bricks, we can read data science principles like open science, backups, reproducibiliy, and FAIR principles." width="500"/>
+
+_Data science foundations. The Turing Way project illustration by Scriberia for The Turing Way Community Shared under CC-BY 4.0 License. Zenodo. http://doi.org/10.5281/zenodo.3332807_
+
+
+
+
+The [**Data Science for Biomedical Scientists**](https://github.com/alan-turing-institute/data-training-for-bioscience) project helps address this need in training by equipping experimental biomedical scientists with computational skills.
+In all the resources developed within this project, we consistently emphasise how computational and data science approaches can be applied while ensuring reproducibility, collaboration and transparent reporting.
+**The goal is to maintain the highest standards of research practice and integrity**.
+
+
+{: .testimonial}
+
+In this training material for **Managing and supervising computational Projects**, we discuss essential practices for computational reproducibility required for carrying out meaningful analyses of research datasets through data exploration, processing, visualisation and communication. 
+We present unfamiliar and complex topics from computation and data science to biologists by providing examples and recommendations from their fields. 
+The goal is to enable effective management and sharing of their computational projects. We therefore encourage you to go through this training material before taking our second workshop, more focused in AI and Data Science. 
+
+
+{: .objectives}
 
 > ## Jargon Busting
 >
@@ -33,31 +74,7 @@ It is more important than ever to engage researchers in understanding best pract
 >
 {: .callout}
 
-Over the last decade, several tools, methods and training resources have been developed for early career researchers to learn about and apply data science skills in biomedicine, often referred to as biomedical data science.
-However, to ensure that data science approaches are appropriately applied in domain research, such as in biosciences, there is a need to also engage and educate scientific group leaders and researchers in project leadership roles on best practices.
 
-The [**Data Science for Biomedical Scientists**](https://github.com/alan-turing-institute/data-training-for-bioscience) project helps address this need in training by equipping experimental biomedical scientists with computational skills.
-In all the resources developed within this project, we consistently emphasise how computational and data science approaches can be applied while ensuring reproducibility, collaboration and transparent reporting.
-The goal is to maintain the highest standards of research practice and integrity. 
-
-> ## What is biomedical data science?
->
-> The term “data science” describes expertise associated with taking (usually large) data sets and annotating, cleaning, organizing, storing, and analyzing them for the purposes of extracting knowledge. [...]
-> The terms “biomedical data science” and “biomedical data scientist” [...] connote activities associated with the creation and application of methods to new and large sources of biological and medical data aimed at converting them into useful information and knowledge. 
-> They also connote technical activities that are data-intensive and require special skills in managing the large, noisy, and complex data typical of biology and medicine. 
-> They may also imply the application of these technologies in domains where their collaborators previously have not needed data-intensive computational approaches. 
-> **Russ B. Altman and Michael Levitt** (2018). [Annual Review of Biomedical Data Science](https://www.annualreviews.org/doi/full/10.1146/annurev-bd-01-041718-100001)
-> 
-{: .testimonial}
-
-In this training material for **Managing and supervising computational Projects**, we discuss essential practices for computational reproducibility required for carrying out meaningful analyses of research datasets through data exploration, processing, visualisation and communication. 
-We present unfamiliar and complex topics from computation and data science to biologists by providing examples and recommendations from their fields. 
-The goal is to enable effective management and sharing of their computational projects. 
-
-> Targeted measures and opportunities can help build a better understanding of best practices from data science that can be effectively applied in research and supported by senior leaders.
-> Senior leaders, in this context, can be academics or non-academics working in advisors, experts or supervisors roles in research projects who want to lead rigorous and impactful research through computational reproducibility, reusability and collaborative practices.
->
-{: .objectives}
 
 ## Target audience
 
@@ -66,10 +83,15 @@ Experimental biologists and biomedical research communities, with a focus on two
 1. Group leaders without prior experience with Data Science and ML/AI - interested in understanding the potential additionality and application in their areas of expertise.
 2. Postdoc and lab scientists - next-generation senior leaders, who are interested in additionality, but also the group more likely to benefit from tools to equip them with the requirements to enable the integration of computational science into biosciences.
 
+> Targeted measures and opportunities can help build a better understanding of best practices from data science that can be effectively applied in research and supported by senior leaders.
+> Senior leaders, in this context, can be academics or non-academics working in advisors, experts or supervisors roles in research projects who want to lead rigorous and impactful research through computational reproducibility, reusability and collaborative practices.
+>
+
 ## Learning Outcomes
 
 At the end of this lesson (training material), attendees will gain a better understanding of:
 
+- Acquiring the necessary/essential basic tools to produce good quality and reproducible computational projects, including AI/ML related
 - designing computational projects using collaborative, reproducible and open science approaches
 - examining challenges and potential pitfalls in applying best practices in Data Science
 - identifying tools and practices required for managing specific kinds of computational projects
@@ -82,8 +104,9 @@ Therefore, the goal of this project is to provide an overview (without diving in
 
 We have designed multiple modular episodes covering topics across two overarching themes, that we refer to as "masterclasses" in this project:
 
-1. [Introduction to Data Science and AI for senior researchers](https://carpentries-incubator.github.io/data-science-ai-senior-researchers/)
-2. Managing and supervising computational Projects (**THIS** training material)
+1. Managing and supervising computational Projects (**THIS** training material)
+2. [Introduction to Data Science and AI for senior researchers](https://carpentries-incubator.github.io/data-science-ai-senior-researchers/)
+
 
 Each masterclass is supplemented with technical resources and learning opportunities that can be used by project supervisors or senior researchers in guiding the learning and application of skills by other researchers in their teams.
 
@@ -96,7 +119,7 @@ Each masterclass is supplemented with technical resources and learning opportuni
 >
 {: .testimonial}
 
-In this training material, we will discuss best practices for managing reproducible computational projects.
+In this training material, we will discuss best practices for managing reproducible computational projects, regardless whether they include AI/ML components or not. 
 The training material "Introduction to Data Science and AI for senior researchers" is developed in parallel under the same project that introduces data science, AI and related concepts in detail.
 Although those are helpful concepts, it is not required to go through that training material to understand the practices we discuss in this training material.
 
@@ -146,3 +169,4 @@ This project will build on two main focus areas of the Turing Institute's [AI fo
 All materials are developed online openly under CC-BY 4.0 License using The Carpentries training format and The Carpentries Incubator lesson infrastructure.
 
 {% include links.md %}
+
