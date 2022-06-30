@@ -18,7 +18,6 @@ keypoints:
 Over the last decade, several tools, methods and training resources have been developed for early career researchers to learn about and apply data science skills in biomedicine.
 This is often referred to as biomedical data science, with the following definition. 
 
-
 >Biosciences and biomedical researchers regularly combine mathematics and computational methods to interpret experimental data. The term “data science” describes expertise associated with taking (usually large) data sets and annotating, cleaning, organizing, storing, and analyzing them for the purposes of extracting knowledge. [...]
 >The terms “biomedical data science” and “biomedical data scientist” [...] connote activities associated with the creation and application of methods to new and large sources of biological and medical data aimed at converting them into useful information and knowledge. 
 >They also connote technical activities that are data-intensive and require special skills in managing the large, noisy, and complex data typical of biology and medicine. 
@@ -27,8 +26,12 @@ This is often referred to as biomedical data science, with the following definit
 > -- **Russ B. Altman and Michael Levitt** (2018). [Annual Review of Biomedical Data Science](https://www.annualreviews.org/doi/full/10.1146/annurev-bd-01-041718-100001)
 
 
-In contrast to the definition above (and as will be explained in the next chapter), we think research which is not data intensive would also gain in applying data science principles.
+In contrast to the definition above (and as will be explained in the next chapters), we think research which is not data intensive would also gain in applying data science principles.
 However, to ensure that data science approaches are appropriately applied in domain research, such as in biosciences, there is a need to also engage and educate scientific group leaders and researchers in project leadership roles on best practices.
+
+> Computational methods might indeed be as complex as a neural network, but even statistical tests and producing figures for a publication require data science and coding methods.
+>
+{: .testimonial}
 
 As pictured below, researcher comes to data science to apply computer intensive and pioneering data analyses approaches to their research questions.
 As pictured below, in order to apply these tools, researcher first need to understand and apply the building blocks of data science, especially research data management, collaborative working and project management.
@@ -37,7 +40,10 @@ With new technologies supporting the generation of large-scale data as well as s
 Recent groundbreaking research utilising AI technologies in biomedicine has led to an enormous interest among researchers in data science, ML and AI approach to extract useful insights from big data, make new discoveries and address biological questions.
 As pictured below, in order to apply these tools, researcher first need to understand and apply the building blocks of data science, especially research data management, collaborative working and project management.
 
->sketch here
+<img src="https://zenodo.org/record/6560477/files/research-foundation.pdf" alt="A house representing machine learing and AI is set upon bricks that one person is sliding below the house. On the bricks, we can read data science principles like open science, backups, reproducibiliy, and FAIR principles." width="500"/>
+
+_Data science foundations. The Turing Way project illustration by Scriberia for The Turing Way Community Shared under CC-BY 4.0 License. Zenodo. http://doi.org/10.5281/zenodo.3332807_
+
 
 
 
