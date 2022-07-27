@@ -13,11 +13,16 @@ keypoints:
 ---
 
 ## Building on existing knowledge
+
+With existing code bases, downloading and using tools that exist on github is more and more valuable in the scientific community.
+
 - What previous projects exist in this institute
 - What do we know already from the broader community
 - What is the added value of the project in hand
 
 ## Is ML and AI suitable for my project?
+
+(((Work on this with Fede in preparation for the AI presentation)))
 
 - How to assess if ML and AI applies to my work
 
