@@ -36,7 +36,10 @@ TODO: Adding detail description of the course, or linking to it, when the course
 
 We believe that the data science skills you will learn in this course will make your research process better. In the following sections, we will detail what we mean by "better".
 
-
+> ## Why are you here
+> Discuss why students took this course, what are their expectations.
+> Does it correspond to what data science and this course is about ?
+{: .discussion}
 
  
 ## How data science will improve your research ?
@@ -45,28 +48,28 @@ We believe that the data science skills you will learn in this course will make 
 
 _Data science makes research flourish. The Turing Way project illustration by Scriberia for The Turing Way Community Shared under CC-BY 4.0 License. Zenodo. http://doi.org/10.5281/zenodo.3332807
 
-> Data science brings some structure in how data is collected, processed and analysed, making it easier to collaborate on a project, to publish extra research outputs and leveraging some extra potential your data may have.
-In the past, it helped me drive new hypotheses, detect problems with the research design early, and reduce the sample size needed to drive a solid conclusion. 
-Eventually, it made my research more robust and trustworthy.
-But in the end, my real motivation is efficiency: very soon, the time I invested in learning and applying data science in my research was recovered multiple times when a manuscript had to be written (and re-written).
+
+> ## It is mostly about being efficient
 >
+> Data science brings some structure in how data is collected, processed and analysed, making it easier to collaborate on a project, to publish extra research outputs and leveraging some extra potential your data may have.
+>In the past, it helped me drive new hypotheses, detect problems with the research design early, and reduce the sample size needed to drive a solid conclusion. 
+>Eventually, it made my research more robust and trustworthy.
+>But in the end, my real motivation is efficiency: very soon, the time I invested in learning and applying data science in my research was recovered multiple times when a manuscript had to be written (and re-written).
 {: .testimonial}
 
 There are different ways to organise the different foreseen improvement, we decided here to start with improvement in the final result, improvement in the research process, and finally aspects of community building.
 
-### Nicer paper
+### Using code for nicer paper
 
 #### Powerful statistics
 
 The most advanced statistical methods (like machine learning) are first developed in programming environment, and they are often difficult or impossible to implement in statistical software.
 In addition, some of the less advanced statistical methods requires intensive data processing that makes it very difficult to apply outside a coding environment.
 
-> example 1 https://logarithmic.net/langevitour/2022-useR/#2
->
-{: .testimonial}
 
->Results of water maze behavioural tests are better analysed using a survival analysis than an ANOVA, but the data obtained via video analysis software is often not fitted for that analysis and needs to be transformed (https://doi.org/10.1016/j.bbr.2011.03.007, see also https://doi.org/10.12688/f1000research.20072.2 if you are interested in water maze experiment analysis). Doing transformations by hand is time consuming and may introduce errors.
->
+
+> ## Analysing water maze data
+> Results of water maze behavioural tests are better analysed using a survival analysis than an ANOVA, but the data obtained via video analysis software is often not fitted for that analysis and needs to be transformed (https://doi.org/10.1016/j.bbr.2011.03.007, see also https://doi.org/10.12688/f1000research.20072.2 if you are interested in water maze experiment analysis). Doing transformations by hand is time consuming and may introduce errors.
 {: .testimonial}
 
 #### Informative (and inclusive) figures 
@@ -78,11 +81,13 @@ One can also automate the figure design choice, so that all figures look similar
 Similarly, the production of several version of the same figure is very easy.
 For example, one can use different color pallette, one using the palette usually used in the field (the one your supervisor wants to see), and one for color-blind readers. 
 
+> ## 3D interactive plots
+> https://logarithmic.net/langevitour/2022-useR/#2
+{: .testimonial}
 
-
-> Example: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC549458/
-> Single flights from different bees, shown in gifs.
->
+> ## Single flights from different bees, shown in gifs.
+> see https://www.ncbi.nlm.nih.gov/pmc/articles/PMC549458/
+> 
 {: .testimonial}
 
 #### Reproducible analysis
@@ -95,18 +100,18 @@ The ultimate description of the analysis is to provide all elements necessary fo
 This includes the data and the code used to analyse it (in a form that can be reused in a different computational environment).
 
 
+> ## legal restrictions
 >In practice, sometimes one may not be able to provide all elements openly (for instance, some medical data cannot be shared openly for privacy reasons) for everyone to be able to reproduce all the results.
-But co-workers (and maybe reviewers) should be able to reproduce the analysis (e.g., on anonymized data).
->
-{: .testimonial}
+>But co-workers (and maybe reviewers) should be able to reproduce the analysis (e.g., on anonymized data).
+{: .callout}
 
 
 
+> ## reproducible reports
 >The emergence of reproducible reports is another aspect of computer reproducibility.
 Literate programming using Jupyter notebooks, Rmarkdown, stencila or quarto (tools that can usually use Python, R, or Julia) is indeed growing in popularity.
 These tools allow you to show data and analysis side by side, with written explanations and interactive visualisations. 
-These outputs can not only be used as blog posts, or lab reports, but can also be published as an enhanced publication, a concept called executable research articles: https://gmaciocci.medium.com/list/the-evolution-of-executable-research-articles-823e42a9fa60 
->
+>These outputs can not only be used as blog posts, or lab reports, but can also be published as an enhanced publication, a concept called executable research articles: https://gmaciocci.medium.com/list/the-evolution-of-executable-research-articles-823e42a9fa60 
 {: .testimonial}
 
 #### Diversifying research outputs
@@ -116,15 +121,12 @@ In particular, datasets and software publication are officially reviewed in the 
 Data science principles will make it easier to publish datasets, software, reagents or hardware you are anyway producing during the research process.
 
 
->By publishing datasets and code, you will not only help other researchers, but gain extra recognition for your work. 
-However, open data and open code requires a specific documentation, which we will touch upon in this course.
+> ## An investment for reputation
+>By publishing datasets and code, you will not only help other researchers, but gain extra recognition for your work, as credit will be given globally. 
+>However, open data and open code requires a specific documentation, which we will touch upon in this course.
 >
-{: .testimonial}
-
->Computational tools you produce in your lab can be released as open source software and credit will be given globally. 
-This may also be true for hardware you design (this aspect will not be treated in this course) or datasets you collect.
->
-{: .testimonial}
+> This may also be true for hardware you design (this aspect will not be treated in this course) or datasets you collect.
+{: .callout}
 
 ### Improved Research Process
 
@@ -152,9 +154,6 @@ It makes also certain that difference in the figures are due to difference in th
 
 #### Collaborative working
 
->Facilitating communication and sharing, will make it easier for your colleagues to help you. 
->{: .testimonial}
-
 Within science teams, group work is critical for experimental design and implementation.
 In addition, there are rapid developments in how scientific results and methods are shared, and collaborations have never been more global or rapid.
 This means that several people will likely be working with the same data files.
@@ -163,18 +162,21 @@ Data science allows for the management of
 how one or multiple people work on the same project (as well as the same code). 
 It requires different skillsets than those taught in traditional science courses *or* a typical coding class.
 
-
-
+> Who can help you
+> Facilitating communication and sharing will make it easier for your colleagues to help you. 
+> Can you think of people who can help you in your research, directly in your lab or at your institution ?
+> Would it help for them to have access to your data? How could they participate,
+> and how can you give them credit?
+> 
+>> ## Needs from the future you 
+>> It is very interesting to consider your future self as one collaborator in your project.
+>> Anything you may forget in the next three to five years should be documented,
+>> if you want your future self to be able to (re-)analyse the data you are collecting.
+>> Indeed, the advantage of working collaboratively in a project can indeed be translated directly in a project you drive mostly alone. 
+>{: .solution}
+{: .discussion}
 
 #### Efficiency
-
-> The time invested in your data and code will be paid multiple times by the efficiency improvement in your workflow, if that investment is done early in the project.
-Because one can consider your past self as one of your collaborator,
-the advantage of working collaboratively in a project can indeed be translated directly in a project you drive mostly alone.
->
-{: .testimonial}
-
-
 
 At this point, you may be convinced that the extra work of designing your project using data science principles will be worth it.
 But here comes the best argument of all: **in the end you will save time.**
@@ -184,12 +186,13 @@ This applies directly to the example of working on article revisions - will you 
 For instance, if a colleague cannot find what data goes with which figures, there are high chances that you will also be unable to find it three years from now.
 In addition, itt is not uncommon to modify the design of the figures multiple times (sometimes back and forth), often modifying all figures at once.
 
->Once a reviewer ask me to overlay individual data points onto all our 5 boxplots figures.
+> ## Redoing all figures in minutes
+> Once a reviewer ask me to overlay individual data points onto all our 5 boxplots figures.
 The project was an old one, and I had not touched the data for years.
-Finding the right data and redo the all 5 figures would usually take ages using SPSS or excel.
-But since I used code, I had all figures 15 minutes later.
-(Note, after seeing the new figures, the reviewer agreed that the original version was better).
->{: .testimonial}
+>Finding the right data and redo the all 5 figures would usually take ages using SPSS or excel.
+>But since I used code, I had all figures 15 minutes later.
+>(Note, after seeing the new figures, the reviewer agreed that the original version was better).
+{: .testimonial}
 
 Later on in the project, community advantages are coming in.
 Data and code reusability is not only a mark of research transparency and robustness, it also means you can reuse your own code and data.
@@ -197,9 +200,9 @@ It also means you can reuse code and data produced by other researchers.
 The snow ball effect may be huge, and the objective of this course is to allow you to do **better science in less time** ( https://www.nature.com/articles/s41559-017-0160:)
 
 
-
+> ## Invest in data science
 >As an example it was estimated that research data management  takes about 5% of your time, on the other hand, time lost due to poor data management is estimated to be 15%. 
-
+{: .callout}
 
 
 
