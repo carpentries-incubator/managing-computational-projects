@@ -62,7 +62,7 @@ In all the resources developed within this project, we consistently emphasise ho
 >
 {: .testimonial}
 
-In this training material for **Managing Open and Reproducible Computational Projects**, we discuss essential practices for computational reproducibility required for carrying out meaningful analyses of research datasets through data exploration, processing, visualisation and communication. 
+In this training material for learning how to manage computational projects, we discuss essential practices for computational reproducibility required for carrying out meaningful analyses of research datasets through data exploration, processing, visualisation and communication. 
 We present unfamiliar and complex topics from computation and data science to biologists by providing examples and recommendations from their fields. 
 The goal is to enable effective management and sharing of their computational projects. We therefore encourage you to go through this training material before taking our second workshop, more focused in AI and Data Science. 
 
