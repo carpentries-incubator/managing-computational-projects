@@ -21,16 +21,13 @@ As a researcher, you are likely to use some sort of computational tools to proce
 You are also likely to work on your project with other members of the lab, and the success of your work may well depend on your interactions with your peers.
 **In that sense any research project can be defined as a collaborative, computational project.**
 
-<img src="../fig/ReproducibleJourney.jpg" alt="drawing" width="500"/>
+<img src="../fig/skill-spectrum.jpg" alt="Researchers represented in a map indicating their journey to understand and apply computational approaches. Some may have just started their journey, some may have come far in the learning and some may have gained proficiency based on their research requirements." width="500"/>
 
-_What to expect in your reproducibility journey. The Turing Way project illustration by Scriberia for The Turing Way Community Shared under CC-BY 4.0 License. Zenodo. http://doi.org/10.5281/zenodo.3332807
+_We want to acknowledge the data science knowledge will vary. The Turing Way project illustration by Scriberia for The Turing Way Community Shared under CC-BY 4.0 License. Zenodo. http://doi.org/10.5281/zenodo.3332807
 
-Contents of training introduces methods and concepts to manage individuals and teams working on any computational project, i.e. any research project.
-It is *not* about learning how to write code, but learning how to facilitate collaboration and data analysis using tools like research data management, version control or code review. 
-
-```
-TODO: Adding detail description of the course, or linking to it, when the course is sstabilised
-```
+Contents of training introduces methods and concepts to manage individuals and teams working on any computational project, which in the current era is literally all research projects.
+It is *not* about learning how to write code, but building a foundational understanding for computational methods that could be applied to your research.
+Furthermore, this training will provide guidance for facilitating collaboration and data analysis using tools like research data management, version control or code review. 
 
 We believe that the data science skills you will learn in this training will make your research process better. In the following sections, we will detail what we mean by "better".
  
@@ -39,6 +36,7 @@ We believe that the data science skills you will learn in this training will mak
 <img src="../fig/healthy-research-tree.jpg" alt="Researchers pour water on a tree, the water represents data science, the tree is the research." width="500"/>
 
 _Data science makes research flourish. The Turing Way project illustration by Scriberia for The Turing Way Community Shared under CC-BY 4.0 License. Zenodo. http://doi.org/10.5281/zenodo.3332807
+
 
 > Data science brings some structure in how data is collected, processed and analysed, making it easier to collaborate on a project, to publish extra research outputs and leveraging some extra potential your data may have.
 In the past, it helped me drive new hypotheses, detect problems with the research design early, and reduce the sample size needed to drive a solid conclusion. 
@@ -82,6 +80,10 @@ For example, one can use different color pallette, one using the palette usually
 
 Good scientific practices are aiming at securing the robustness and reproducibility of the scientific endeavour.
 As a researcher, assuring computational reproducibility of your results is a relatively easy step in making your research more robust. 
+
+<img src="../fig/ReproducibleJourney.jpg" alt="Shows a landscape with different checkpoints fpr data, code, tools and result each of which require reproducible practices. There is a woman explaining her reproducibility journey to help new people start their journey" width="500"/>
+
+_What to expect in your reproducibility journey. The Turing Way project illustration by Scriberia for The Turing Way Community Shared under CC-BY 4.0 License. Zenodo. http://doi.org/10.5281/zenodo.3332807
 
 The reproducibility of an experiment not only requires a detailed description of the methods and reagents used, but also a detailed description of the analysis performed.
 The ultimate description of the analysis is to provide all elements necessary for reproducing the analysis (computational reproducibility).
@@ -179,6 +181,9 @@ The snow ball effect may be huge, and the objective of this lesson is to allow y
 
 ### Team and community building
 
+<img src="../fig/research-foundation.jpg" alt="A house representing machine learing and AI is set upon bricks that one person is sliding below the house. On the bricks, we can read data science principles like open science, backups, reproducibiliy, and FAIR principles." width="500"/>
+
+_Data science foundations. The Turing Way project illustration by Scriberia for The Turing Way Community Shared under CC-BY 4.0 License. Zenodo. http://doi.org/10.5281/zenodo.3332807_
 
 Data science tools will make it easier not only to collaborate with researchers in your lab, but also with researchers outside of your lab, or even with non-researchers (citizen science or software professionals).
 These may bring valuable expertise in the project.
@@ -187,7 +192,6 @@ Being part of a collaborative community will also create
 
 We may also add to the pot that creating a network around your research is a critical aspect of building a career in academia. 
 Being known as a good and skilled collaborator can open doors to many opportunities.
-
 
 
 ## A journey starts
@@ -203,11 +207,11 @@ After the training, do not hesitate to join (or create) a community of like-mind
 In addition, there may be people at your institution whose job is to help you. 
 Look for data steward or data managers, research data engineers, IT support, open science büros at your institution and be pro-active contacting them. 
 There are also almost endless online resources and helpful communities.
+For instance, *The Turing Way* guide for data science and research provides several detailed chapters to cover topics across reproducibility, project design, collaboration, communication, research ethics and community building.
 
-<img src="https://the-turing-way.netlify.app/_images/welcome.jpg?w=1024" alt="drawing" width="400"/>
+<img src="../fig/ttw-welcome.jpg" alt="drawing" width="400"/>
 
 _ The Turing Way project illustration by Scriberia for The Turing Way Community Shared under CC-BY 4.0 License. Zenodo. http://doi.org/10.5281/zenodo.3332807
-
 
 
 ## References

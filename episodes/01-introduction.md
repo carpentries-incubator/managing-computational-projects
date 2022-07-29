@@ -31,12 +31,12 @@ In contrast to the definition above (and as will be explained in the next chapte
 However, to ensure that data science approaches are appropriately applied in domain research, such as in biosciences, there is a need to also engage and educate scientific group leaders and researchers in project leadership roles on best practices.
 Computational methods might indeed be as complex as a neural network, but even statistical tests and producing figures for a publication require data science and coding methods.
 
-As pictured below, researcher comes to data science to apply computer intensive and pioneering data analyses approaches to their research questions.
-As pictured below, in order to apply these tools, researcher first need to understand and apply the building blocks of data science, especially research data management, collaborative working and project management.
+Researcher use data science skills to apply computation techniques and reproducible data analyses approaches to their research questions.
+In order to apply these tools, researcher first need to understand and apply the building blocks of data science, especially research data management, collaborative working and project management.
 
-<img src="../fig/research-foundation.jpg" alt="A house representing machine learing and AI is set upon bricks that one person is sliding below the house. On the bricks, we can read data science principles like open science, backups, reproducibiliy, and FAIR principles." width="500"/>
+<img src="../fig/handbook-for-application.jpg" alt="Two people with computational expertise holding a giant book towards two other people who conduct lab experiments. The book saya: how to apply data science in biology." width="500"/>
 
-_Data science foundations. The Turing Way project illustration by Scriberia for The Turing Way Community Shared under CC-BY 4.0 License. Zenodo. http://doi.org/10.5281/zenodo.3332807_
+_How to apply data science in biology. The Turing Way project illustration by Scriberia for The Turing Way Community Shared under CC-BY 4.0 License. Zenodo. http://doi.org/10.5281/zenodo.3332807_
 
 > In some instances, it has been argued that “data science” simply rebrands existing fields like statistics or computer science.
 > Our view is that data science has gained traction as an overarching term due to increased data availability and complexity; development of computational methods; advances in computational infrastructure; growing concerns about scientific rigor and the reproducibility of research findings; and a recognition that new advances will result from interdisciplinary research and collaboration. 
