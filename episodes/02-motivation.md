@@ -9,7 +9,7 @@ questions:
 - "What are the challenges for teams and management?"
 - "Are there procedures and protocols that can help?"
 objectives:
-- "Understand how this course will help your research (and career)."
+- "Understand how this training material will help your research (and career)."
 keypoints:
 - "motivations"
 ---
@@ -21,23 +21,18 @@ As a researcher, you are likely to use some sort of computational tools to proce
 You are also likely to work on your project with other members of the lab, and the success of your work may well depend on your interactions with your peers.
 **In that sense any research project can be defined as a collaborative, computational project.**
 
-<img src="https://zenodo.org/record/3678226/files/ReproducibleJourney.jpg" alt="drawing" width="500"/>
+<img src="../fig/ReproducibleJourney.jpg" alt="drawing" width="500"/>
 
 _What to expect in your reproducibility journey. The Turing Way project illustration by Scriberia for The Turing Way Community Shared under CC-BY 4.0 License. Zenodo. http://doi.org/10.5281/zenodo.3332807
 
-This course is about introducing methods and concepts to manage individuals and teams working on any computational project, i.e. any research project.
+Contents of training introduces methods and concepts to manage individuals and teams working on any computational project, i.e. any research project.
 It is *not* about learning how to write code, but learning how to facilitate collaboration and data analysis using tools like research data management, version control or code review. 
 
-
 ```
-TODO: Adding detail description of the course, or linking to it, when the course is stabilised
+TODO: Adding detail description of the course, or linking to it, when the course is sstabilised
 ```
 
-
-We believe that the data science skills you will learn in this course will make your research process better. In the following sections, we will detail what we mean by "better".
-
-
-
+We believe that the data science skills you will learn in this training will make your research process better. In the following sections, we will detail what we mean by "better".
  
 ## How data science will improve your research ?
 
@@ -50,7 +45,7 @@ In the past, it helped me drive new hypotheses, detect problems with the researc
 Eventually, it made my research more robust and trustworthy.
 But in the end, my real motivation is efficiency: very soon, the time I invested in learning and applying data science in my research was recovered multiple times when a manuscript had to be written (and re-written).
 >
-{: .testimonial}
+{: .callout}
 
 There are different ways to organise the different foreseen improvement, we decided here to start with improvement in the final result, improvement in the research process, and finally aspects of community building.
 
@@ -61,13 +56,16 @@ There are different ways to organise the different foreseen improvement, we deci
 The most advanced statistical methods (like machine learning) are first developed in programming environment, and they are often difficult or impossible to implement in statistical software.
 In addition, some of the less advanced statistical methods requires intensive data processing that makes it very difficult to apply outside a coding environment.
 
-> example 1 https://logarithmic.net/langevitour/2022-useR/#2
->
-{: .testimonial}
+##### Examples 
 
->Results of water maze behavioural tests are better analysed using a survival analysis than an ANOVA, but the data obtained via video analysis software is often not fitted for that analysis and needs to be transformed (https://doi.org/10.1016/j.bbr.2011.03.007, see also https://doi.org/10.12688/f1000research.20072.2 if you are interested in water maze experiment analysis). Doing transformations by hand is time consuming and may introduce errors.
->
-{: .testimonial}
+1. [logarithmic.net/langevitour/2022-useR/#2](https://logarithmic.net/langevitour/2022-useR/#2) to explore orthonormal projections of high dimensional data.
+2. Results of water maze behavioural tests are better analysed using a survival analysis than an [Analysis of variance (ANOVA)](https://en.wikipedia.org/wiki/Analysis_of_variance).
+However, the data obtained via video analysis software is often not fitted for that analysis and needs to be transformed. Doing transformations by hand is time consuming and is likely to introduce errors.
+
+**Example's references**
+
+* See *Jahn-Eimermacher, A., Lasarzik, I., & Raber, J. (2011). Statistical analysis of latency outcomes in behavioral experiments. Behavioural Brain Research, 221(1), 271–275. doi: [10.1016/j.bbr.2011.03.007](https://www.sciencedirect.com/science/article/abs/pii/S0166432811001847?via%3Dihub)*
+* For water maze experiment analysis, see: Maugard, M., Doux, C., & Bonvento, G. (2019). A new statistical method to analyze Morris Water Maze data using Dirichlet distribution. F1000Research, 8(1601), 1601. doi: [10.12688/f1000research.20072.2](https://doi.org/10.12688/f1000research.20072.2).
 
 #### Informative (and inclusive) figures 
 
@@ -78,12 +76,7 @@ One can also automate the figure design choice, so that all figures look similar
 Similarly, the production of several version of the same figure is very easy.
 For example, one can use different color pallette, one using the palette usually used in the field (the one your supervisor wants to see), and one for color-blind readers. 
 
-
-
-> Example: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC549458/
-> Single flights from different bees, shown in gifs.
->
-{: .testimonial}
+**Example of single flights from different bees shown in supplemnentary data:** Menzel, R., Greggers, U., Smith, A., Berger, S., Brandt, R., Brunke, S., ...Watzl, S. (2005). Honey bees navigate according to a map-like spatial memory. Proceedings of the National Academy of Sciences of the United States of America, 102(8), 3040. doi: [10.1073/pnas.0408550102](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC549458/)
 
 #### Reproducible analysis
 
@@ -94,20 +87,15 @@ The reproducibility of an experiment not only requires a detailed description of
 The ultimate description of the analysis is to provide all elements necessary for reproducing the analysis (computational reproducibility).
 This includes the data and the code used to analyse it (in a form that can be reused in a different computational environment).
 
-
 >In practice, sometimes one may not be able to provide all elements openly (for instance, some medical data cannot be shared openly for privacy reasons) for everyone to be able to reproduce all the results.
 But co-workers (and maybe reviewers) should be able to reproduce the analysis (e.g., on anonymized data).
 >
-{: .testimonial}
+{: .callout}
 
-
-
->The emergence of reproducible reports is another aspect of computer reproducibility.
+The emergence of reproducible reports is another aspect of computer reproducibility.
 Literate programming using Jupyter notebooks, Rmarkdown, stencila or quarto (tools that can usually use Python, R, or Julia) is indeed growing in popularity.
 These tools allow you to show data and analysis side by side, with written explanations and interactive visualisations. 
 These outputs can not only be used as blog posts, or lab reports, but can also be published as an enhanced publication, a concept called executable research articles: https://gmaciocci.medium.com/list/the-evolution-of-executable-research-articles-823e42a9fa60 
->
-{: .testimonial}
 
 #### Diversifying research outputs
 
@@ -117,14 +105,12 @@ Data science principles will make it easier to publish datasets, software, reage
 
 
 >By publishing datasets and code, you will not only help other researchers, but gain extra recognition for your work. 
-However, open data and open code requires a specific documentation, which we will touch upon in this course.
+However, open data and open code requires a specific documentation, which we will touch upon in this training.
 >
-{: .testimonial}
+{: .callout}
 
->Computational tools you produce in your lab can be released as open source software and credit will be given globally. 
-This may also be true for hardware you design (this aspect will not be treated in this course) or datasets you collect.
->
-{: .testimonial}
+Computational tools you produce in your lab can be released as open source software and credit will be given globally. 
+This may also be true for hardware you design (this aspect will not be discussed in this training) or datasets you collect.
 
 ### Improved Research Process
 
@@ -194,13 +180,9 @@ But since I used code, I had all figures 15 minutes later.
 Later on in the project, community advantages are coming in.
 Data and code reusability is not only a mark of research transparency and robustness, it also means you can reuse your own code and data.
 It also means you can reuse code and data produced by other researchers.
-The snow ball effect may be huge, and the objective of this course is to allow you to do **better science in less time** ( https://www.nature.com/articles/s41559-017-0160:)
+The snow ball effect may be huge, and the objective of this lesson is to allow you to do **better science in less time** ( https://www.nature.com/articles/s41559-017-0160:)
 
-
-
->As an example it was estimated that research data management  takes about 5% of your time, on the other hand, time lost due to poor data management is estimated to be 15%. 
-
-
+> As an example it was estimated that research data management  takes about 5% of your time, on the other hand, time lost due to poor data management is estimated to be 15%. 
 
 
 ### Team and community building
@@ -222,10 +204,10 @@ Being known as a good and skilled collaborator can open doors to many opportunit
 > 
 > J.R.R. Tolkien, The Lord of the Rings
 
-This course will give you somewhere to start, but implementating data science principles is a long and always renewed process.
+This training will give you some starting points, but implementating data science principles is a long and always renewed process.
 But you do not need to do it all at once, and you do not need to do it alone. 
 
-After the course, do not hesitate to join (or create) a community of like-minded researchers where you live (there are always some if you look).
+After the training, do not hesitate to join (or create) a community of like-minded researchers where you live (there are always some if you look).
 In addition, there may be people at your institution whose job is to help you. 
 Look for data steward or data managers, research data engineers, IT support, open science büros at your institution and be pro-active contacting them. 
 There are also almost endless online resources and helpful communities.
