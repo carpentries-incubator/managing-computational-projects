@@ -36,7 +36,7 @@ We believe that the data science skills you will learn in this training will mak
  
 ## How data science will improve your research ?
 
-<img src="https://zenodo.org/record/6560477/files/healthy-research-tree.jpg" alt="Researchers pour water on a tree, the water represents data science, the tree is the research." width="500"/>
+<img src="../fig/healthy-research-tree.jpg" alt="Researchers pour water on a tree, the water represents data science, the tree is the research." width="500"/>
 
 _Data science makes research flourish. The Turing Way project illustration by Scriberia for The Turing Way Community Shared under CC-BY 4.0 License. Zenodo. http://doi.org/10.5281/zenodo.3332807
 
@@ -87,7 +87,7 @@ The reproducibility of an experiment not only requires a detailed description of
 The ultimate description of the analysis is to provide all elements necessary for reproducing the analysis (computational reproducibility).
 This includes the data and the code used to analyse it (in a form that can be reused in a different computational environment).
 
->In practice, sometimes one may not be able to provide all elements openly (for instance, some medical data cannot be shared openly for privacy reasons) for everyone to be able to reproduce all the results.
+> In practice, sometimes one may not be able to provide all elements openly (for instance, some medical data cannot be shared openly for privacy reasons) for everyone to be able to reproduce all the results.
 But co-workers (and maybe reviewers) should be able to reproduce the analysis (e.g., on anonymized data).
 >
 {: .callout}
@@ -104,7 +104,7 @@ In particular, datasets and software publication are officially reviewed in the 
 Data science principles will make it easier to publish datasets, software, reagents or hardware you are anyway producing during the research process.
 
 
->By publishing datasets and code, you will not only help other researchers, but gain extra recognition for your work. 
+> By publishing datasets and code, you will not only help other researchers, but gain extra recognition for your work. 
 However, open data and open code requires a specific documentation, which we will touch upon in this training.
 >
 {: .callout}
@@ -132,14 +132,10 @@ With reproducible analysis, it is effortless to run a new dataset in the analysi
 it becomes possible to explore the data at a single experiment level, which may enable new hypotheses, or spot issues that were not foreseen in the experimental design.
 It makes also certain that difference in the figures are due to difference in the dataset, not any manual processing of the data one may have forgotten to docuzment.
 
-
-
-
-
 #### Collaborative working
 
->Facilitating communication and sharing, will make it easier for your colleagues to help you. 
->{: .testimonial}
+> Facilitating communication and sharing, will make it easier for your colleagues to help you. 
+> {: .callout}
 
 Within science teams, group work is critical for experimental design and implementation.
 In addition, there are rapid developments in how scientific results and methods are shared, and collaborations have never been more global or rapid.
@@ -150,17 +146,13 @@ how one or multiple people work on the same project (as well as the same code).
 It requires different skillsets than those taught in traditional science courses *or* a typical coding class.
 
 
-
-
 #### Efficiency
 
 > The time invested in your data and code will be paid multiple times by the efficiency improvement in your workflow, if that investment is done early in the project.
 Because one can consider your past self as one of your collaborator,
 the advantage of working collaboratively in a project can indeed be translated directly in a project you drive mostly alone.
 >
-{: .testimonial}
-
-
+{: .callout}
 
 At this point, you may be convinced that the extra work of designing your project using data science principles will be worth it.
 But here comes the best argument of all: **in the end you will save time.**
@@ -170,12 +162,12 @@ This applies directly to the example of working on article revisions - will you 
 For instance, if a colleague cannot find what data goes with which figures, there are high chances that you will also be unable to find it three years from now.
 In addition, itt is not uncommon to modify the design of the figures multiple times (sometimes back and forth), often modifying all figures at once.
 
->Once a reviewer ask me to overlay individual data points onto all our 5 boxplots figures.
+> Once a reviewer ask me to overlay individual data points onto all our 5 boxplots figures.
 The project was an old one, and I had not touched the data for years.
 Finding the right data and redo the all 5 figures would usually take ages using SPSS or excel.
-But since I used code, I had all figures 15 minutes later.
+> But since I used code, I had all figures 15 minutes later.
 (Note, after seeing the new figures, the reviewer agreed that the original version was better).
->{: .testimonial}
+> {: .testimonial}
 
 Later on in the project, community advantages are coming in.
 Data and code reusability is not only a mark of research transparency and robustness, it also means you can reuse your own code and data.

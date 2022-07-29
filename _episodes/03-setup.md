@@ -19,7 +19,7 @@ keypoints:
 
 ## Setting up a Project
 
-![The research process is represented as a perpetual cycle of generating research ideas, performing data planning and design, data collection, and data processing and analysis, publishing, preserving and hence, allowing re-use of data.](https://zenodo.org/api/iiif/v2/fa529424-d420-461e-8b2c-6e7b36bda0ce:011c0c3b-0e09-4ef9-9fd3-4ddce57c4b08:ResearchCycle.jpg/full/750,/0/default.jpg)
+![The research process is represented as a perpetual cycle of generating research ideas, performing data planning and design, data collection, and data processing and analysis, publishing, preserving and hence, allowing re-use of data.](../fig/research-cycle.jpg)
 
 *Research Lifecycle. The Turing Way project illustration by Scriberia for The Turing Way Community Shared under CC-BY 4.0 License. Zenodo. http://doi.org/10.5281/zenodo.3332807*
 
@@ -51,8 +51,6 @@ Furthermore, throughout the lifecycle of a project we handle experimental materi
 Then there is a general need to document the team's way of working, different roles and contribution types, project workflows, research process, learning resources and templates (such as for presentation, documentation, project reporting and manuscript) for your research team.
 
 If not planned in advance, these different kinds of information related to the project can become challenging to record, manage or retrieve -- costing precious time of everyone involved and negatively affecting collaborative work in your research team.
-
-[Add biological context for challenges and concerns]
 
 ## Shared Repository to Share Information
 
@@ -112,7 +110,7 @@ To learn more about how to add a license to your project, read the [Licensing ch
 
 ### Consider Computational Reproducibility
 
-![A matrix showing data and analysis in two axis and iterating that reproducibility is when same analysis is applied to same data it gives same result.](https://the-turing-way.netlify.app/_images/reproducible-matrix.jpg)
+![A matrix showing data and analysis in two axis and iterating that reproducibility is when same analysis is applied to same data it gives same result.](../fig/reproducible-matrix.jpg)
 
 *Documentation as a guiding light for people who may feel lost otherwise. The Turing Way project illustration by Scriberia for The Turing Way Community Shared under CC-BY 4.0 License. Zenodo. http://doi.org/10.5281/zenodo.3332807*
 
@@ -140,7 +138,7 @@ The idea is to facilitate others in recreating the setup process necessary to re
 
 ### Provide a Process for Documentation
 
-![Image shows a person putting lamp-posts of documentation, helping a researcher who was lost because of lack of information about the research.](https://zenodo.org/api/iiif/v2/867e0f11-b7cb-460e-9c3b-487ac75ada36:ee8aceae-1007-40ce-aedf-a52c28a5935a:documentation.jpg/full/750,/0/default.jpg)
+![Image shows a person putting lamp-posts of documentation, helping a researcher who was lost because of lack of information about the research.](../fig/documentation.jpg)
 
 *Documentation as a guiding light for people who may feel lost otherwise. The Turing Way project illustration by Scriberia for The Turing Way Community Shared under CC-BY 4.0 License. Zenodo. http://doi.org/10.5281/zenodo.3332807*
 
