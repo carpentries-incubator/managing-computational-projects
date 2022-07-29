@@ -14,11 +14,13 @@ For details about the project and track management related information, please t
 
 ## Maintainer(s)
 
-Current developers and maintainers of this lesson are
-
-* Lydia France
 * Malvika Sharan
-* Federico Nanni
+* Julien Colomb
+
+### Previous developers
+
+* Lydia France was allocated as a developer on this project for six months in 0.5 FTW capacity.
+* Federico Nanni provided supervision for Lydia and contributed to the project planning
 
 ------
 
