@@ -1,10 +1,10 @@
 ---
-title: "Code Review"
+title: "Code testing and Review"
 teaching: 10
-exercises: 0
+exercises: 10
 questions:
-- "What are the main objectives and best practices for reviewing code?"
-- "What are the difference between synchronous and asynchronous code reviews?"
+- "What are the main objectives and best practices for testing and reviewing code?"
+- "What can continous integration help?"
 - "How can group leaders facilitate a collaborative environment for code review?"
 objectives:
 - "Explain different processes and best practices for code review."
@@ -15,6 +15,42 @@ keypoints:
 - "Synchronous code review creates opportunities for researchers to get feedback and learn from others in real-time."
 - "Asynchronous code review is a good practice when working with busy researchers or collaborators in different time zones."
 ---
+### Code Testing
+
+> You should not skip writing tests because you are short on time, you should write tests because you are short on time. 
+
+![](https://the-turing-way.netlify.app/_images/error-management.jpg)
+*The Turing Way project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: 10.5281/zenodo.3332807.*
+
+It is very, very easy to make mistakes when coding. 
+A single wrong use of a character can cause a program’s output to be entirely wrong. 
+Missing one data point, writing plus instead of minus symbol or using feet instead of meters might be a genuine human mistake, but in research, the results can be catastrophic. 
+Careers can be damaged/ended, vast sums of research funds can be wasted, and valuable time may be lost exploring incorrect avenues. 
+This is why code testing is vital.
+
+Testing is a learned skill that needs to become a part of working on/improving a project. 
+After changing their code, researchers should always check that their changes or fixes have not broken anything. 
+There are several different kinds of testing and each has best practices specific to them.
+
+> ## A few important testing types
+>
+> * **Smoke testing**: Very brief initial checks that ensure the basic requirements required to run the project hold. If these fail there is no point in proceeding to additional levels of testing until they are fixed.
+> * **Unit testing**: A level of the software testing process where individual units of a software are tested. The purpose is to validate that each unit of the software performs as designed.
+> * **Integration testing**: A level of software testing where individual units are combined and tested as a group. The purpose of this level of testing is to expose faults in the interaction between integrated units.
+> * **System testing**: A level of the software testing process where a complete, integrated system is tested. The purpose of this test is to evaluate whether the system as a whole gives the correct outputs for given inputs.
+>
+{: .checklist}
+
+No matter the type of testing you use, general guidance is to start by writing any test and make a habit of running tests often.
+- Make improvements where you can, and do your best to include tests with new code you write even if it’s not feasible to write tests for all the code that’s already written.
+- Make the cases you test as realistic as possible. If for example, you have dummy data to run tests on you should make sure that data is as similar as possible to the actual data. If your actual data is messy with a lot of null values, so should your test dataset be.
+
+There are tools available to make writing and running tests easier, these are known as testing frameworks. Find one you like, learn about the features it offers, and make use of them. 
+
+Writing tests typically encourage researchers to write cleaner, more modular code as such code is far easier to write tests for, leading to an improvement in code quality.
+As well as advantaging individual researchers testing also benefits research as a whole. It makes research more reproducible by answering the question “how do we even know this code works”.
+To gain an in-depth understanding of different kinds of tests, please see [Code Testing](https://the-turing-way.netlify.app/reproducible-research/testing.html) chapter in *The Turing Way*.
+
 
 ## Code Review
 
@@ -248,6 +284,19 @@ Splitting the task across the team as an event, creating documentation and worki
 Having regularly updated documentation also reduces onboarding time for new members picking up the shared methods in the lab. 
 
 Group work shares the burden and allows knowledge exchange and support within the team. 
+
+### Continuous integration
+
+Continuous Integration (CI) is the practice of integrating changes to a project made by individuals into a main, shared version frequently (usually multiple times per day). 
+CI is also typically used to identify any conflicts and bugs that are introduced by changes, so they are found and fixed early, minimising the effort required to do so. 
+Running tests regularly also saves humans from needing to do it manually. 
+By making users aware of bugs as early as possible researchers (if the project is a research project) do not waste a lot of time doing work that may need to be thrown away, which may be the case if tests are run infrequently and results are produced using faulty code.
+There are many CI service providers, such as GitHub Actions that come with their own advantages and disadvantages.
+
+![Continuous Integration with GitHub Actions](https://the-turing-way.netlify.app/_images/github-actions.jpg)
+*The Turing Way project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: 10.5281/zenodo.3332807.*
+
+To learn more about different CI tools and how to use them, please read the [Continuous Integration](https://the-turing-way.netlify.app/reproducible-research/ci/ci-options.html) chapter in *The Turing Way*.
 
 ## References
 

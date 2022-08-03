@@ -1,9 +1,9 @@
 ---
-title: "Version Control and Open Science Practices"
-teaching: 10
-exercises: 0
+title: "Open Science Practices"
+teaching: 5
+exercises: 15
 questions:
-- "How is version control system relevant for biomedical research?"
+
 - "How to maintain history of contributions and contributors?"
 - "How to apply open science practices to work transparently and collaborate openly?"
 objectives:
@@ -16,33 +16,6 @@ keypoints:
 - "Online Persistent Identifiers or Digital Object Identifiers are useful for releasing and citing different versions of research objects."
 ---
 
-# Version Control, Open Science and Identifiers to Cite Research Objects
-
-[Add a biological context or case study]
-
-## Maintaining History through Version Control
-
-![Contrast in project history management. On the left - choosing between ambiguosly named files. On the right - picking between successive versions (from V1 to V6).](https://zenodo.org/api/iiif/v2/0c0188d3-d03c-4830-a6e3-00405f5c22fa:df931888-09af-4eac-945f-0c208be0c26b:ProjectHistory.jpg/full/750,/0/default.jpg)
-
-*Version control allows tracking of history and go back to different versions as needed. The Turing Way project illustration by Scriberia for The Turing Way Community Shared under CC-BY 4.0 License. Zenodo. http://doi.org/10.5281/zenodo.3332807*
-
-Practices and recommendations described in this lesson are applicable to all areas of biological research. 
-What can be considered slightly different in computational projects is that every object required to carry out the research exist in digital form. 
-Starting from research workflow, data, software, analysis process, resulting outcomes as well as how researchers involved in the project communicate with each other. 
-This means that research objects can be organised and maintained without losing the provenance or missing knowledge of how each of these objects is connected in the context of your project.
-
-## Versioning Every Research Object
-
-Management of changes or revisions to any type of information made in a file or project is called versioning. 
-Version Control Systems are platform and technical tools that allow all changes made in a file or research object over time is recorded. 
-Version Control Systems, or VCS, allows all collaborators to track history, review any changes, give appropriate credit to all contributors, track and fix errors when they appear and revert or go back to earlier versions. 
-
-Different VCS can be used through a program with web browser-based applications (such as [Google Docs](https://docs.google.com/) for documents) and more dynamically for code and all kinds of data through command-line tools (such as [Git](https://en.wikipedia.org/wiki/Git)) and their integration into the graphical user interface ([Visual Studio Code](https://code.visualstudio.com/) editor, [Git-gui](https://git-scm.com/downloads/guis) and [gitkraken](https://www.gitkraken.com/)).
-The practice of versioning is particularly important to allow non-linear or branched development of different parts of the project, testing a new feature, debugging and error or reusing code from one project to different data by different contributors.
-
-[GitLab](https://about.gitlab.com/), [GitHub](https://github.com/), or [BitBucket](https://bitbucket.org) are online platforms that allow version-controlled projects online and allow multiple collaborators to participate. Different members can download a copy of the online repository (most recent version), make changes by adding their contributions locally on their computer and push the changes to GitLab/GitHub/BitBucket (a new version!) allowing others to build on the new development.
-
-Read [All you need to know about Git, GitHub & GitLab](https://towardsdatascience.com/all-you-need-to-know-about-git-github-gitlab-24a853422ff3) on Towards Data Science and [version control](https://the-turing-way.netlify.app/reproducible-research/vcs.html) in *The Turing way* for more details on workflow, technical details of using git and versioning large datasets.
 
 ## Apply Open Science Best Practices
 
@@ -76,16 +49,12 @@ Research projects that use sensitive data should be more careful and follow rese
 * Having your research open from the start can **help others working in similar subjects or starting research**. It allows them to conduct their review work effectively and build on the existing work, rather than starting from scratch, or 'reinventing the wheel'.
 * With open repositories and descriptions for where you need help or how others can collaborate, you can **get people in your area with complementing skills and new ideas interested in your work**, even when you don't know them.
 
-### Research Objects can be Released with Digital Object Identifiers (DOI)
+### Choose a License
 
-DOIs are alphanumerical unique and persistent identifiers with a permanent web address for different research objects that can be cited by you and other researchers. 
-Each pre-print and publication is published with a DOI, but independent of the paper, different research objects can be published online on servers that offer DOIs at any stage of your research. 
-Some of these servers are [Zenodo](https://zenodo.org/), [FigShare](https://figshare.com/), [Data Dryad](https://datadryad.org/stash) (for data), [Open Grants](https://www.ogrants.org/) (for grant proposals) and [Open Science Framework](https://osf.io/) (OSF) (for different components of an open research project).
-It allows you to show connections between different parts of research as well as cite different objects from your work independently.
-
-When working on GitHub for instance, you can [connect the project repository with Zenodo](https://docs.github.com/en/repositories/archiving-a-github-repository/referencing-and-citing-content) to get a DOI for your repository.
-The [Citation File Format](https://citation-file-format.github.io/), then lets you provide citation metadata, for software or datasets, in plaintext files that are easy to read by both humans and machines.
-Read the [Making Research Objects Citable](https://the-turing-way.netlify.app/communication/citable.html) chapter in *The Turing Way* Guide to Communication.
+Research does not have to be completed to be useful to others. Having a license is the way to communicate how do you want your research to be used and shared.
+There are different types of licenses depending on the type of research objects such as code, data or documentation and preferences for re-use and sharing. 
+The [choosealicense](https://choosealicense.com/) website has a good mechanism to help you pick a license.
+To learn more about how to add a license to your project, read the [Licensing chapter](https://the-turing-way.netlify.app/reproducible-research/licensing.html) in **The Turing way** Guide for Reproducible Research.
 
 ### Every Little Step Counts towards Openness
 
