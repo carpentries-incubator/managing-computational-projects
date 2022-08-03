@@ -2,7 +2,7 @@
 title: FAIR How-Tos for data and software
 ---
 
-# FAIR How-To for data
+# FAIR How-to guide for data
 
 ## Findable:
 Your data should be findable, by you and others. 
