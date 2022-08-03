@@ -1,0 +1,96 @@
+# 03_Setting up a computational project
+
+- authority argument used too often, especially with PI, one needs a more subtle approach.
+- needs a explanation of what is different from a non-computational project, what is data science and what is science.
+- Should start with a summary, for example:
+
+Tasks:
+- Design a online strategy for data sharing (all data should be findable)
+- Set up project for team work: describe the vision and plan, set roles, foster documentation
+- Computation specificity: RDM, version control, avoid harking/p-hacking
+
+? is it the responsability of the PI, what to do if the rest of the team did not follow this course and you are not the PI ?
+? what is the advantage to do all that ? what happens if you do not?
+
+Team Framework: too short probably. what does agile mean in research?
+
+
+Choose a License: this should come later, not necessary at this point. (RDM, openness?)
+
+
+
+
+When saying use a template, link to a template.
+
+Registered Report should be inside reproducibility, maybe as a box?
+
+Documentation needs to be define: document what ? the code, the protocols, the reagents, ...?
+
+# 04_RDM
+
+version control needs to come here, nothing to do with openness
+again specificity of computational projects?
+
+computational analysis:
+- think computer readable data format (tidy spreadsheets)
+- metadata
+- avoid manual data wrangling: no copy-paste, no use the data acquisition software for analysis, start from raw data.
+- Plan for code (text) management (file name, version control, ...)
+
+# 05- open
+
+- should this be the last chapter?
+- put transparency forward ? publish dataset + code
+
+#06- selection
+
+- need content
+what is supposed to be there ?
+
+07-analysis
+
+this should be split into at least 2 chapters:
+
+# pitfalls and benefits of code for analysis
+
+- overview (preprocessing - statistics - figures)
+- difference with non-coding workflow (reproducibility, start from raw data: less errors + faster)
+- p-hacking issues (filtering data, p-hacking, harking)
+
+# details steps
+
+- data pre-processing (cleaning)
+- graphical representation
+- stat. analysis
+
+08- implementation
+
+- project management and code quality should be in 2 different chapters
+- code quality part is much too long, "this course is not about writing code" 
+- it should also be much more basic, based on provenance issue:
+    - code is run from start to end, one can comment out sections, but then that version need to be saved with the figure.
+    - reproducible reports: if possible add variables used, or script version in the resulting pdf
+    
+    
+# 09 code review
+
+"Important things to bear in mind:" should come at the beginning
+add elements of co-learning. what if there is no other people coding in the lab? - Rladies, useR,..
+
+# 10-publication
+
+- add content on license 
+- put the open science aspects here ?
+
+
+
+This would make
+1. Introduction
+2. Motivations and benefits
+3. Setting up a project
+4. Data workflow (RDM)
+5. Project management
+6. Data analysis (p-hacking, steps)
+7. Coding: basics and documentation
+8. Code management: review and tests
+9. Publication and open science
