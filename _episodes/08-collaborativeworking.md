@@ -81,6 +81,7 @@ You can read more about [Project Board in GitHub Documentation](https://docs.git
 Much research is now collaborative and a shared code repository can be effectively used to enable collaboration at all stages of code development at the analysis and implementation stage.
 
 Later in this material, we will go through best practices in code writing, testing, reviews and modularity, which help achieving computational reproducibility.
+Before that, we will look at ways to foster documentation of the work, and how research data management is necessary for efficient collaboration and reproducible research.
 
 ## References
 
