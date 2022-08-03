@@ -86,7 +86,7 @@ Finally build new habits:
 - Start the process early on!
 ![](https://i.imgur.com/pJ99MTf.png)
 
-# FAIR How-To for software
+# FAIR How-to guide for software
 
 The fair principles are intended to be applied to all digital objects. Both data and software are considered digital objects and can be products of research. Software generally performs a function upon something (e.g., software processes data), while data generally has a function performed upon it (e.g., data is processed by software) and we are more interested in what software does rather than what software is. Current conversations pretty much tell us the same thing, it is a special kind of data, which allows it to be treated in similar to data when it comes to certain aspects of FAIR.
 
