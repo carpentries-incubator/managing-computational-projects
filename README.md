@@ -19,7 +19,7 @@ For details about the project and track management related information, please t
 
 ### Previous developers
 
-* Lydia France was allocated as a developer on this project for six months in 0.5 FTW capacity.
+* Lydia France was allocated as a developer on this project for six months in 0.5 FTE capacity.
 * Federico Nanni provided supervision for Lydia and contributed to the project planning
 
 ------
