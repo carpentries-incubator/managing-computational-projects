@@ -13,8 +13,9 @@ keypoints:
 
 # Overview of this training material
 
-> Team science and data science principles can be applied to any research project. 
-> It is designed to work with online tools, with people with specialised skillsets,
+> ## Team and data science
+> The principles taught in this course can be applied to any research project. 
+> It will help project manager to work with online tools, with people with specialised skillsets,
 > and with a project involving some code writing and code reuse.
 > The goal is to produce a reproducible data analysis in modern research context.
 >
