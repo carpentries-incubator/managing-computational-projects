@@ -32,6 +32,11 @@ and last but not least, aim at producing a *reproducible analysis*.
 
 Here we give an short overview of the topics that will be covered in this course.
 Note that the course episode split follows a  different logic, and you will find training linked to each five of these data science specifics in most episodes.
+As pictured below, the specifics of data science projects can be grouped in five main topics: working online, working with a heterogenous and relative big team, writing code, reusing code, and aiming at a reproducible analysis.
+This latter point being central to data science practices. 
+
+<img src="../fig/datasciencespecifics.jpg" alt="Specicity of data science project. Five blocks (working online, large teams whose members have with specialised skills, writing code and re-using code) are placed around a central block where reproducible analysis is written. Data specifics by Julien Colomb CC-BY 4.0 " width="500"/>
+
 
 
 ## Online work
