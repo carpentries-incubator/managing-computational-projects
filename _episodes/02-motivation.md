@@ -23,21 +23,28 @@ You are also likely to work on your project with other members of the lab, and t
 
 <img src="../fig/skill-spectrum.jpg" alt="Researchers represented in a map indicating their journey to understand and apply computational approaches. Some may have just started their journey, some may have come far in the learning and some may have gained proficiency based on their research requirements." width="500"/>
 
-_We want to acknowledge the data science knowledge will vary. The Turing Way project illustration by Scriberia for The Turing Way Community Shared under CC-BY 4.0 License. Zenodo. http://doi.org/10.5281/zenodo.3332807
+*We all may have dfferent research and data science expertise. The Turing Way project illustration by Scriberia for The Turing Way Community Shared under CC-BY 4.0 License. Zenodo. http://doi.org/10.5281/zenodo.3332807*
 
-Contents of training introduces methods and concepts to manage individuals and teams working on any computational project, which in the current era is literally all research projects.
+> ## Why are you here
+> Discuss why you/learners are taking this course, what are the expectations.
+> Does the expectations align with the relevance of data science and content of this course?
+{: .discussion}
+
+Contents of this training material introduces methods and concepts to manage individuals and teams working on any computational project, which in the current era is literally all research projects.
 It is *not* about learning how to write code, but building a foundational understanding for computational methods that could be applied to your research.
 Furthermore, this training will provide guidance for facilitating collaboration and data analysis using tools like research data management, version control or code review. 
 
-We believe that the data science skills you will learn in this training will make your research process better. In the following sections, we will detail what we mean by "better".
+We acknowledge the data science knowledge will vary. 
+Nonetheless, we believe that the data science skills you will learn in this training will make your research process better. In the following sections, we will detail what we mean by "better".
  
 ## How data science will improve your research ?
 
 <img src="../fig/healthy-research-tree.jpg" alt="Researchers pour water on a tree, the water represents data science, the tree is the research." width="500"/>
 
-_Data science makes research flourish. The Turing Way project illustration by Scriberia for The Turing Way Community Shared under CC-BY 4.0 License. Zenodo. http://doi.org/10.5281/zenodo.3332807
+*Data science makes research flourish. The Turing Way project illustration by Scriberia for The Turing Way Community Shared under CC-BY 4.0 License. Zenodo. http://doi.org/10.5281/zenodo.3332807*
 
-
+> ## It is mostly about being efficient
+>
 > Data science brings some structure in how data is collected, processed and analysed, making it easier to collaborate on a project, to publish extra research outputs and leveraging some extra potential your data may have.
 In the past, it helped me drive new hypotheses, detect problems with the research design early, and reduce the sample size needed to drive a solid conclusion. 
 Eventually, it made my research more robust and trustworthy.
@@ -47,7 +54,7 @@ But in the end, my real motivation is efficiency: very soon, the time I invested
 
 There are different ways to organise the different foreseen improvement, we decided here to start with improvement in the final result, improvement in the research process, and finally aspects of community building.
 
-### Nicer paper
+### Using code for nicer paper
 
 #### Powerful statistics
 
@@ -74,7 +81,11 @@ One can also automate the figure design choice, so that all figures look similar
 Similarly, the production of several version of the same figure is very easy.
 For example, one can use different color pallette, one using the palette usually used in the field (the one your supervisor wants to see), and one for color-blind readers. 
 
-**Example of single flights from different bees shown in supplemnentary data:** Menzel, R., Greggers, U., Smith, A., Berger, S., Brandt, R., Brunke, S., ...Watzl, S. (2005). Honey bees navigate according to a map-like spatial memory. Proceedings of the National Academy of Sciences of the United States of America, 102(8), 3040. doi: [10.1073/pnas.0408550102](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC549458/)
+> ## Single flights from different bees.
+>
+> See a good example of data representation in differen format single flights from different bees shown in supplemnentary data: *Menzel, R., Greggers, U., Smith, A., Berger, S., Brandt, R., Brunke, S., ...Watzl, S. (2005). Honey bees navigate according to a map-like spatial memory. Proceedings of the National Academy of Sciences of the United States of America, 102(8), 3040. doi: [10.1073/pnas.0408550102](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC549458/)*
+> 
+{: .callout}
 
 #### Reproducible analysis
 
@@ -83,7 +94,7 @@ As a researcher, assuring computational reproducibility of your results is a rel
 
 <img src="../fig/ReproducibleJourney.jpg" alt="Shows a landscape with different checkpoints fpr data, code, tools and result each of which require reproducible practices. There is a woman explaining her reproducibility journey to help new people start their journey" width="500"/>
 
-_What to expect in your reproducibility journey. The Turing Way project illustration by Scriberia for The Turing Way Community Shared under CC-BY 4.0 License. Zenodo. http://doi.org/10.5281/zenodo.3332807
+*What to expect in your reproducibility journey. The Turing Way project illustration by Scriberia for The Turing Way Community Shared under CC-BY 4.0 License. Zenodo. http://doi.org/10.5281/zenodo.3332807*
 
 The reproducibility of an experiment not only requires a detailed description of the methods and reagents used, but also a detailed description of the analysis performed.
 The ultimate description of the analysis is to provide all elements necessary for reproducing the analysis (computational reproducibility).
@@ -104,7 +115,6 @@ These outputs can not only be used as blog posts, or lab reports, but can also b
 While the main recognition currency in academia is still (first) authorship in peer reviewed publication, new scientometrics are developed to recognize publication of other research outputs.
 In particular, datasets and software publication are officially reviewed in the evaluation of certain grant, for example for the Marie-curie european program.
 Data science principles will make it easier to publish datasets, software, reagents or hardware you are anyway producing during the research process.
-
 
 > By publishing datasets and code, you will not only help other researchers, but gain extra recognition for your work. 
 However, open data and open code requires a specific documentation, which we will touch upon in this training.
@@ -136,9 +146,6 @@ It makes also certain that difference in the figures are due to difference in th
 
 #### Collaborative working
 
-> Facilitating communication and sharing, will make it easier for your colleagues to help you. 
-> {: .callout}
-
 Within science teams, group work is critical for experimental design and implementation.
 In addition, there are rapid developments in how scientific results and methods are shared, and collaborations have never been more global or rapid.
 This means that several people will likely be working with the same data files.
@@ -147,12 +154,26 @@ Data science allows for the management of
 how one or multiple people work on the same project (as well as the same code). 
 It requires different skillsets than those taught in traditional science courses *or* a typical coding class.
 
+> ## Who can add to your research?
+>
+> Facilitating communication and sharing will make it easier for your colleagues to help you. 
+> Can you think of people who can help you in your research, directly in your lab or at your institution ?
+> Would it help for them to have access to your data? How could they participate,
+> and how can you give them credit?
+> 
+>> ## Needs from the future you 
+>> It is very interesting to consider your future self as one collaborator in your project.
+>> Anything you may forget in the next three to five years should be documented,
+>> if you want your future self to be able to (re-)analyse the data you are collecting.
+>> Indeed, the advantage of working collaboratively in a project can indeed be translated directly in a project you drive mostly alone. 
+>{: .solution}
+{: .discussion}
+
 
 #### Efficiency
 
 > The time invested in your data and code will be paid multiple times by the efficiency improvement in your workflow, if that investment is done early in the project.
-Because one can consider your past self as one of your collaborator,
-the advantage of working collaboratively in a project can indeed be translated directly in a project you drive mostly alone.
+Because one can consider your past self as one of your collaborator, the advantage of working collaboratively in a project can indeed be translated directly in a project you drive mostly alone.
 >
 {: .callout}
 
@@ -164,35 +185,38 @@ This applies directly to the example of working on article revisions - will you 
 For instance, if a colleague cannot find what data goes with which figures, there are high chances that you will also be unable to find it three years from now.
 In addition, itt is not uncommon to modify the design of the figures multiple times (sometimes back and forth), often modifying all figures at once.
 
+> ## Redoing all figures in minutes
 > Once a reviewer ask me to overlay individual data points onto all our 5 boxplots figures.
 The project was an old one, and I had not touched the data for years.
-Finding the right data and redo the all 5 figures would usually take ages using SPSS or excel.
-> But since I used code, I had all figures 15 minutes later.
-(Note, after seeing the new figures, the reviewer agreed that the original version was better).
-> {: .testimonial}
+>Finding the right data and redo the all 5 figures would usually take ages using SPSS or excel.
+>But since I used code, I had all figures 15 minutes later.
+>(Note, after seeing the new figures, the reviewer agreed that the original version was better).
+{: .testimonial}
 
 Later on in the project, community advantages are coming in.
 Data and code reusability is not only a mark of research transparency and robustness, it also means you can reuse your own code and data.
 It also means you can reuse code and data produced by other researchers.
-The snow ball effect may be huge, and the objective of this lesson is to allow you to do **better science in less time** ( https://www.nature.com/articles/s41559-017-0160:)
 
-> As an example it was estimated that research data management  takes about 5% of your time, on the other hand, time lost due to poor data management is estimated to be 15%. 
+The snow ball effect may be huge, and the objective of this course is to allow you to do **better science in less time**
 
+> ## Invest in data science
+>As an example it was estimated that research data management  takes about 5% of your time, on the other hand, time lost due to poor data management is estimated to be 15%. 
+> See reference: *Lowndes, J. S. S., Best, B. D., Scarborough, C., Afflerbach, J. C., Frazier, M. R., O’Hara, C. C., Halpern, B. S. (2017). Our path to better science in less time using open data science tools. Nature Ecology & Evolution, 1(0160), 1–7. doi: 10.1038/s41559-017-0160*
+>
+{: .callout}
 
 ### Team and community building
 
 <img src="../fig/research-foundation.jpg" alt="A house representing machine learing and AI is set upon bricks that one person is sliding below the house. On the bricks, we can read data science principles like open science, backups, reproducibiliy, and FAIR principles." width="500"/>
 
-_Data science foundations. The Turing Way project illustration by Scriberia for The Turing Way Community Shared under CC-BY 4.0 License. Zenodo. http://doi.org/10.5281/zenodo.3332807_
+*Data science foundations. The Turing Way project illustration by Scriberia for The Turing Way Community Shared under CC-BY 4.0 License. Zenodo. http://doi.org/10.5281/zenodo.3332807*
 
 Data science tools will make it easier not only to collaborate with researchers in your lab, but also with researchers outside of your lab, or even with non-researchers (citizen science or software professionals).
 These may bring valuable expertise in the project.
-Being part of a collaborative community will also create
- impact beyond citations and papers, something which starts to be valued by funding agencies, and which make research more fun, valued and interesting.
+Being part of a collaborative community will also create impact beyond citations and papers, something which starts to be valued by funding agencies, and which make research more fun, valued and interesting.
 
 We may also add to the pot that creating a network around your research is a critical aspect of building a career in academia. 
 Being known as a good and skilled collaborator can open doors to many opportunities.
-
 
 ## A journey starts
 
@@ -211,11 +235,9 @@ For instance, *The Turing Way* guide for data science and research provides seve
 
 <img src="../fig/ttw-welcome.jpg" alt="drawing" width="400"/>
 
-_ The Turing Way project illustration by Scriberia for The Turing Way Community Shared under CC-BY 4.0 License. Zenodo. http://doi.org/10.5281/zenodo.3332807
-
+*The Turing Way project illustration by Scriberia for The Turing Way Community Shared under CC-BY 4.0 License. Zenodo. http://doi.org/10.5281/zenodo.3332807*
 
 ## References
-
 
 * A Quick Guide to Organizing Computational Biology Projects
 Noble WS (2009) A Quick Guide to Organizing Computational Biology Projects. PLOS Computational Biology 5(7): e1000424. https://doi.org/10.1371/journal.pcbi.1000424
