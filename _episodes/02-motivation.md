@@ -81,12 +81,11 @@ One can also automate the figure design choice, so that all figures look similar
 Similarly, the production of several version of the same figure is very easy.
 For example, one can use different color pallette, one using the palette usually used in the field (the one your supervisor wants to see), and one for color-blind readers. 
 
-> ## Single flights from different bees, shown in gifs.
-> see https://www.ncbi.nlm.nih.gov/pmc/articles/PMC549458/
+> ## Single flights from different bees.
+>
+> See a good example of data representation in differen format single flights from different bees shown in supplemnentary data: *Menzel, R., Greggers, U., Smith, A., Berger, S., Brandt, R., Brunke, S., ...Watzl, S. (2005). Honey bees navigate according to a map-like spatial memory. Proceedings of the National Academy of Sciences of the United States of America, 102(8), 3040. doi: [10.1073/pnas.0408550102](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC549458/)*
 > 
 {: .callout}
-
-*Example of single flights from different bees shown in supplemnentary data:** Menzel, R., Greggers, U., Smith, A., Berger, S., Brandt, R., Brunke, S., ...Watzl, S. (2005). Honey bees navigate according to a map-like spatial memory. Proceedings of the National Academy of Sciences of the United States of America, 102(8), 3040. doi: [10.1073/pnas.0408550102](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC549458/)*
 
 #### Reproducible analysis
 
@@ -95,7 +94,7 @@ As a researcher, assuring computational reproducibility of your results is a rel
 
 <img src="../fig/ReproducibleJourney.jpg" alt="Shows a landscape with different checkpoints fpr data, code, tools and result each of which require reproducible practices. There is a woman explaining her reproducibility journey to help new people start their journey" width="500"/>
 
-_What to expect in your reproducibility journey. The Turing Way project illustration by Scriberia for The Turing Way Community Shared under CC-BY 4.0 License. Zenodo. http://doi.org/10.5281/zenodo.3332807
+_What to expect in your reproducibility journey. The Turing Way project illustration by Scriberia for The Turing Way Community Shared under CC-BY 4.0 License. Zenodo. http://doi.org/10.5281/zenodo.3332807_
 
 The reproducibility of an experiment not only requires a detailed description of the methods and reagents used, but also a detailed description of the analysis performed.
 The ultimate description of the analysis is to provide all elements necessary for reproducing the analysis (computational reproducibility).
@@ -198,10 +197,12 @@ Later on in the project, community advantages are coming in.
 Data and code reusability is not only a mark of research transparency and robustness, it also means you can reuse your own code and data.
 It also means you can reuse code and data produced by other researchers.
 
-The snow ball effect may be huge, and the objective of this course is to allow you to do **better science in less time** ( https://www.nature.com/articles/s41559-017-0160:)
+The snow ball effect may be huge, and the objective of this course is to allow you to do **better science in less time**
 
 > ## Invest in data science
 >As an example it was estimated that research data management  takes about 5% of your time, on the other hand, time lost due to poor data management is estimated to be 15%. 
+> See reference: *Lowndes, J. S. S., Best, B. D., Scarborough, C., Afflerbach, J. C., Frazier, M. R., O’Hara, C. C., Halpern, B. S. (2017). Our path to better science in less time using open data science tools. Nature Ecology & Evolution, 1(0160), 1–7. doi: 10.1038/s41559-017-0160*
+>
 {: .callout}
 
 ### Team and community building
@@ -234,7 +235,7 @@ For instance, *The Turing Way* guide for data science and research provides seve
 
 <img src="../fig/ttw-welcome.jpg" alt="drawing" width="400"/>
 
-_ The Turing Way project illustration by Scriberia for The Turing Way Community Shared under CC-BY 4.0 License. Zenodo. http://doi.org/10.5281/zenodo.3332807
+_ The Turing Way project illustration by Scriberia for The Turing Way Community Shared under CC-BY 4.0 License. Zenodo. http://doi.org/10.5281/zenodo.3332807_
 
 ## References
 
