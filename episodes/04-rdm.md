@@ -71,6 +71,19 @@ If the data is not in a repository a text file with machine-readable metadata ca
 -   Variables should be defined and explained using data dictionaries or codebooks.
 -   Data should be stored in logical and hierarchical folder structures, with a README file used to describe the structure.
 
+### REMBI: Example of metadata in bioimaging data
+
+REMBI: **Recommended Metadata for Biological Images—enabling reuse of microscopy data in biology**, Sarkans, U., Chiu, W., Collinson, L., Darrow, M. C., Ellenberg, J., Grunwald, D., ...Brazma, A. (2021). Nature Methods, 18(12), 1418–1422. doi: [10.1038/s41592-021-01166-8](https://www.nature.com/articles/s41592-021-01166-8)
+
+> Bioimaging data have significant potential for reuse, but unlocking this potential requires systematic archiving of data and metadata in public databases. 
+> Cryo-EM and cryo-ET have proven to be powerful tools for determining high-resolution structures of biological matter and examining the functional cellular context of macromolecular complexes. 
+>
+{: .callout}
+
+REMBI is a draft metadata guidelines to begin addressing the needs of diverse communities within light and electron microscopy.
+The current version of REMBI, including examples from the fields covered by the three working groups is shared online via [http://bit.ly/rembi_v1](https://docs.google.com/spreadsheets/d/1Ck1NeLp-ZN4eMGdNYo2nV6KLEdSfN6oQBKnnWU6Npeo/edit#gid=1023506919).
+
+
 ## Defining Data
 
 Data are objects that you use and produce during your research life cycle, encompassing data
@@ -123,13 +136,27 @@ The FAIR principles facilitate the availability of research data so that others 
 > - **Reusable**: Data should be well-described so that they can be used, combined, and extended in different settings.
 {: .callout}
 
-Making data ‘FAIR’ is not the same as making it ‘open’. 
-Accessible means that there is a procedure in place to access the data. Data should be as open as possible, and as closed as necessary.
-It is also important to say that the FAIR principles are aspirational: they do not strictly define how to achieve a state of FAIRness, but rather describe a continuum of features, attributes, and behaviours that will move a digital resource closer to that goal.
-Even though the FAIR principles have been defined to allow machines to find and use digital objects automatically, they improve the reusability of data by humans as well. 
-The capacity of computational systems to find, access, interoperate, and reuse data, with minimal human intervention, is essential in today’s data-driven era.
+Making data ‘FAIR’ is not the same as making it ‘open’. Accessible means that there is a procedure in place to access the data. Data should be as open as possible, and as closed as necessary. It is also important to say that the FAIR principles are aspirational: they do not strictly define how to achieve a state of FAIRness, but rather describe a continuum of features, attributes, and behaviours that will move a digital resource closer to that goal. Even though the FAIR principles have been defined to allow machines to find and use digital objects automatically, they improve the reusability of data by humans as well. The capacity of computational systems to find, access, interoperate, and reuse data, with minimal human intervention, is essential in today’s data-driven era.
 
 You can find a more detailed [overview of the FAIR principles by GO FAIR](https://www.go-fair.org/fair-principles) of what the FAIR principles recommend.
+
+### Summary of "FAIR - How To"
+
+> We have provided an additional lesson to discuss the How-Tos of FAIR principles in the context of data and software. See [FAIR How-To for data and software](../../_extra/-4-FAIRHowTo.md) for detail.
+> - Reference: E. L.-Gebali, S. (2022). BOSSConf_2022_Research_Data_Management. Zenodo. doi: [10.5281/zenodo.6490583](https://doi.org/10.5281/zenodo.6490583)
+>
+{: .calllout}
+
+* Deposit your data where others can find it, keep in mind where your peers can find it, such as, field specific repository and give it a stable unique identifier (PID).
+* Make your data & metadata accessible via standard means such as http/API.
+* Create metadata and explain in detail what this data is about, never assume people know!
+* Deposit metadata with PID and make it available with/out data i.e. in case data itself is heavily protected.
+* Include information on ownership, provenance and citation.
+* Outline what the reusers of your data are/not allowed to do, use clear license. Commonly used licenses like MIT or Creative Commons (keep in mind funders requirements).
+* Specify access conditions, if authentication or authorization is required.
+* Describe your data in a standardized fashion using agreed terminology and vocabulary.
+* Share the data in preferred & open file formats.
+* Start the process early on!
 
 ## A Note on Personal or Sensitive Data
 
@@ -181,15 +208,8 @@ If your files take up a large amount of space and backing up all of them proves 
 When you are ready to release the data to the wider community, you can also search for the appropriate databases and repositories in [FAIRsharing](https://fairsharing.org/databases), according to your data type, and type of access to the data. 
 Learn more about this in *The Turing Way* chapter on [sharing and archiving Data](https://the-turing-way.netlify.app/reproducible-research/rdm/rdm-sharing.html#rr-rdm-sharing).
 
-[Add Metadata Standards as recommended by the Crick]
-
-## Conclusion
-- [Add biological context for what gaps have we filled in this section]
-
-## Resources and References for Technical Details
-
-In addition to the referenced linked under different sections in this lesson, please see the following references:
-- [Add recommendations from 1:1 interviews, open communities such as Open Life Science and The Turing Way.]
+<!--
+[Add recommendations from 1:1 interviews, open communities such as Open Life Science and The Turing Way.]-->
 
 ## Acknowledgement
 
