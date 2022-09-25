@@ -23,7 +23,7 @@ You are also likely to work on your project with other members of the lab, and t
 
 <img src="../fig/skill-spectrum.jpg" alt="Researchers represented in a map indicating their journey to understand and apply computational approaches. Some may have just started their journey, some may have come far in the learning and some may have gained proficiency based on their research requirements." width="500"/>
 
-*The Turing Way project illustration by Scriberia for The Turing Way Community Shared under CC-BY 4.0 License. Zenodo. http://doi.org/10.5281/zenodo.3332807*
+*We all may have dfferent research and data science expertise. The Turing Way project illustration by Scriberia for The Turing Way Community Shared under CC-BY 4.0 License. Zenodo. http://doi.org/10.5281/zenodo.3332807*
 
 > ## Why are you here
 > Discuss why you/learners are taking this course, what are the expectations.
@@ -41,7 +41,7 @@ Nonetheless, we believe that the data science skills you will learn in this trai
 
 <img src="../fig/healthy-research-tree.jpg" alt="Researchers pour water on a tree, the water represents data science, the tree is the research." width="500"/>
 
-_Data science makes research flourish. The Turing Way project illustration by Scriberia for The Turing Way Community Shared under CC-BY 4.0 License. Zenodo. http://doi.org/10.5281/zenodo.3332807
+*Data science makes research flourish. The Turing Way project illustration by Scriberia for The Turing Way Community Shared under CC-BY 4.0 License. Zenodo. http://doi.org/10.5281/zenodo.3332807*
 
 > ## It is mostly about being efficient
 >
@@ -94,7 +94,7 @@ As a researcher, assuring computational reproducibility of your results is a rel
 
 <img src="../fig/ReproducibleJourney.jpg" alt="Shows a landscape with different checkpoints fpr data, code, tools and result each of which require reproducible practices. There is a woman explaining her reproducibility journey to help new people start their journey" width="500"/>
 
-_What to expect in your reproducibility journey. The Turing Way project illustration by Scriberia for The Turing Way Community Shared under CC-BY 4.0 License. Zenodo. http://doi.org/10.5281/zenodo.3332807_
+*What to expect in your reproducibility journey. The Turing Way project illustration by Scriberia for The Turing Way Community Shared under CC-BY 4.0 License. Zenodo. http://doi.org/10.5281/zenodo.3332807*
 
 The reproducibility of an experiment not only requires a detailed description of the methods and reagents used, but also a detailed description of the analysis performed.
 The ultimate description of the analysis is to provide all elements necessary for reproducing the analysis (computational reproducibility).
@@ -209,7 +209,7 @@ The snow ball effect may be huge, and the objective of this course is to allow y
 
 <img src="../fig/research-foundation.jpg" alt="A house representing machine learing and AI is set upon bricks that one person is sliding below the house. On the bricks, we can read data science principles like open science, backups, reproducibiliy, and FAIR principles." width="500"/>
 
-_Data science foundations. The Turing Way project illustration by Scriberia for The Turing Way Community Shared under CC-BY 4.0 License. Zenodo. http://doi.org/10.5281/zenodo.3332807_
+*Data science foundations. The Turing Way project illustration by Scriberia for The Turing Way Community Shared under CC-BY 4.0 License. Zenodo. http://doi.org/10.5281/zenodo.3332807*
 
 Data science tools will make it easier not only to collaborate with researchers in your lab, but also with researchers outside of your lab, or even with non-researchers (citizen science or software professionals).
 These may bring valuable expertise in the project.
@@ -235,7 +235,7 @@ For instance, *The Turing Way* guide for data science and research provides seve
 
 <img src="../fig/ttw-welcome.jpg" alt="drawing" width="400"/>
 
-_ The Turing Way project illustration by Scriberia for The Turing Way Community Shared under CC-BY 4.0 License. Zenodo. http://doi.org/10.5281/zenodo.3332807_
+*The Turing Way project illustration by Scriberia for The Turing Way Community Shared under CC-BY 4.0 License. Zenodo. http://doi.org/10.5281/zenodo.3332807*
 
 ## References
 
