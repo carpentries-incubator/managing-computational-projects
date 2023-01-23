@@ -12,13 +12,15 @@ Materials developed through this project will enable (1) a foundational understa
 
 For details about the project and track management related information, please the [Project Management Repository](https://github.com/alan-turing-institute/data-training-for-bioscience/).
 
-## Maintainer(s)
+## Developers and Maintainers
 
-Current developers and maintainers of this lesson are
-
-* Lydia France
 * Malvika Sharan
-* Federico Nanni
+* Julien Colomb
+
+### Previous developers
+
+* Lydia France was allocated as a developer on this project for six months in 0.5 FTE capacity.
+* Federico Nanni provided supervision for Lydia and contributed to the project planning
 
 ------
 
