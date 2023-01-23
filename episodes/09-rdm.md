@@ -142,7 +142,7 @@ You can find a more detailed [overview of the FAIR principles by GO FAIR](https:
 
 ### Summary of "FAIR - How To"
 
-> We have provided an additional lesson to discuss the How-Tos of FAIR principles in the context of data and software. Please see details in [](../../_extra/-4-FAIRHowTo.md).
+> We have provided an additional lesson to discuss the How-Tos of FAIR principles in the context of data and software. See [FAIR How-To for data and software](../../_extra/-4-FAIRHowTo.md) for detail.
 > - Reference: E. L.-Gebali, S. (2022). BOSSConf_2022_Research_Data_Management. Zenodo. doi: [10.5281/zenodo.6490583](https://doi.org/10.5281/zenodo.6490583)
 >
 {: .calllout}
