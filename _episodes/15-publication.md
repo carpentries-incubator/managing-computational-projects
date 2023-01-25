@@ -1,7 +1,7 @@
 ---
 title: "Publication and release"
-teaching: 10
-exercises: 0
+teaching: 20
+exercises: 10
 questions:
 - "Why should I make my research objects available?"
 - "What open source tools to use for applying data science practices in bioscience?"
@@ -178,6 +178,18 @@ Extensive tools to annotate and view images, including whole slide & microscopy 
 In addition to the referenced linked under different sections in this lesson, please see the following references:
 - [Add recommendations from 1:1 interviews, open communities such as Open Life Science and The Turing Way.]
 -->
+
+### Research Objects can be Released with Digital Object Identifiers (DOI)
+
+DOIs are alphanumerical unique and persistent identifiers with a permanent web address for different research objects that can be cited by you and other researchers. 
+Each pre-print and publication is published with a DOI, but independent of the paper, different research objects can be published online on servers that offer DOIs at any stage of your research. 
+Some of these servers are [Zenodo](https://zenodo.org/), [FigShare](https://figshare.com/), [Data Dryad](https://datadryad.org/stash) (for data), [Open Grants](https://www.ogrants.org/) (for grant proposals) and [Open Science Framework](https://osf.io/) (OSF) (for different components of an open research project).
+It allows you to show connections between different parts of research as well as cite different objects from your work independently.
+
+When working on GitHub for instance, you can [connect the project repository with Zenodo](https://docs.github.com/en/repositories/archiving-a-github-repository/referencing-and-citing-content) to get a DOI for your repository.
+The [Citation File Format](https://citation-file-format.github.io/), then lets you provide citation metadata, for software or datasets, in plaintext files that are easy to read by both humans and machines.
+Read the [Making Research Objects Citable](https://the-turing-way.netlify.app/communication/citable.html) chapter in *The Turing Way* Guide to Communication.
+
 
 {% include links.md %}
 
