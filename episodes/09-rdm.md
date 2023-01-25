@@ -1,7 +1,7 @@
 ---
 title: "Research Data Management"
 teaching: 20
-exercises: 0
+exercises: 30
 questions:
 - "What is considered research data?"
 - "How to start building a research data management plan?"

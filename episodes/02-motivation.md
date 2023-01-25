@@ -5,9 +5,7 @@ exercises: 0
 questions:
 - "How does this training relate to your work?"
 - "What are the benefits of using data science skills?"
-- "What can go wrong with working on data/code?"
 - "What are the challenges for teams and management?"
-- "Are there procedures and protocols that can help?"
 objectives:
 - "Understand how this training material will help your research (and career)."
 keypoints:
