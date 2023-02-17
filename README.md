@@ -1,28 +1,31 @@
 # Data Science for Biomedical Scientists: Managing Open and Reproducible Computational Projects
+
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+
 [![All Contributors](https://img.shields.io/badge/all_contributors-12-orange.svg?style=flat-square)](#contributors-)
+
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 **Thanks for contributing to The Carpentries Incubator!**
 This repository is part of the **Data Science for Biomedical Scientists: The Turing/Crick partnership project**.
-This project will facilitate the development of training resources on data science practices for senior researchers, group leaders, late PhD/Postdocs and mid- to late-career biomedical scientists. 
+This project will facilitate the development of training resources on data science practices for senior researchers, group leaders, late PhD/Postdocs and mid- to late-career biomedical scientists.
 Materials developed through this project will enable (1) a foundational understanding of AI and data science in the context of biosciences and (2) recommendations for managing (as well as supervising and facilitating) open and reproducible research for the wider biology community.
 
-*This is one of the two masterclasses being developed under **Data Science for Biomedical Scientists: The Turing/Crick partnership project**. For the first masterclass, please visit: https://github.com/carpentries-incubator/data-science-ai-senior-researchers.*
+*This is one of the two masterclasses being developed under **Data Science for Biomedical Scientists: The Turing/Crick partnership project**. For the first masterclass, please visit: [https://github.com/carpentries-incubator/data-science-ai-senior-researchers](https://github.com/carpentries-incubator/data-science-ai-senior-researchers).*
 
 For details about the project and track management related information, please the [Project Management Repository](https://github.com/alan-turing-institute/data-training-for-bioscience/).
 
 ## Developers and Maintainers
 
-* Malvika Sharan
-* Julien Colomb
+- Malvika Sharan
+- Julien Colomb
 
 ### Previous developers
 
-* Lydia France was allocated as a developer on this project for six months in 0.5 FTE capacity.
-* Federico Nanni provided supervision for Lydia and contributed to the project planning
+- Lydia France was allocated as a developer on this project for six months in 0.5 FTE capacity.
+- Federico Nanni provided supervision for Lydia and contributed to the project planning
 
-------
+***
 
 ## The Carpentries Incubator Programme
 
@@ -37,11 +40,11 @@ and make sure you have everything you need to begin developing your new lesson.
 
 ## What to do next
 
-* [ ] If you're going to contribute to developing lesson material for the first time
-  according to our design principles,
-  consider reading the [Carpentries Curriculum Development Handbook][cdh]
-* [ ] Consult the [Lesson Example][lesson-example] website to find out more about
-  working with the lesson template
+- [ ] If you're going to contribute to developing lesson material for the first time
+according to our design principles,
+consider reading the [Carpentries Curriculum Development Handbook][cdh]
+- [ ] Consult the [Lesson Example][lesson-example] website to find out more about
+working with the lesson template
 
 ## Contributing
 
@@ -56,26 +59,23 @@ Please see the current list of [issues][FIXME] for ideas for contributing to thi
 repository. For making your contribution, we use the GitHub flow, which is
 nicely explained in the chapter [Contributing to a Project](http://git-scm.com/book/en/v2/GitHub-Contributing-to-a-Project) in Pro Git
 by Scott Chacon.
-Look for the tag ![good_first_issue](https://img.shields.io/badge/-good%20first%20issue-gold.svg). This indicates that the maintainers will welcome a pull request fixing this issue.
+Look for the tag ![good\_first\_issue](https://img.shields.io/badge/-good%20first%20issue-gold.svg). This indicates that the maintainers will welcome a pull request fixing this issue.
 
 ## Citation
 
 This lesson will be realeased on Zenodo for DOI (digital object identifier). Meanwhile, please cite this repository as:
-*Data Science for Biomedical Scientists: Managing Open and Reproducible Computational Projects, 2022, https://github.com/carpentries-incubator/managing-computational-projects*
-
-[cdh]: https://cdh.carpentries.org
-[cdh-topic-tags]: https://cdh.carpentries.org/the-carpentries-incubator.html#topic-tags
-[change-default-branch]: https://docs.github.com/en/github/administering-a-repository/changing-the-default-branch
-[community-lessons]: https://carpentries.org/community-lessons
-[lesson-example]: https://carpentries.github.io/lesson-example
+*Data Science for Biomedical Scientists: Managing Open and Reproducible Computational Projects, 2022, [https://github.com/carpentries-incubator/managing-computational-projects](https://github.com/carpentries-incubator/managing-computational-projects)*
 
 ## Contributors ✨
 
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+
 <!-- prettier-ignore-start -->
+
 <!-- markdownlint-disable -->
+
 <table>
   <tr>
     <td align="center"><a href="http://malvikasharan.github.io/"><img src="https://avatars.githubusercontent.com/u/5370471?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Malvika Sharan</b></sub></a><br /><a href="#content-malvikasharan" title="Content">🖋</a> <a href="https://github.com/carpentries-incubator/managing-computational-projects/pulls?q=is%3Apr+reviewed-by%3Amalvikasharan" title="Reviewed Pull Requests">👀</a> <a href="https://github.com/carpentries-incubator/managing-computational-projects/commits?author=malvikasharan" title="Documentation">📖</a> <a href="#fundingFinding-malvikasharan" title="Funding Finding">🔍</a> <a href="#ideas-malvikasharan" title="Ideas, Planning, & Feedback">🤔</a> <a href="#mentoring-malvikasharan" title="Mentoring">🧑‍🏫</a> <a href="#projectManagement-malvikasharan" title="Project Management">📆</a></td>
@@ -96,8 +96,16 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 </table>
 
 <!-- markdownlint-restore -->
+
 <!-- prettier-ignore-end -->
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
+
+[community-lessons]: https://carpentries.org/community-lessons
+[cdh]: https://cdh.carpentries.org
+[lesson-example]: https://carpentries.github.io/lesson-example
+
+
+

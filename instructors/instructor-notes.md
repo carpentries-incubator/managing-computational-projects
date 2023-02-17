@@ -1,5 +1,5 @@
 ---
-title: "Instructor Notes"
+title: Instructor Notes
 ---
 
 The content of this course might be provided following different schedule,
@@ -27,4 +27,6 @@ Content of the introduction part (chapter 1-3) may be reused to give a 10 minute
 
 - It might be best to start a workshop with the chapter 2: motivations.
 
-{% include links.md %}
+
+
+

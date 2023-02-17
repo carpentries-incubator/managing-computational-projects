@@ -1,0 +1,96 @@
+#------------------------------------------------------------
+# Values for this lesson.
+#------------------------------------------------------------
+
+# Which carpentry is this (swc, dc, lc, or cp)?
+# swc: Software Carpentry
+# dc: Data Carpentry
+# lc: Library Carpentry
+# cp: Carpentries (to use for instructor training for instance)
+# incubator: The Carpentries Incubator
+carpentry: 'incubator'
+
+# Overall title for pages.
+title: 'Managing Open and Reproducible Computational Projects'
+
+# Date the lesson was created (YYYY-MM-DD, this is empty by default)
+created: ~
+
+# Comma-separated list of keywords for the lesson
+keywords: 'software, data, lesson, The Carpentries'
+
+# Life cycle stage of the lesson
+# possible values: pre-alpha, alpha, beta, stable
+life_cycle: 'pre-alpha'
+
+# License of the lesson
+license: 'CC-BY 4.0'
+
+# Link to the source repository for this lesson
+source: 'https://github.com/fishtree-attempt/managing-computational-projects/'
+
+# Default branch of your lesson
+branch: 'main'
+
+# Who to contact if there are any issues
+contact: 'msharan@turing.ac.uk'
+
+# Navigation ------------------------------------------------
+#
+# Use the following menu items to specify the order of
+# individual pages in each dropdown section. Leave blank to
+# include all pages in the folder.
+#
+# Example -------------
+#
+# episodes:
+# - introduction.md
+# - first-steps.md
+#
+# learners:
+# - setup.md
+#
+# instructors:
+# - instructor-notes.md
+#
+# profiles:
+# - one-learner.md
+# - another-learner.md
+
+# Order of episodes in your lesson
+episodes: 
+- 01-introduction.md
+- 02-motivation.md
+- 03-overview.md
+- 04-reproducibility.md
+- 05-versioncontrol.md
+- 06-ITtools.md
+- 07-setup.md
+- 08-collaborativeworking.md
+- 09-rdm.md
+- 10-documentation.md
+- 11-rigour.md
+- 12-analysis.md
+- 13-codereview.md
+- 14-codemodularity.md
+- 15-publication.md
+- 16-open.md
+- 17-citation.md
+
+# Information for Learners
+learners: 
+
+# Information for Instructors
+instructors: 
+
+# Learner Profiles
+profiles: 
+
+# Customisation ---------------------------------------------
+#
+# This space below is where custom yaml items (e.g. pinning
+# sandpaper and varnish versions) should live
+
+
+url: https://preview.carpentries.org/managing-computational-projects
+workbench-beta: 'true'
