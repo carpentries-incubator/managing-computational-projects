@@ -64,7 +64,6 @@ episodes:
 - 03-overview.md
 - 04-reproducibility.md
 - 05-versioncontrol.md
-- 06-ITtools.md
 - 07-setup.md
 - 08-collaborativeworking.md
 - 09-rdm.md
@@ -79,6 +78,13 @@ episodes:
 
 # Information for Learners
 learners: 
+- discuss.md
+- reference.md
+- setup.md
+- 04-FAIRHowTo.md
+- 08-KanbanTutorial.md
+- 09-GithubCodeReview.md
+- 51-datawrangling.md
 
 # Information for Instructors
 instructors: 
