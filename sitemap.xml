@@ -67,7 +67,13 @@
     <loc>https://carpentries-incubator.github.io/managing-computational-projects/LICENSE.html</loc>
   </url>
   <url>
+    <loc>https://carpentries-incubator.github.io/managing-computational-projects/aio.html</loc>
+  </url>
+  <url>
     <loc>https://carpentries-incubator.github.io/managing-computational-projects/discuss.html</loc>
+  </url>
+  <url>
+    <loc>https://carpentries-incubator.github.io/managing-computational-projects/images.html</loc>
   </url>
   <url>
     <loc>https://carpentries-incubator.github.io/managing-computational-projects/index.html</loc>
@@ -139,16 +145,34 @@
     <loc>https://carpentries-incubator.github.io/managing-computational-projects/instructor/LICENSE.html</loc>
   </url>
   <url>
+    <loc>https://carpentries-incubator.github.io/managing-computational-projects/instructor/aio.html</loc>
+  </url>
+  <url>
     <loc>https://carpentries-incubator.github.io/managing-computational-projects/instructor/discuss.html</loc>
   </url>
   <url>
+    <loc>https://carpentries-incubator.github.io/managing-computational-projects/instructor/images.html</loc>
+  </url>
+  <url>
     <loc>https://carpentries-incubator.github.io/managing-computational-projects/instructor/index.html</loc>
+  </url>
+  <url>
+    <loc>https://carpentries-incubator.github.io/managing-computational-projects/instructor/instructor-notes.html</loc>
+  </url>
+  <url>
+    <loc>https://carpentries-incubator.github.io/managing-computational-projects/instructor/key-points.html</loc>
   </url>
   <url>
     <loc>https://carpentries-incubator.github.io/managing-computational-projects/instructor/profiles.html</loc>
   </url>
   <url>
     <loc>https://carpentries-incubator.github.io/managing-computational-projects/instructor/reference.html</loc>
+  </url>
+  <url>
+    <loc>https://carpentries-incubator.github.io/managing-computational-projects/instructor-notes.html</loc>
+  </url>
+  <url>
+    <loc>https://carpentries-incubator.github.io/managing-computational-projects/key-points.html</loc>
   </url>
   <url>
     <loc>https://carpentries-incubator.github.io/managing-computational-projects/profiles.html</loc>
