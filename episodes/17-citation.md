@@ -8,21 +8,21 @@ exercises: 0
 
 ::::::::::::::::::::::::::::::::::::::: objectives
 
-- First learning objective. (FIXME)
+- Learn why and how to cite the work of others
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
 :::::::::::::::::::::::::::::::::::::::: questions
 
-- Why should I make my research objects available?
-- What open source tools to use for applying data science practices in bioscience?
-- How to get your research work cited and invite more contributions to your project?
+- How should I mention and cite the software or data I am using
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
+
+
 :::::::::::::::::::::::::::::::::::::::: keypoints
 
-- First key point. Brief Answer to questions. (FIXME)
+- Best practices in citing code and data
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
