@@ -61,8 +61,17 @@ If not planned in advance, these different kinds of information related to the p
 
 To manage collaborative research in computational projects with mainly distributed systems (different computers, cloud infrastructure, remote team members) it is essential to provide clear guidelines on where these digital objects should be held, handled and shared.
 Therefore, the first step is to establish a shared digital location (centralised, findable and accessible) like a shared drive (cloud-based or organisation-hosted server space) or online repository where all project related documentation and resources can be made available for everyone in your research team.
+
 When introduced with clear guidance for how everyone in your team can contribute to keeping the shared repository up-to-date, it helps build a sense of collaboration from the start.
 You can use this repository also to communicate what policies are relevant for people and their work in the project; how data, code and documentation are organised; and how peer-review, open feedback and co-creation will be enabled at all stages of the project.
+
+
+:::::::::::::::::::::::::::::::::::::::::  callout
+
+The use of standard folder structure and reamde files can help to provide a similar structure to all project and make sure all information is gathered and available. One such standard has been developed following researcher's feedback inside the `gin-tonic` project:
+https://gin-tonic.netlify.app/standard/
+
+:::::::::::::::::::::::::::::::::::::::::  
 
 ### Versioning
 
