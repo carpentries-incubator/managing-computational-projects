@@ -134,7 +134,21 @@ This aspect is discussed in detail in the Research Data Management episode.
 - [The Good Research Code Handbook](https://goodresearch.dev/setup.html) by Patrick Mineault.
 - [Open Life Science training and Mentoring Programme](https://openlifesci.org). *Batut, Bérénice, Yehudi, Yo, Sharan, Malvika, Tsang, Emmy, \& Open Life Science Community. (2021). Open Life Science - Training and Mentoring programme - Website release 2019-2021 (1.0.0). Zenodo. [DOI: 10.5281/zenodo.5636584](https://doi.org/10.5281/zenodo.5636584)*
 
+:::::::::::::::::::::::::::::::::::::::  challenge
 
+1. Create a project on GitHub
+
+- Create a Github account at https://github.com
+- Go to https://github.com/tonic-team/Tonic-Research-Project-Template/
+- Click `Use this template` and follow instructions.
+
+NB: You can use that template on other git platforms.
+
+2. Change the `reamde.md` file directly on the browser: enter information about the project, commit with a message.  Enter information about the team (roles and responsabilities), commit with a second message.
+
+3. Look at the history of the readme.md file, understand the need for good commit messages.
+
+::::::::::::::::::::::::::::::::::::::: 
 
 :::::::::::::::::::::::::::::::::::::::: keypoints
 
