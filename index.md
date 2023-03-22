@@ -10,7 +10,6 @@ Through lessons learned in this training, researchers will enhance their underst
 
 <p>Funding Acknowledgement: The first iteration of this project was funded by <a href="https://www.turing.ac.uk">The Alan Turing Institute</a> - <a href="https://www.turing.ac.uk/research/asg">AI for Science and Government</a> (ASG) Research Programme from October 2021 to March 2022.</p>
 
-{% comment %} This is a comment in Liquid {% endcomment %}
 
 ::::::::::::::::::::::::::::::::::::::::::  prereq
 
