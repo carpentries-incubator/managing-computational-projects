@@ -52,8 +52,8 @@ We welcome all contributions to improve the lesson! Maintainers will do their be
 questions, concerns, or experience any difficulties along the way.
 
 We'd like to ask you to familiarize yourself with our [Contribution Guide](CONTRIBUTING.md) and have a look at
-the [more detailed guidelines][lesson-example] on proper formatting, ways to render the lesson locally, and even
-how to write new episodes.
+the [more detailed guidelines][workbench] on proper formatting, ways to render the lesson locally, and even
+how to write new episodes. Note that we are using the new workbench templates and tooling. Rendering of the lessons is now based on R, via `sandpaper::serve()` while the package is not (yet) on CRAN.
 
 Please see the current list of [issues][FIXME] for ideas for contributing to this
 repository. For making your contribution, we use the GitHub flow, which is
