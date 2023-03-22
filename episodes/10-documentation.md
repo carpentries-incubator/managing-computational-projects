@@ -48,7 +48,7 @@ Whatever your approach is, be firm about making documentation a shared responsib
 The biggest question here is probably not 'why' but 'how' to facilitate documentation so that it is not challenging or burdensome for the team members.
 Here are a few recommendations to make documentation easier:
 
-- Allocate some time at the beginning of the project to discuss with the main stakeholders of the project about what should be documented.
+- Allocate some time at the beginning of the project to discuss with the main leaders and researchers of the project about what should be documented.
 - Keep the tasks simple by establishing a shared repository for documentation with standard templates to guide how one should go about documenting their work (*It is always easier to start with a template than an empty sheet!*).
 - Add documentation sprint to your project timelines and milestones to make sure that everyone is aware of their importance in the project.
 - Create visible ways to recognise and incentivise the process of documenting.

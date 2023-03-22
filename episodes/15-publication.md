@@ -192,6 +192,11 @@ When working on GitHub for instance, you can [connect the project repository wit
 The [Citation File Format](https://citation-file-format.github.io/), then lets you provide citation metadata, for software or datasets, in plaintext files that are easy to read by both humans and machines.
 Read the [Making Research Objects Citable](https://the-turing-way.netlify.app/communication/citable.html) chapter in *The Turing Way* Guide to Communication.
 
+:::::::::::::::::::::::::::::::::::::::  challenge
+
+Add a CITATION.cff file to your Github repository.
+
+::::::::::::::::::::::::::::::::::::::: 
 
 
 :::::::::::::::::::::::::::::::::::::::: keypoints

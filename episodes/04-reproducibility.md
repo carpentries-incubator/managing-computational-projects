@@ -55,7 +55,7 @@ If the project environment is not captured and the researchers need to return to
 a computational environment is a system where a program is run.
 This includes features of hardware (such as the numbers of cores in any CPUs) and features of the software (such as the operating system, programming languages, supporting packages, other pieces of installed software, along with their versions and configurations).
 
-![](https://the-turing-way.netlify.app/_fig/computational-environments.jpg){alt='Ways of capturing computational environments'}
+![](https://the-turing-way.netlify.app/_images/computational-environments.jpg){alt='Ways of capturing computational environments'}
 
 There are several ways of capturing computational environments. The major ones covered in this chapter will be Package Management Systems, Binder, Virtual Machines, and Containers. Each has its pros and cons, and the most appropriate option for you will depend on the nature of your project.
 They can be broadly split into two categories: those that capture only the software and its versions used in an environment (Package Management Systems), and those that replicate an entire computational environment - including the operating system and customised settings (Virtual Machines and Containers).
