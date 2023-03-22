@@ -28,7 +28,7 @@ exercises: 30
 
 :::::::::::::::::::::::::::::::::::::  testimonial
 
-## Need to consider standard file formats for future use of data!
+### Need to consider standard file formats for future use of data!
 
 *Electron Microscope Facility in our institute has produced around 5 petabytes (5,000,000 GB) of data since the institute opening.
 These files are stored safely and privately, and have not been standardised.
@@ -43,7 +43,23 @@ Meta data allows data to be future proofed for further research and even innovat
 
 Research Data Management (RDM) covers how research data can be stored, described and reused. Data here is used as a generic term to encompass all digital objects. RDM is a vital part of enabling reproducible research.
 RDM ensures efficiency in research workflows, and also greater reach and impact, as data become FAIR (Findable, Accessible, Interoperable and Reusable).
-Data should be stored in multiple locations and backed up regularly to prevent loss or data corruption.
+Data should be stored in multiple locations and backed up regularly to prevent loss or data corruption. It is also important to consider the whole life cycle of the data (especially making collected data computer readable) when designing data management plan and tasks.
+
+## Plan for reproducible research
+
+When planning a reproducible analysis, your data management plan will change. Because you want to avoid any manual wrangling of the data (copy-paste, analysis in excel, ...), you need to take particular care of the format of the raw data, making it if possible computer readable with the programming language you will be using. Also when a software provide you with both raw data and pre-analysed data, you should consider early which file you will be using in your analysis (in most cases, using the raw data will make your analysis more robust and easier to reuse for other researchers). 
+
+When building spreadsheets, one should make them tidy, so they are easy to use in computer programs. 
+:::::::::::::::::::::::::::::::::::::::::  callout
+
+## Tidy spreadsheets
+
+There are very simple rules to facilitate data use, which go into the concept of [tidy data](https://en.wikipedia.org/w/index.php?title=Tidy_data&oldid=962241815). The tidy data format allows for filtering and sorting data easily in spreadsheet software.
+
+![An illustration of tidy data: variables are in columns, observations in rows and there is one value per cell.](ttps://the-turing-way.netlify.app/_images/tidy-1.png)
+
+[More infos](https://the-turing-way.netlify.app/reproducible-research/rdm/rdm-spreadsheets.html?highlight=tidy#tidy-format-for-spreadsheets)
+:::::::::::::::::::::::::::::::::::::::::  
 
 :::::::::::::::::::::::::::::::::::::::::  callout
 
@@ -59,6 +75,28 @@ RDM is cost/time efficient, as you will always be able to find and use your data
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
 Clearly describing data using documentation and metadata ensures that others know how to access, use and reuse your data, and also enable conditions for sharing and publishing data to be outlined.
+
+## File names and folder structure
+
+While some structure may be given during the project setup, one should keep track of the sub-structure added, make sure the files are saved in the correct folder. In addition, one should make sure that file names are chosen carefully. Indeed, the file name is the first encounter with a file and making names informative can save a lot of time especially when searching for a specific file. File names should be both human and computer readable (conveying information about the file content, in a way a computer can extract it.)
+
+It is important to have written conventions that are easy to find. [turingway chapter](https://the-turing-way.netlify.app/reproducible-research/rdm/rdm-storage.html?highlight=name#file-naming-conventions)
+
+::::::::::::::: callout
+
+Naming files tips:
+
+- names should be unique in a project
+- file location should not be needed to understand what the file is about
+- as short as possible, as long as necessary
+- avoid abbreviation if possible, document them well otherwise.
+- when using dates, use ISO format: yyyy-mm-dd (yyyymmdd can work too)
+- no special characters (no space) in filenames, use - or _
+- use only lowercase
+
+see https://speakerdeck.com/jennybc/how-to-name-files
+:::::::::::::::
+
 
 ## Documentation and Metadata
 
@@ -80,19 +118,22 @@ If the data is not in a repository a text file with machine-readable metadata ca
 - Variables should be defined and explained using data dictionaries or codebooks.
 - Data should be stored in logical and hierarchical folder structures, with a README file used to describe the structure.
 
+:::::::::::::::::::::::::::::::::::::  testimonial
+
 ### REMBI: Example of metadata in bioimaging data
 
 REMBI: **Recommended Metadata for Biological Images—enabling reuse of microscopy data in biology**, Sarkans, U., Chiu, W., Collinson, L., Darrow, M. C., Ellenberg, J., Grunwald, D., ...Brazma, A. (2021). Nature Methods, 18(12), 1418–1422. doi: [10\.1038/s41592-021-01166-8](https://www.nature.com/articles/s41592-021-01166-8)
 
-:::::::::::::::::::::::::::::::::::::::::  callout
 
 Bioimaging data have significant potential for reuse, but unlocking this potential requires systematic archiving of data and metadata in public databases.
 Cryo-EM and cryo-ET have proven to be powerful tools for determining high-resolution structures of biological matter and examining the functional cellular context of macromolecular complexes.
 
-::::::::::::::::::::::::::::::::::::::::::::::::::
+
 
 REMBI is a draft metadata guidelines to begin addressing the needs of diverse communities within light and electron microscopy.
 The current version of REMBI, including examples from the fields covered by the three working groups is shared online via [http://bit.ly/rembi\_v1](https://docs.google.com/spreadsheets/d/1Ck1NeLp-ZN4eMGdNYo2nV6KLEdSfN6oQBKnnWU6Npeo/edit#gid=1023506919).
+
+::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ## Defining Data
 

@@ -61,8 +61,17 @@ If not planned in advance, these different kinds of information related to the p
 
 To manage collaborative research in computational projects with mainly distributed systems (different computers, cloud infrastructure, remote team members) it is essential to provide clear guidelines on where these digital objects should be held, handled and shared.
 Therefore, the first step is to establish a shared digital location (centralised, findable and accessible) like a shared drive (cloud-based or organisation-hosted server space) or online repository where all project related documentation and resources can be made available for everyone in your research team.
+
 When introduced with clear guidance for how everyone in your team can contribute to keeping the shared repository up-to-date, it helps build a sense of collaboration from the start.
 You can use this repository also to communicate what policies are relevant for people and their work in the project; how data, code and documentation are organised; and how peer-review, open feedback and co-creation will be enabled at all stages of the project.
+
+
+:::::::::::::::::::::::::::::::::::::::::  callout
+
+The use of standard folder structure and reamde files can help to provide a similar structure to all project and make sure all information is gathered and available. One such standard has been developed following researcher's feedback inside the `gin-tonic` project:
+https://gin-tonic.netlify.app/standard/
+
+:::::::::::::::::::::::::::::::::::::::::  
 
 ### Versioning
 
@@ -125,7 +134,21 @@ This aspect is discussed in detail in the Research Data Management episode.
 - [The Good Research Code Handbook](https://goodresearch.dev/setup.html) by Patrick Mineault.
 - [Open Life Science training and Mentoring Programme](https://openlifesci.org). *Batut, Bérénice, Yehudi, Yo, Sharan, Malvika, Tsang, Emmy, \& Open Life Science Community. (2021). Open Life Science - Training and Mentoring programme - Website release 2019-2021 (1.0.0). Zenodo. [DOI: 10.5281/zenodo.5636584](https://doi.org/10.5281/zenodo.5636584)*
 
+:::::::::::::::::::::::::::::::::::::::  challenge
 
+1. Create a project on GitHub
+
+- Create a Github account at https://github.com
+- Go to https://github.com/tonic-team/Tonic-Research-Project-Template/
+- Click `Use this template` and follow instructions.
+
+NB: You can use that template on other git platforms.
+
+2. Change the `reamde.md` file directly on the browser: enter information about the project, commit with a message.  Enter information about the team (roles and responsabilities), commit with a second message.
+
+3. Look at the history of the readme.md file, understand the need for good commit messages.
+
+::::::::::::::::::::::::::::::::::::::: 
 
 :::::::::::::::::::::::::::::::::::::::: keypoints
 

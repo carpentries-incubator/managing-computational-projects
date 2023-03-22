@@ -101,7 +101,14 @@ Before that, we will look at ways to foster documentation of the work, and how r
 - [Jupyter/IPython Notebook Quick Start Guide](https://jupyter-notebook-beginner-guide.readthedocs.io/en/latest/what_is_jupyter.html)
 - [Guides to Better Science by British Ecological Society](https://www.britishecologicalsociety.org/publications/guides-to).
 
+:::::::::::::::::::::::::::::::::::::::  challenge
 
+- Go to your research repository created in the setup chapter
+- Open one issue, assign one person and a milestone. For instance `write a data management plan` milestone in 6 months.
+- add to do to the issue (optional)
+- Use the project board to move the issue inside the board, move it to a different column.
+
+::::::::::::::::::::::::::::::::::::::: 
 
 :::::::::::::::::::::::::::::::::::::::: keypoints
 
