@@ -89,13 +89,13 @@ GitHub](https://egghead.io/series/how-to-contribute-to-an-open-source-project-on
 In brief, we use [GitHub flow](https://guides.github.com/introduction/flow/) to
 manage changes:
 
-1.  Create a new branch in your desktop copy of this repository for each significant change.
+1.  Create a new branch in your desktop copy of this repository for each
+    significant change.
 2.  Commit the change in that branch.
 3.  Push that branch to your fork of this repository on GitHub.
 4.  Submit a pull request from that branch to the [master repository][repo].
-5.  If you receive feedback,
-        make changes on your desktop and push to your branch on GitHub:
-        the pull request will update automatically.
+5.  If you receive feedback, make changes on your desktop and push to your
+    branch on GitHub: the pull request will update automatically.
 
 NB: The published copy of the lesson is usually in the `main` branch.
 
