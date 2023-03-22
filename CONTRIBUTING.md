@@ -1,9 +1,3 @@
----
-editor_options: 
-  markdown: 
-    wrap: 80
----
-
 # Contributing
 
 [Software Carpentry](http://software-carpentry.org/) and [Data
@@ -81,7 +75,7 @@ We are also not looking for exercises or other material that only run on one
 platform. Our workshops typically contain a mixture of Windows, macOS, and Linux
 users; in order to be usable, our lessons must run equally well on all three.
 
-## Using GitHub {#using-github}
+## Using GitHub{#using-github}
 
 If you choose to contribute via GitHub, you may want to look at [How to
 Contribute to an Open Source Project on
