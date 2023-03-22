@@ -4,7 +4,7 @@ teaching: 10
 exercises: 0
 ---
 
-## Statistics and rigout
+## Statistics and rigour
 
 ::::::::::::::::::::::::::::::::::::::: objectives
 
