@@ -221,6 +221,9 @@
         <ul><li><a href="#research-data-management">Research Data Management</a></li>
 <li><a href="#main-challenges-and-concerns">Main Challenges and Concerns</a></li>
 <li><a href="#overview-of-research-data-management">Overview of Research Data Management</a></li>
+<li><a href="#plan-for-reproducible-research">Plan for reproducible research</a></li>
+<li><a href="#tidy-spreadsheets">Tidy spreadsheets</a></li>
+<li><a href="#file-names-and-folder-structure">File names and folder structure</a></li>
 <li><a href="#documentation-and-metadata">Documentation and Metadata</a></li>
 <li><a href="#defining-data">Defining Data</a></li>
 <li><a href="#the-research-data-lifecycle---a-model-for-data-management">The Research Data Lifecycle - A Model for Data Management</a></li>
@@ -358,7 +361,7 @@
       </div>
       <hr></nav><main id="main-content" class="main-content"><div class="container lesson-content">
         <h1>Research Data Management</h1>
-        <p> Last updated on 2023-02-17 | 
+        <p> Last updated on 2023-03-22 | 
         
         <a href="https://github.com/carpentries-incubator/managing-computational-projects/edit/main/episodes/09-rdm.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
         
@@ -432,7 +435,32 @@ reproducible research. RDM ensures efficiency in research workflows, and
 also greater reach and impact, as data become FAIR (Findable,
 Accessible, Interoperable and Reusable). Data should be stored in
 multiple locations and backed up regularly to prevent loss or data
-corruption.</p>
+corruption. It is also important to consider the whole life cycle of the
+data (especially making collected data computer readable) when designing
+data management plan and tasks.</p>
+</section><section id="plan-for-reproducible-research"><h2 class="section-heading">Plan for reproducible research<a class="anchor" aria-label="anchor" href="#plan-for-reproducible-research"></a>
+</h2>
+<hr class="half-width"><p>When planning a reproducible analysis, your data management plan will
+change. Because you want to avoid any manual wrangling of the data
+(copy-paste, analysis in excel, …), you need to take particular care of
+the format of the raw data, making it if possible computer readable with
+the programming language you will be using. Also when a software provide
+you with both raw data and pre-analysed data, you should consider early
+which file you will be using in your analysis (in most cases, using the
+raw data will make your analysis more robust and easier to reuse for
+other researchers).</p>
+<p>When building spreadsheets, one should make them tidy, so they are
+easy to use in computer programs.
+::::::::::::::::::::::::::::::::::::::::: callout</p>
+</section><section id="tidy-spreadsheets"><h2 class="section-heading">Tidy spreadsheets<a class="anchor" aria-label="anchor" href="#tidy-spreadsheets"></a>
+</h2>
+<hr class="half-width"><p>There are very simple rules to facilitate data use, which go into the
+concept of <a href="https://en.wikipedia.org/w/index.php?title=Tidy_data&amp;oldid=962241815" class="external-link">tidy
+data</a>. The tidy data format allows for filtering and sorting data
+easily in spreadsheet software.</p>
+<figure><img src="ttps://the-turing-way.netlify.app/_images/tidy-1.png" alt="" class="figure mx-auto d-block"><figcaption>An illustration of tidy data: variables are in
+columns, observations in rows and there is one value per cell.</figcaption></figure><p><a href="https://the-turing-way.netlify.app/reproducible-research/rdm/rdm-spreadsheets.html?highlight=tidy#tidy-format-for-spreadsheets" class="external-link">More
+infos</a> :::::::::::::::::::::::::::::::::::::::::</p>
 <div id="callout1" class="callout callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
@@ -454,6 +482,40 @@ data.</p>
 <p>Clearly describing data using documentation and metadata ensures that
 others know how to access, use and reuse your data, and also enable
 conditions for sharing and publishing data to be outlined.</p>
+</section><section id="file-names-and-folder-structure"><h2 class="section-heading">File names and folder structure<a class="anchor" aria-label="anchor" href="#file-names-and-folder-structure"></a>
+</h2>
+<hr class="half-width"><p>While some structure may be given during the project setup, one
+should keep track of the sub-structure added, make sure the files are
+saved in the correct folder. In addition, one should make sure that file
+names are chosen carefully. Indeed, the file name is the first encounter
+with a file and making names informative can save a lot of time
+especially when searching for a specific file. File names should be both
+human and computer readable (conveying information about the file
+content, in a way a computer can extract it.)</p>
+<p>It is important to have written conventions that are easy to find. <a href="https://the-turing-way.netlify.app/reproducible-research/rdm/rdm-storage.html?highlight=name#file-naming-conventions" class="external-link">turingway
+chapter</a></p>
+<div id="callout2" class="callout callout">
+<div class="callout-square">
+<i class="callout-icon" data-feather="bell"></i>
+</div>
+<div class="callout-inner">
+<h3 class="callout-title">Callout<a class="anchor" aria-label="anchor" href="#callout2"></a>
+</h3>
+<div class="callout-content">
+<p>Naming files tips:</p>
+<ul><li>names should be unique in a project</li>
+<li>file location should not be needed to understand what the file is
+about</li>
+<li>as short as possible, as long as necessary</li>
+<li>avoid abbreviation if possible, document them well otherwise.</li>
+<li>when using dates, use ISO format: yyyy-mm-dd (yyyymmdd can work
+too)</li>
+<li>no special characters (no space) in filenames, use - or _</li>
+<li>use only lowercase</li>
+</ul><p>see <a href="https://speakerdeck.com/jennybc/how-to-name-files" class="external-link uri">https://speakerdeck.com/jennybc/how-to-name-files</a></p>
+</div>
+</div>
+</div>
 </section><section id="documentation-and-metadata"><h2 class="section-heading">Documentation and Metadata<a class="anchor" aria-label="anchor" href="#documentation-and-metadata"></a>
 </h2>
 <hr class="half-width"><p>Having data available is of no use if it cannot be understood.
@@ -487,33 +549,31 @@ comments.</li>
 codebooks.</li>
 <li>Data should be stored in logical and hierarchical folder structures,
 with a README file used to describe the structure.</li>
-</ul><div class="section level3">
-<h3 id="rembi-example-of-metadata-in-bioimaging-data">REMBI: Example of metadata in bioimaging data<a class="anchor" aria-label="anchor" href="#rembi-example-of-metadata-in-bioimaging-data"></a></h3>
+</ul><div id="testimonial2" class="callout testimonial">
+<div class="callout-square">
+<i class="callout-icon" data-feather="heart"></i>
+</div>
+<div id="rembi-example-of-metadata-in-bioimaging-data" class="callout-inner">
+<h3 class="callout-title">REMBI: Example of metadata in bioimaging
+data<a class="anchor" aria-label="anchor" href="#testimonial2"></a>
+</h3>
+<div class="callout-content">
 <p>REMBI: <strong>Recommended Metadata for Biological Images—enabling
 reuse of microscopy data in biology</strong>, Sarkans, U., Chiu, W.,
 Collinson, L., Darrow, M. C., Ellenberg, J., Grunwald, D., …Brazma, A.
 (2021). Nature Methods, 18(12), 1418–1422. doi: <a href="https://www.nature.com/articles/s41592-021-01166-8" class="external-link">10.1038/s41592-021-01166-8</a></p>
-<div id="callout2" class="callout callout">
-<div class="callout-square">
-<i class="callout-icon" data-feather="bell"></i>
-</div>
-<div class="callout-inner">
-<h3 class="callout-title">Callout<a class="anchor" aria-label="anchor" href="#callout2"></a>
-</h3>
-<div class="callout-content">
 <p>Bioimaging data have significant potential for reuse, but unlocking
 this potential requires systematic archiving of data and metadata in
 public databases. Cryo-EM and cryo-ET have proven to be powerful tools
 for determining high-resolution structures of biological matter and
 examining the functional cellular context of macromolecular
 complexes.</p>
-</div>
-</div>
-</div>
 <p>REMBI is a draft metadata guidelines to begin addressing the needs of
 diverse communities within light and electron microscopy. The current
 version of REMBI, including examples from the fields covered by the
 three working groups is shared online via <a href="https://docs.google.com/spreadsheets/d/1Ck1NeLp-ZN4eMGdNYo2nV6KLEdSfN6oQBKnnWU6Npeo/edit#gid=1023506919" class="external-link">http://bit.ly/rembi_v1</a>.</p>
+</div>
+</div>
 </div>
 </section><section id="defining-data"><h2 class="section-heading">Defining Data<a class="anchor" aria-label="anchor" href="#defining-data"></a>
 </h2>
@@ -853,7 +913,7 @@ data, and further stimulates collaboration with others.</li>
   "url": "https://carpentries-incubator.github.io/managing-computational-projects/09-rdm.html",
   "identifier": "https://carpentries-incubator.github.io/managing-computational-projects/09-rdm.html",
   "dateCreated": "2021-08-20",
-  "dateModified": "2023-02-17",
+  "dateModified": "2023-03-22",
   "datePublished": "2023-03-22"
 }
 
