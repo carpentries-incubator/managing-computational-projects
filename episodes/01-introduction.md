@@ -51,7 +51,7 @@ In some instances, it has been argued that "data science" simply rebrands existi
 Our view is that data science has gained traction as an overarching term due to increased data availability and complexity; development of computational methods; advances in computational infrastructure; growing concerns about scientific rigor and the reproducibility of research findings; and a recognition that new advances will result from interdisciplinary research and collaboration.
 These trends are not unique to data science, but their integration and consolidation under a single term, however broad, reflects an understanding of their interconnectedness and is a real shift in the scientific landscape
 
-- Goldsmith, J., Sun, Y., Fried, L. P., Wing, J., Miller, G. W., \& Berhane, K. (2021). The Emergence and Future of Public Health Data Science. Public Health Reviews, 42. doi: [10\.3389/phrs.2021.1604023](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8378512/)
+**Reference**: Goldsmith, J., Sun, Y., Fried, L. P., Wing, J., Miller, G. W., \& Berhane, K. (2021). The Emergence and Future of Public Health Data Science. Public Health Reviews, 42. doi: [10\.3389/phrs.2021.1604023](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8378512/)
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
