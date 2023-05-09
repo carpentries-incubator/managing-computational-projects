@@ -195,6 +195,8 @@ Data Science for Biomedical Scientists is funded by [The Alan Turing Institute](
 
 Julien Colomb was funded by the Deutsche Forschungsgemeinschaft (DFG, German Research Foundation) – Project number 327654276, [CRC1315](https://www.sfb1315.de), a "Collaborative Research Centre" in the domain of the neuroscience. 
 
+Jo Havemann, Director of Access2Perspectives ...
+
 ## License
 
 All materials are developed online openly under CC-BY 4.0 License using The Carpentries training format and The Carpentries Incubator lesson infrastructure.
