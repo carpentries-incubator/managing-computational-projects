@@ -1,8 +1,9 @@
-"","id","content","start","end"
-"1",1,"Development by The Turing Way team","2021-10-10","2022-03-30"
-"2",2,"Community Sprint","2022-04-28","2022-04-29"
-"3",3,"Community Review phase","2022-04-30","2022-07-30"
-"4",4,"Change for workbench lessons","2022-08-10","2022-08-30"
-"5",5,"Change toc","2023-01-01","2023-04-01"
-"6",6,"Review by A2P","2023-06-10","2022-03-30"
-"7",7,"Pilot delivery","2023-07-01",NA
+"","id","content","start","end",group,type
+"1",1,"Development <br> by The Turing Way team","2021-10-10","2022-03-30",2,range
+"2",2,"Community Sprint","2022-04-28","2022-04-29",2,range
+"3",3,"Community Review phase","2022-04-30","2022-07-30",2,range
+"4",4,"Change for workbench lessons","2022-08-10","2022-08-30",2,range
+"5",5,"Change toc","2023-01-01","2023-04-01",2,range
+"6",6,"Review <br> by A2P","2023-06-10","2022-03-30",2,range
+"7",7,"Pilot delivery","2023-07-01",NA,1,box
+
