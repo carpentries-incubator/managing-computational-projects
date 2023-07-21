@@ -8,15 +8,9 @@ exercises: 0
 
 ::::::::::::::::::::::::::::::::::::::: objectives
 
+- Understand how this training material is organised.
+
 - Understand how this training material will help your research (and career).
-
-::::::::::::::::::::::::::::::::::::::::::::::::::
-
-:::::::::::::::::::::::::::::::::::::::: questions
-
-- How does this training relate to your work?
-- What are the benefits of using data science skills?
-- What are the challenges for teams and management?
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 

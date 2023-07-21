@@ -6,11 +6,7 @@ exercises: 5
 
 ## Overview of this training material
 
-::::::::::::::::::::::::::::::::::::::: objectives
 
-- Understand how this training material is organised.
-
-::::::::::::::::::::::::::::::::::::::::::::::::::
 
 :::::::::::::::::::::::::::::::::::::::: questions
 

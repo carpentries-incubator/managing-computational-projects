@@ -6,11 +6,7 @@ exercises: 0
 
 ## Your research project is a computational project.
 
-::::::::::::::::::::::::::::::::::::::: objectives
 
-- Understand how this training material will help your research (and career).
-
-::::::::::::::::::::::::::::::::::::::::::::::::::
 
 :::::::::::::::::::::::::::::::::::::::: questions
 
