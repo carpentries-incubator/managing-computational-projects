@@ -14,10 +14,10 @@ exercises: 0
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
-```{r, child='03-overview.md'}
+```{r, child='files/03-overview.Rmd'}
 ```
 
 ---
 
-```{r, child='02-motivation.md'}
+```{r, child='files/02-motivation.md'}
 ```
