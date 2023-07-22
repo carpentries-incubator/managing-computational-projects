@@ -56,7 +56,7 @@ In order to keep these under Git version control, it is often necessary to use e
 By using Git for version control, the system will record what was changed by whom in a repository.
 This may facilitate the record of contributions, but one needs to be aware of the technical bias it creates (importance of contributions cannot be recorded by size or number of commits, less technical contributors will have less Git contribution). 
 It is best practice to record contributions using text and a contributor list.
-The use of tenzing spreadsheet may be a good way to 
+The use of [tenzing spreadsheet](https://tenzing.club)  may be a good way to record contribution and other information about the people involved. 
 
 :::::::::::::::::::::::::::::::::::::::: keypoints
 
