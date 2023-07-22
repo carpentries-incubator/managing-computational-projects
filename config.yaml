@@ -23,7 +23,7 @@ keywords: 'software, data, lesson, The Carpentries'
 # possible values: pre-alpha, alpha, beta, stable
 life_cycle: 'pre-alpha'
 
-# License of the lesson
+# License of the lesson materials (recommended CC-BY 4.0)
 license: 'CC-BY 4.0'
 
 # Link to the source repository for this lesson
@@ -60,10 +60,8 @@ contact: 'msharan@turing.ac.uk'
 # Order of episodes in your lesson
 episodes: 
 - 01-introduction.md
-- 02-motivation.md
-- 03-overview.md
-- 04-reproducibility.md
-- 05-versioncontrol.md
+- 21_contentAndMotivation.Rmd
+- 23_Ensuring-reproducibility.Rmd
 - 07-setup.md
 - 08-collaborativeworking.md
 - 09-rdm.md
@@ -75,7 +73,7 @@ episodes:
 - 15-publication.md
 - 16-open.md
 - 17-citation.md
-- 21_contentAndMotivation.Rmd
+
 
 # Information for Learners
 learners: 
@@ -98,5 +96,4 @@ profiles:
 # This space below is where custom yaml items (e.g. pinning
 # sandpaper and varnish versions) should live
 
-
-url: 'https://carpentries-incubator.github.io/managing-computational-projects'
+url: https://carpentries-incubator.github.io/managing-computational-projects
