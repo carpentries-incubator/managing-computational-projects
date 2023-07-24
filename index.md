@@ -105,7 +105,7 @@ At the end of this lesson (training material), attendees will gain a better unde
 - identifying tools and practices required for managing specific kinds of computational projects
 - applying a systematic framework introducing computational protocols in their groups as project leads and/or managers
 
-::::::: Instructor notes
+::::::::: instructor
 
 ## Modular and Flexible Learning
 
@@ -119,7 +119,6 @@ We have designed multiple modular episodes covering topics across two overarchin
 
 Each masterclass is supplemented with technical resources and learning opportunities that can be used by project supervisors or senior researchers in guiding the learning and application of skills by other researchers in their teams.
 
-:::::::
 
 
 
@@ -130,6 +129,9 @@ Each masterclass has been developed on separate repositories as standalone train
 In the future, these masterclasses could be coupled with pre-recorded introduction and training videos (to be hosted on the Turing online learning platform and The Turing Way YouTube channel).
 
 They can also be delivered by trainers and domain experts, who can mix and match lessons/episodes from across the two masterclasses and present them in an interactive workshop format.
+
+:::::::::
+
 
 :::::::::::::::::::::::::::::::::::::::::  callout
 
