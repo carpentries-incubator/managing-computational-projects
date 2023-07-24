@@ -20,6 +20,8 @@ exercises: 0
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
+## What is data science
+
 Over the last decade, several tools, methods and training resources have been developed for early career researchers to learn about and apply data science skills in biomedicine.
 This is often referred to as biomedical data science, with the following definition.
 

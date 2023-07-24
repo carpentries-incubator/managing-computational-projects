@@ -4,7 +4,7 @@ teaching: 10
 exercises: 0
 ---
 
-# What is computer reproducibility
+## What is computer reproducibility
 
 ![](fig/reproducible-matrix.jpg){alt='A matrix showing data and analysis in two axis and iterating that reproducibility is when same analysis is applied to same data it gives same result.'}
 
@@ -33,7 +33,7 @@ Since both code and data may evolve over time (errors may be found, variables ma
 
 
 
-# Long term reproducibility
+## Long term reproducibility
 
 Both data and software should be in a form where the analysis can run on a different hardware.
 Because software evolve quite rapidly, it may be difficult to have the analysis run years after its creation, because the dependencies will have evolve and may not be compatible with the old code anymore. 
