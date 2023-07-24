@@ -27,9 +27,9 @@ exercises: 2
 
 
 
-```{r, child='04-reproducibility.md'}
+```{r, child='files/04-reproducibility.md'}
 ```
 
-```{r, child='05-versioncontrol.md'}
+```{r, child='files/05-versioncontrol.md'}
 ```
 
