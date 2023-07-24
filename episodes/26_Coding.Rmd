@@ -1,0 +1,14 @@
+---
+title: 'Managing code'
+
+---
+
+
+```{r, child='files/12-analysis.md'}
+```
+
+```{r, child='files/13-codereview.md'}
+```
+
+```{r, child='files/14-codemodularity.md'}
+```

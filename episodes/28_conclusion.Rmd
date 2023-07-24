@@ -1,0 +1,9 @@
+---
+title: 'Managing coding work'
+
+---
+
+
+```{r, child='files/07-setup.md'}
+```
+

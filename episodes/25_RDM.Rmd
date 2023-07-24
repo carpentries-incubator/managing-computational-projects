@@ -1,0 +1,8 @@
+---
+title: 'Managing Data'
+
+---
+
+
+```{r, child='files/09-rdm.md'}
+```

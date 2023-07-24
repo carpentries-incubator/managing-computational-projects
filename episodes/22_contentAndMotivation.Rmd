@@ -19,7 +19,7 @@ exercises: 0
 ```
 
 
-```{r, child='files/03-overview.Rmd'}
+```{r, child='files/03-overview.md'}
 ```
 
 ---

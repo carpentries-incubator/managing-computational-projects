@@ -1,5 +1,5 @@
 ---
-title: 'Setting up a project'
+title: 'Managing project start and collaborations'
 
 ---
 
@@ -7,3 +7,5 @@ title: 'Setting up a project'
 ```{r, child='files/07-setup.md'}
 ```
 
+```{r, child='files/08-collaborativeworking.md'}
+```
