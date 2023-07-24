@@ -1,0 +1,9 @@
+---
+title: 'Setting up a project'
+
+---
+
+
+```{r, child='files/07-setup.md'}
+```
+

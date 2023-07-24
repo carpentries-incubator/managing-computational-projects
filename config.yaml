@@ -59,10 +59,9 @@ contact: 'msharan@turing.ac.uk'
 
 # Order of episodes in your lesson
 episodes: 
-- 01-introduction.md
 - 21_contentAndMotivation.Rmd
 - 23_Ensuring-reproducibility.Rmd
-- 07-setup.md
+- 24_SettingUp.Rmd
 - 08-collaborativeworking.md
 - 09-rdm.md
 - 10-documentation.md
