@@ -19,6 +19,9 @@
     <loc>https://carpentries-incubator.github.io/managing-computational-projects/05-versioncontrol.html</loc>
   </url>
   <url>
+    <loc>https://carpentries-incubator.github.io/managing-computational-projects/06-ITtools.html</loc>
+  </url>
+  <url>
     <loc>https://carpentries-incubator.github.io/managing-computational-projects/07-setup.html</loc>
   </url>
   <url>
@@ -56,6 +59,27 @@
   </url>
   <url>
     <loc>https://carpentries-incubator.github.io/managing-computational-projects/17-citation.html</loc>
+  </url>
+  <url>
+    <loc>https://carpentries-incubator.github.io/managing-computational-projects/22_contentAndMotivation.html</loc>
+  </url>
+  <url>
+    <loc>https://carpentries-incubator.github.io/managing-computational-projects/23_Ensuring-reproducibility.html</loc>
+  </url>
+  <url>
+    <loc>https://carpentries-incubator.github.io/managing-computational-projects/24_SettingUp.html</loc>
+  </url>
+  <url>
+    <loc>https://carpentries-incubator.github.io/managing-computational-projects/25_RDM.html</loc>
+  </url>
+  <url>
+    <loc>https://carpentries-incubator.github.io/managing-computational-projects/26_Coding.html</loc>
+  </url>
+  <url>
+    <loc>https://carpentries-incubator.github.io/managing-computational-projects/27_publications.html</loc>
+  </url>
+  <url>
+    <loc>https://carpentries-incubator.github.io/managing-computational-projects/28_conclusion.html</loc>
   </url>
   <url>
     <loc>https://carpentries-incubator.github.io/managing-computational-projects/404.html</loc>
@@ -100,6 +124,9 @@
     <loc>https://carpentries-incubator.github.io/managing-computational-projects/instructor/05-versioncontrol.html</loc>
   </url>
   <url>
+    <loc>https://carpentries-incubator.github.io/managing-computational-projects/instructor/06-ITtools.html</loc>
+  </url>
+  <url>
     <loc>https://carpentries-incubator.github.io/managing-computational-projects/instructor/07-setup.html</loc>
   </url>
   <url>
@@ -137,6 +164,27 @@
   </url>
   <url>
     <loc>https://carpentries-incubator.github.io/managing-computational-projects/instructor/17-citation.html</loc>
+  </url>
+  <url>
+    <loc>https://carpentries-incubator.github.io/managing-computational-projects/instructor/22_contentAndMotivation.html</loc>
+  </url>
+  <url>
+    <loc>https://carpentries-incubator.github.io/managing-computational-projects/instructor/23_Ensuring-reproducibility.html</loc>
+  </url>
+  <url>
+    <loc>https://carpentries-incubator.github.io/managing-computational-projects/instructor/24_SettingUp.html</loc>
+  </url>
+  <url>
+    <loc>https://carpentries-incubator.github.io/managing-computational-projects/instructor/25_RDM.html</loc>
+  </url>
+  <url>
+    <loc>https://carpentries-incubator.github.io/managing-computational-projects/instructor/26_Coding.html</loc>
+  </url>
+  <url>
+    <loc>https://carpentries-incubator.github.io/managing-computational-projects/instructor/27_publications.html</loc>
+  </url>
+  <url>
+    <loc>https://carpentries-incubator.github.io/managing-computational-projects/instructor/28_conclusion.html</loc>
   </url>
   <url>
     <loc>https://carpentries-incubator.github.io/managing-computational-projects/instructor/404.html</loc>
