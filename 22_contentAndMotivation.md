@@ -1,16 +1,216 @@
 ---
-title: Better and faster research !
-teaching: 35
-exercises: 0
+title: Course content and motivation
+teaching: 40
+exercises: 10
 ---
 
-## Your research project is a computational project.
 
 ::::::::::::::::::::::::::::::::::::::: objectives
+
+- Understand how this training material is organised.
 
 - Understand how this training material will help your research (and career).
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
+
+
+
+
+
+
+
+
+
+
+
+## What is data science
+
+Over the last decade, several tools, methods and training resources have been developed for early career researchers to learn about and apply data science skills in biomedicine.
+This is often referred to as biomedical data science, with the following definition.
+
+:::::::::::::::::::::::::::::::::::::  testimonial
+
+Biosciences and biomedical researchers regularly combine mathematics and computational methods to interpret experimental data. The term "data science" describes expertise associated with taking (usually large) data sets and annotating, cleaning, organizing, storing, and analyzing them for the purposes of extracting knowledge. [...]
+The terms "biomedical data science" and "biomedical data scientist" [...] connote activities associated with the creation and application of methods to new and large sources of biological and medical data aimed at converting them into useful information and knowledge.
+They also connote technical activities that are data-intensive and require special skills in managing the large, noisy, and complex data typical of biology and medicine.
+They may also imply the application of these technologies in domains where their collaborators previously have not needed data-intensive computational approaches.
+
+\-- Russ B. Altman and Michael Levitt (2018). [Annual Review of Biomedical Data Science](https://www.annualreviews.org/doi/full/10.1146/annurev-bd-01-041718-100001)
+
+::::::::::::::::::::::::::::::::::::::::::::::::::
+
+In contrast to the definition above (and as will be explained in the next chapters), we think research which is not data intensive would also gain in applying data science principles.
+However, to ensure that data science approaches are appropriately applied in domain research, such as in biosciences, there is a need to also engage and educate scientific group leaders and researchers in project leadership roles on best practices.
+Computational methods might indeed be as complex as a neural network, but even statistical tests and producing figures for a publication require data science and coding methods.
+
+Researcher use data science skills to apply computation techniques and reproducible data analyses approaches to their research questions.
+In order to apply these tools, researcher first need to understand and apply the building blocks of data science, especially research data management, collaborative working and project management.
+
+<img src="fig/handbook-for-application.jpg" alt="Two people with computational expertise holding a giant book towards two other people who conduct lab experiments. The book saya: how to apply data science in biology." width="500"/>
+
+*How to apply data science in biology. The Turing Way project illustration by Scriberia for The Turing Way Community Shared under CC-BY 4.0 License. Zenodo. [http://doi.org/10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807)*
+
+:::::::::::::::::::::::::::::::::::::  testimonial
+
+In some instances, it has been argued that "data science" simply rebrands existing fields like statistics or computer science.
+Our view is that data science has gained traction as an overarching term due to increased data availability and complexity; development of computational methods; advances in computational infrastructure; growing concerns about scientific rigor and the reproducibility of research findings; and a recognition that new advances will result from interdisciplinary research and collaboration.
+These trends are not unique to data science, but their integration and consolidation under a single term, however broad, reflects an understanding of their interconnectedness and is a real shift in the scientific landscape
+
+- Goldsmith, J., Sun, Y., Fried, L. P., Wing, J., Miller, G. W., \& Berhane, K. (2021). The Emergence and Future of Public Health Data Science. Public Health Reviews, 42. doi: [10\.3389/phrs.2021.1604023](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8378512/)
+
+::::::::::::::::::::::::::::::::::::::::::::::::::
+
+With new technologies supporting the generation of large-scale data as well as successful applications of data science, Machine Learning (ML) and Artificial Intelligence (AI) in biomedicine and related fields have recently shown huge potential to transform the way we conduct research.
+Recent groundbreaking research utilising AI technologies in biomedicine has led to an enormous interest among researchers in data science, ML and AI approach to extract useful insights from big data, make new discoveries and address biological questions.
+As pictured below, in order to apply these tools, researcher first need to understand and apply the building blocks of data science, especially research data management, collaborative working and project management.
+
+::::::::::::::::::::::::::::::::::::::  discussion
+
+In what aspects of your projects do you already apply computational and statistical approaches?
+Do you consider data science relevant for your project? Why/Why not?
+
+::::::::::::::::::::::::::::::::::::::::::::::::::
+
+The [**Data Science for Biomedical Scientists**](https://github.com/alan-turing-institute/data-training-for-bioscience) project helps address this need in training by equipping experimental biomedical scientists with essential computational skills.
+In all the resources developed within this project, we consistently emphasise how computational and data science approaches can be applied while ensuring reproducibility, collaboration and transparent reporting.
+
+:::::::::::::::::::::::::::::::::::::  testimonial
+
+**The goal is to maintain the highest standards of research practice and integrity**.
+
+::::::::::::::::::::::::::::::::::::::::::::::::::
+
+In this training material for learning how to manage computational projects, we discuss essential practices for computational reproducibility required for carrying out meaningful analyses of research datasets through data exploration, processing, visualisation and communication.
+We present unfamiliar and complex topics from computation and data science to biologists by providing examples and recommendations from their fields.
+The goal is to enable effective management and sharing of their computational projects. We therefore encourage you to go through this training material before taking our second workshop, more focused in AI and Data Science.
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Overview of this training material
+
+
+
+:::::::::::::::::::::::::::::::::::::::: questions
+
+- Get an overview of the training material
+- understand how the different aspects of this material relates to one another
+
+::::::::::::::::::::::::::::::::::::::::::::::::::
+
+
+
+This chapter gives you an overview of the topics of this course.
+It also corrsponds to specificity of data science work.
+They are not treated in the same order as indicated here.
+
+This program will teach you best practices in data science project management and how to appyly them to research project.
+This material will help you to manage a research project that comprise some *online collaborative working*,
+has a relatively *big team, where people have complementary skills*,
+use *coding or programming*, as well as the *reuse of code*,
+and last but not least, aim at producing a *reproducible analysis*, as is pictured below.
+
+<img src="fig/datasciencespecifics.jpg" alt="Specicity of data science project. Five blocks (working online, large teams whose members have with specialised skills, writing code and re-using code) are placed around a central block where reproducible analysis is written. Data specifics by Julien Colomb CC-BY 4.0 " width="500"/>
+
+Here we give an short overview of the topics that will be covered in this course.
+Note that the course episode split follows a  different logic, and you will find training linked to each five of these data science specifics in most episodes.
+
+:::::::::::::::::::::::::::::::::::::::::  callout
+
+### Team and data science
+
+The principles taught in this course can be applied to any research project.
+It will help project manager to work with online tools, with people with specialised skillsets,
+and with a project involving some code writing and code reuse.
+The goal is to produce a reproducible data analysis in modern research context.
+
+It requires some specific and some non-specific project management actions.
+This course covers a large panel of action to perform before, during and after the project is conducted.
+
+::::::::::::::::::::::::::::::::::::::::::::::::::
+
+### Online work
+
+When part of the work happens online, it becomes very easy to loose track of what documents are where,
+what tools were used (by whom), and who is doing what.
+Discussions are also more difficult to organise and meetings are more complex to drive.
+In this course, we will look at different elements that make this work easier.
+
+Af first, there should be one entry point for the project, where every team member can find the main documentation as well as links to other documents and data.
+This starts with setting `one main URL` when setting up the project, as well as using good readme files and templates. The information needs to be updated during the project and shared with the whole team.
+
+The use of online project management tool (like kaban boards for todo list) can also help members of the team to coordinate their work, and follow their achievements.
+
+### Team science
+
+Because teams can be big, and quite heterogeneous in terms of skills (especially computer and programming skills), it is important to follow best practice of team building.
+
+In particular, one should set reasonable goals and milestones for the project, and document them in the main documentation.
+It is also important that every team member knows what his part is, and that the work is well distributed.
+
+One should make sure every team member is able to use the communication tools set for the team, and take particular care of the organisation of meetings. Data and code should be documented (and this documentation work should be fostered), such that every team member can follow and reuse the work of the other team members.
+
+### Coding
+
+When data analysis is done via a programming language, things become mostly easier, but this facility has some drawbacks, as well as some effects on data management practice.
+
+First, a data analysis workflow will now start with the computer reading the raw data.
+This means that the choice of the data format for the raw data may change, and that manually gathered data should be (easily) computer readable.
+This is particularly important for spreadsheets, as a lot of time can be saved by designing the spreadsheet in a tidy format.
+
+Second, statistical analysis and data representation in figures will now be much easier to perform, making p-hacking and harking practices very easy to do, even involuntarily. Researcher have to actively make sure their analysis is not flawed.
+
+Third, making errors in the code may have larger effects than making error in a manual analysis.
+However, errors are easier to spot (doing code reviews and tests) and when the code is corrected, the results are immediately corrected, too.
+
+### Code/data publication and reuse
+
+Very soon in a research project, writing code consist mostly of taking code written by someone else and applying it (with some tweaks sometimes) to one own data.
+We will look at ways to find relevant code, make sure it can be trusted, make sure you can legally use it, and ways to cite it (to give recognition the initial software engineer deserves).
+
+In addition, code written in the project will probably be reused, too.
+We will look into best practices to make this reuse easier, both in how the code is written (modularity, documentation, tests) and in how the code is shared (license, repository, version control, release, users instruction, developers instructions).
+
+### Reproducibility
+
+At the core of data science, the analysis reproducibiliy is both a goal and a huge advantage (in terms of research transparency, trustworthiness and work efficiency).
+The use of code is not enough to get a reproducible analysis, one needs to have access to both the code and the data used to produce the research result, a concept called provenance.
+This may not be trivial, especially if several version of the code and of the data exist.
+
+In this course, we will have a strong emphasis on version control, while we will introduce the concepts (and some tools) of provenance, as well as literate programming (reproducible reports and executable papers), where the code, the figure and explanatory text are bound in the same file.
+
+
+
+:::::::::::::::::::::::::::::::::::::::: keypoints
+
+- This course will help you manage team work that involves coding, using digital tools.
+- One objective is to produce reproducible analysis and a more transparent research.
+
+::::::::::::::::::::::::::::::::::::::::::::::::::
+
+
+
+---
+
+
+
+
+
+
+
+
+## Your research project is a computational project.
+
+
 
 :::::::::::::::::::::::::::::::::::::::: questions
 
@@ -20,6 +220,12 @@ exercises: 0
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
+
+:::::: Instructor
+
+This chapter about motivation can be used to convince people to sign up to the course.
+It can also be used as a small starter for each lessons.
+::::::
 As a researcher, you are likely to use some sort of computational tools to process, analyse, and visualise data.
 You are also likely to work on your project with other members of the lab, and the success of your work may well depend on your interactions with your peers.
 **In that sense any research project can be defined as a collaborative, computational project.**

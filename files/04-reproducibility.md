@@ -4,22 +4,10 @@ teaching: 10
 exercises: 0
 ---
 
+## What is computer reproducibility
+
 ![](fig/reproducible-matrix.jpg){alt='A matrix showing data and analysis in two axis and iterating that reproducibility is when same analysis is applied to same data it gives same result.'}
 
-::::::::::::::::::::::::::::::::::::::: objectives
-
-- Describe the importance of version control systems
-- Nudge the use of GitHub/GitLab for open collaboration
-- Share open science practices for transparent and ethical research
-
-::::::::::::::::::::::::::::::::::::::::::::::::::
-
-:::::::::::::::::::::::::::::::::::::::: questions
-
-- How to build reproducible analysis?
-- how to deal with dependencies?
-
-::::::::::::::::::::::::::::::::::::::::::::::::::
 
 *Documentation as a guiding light for people who may feel lost otherwise. The Turing Way project illustration by Scriberia for The Turing Way Community Shared under CC-BY 4.0 License. Zenodo. [http://doi.org/10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807)*
 
@@ -34,8 +22,34 @@ The different dimensions of reproducible research described in the matrix above 
   There will be many more steps to know how well the work applies to all the different aspects of the research question.
   Generalisation is an important step towards understanding that the result is not dependent on a particular dataset nor a particular version of the analysis pipeline.
 
+## Provenance and reproducibility
+
+In order to make results reproducible, one needs to access and reuse the data and the code used to produce the analysis. 
+Since both code and data may evolve over time (errors may be found, variables may be changed), it is important to link the figure created with a specific version of the code and the data, this is called keeping provenance information.
+
+
+
+>!figure provenance
+
+
+
+## Long term reproducibility
+
+Both data and software should be in a form where the analysis can run on a different hardware.
+Because software evolve quite rapidly, it may be difficult to have the analysis run years after its creation, because the dependencies will have evolve and may not be compatible with the old code anymore. 
+
+It is therefore important to know what version of the dependencies were used. 
+In practices, there are specific tools to record dependencies, and for complex code,
+it is preferable to use countainers.
+Containers are specific piece of software that "contain" all the information and dependences needed to run a code. 
+
+Alternatively, one can aim at robustness and document the analysis enough such that adapting the code to a new computer environment is easy. 
+This may be a easier workflow for simple analysis.
+
 Thinking about which software, tools and platforms to use will greatly affect how you analyse and process data, as well as how you share your results for computational reproducibility.
 The idea is to facilitate others in recreating the setup process necessary to reproduce your research.
+
+
 
 :::::::::::::::::::::::::::::::::::::::::  callout
 
@@ -66,9 +80,8 @@ Please read more about each of these concepts and their practice use, please vis
 
 :::::::::::::::::::::::::::::::::::::::: keypoints
 
-- Version controlled repository help record different contributions and contributor information openly.
-- Open Science is an umbrella term that involve different practices for research in the context of different research objects.
-- Online Persistent Identifiers or Digital Object Identifiers are useful for releasing and citing different versions of research objects.
+- Provenance information and software dependencies management are needed to reproduce an analysis on the mid-term (3 years)
+- Information about the version of the code and of the data used to create an analysis should be captured.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
