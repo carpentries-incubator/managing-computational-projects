@@ -8,7 +8,8 @@ exercises: 10
 
 ::::::::::::::::::::::::::::::::::::::: objectives
 
-- First learning objective. (FIXME)
+- Understand the importance of PID.
+- Know how to make data and code citable
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -201,8 +202,8 @@ Add a CITATION.cff file to your Github repository.
 
 :::::::::::::::::::::::::::::::::::::::: keypoints
 
-- First key point. Brief Answer to questions. (FIXME)
 
+- Online Persistent Identifiers or Digital Object Identifiers are useful for releasing and citing different versions of research objects.
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
 

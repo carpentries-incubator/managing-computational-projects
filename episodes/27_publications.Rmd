@@ -1,0 +1,15 @@
+---
+title: 'Managing publication'
+teaching: 40
+exercises: 10
+---
+
+
+```{r, child='files/15-publication.md'}
+```
+
+```{r, child='files/16-open.md'}
+```
+
+```{r, child='files/17-citation.md'}
+```

@@ -1,0 +1,35 @@
+---
+title: 'Ensuring reproducibility'
+teaching: 40
+exercises: 10
+---
+
+::::::::::::::::::::::::::::::::::::::: objectives
+
+- Understand the different concepts related to reproducibility.
+- Present tools for computer reproducibility (long term).
+- Understand the concept of provenance and version control.
+- Understand the power and pitfalls of git
+
+::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::::::::::::::::::::::::::::::: questions
+
+- How to build reproducible analysis?
+- how to deal with dependencies?
+
+- What is version control?
+- Why using git ?
+- How is version control system relevant for biomedical research?
+
+::::::::::::::::::::::::::::::::::::::::::::::::::
+
+
+
+
+```{r, child='files/04-reproducibility.md'}
+```
+
+```{r, child='files/05-versioncontrol.md'}
+```
+

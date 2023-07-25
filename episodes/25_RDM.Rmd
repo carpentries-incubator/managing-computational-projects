@@ -1,0 +1,9 @@
+---
+title: 'Managing Data'
+teaching: 40
+exercises: 10
+---
+
+
+```{r, child='files/09-rdm.md'}
+```

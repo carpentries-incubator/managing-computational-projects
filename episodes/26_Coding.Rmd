@@ -1,0 +1,15 @@
+---
+title: 'Managing code'
+teaching: 40
+exercises: 10
+---
+
+
+```{r, child='files/12-analysis.md'}
+```
+
+```{r, child='files/13-codereview.md'}
+```
+
+```{r, child='files/14-codemodularity.md'}
+```

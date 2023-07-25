@@ -13,6 +13,7 @@ exercises: 15
 - Plan computational reproducibility and project management practices
 - Make it easy for each contributor to participate, contribute and be recognised for their work
 
+
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
 :::::::::::::::::::::::::::::::::::::::: questions
@@ -20,7 +21,7 @@ exercises: 15
 - How to set up a computational project?
 - What main concerns and challenges exist and how to address them?
 - How to create a project repository for sharing, collaboration and an intention to release?
-
+- What extra tools may be used ?
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ![](fig/research-cycle.jpg){alt='The research process is represented as a perpetual cycle of generating research ideas, performing data planning and design, data collection, and data processing and analysis, publishing, preserving and hence, allowing re-use of data.'}
@@ -40,6 +41,7 @@ Then come the following steps:
 7. archiving it to ensure that our research is reusable, meaning, that someone else can go through this whole process of reproducing or building upon our work.
 
 Each of these steps is important for every single researcher, irrespective of their roles in the project.
+They are usually not taken one after the other, but concomitantly, it is therefore important to plan and take decisions for each of them before the project starts.
 However, a project lead (such as Principal Investigators, managers and supervisors) have an added responsibility to set up the project in a way that ensures that all members of their research team can work together efficiently at all stages of the project.
 
 With an overarching goal to maintain research integrity and ethical practices from the start, we need to consider reproducibility methods, collaborative approaches and transparent communication processes for the research team as well as the external stakeholders.

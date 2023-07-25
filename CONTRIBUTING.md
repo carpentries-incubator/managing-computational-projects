@@ -52,6 +52,8 @@ Note: if you want to build the website locally, please refer to [The Workbench d
 2.  If you wish to change the template used for workshop websites,
     please refer to [The Workbench documentation][template-doc].
 
+Note that for historical reason, some chapters are build by collating content found in other markdown files.
+If you want to change the text of the lessons, you may find the corresponding files in the èpisodes/files` folder.
 
 ## What to Contribute
 

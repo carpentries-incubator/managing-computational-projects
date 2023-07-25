@@ -1,0 +1,27 @@
+---
+title: Course content and motivation
+teaching: 40
+exercises: 10
+---
+
+
+::::::::::::::::::::::::::::::::::::::: objectives
+
+- Understand how this training material is organised.
+
+- Understand how this training material will help your research (and career).
+
+::::::::::::::::::::::::::::::::::::::::::::::::::
+
+
+```{r, child='files/01-introduction.md'}
+```
+
+
+```{r, child='files/03-overview.md'}
+```
+
+---
+
+```{r, child='files/02-motivation.md'}
+```
