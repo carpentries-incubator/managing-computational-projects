@@ -1,6 +1,7 @@
 ---
 title: 'Managing code'
-
+teaching: 40
+exercises: 10
 ---
 
 

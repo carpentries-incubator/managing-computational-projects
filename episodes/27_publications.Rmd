@@ -1,6 +1,7 @@
 ---
 title: 'Managing publication'
-
+teaching: 40
+exercises: 10
 ---
 
 

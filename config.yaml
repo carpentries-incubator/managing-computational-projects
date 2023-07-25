@@ -80,6 +80,8 @@ learners:
 
 # Information for Instructors
 instructors: 
+- 06-ITtools.md
+- instructor-notes.md
 
 # Learner Profiles
 profiles: 

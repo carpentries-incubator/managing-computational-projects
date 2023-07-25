@@ -1,6 +1,7 @@
 ---
 title: 'Managing Data'
-
+teaching: 40
+exercises: 10
 ---
 
 

@@ -1,9 +1,9 @@
 ---
 title: 'Managing coding work'
-
+teaching: 5
+exercises: 25
 ---
 
 
-```{r, child='files/07-setup.md'}
-```
+still empty... 
 

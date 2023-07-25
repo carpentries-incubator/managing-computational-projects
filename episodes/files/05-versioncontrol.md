@@ -30,7 +30,7 @@ The practice of versioning is particularly important to allow non-linear or bran
 
 Read [All you need to know about Git, GitHub \& GitLab](https://towardsdatascience.com/all-you-need-to-know-about-git-github-gitlab-24a853422ff3) on Towards Data Science and [version control](https://the-turing-way.netlify.app/reproducible-research/vcs.html) in *The Turing way* for more details on workflow, technical details of using git and versioning large datasets.
 
-## Basics
+## Basics of Version Control 
 
 We have all seen a simple file versioning approach where different versions of a file are stored with a different name.
 Tools such as Google Drive and Microsoft Teams offer platforms to update files and share them with others in real-time, collaboratively.

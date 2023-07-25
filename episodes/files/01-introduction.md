@@ -1,7 +1,7 @@
 ---
-title: What is data science
+title: "What is data science"
 teaching: 10
-exercises: 0
+exercises: 10
 ---
 
 

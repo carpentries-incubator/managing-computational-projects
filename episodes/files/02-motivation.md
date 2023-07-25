@@ -1,6 +1,6 @@
 ---
-title: Better and faster research !
-teaching: 35
+title: "Better and faster research !"
+teaching: 10
 exercises: 0
 ---
 
@@ -16,6 +16,12 @@ exercises: 0
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
+
+:::::: Instructor
+
+This chapter about motivation can be used to convince people to sign up to the course.
+It can also be used as a small starter for each lessons.
+::::::
 As a researcher, you are likely to use some sort of computational tools to process, analyse, and visualise data.
 You are also likely to work on your project with other members of the lab, and the success of your work may well depend on your interactions with your peers.
 **In that sense any research project can be defined as a collaborative, computational project.**

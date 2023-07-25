@@ -1,7 +1,7 @@
 ---
 title: What is special in data science project ?
 teaching: 10
-exercises: 5
+exercises: 0
 ---
 
 ## Overview of this training material
@@ -15,19 +15,11 @@ exercises: 5
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
-:::::::::::::::::::::::::::::::::::::::::  callout
 
-## Team and data science
 
-The principles taught in this course can be applied to any research project.
-It will help project manager to work with online tools, with people with specialised skillsets,
-and with a project involving some code writing and code reuse.
-The goal is to produce a reproducible data analysis in modern research context.
-
-It requires some specific and some non-specific project management actions.
-This course covers a large panel of action to perform before, during and after the project is conducted.
-
-::::::::::::::::::::::::::::::::::::::::::::::::::
+This chapter gives you an overview of the topics of this course.
+It also corrsponds to specificity of data science work.
+They are not treated in the same order as indicated here.
 
 This program will teach you best practices in data science project management and how to appyly them to research project.
 This material will help you to manage a research project that comprise some *online collaborative working*,
@@ -40,7 +32,21 @@ and last but not least, aim at producing a *reproducible analysis*, as is pictur
 Here we give an short overview of the topics that will be covered in this course.
 Note that the course episode split follows a  different logic, and you will find training linked to each five of these data science specifics in most episodes.
 
-## Online work
+:::::::::::::::::::::::::::::::::::::::::  callout
+
+### Team and data science
+
+The principles taught in this course can be applied to any research project.
+It will help project manager to work with online tools, with people with specialised skillsets,
+and with a project involving some code writing and code reuse.
+The goal is to produce a reproducible data analysis in modern research context.
+
+It requires some specific and some non-specific project management actions.
+This course covers a large panel of action to perform before, during and after the project is conducted.
+
+::::::::::::::::::::::::::::::::::::::::::::::::::
+
+### Online work
 
 When part of the work happens online, it becomes very easy to loose track of what documents are where,
 what tools were used (by whom), and who is doing what.
@@ -52,7 +58,7 @@ This starts with setting `one main URL` when setting up the project, as well as 
 
 The use of online project management tool (like kaban boards for todo list) can also help members of the team to coordinate their work, and follow their achievements.
 
-## Team science
+### Team science
 
 Because teams can be big, and quite heterogeneous in terms of skills (especially computer and programming skills), it is important to follow best practice of team building.
 
@@ -61,7 +67,7 @@ It is also important that every team member knows what his part is, and that the
 
 One should make sure every team member is able to use the communication tools set for the team, and take particular care of the organisation of meetings. Data and code should be documented (and this documentation work should be fostered), such that every team member can follow and reuse the work of the other team members.
 
-## Involves coding
+### Coding
 
 When data analysis is done via a programming language, things become mostly easier, but this facility has some drawbacks, as well as some effects on data management practice.
 
@@ -74,7 +80,7 @@ Second, statistical analysis and data representation in figures will now be much
 Third, making errors in the code may have larger effects than making error in a manual analysis.
 However, errors are easier to spot (doing code reviews and tests) and when the code is corrected, the results are immediately corrected, too.
 
-## Involves reuse of code
+### Code/data publication and reuse
 
 Very soon in a research project, writing code consist mostly of taking code written by someone else and applying it (with some tweaks sometimes) to one own data.
 We will look at ways to find relevant code, make sure it can be trusted, make sure you can legally use it, and ways to cite it (to give recognition the initial software engineer deserves).
@@ -82,7 +88,7 @@ We will look at ways to find relevant code, make sure it can be trusted, make su
 In addition, code written in the project will probably be reused, too.
 We will look into best practices to make this reuse easier, both in how the code is written (modularity, documentation, tests) and in how the code is shared (license, repository, version control, release, users instruction, developers instructions).
 
-## Reproducibility
+### Reproducibility
 
 At the core of data science, the analysis reproducibiliy is both a goal and a huge advantage (in terms of research transparency, trustworthiness and work efficiency).
 The use of code is not enough to get a reproducible analysis, one needs to have access to both the code and the data used to produce the research result, a concept called provenance.
@@ -94,7 +100,8 @@ In this course, we will have a strong emphasis on version control, while we will
 
 :::::::::::::::::::::::::::::::::::::::: keypoints
 
-- content organisation
+- This course will help you manage team work that involves coding, using digital tools.
+- One objective is to produce reproducible analysis and a more transparent research.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 

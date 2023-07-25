@@ -1,10 +1,9 @@
 ---
-title: content and motivation
-teaching: 10
-exercises: 0
+title: Course content and motivation
+teaching: 40
+exercises: 10
 ---
 
-# Course content and learners motivation
 
 ::::::::::::::::::::::::::::::::::::::: objectives
 
