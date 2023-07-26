@@ -27,6 +27,10 @@ exercises: 10
 ![](https://the-turing-way.netlify.app/_fig/error-management.jpg)
 *The Turing Way project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: 10.5281/zenodo.3332807.*
 
+> Writing a test to prove things work right now is useless (duh, you know what use case you designed it for, of course it will work). Defending your project against the future idiot who is going to f things up (most likely yourself) is the right attitude and will lead to proper tests. Love it!
+> https://mstdn.social/@flip1/108951972043173555
+
+
 It is very, very easy to make mistakes when coding.
 A single wrong use of a character can cause a program's output to be entirely wrong.
 Missing one data point, writing plus instead of minus symbol or using feet instead of meters might be a genuine human mistake, but in research, the results can be catastrophic.
@@ -35,6 +39,7 @@ This is why code testing is vital.
 
 Testing is a learned skill that needs to become a part of working on/improving a project.
 After changing their code, researchers should always check that their changes or fixes have not broken anything.
+It also helps deciding when dependencies can be updated.
 There are several different kinds of testing and each has best practices specific to them.
 
 :::::::::::::::::::::::::::::::::::::::  checklist
