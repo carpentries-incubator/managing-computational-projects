@@ -1,7 +1,5 @@
 ---
 title: Setting up a computational project
-teaching: 15
-exercises: 15
 ---
 
 ## Setting up a Project

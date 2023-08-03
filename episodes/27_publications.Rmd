@@ -4,6 +4,47 @@ teaching: 40
 exercises: 10
 ---
 
+::::::::::::::::::::::::::::::::::::::: objectives
+
+- Understand the importance of PID.
+- Know how to make data and code citable
+
+::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::::::::::::::::::::::::::::::: questions
+
+- Why should I make my research objects available?
+- What open source tools to use for applying data science practices in bioscience?
+- How to get your research work cited and invite more contributions to your project?
+
+::::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::::::::::::::::::::::::::::: objectives
+
+- Describe the importance of version control systems
+- Nudge the use of GitHub/GitLab for open collaboration
+- Share open science practices for transparent and ethical research
+
+::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::::::::::::::::::::::::::::::: questions
+
+- How to maintain history of contributions and contributors?
+- How to apply open science practices to work transparently and collaborate openly?
+
+::::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::::::::::::::::::::::::::::: objectives
+
+- Learn why and how to cite the work of others, as well as your own research output
+
+::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::::::::::::::::::::::::::::::: questions
+
+- How should I mention and cite the software or data I am using
+
+::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ```{r, child='files/15-publication.md'}
 ```

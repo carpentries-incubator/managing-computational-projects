@@ -1,26 +1,10 @@
 ---
 title: Code testing and Review
-teaching: 10
-exercises: 10
 ---
 
 ### Code Testing
 
-::::::::::::::::::::::::::::::::::::::: objectives
 
-- Explain different processes and best practices for code review.
-- Discuss tips, tricks and benefits of code review.
-- Share some ways to involve all group members in code review.
-
-::::::::::::::::::::::::::::::::::::::::::::::::::
-
-:::::::::::::::::::::::::::::::::::::::: questions
-
-- What are the main objectives and best practices for testing and reviewing code?
-- What can continous integration help?
-- How can group leaders facilitate a collaborative environment for code review?
-
-::::::::::::::::::::::::::::::::::::::::::::::::::
 
 > You should not skip writing tests because you are short on time, you should write tests because you are short on time.
 

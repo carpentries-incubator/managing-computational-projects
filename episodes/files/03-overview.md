@@ -1,7 +1,5 @@
 ---
 title: What is special in data science project ?
-teaching: 10
-exercises: 0
 ---
 
 ## Overview of this training material

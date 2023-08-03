@@ -1,9 +1,8 @@
 ---
-title: 'Managing coding work'
+title: 'Conclusion and feedback'
 teaching: 5
-exercises: 25
+exercises: 10
 ---
 
 
-still empty... 
-
+Feedback, questions

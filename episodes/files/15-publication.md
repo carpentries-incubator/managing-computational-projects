@@ -1,25 +1,10 @@
 ---
 title: Publication and release
-teaching: 20
-exercises: 10
 ---
 
 ## Publications
 
-::::::::::::::::::::::::::::::::::::::: objectives
 
-- Understand the importance of PID.
-- Know how to make data and code citable
-
-::::::::::::::::::::::::::::::::::::::::::::::::::
-
-:::::::::::::::::::::::::::::::::::::::: questions
-
-- Why should I make my research objects available?
-- What open source tools to use for applying data science practices in bioscience?
-- How to get your research work cited and invite more contributions to your project?
-
-::::::::::::::::::::::::::::::::::::::::::::::::::
 
 <img src="https://the-turing-way.netlify.app/_images/evolution-open-research.jpg" alt="drawing" width="500"/> 
 

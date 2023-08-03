@@ -4,6 +4,36 @@ teaching: 40
 exercises: 10
 ---
 
+::::::::::::::::::::::::::::::::::::::: objectives
+
+- First learning objective. (FIXME)
+- To make informed decisions using data.
+
+::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::::::::::::::::::::::::::::::: questions
+
+- What is the role of data wrangling?
+- What is literate programming?
+- How to use data visualisation for insight and communication?
+
+::::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::::::::::::::::::::::::::::: objectives
+
+- Explain different processes and best practices for code review.
+- Discuss tips, tricks and benefits of code review.
+- Share some ways to involve all group members in code review.
+
+::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::::::::::::::::::::::::::::::: questions
+
+- What are the main objectives and best practices for testing and reviewing code?
+- What can continous integration help?
+- How can group leaders facilitate a collaborative environment for code review?
+
+::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ```{r, child='files/12-analysis.md'}
 ```

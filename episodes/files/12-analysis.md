@@ -1,25 +1,10 @@
 ---
 title: Coding basics
-teaching: 20
-exercises: 0
 ---
 
 ## Planning for reproducibility and provenance
 
-::::::::::::::::::::::::::::::::::::::: objectives
 
-- First learning objective. (FIXME)
-- To make informed decisions using data.
-
-::::::::::::::::::::::::::::::::::::::::::::::::::
-
-:::::::::::::::::::::::::::::::::::::::: questions
-
-- What is the role of data wrangling?
-- What is literate programming?
-- How to use data visualisation for insight and communication?
-
-::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ### Literate Programming
 

@@ -1,7 +1,5 @@
 ---
 title: Implementing tools and methods during the project
-teaching: 20
-exercises: 10
 ---
 
 ## Project Management Tools

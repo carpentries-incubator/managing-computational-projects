@@ -1,7 +1,5 @@
 ---
 title: "What is data science"
-teaching: 10
-exercises: 10
 ---
 
 

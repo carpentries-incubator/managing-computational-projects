@@ -1,7 +1,5 @@
 ---
 title: An introduction to version control
-teaching: 30
-exercises: 10
 ---
 
 ## Maintaining History through Version Control

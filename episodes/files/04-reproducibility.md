@@ -1,7 +1,5 @@
 ---
 title: Reproducibility
-teaching: 10
-exercises: 0
 ---
 
 ## What is computer reproducibility

@@ -1,7 +1,5 @@
 ---
 title: "Better and faster research !"
-teaching: 10
-exercises: 0
 ---
 
 ## Your research project is a computational project.

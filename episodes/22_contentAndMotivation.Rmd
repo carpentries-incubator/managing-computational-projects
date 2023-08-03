@@ -15,14 +15,14 @@ exercises: 10
 
 :::::::::::::::::::::::::::::::::::::::: questions
 
-Content:
-- Get an overview of the training material
-- understand how the different aspects of this material relates to one another
+-Content:
+  - Get an overview of the training material
+  - understand how the different aspects of this material relates to one another
 
-Motivation:
-- How does this training relate to your work?
-- What are the benefits of using data science skills?
-- What are the challenges for teams and management?
+- Motivation:
+  - How does this training relate to your work?
+  - What are the benefits of using data science skills?
+  - What are the challenges for teams and management?
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
