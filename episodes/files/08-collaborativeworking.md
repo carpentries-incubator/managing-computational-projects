@@ -6,22 +6,7 @@ exercises: 10
 
 ## Project Management Tools
 
-::::::::::::::::::::::::::::::::::::::: objectives
 
-- Demonstrate GitHub Project Board to enable project management.
-- Discuss the importance of code quality, modular programming, and code testing for reusable error-free code.
-- Encourage researchers to combine code with documentation to communicate their work.
-- Learn about methods to capture reproducible research environments.
-
-::::::::::::::::::::::::::::::::::::::::::::::::::
-
-:::::::::::::::::::::::::::::::::::::::: questions
-
-- How to manage and oversee tasks and track progress of your projects?
-- How collaborative practices help ensure code quality, testing and reuse?
-- What is literate programming and how does it help with early communication, testing and collaboration?
-
-::::::::::::::::::::::::::::::::::::::::::::::::::
 
 In the previous chapters, we have already discussed practices that enable the effective management of projects in:
 

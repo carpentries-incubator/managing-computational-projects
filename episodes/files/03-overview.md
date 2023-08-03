@@ -8,14 +8,6 @@ exercises: 0
 
 
 
-:::::::::::::::::::::::::::::::::::::::: questions
-
-- Get an overview of the training material
-- understand how the different aspects of this material relates to one another
-
-::::::::::::::::::::::::::::::::::::::::::::::::::
-
-
 
 This chapter gives you an overview of the topics of this course.
 It also corrsponds to specificity of data science work.

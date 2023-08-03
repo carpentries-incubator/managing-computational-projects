@@ -7,16 +7,6 @@ exercises: 0
 ## Your research project is a computational project.
 
 
-
-:::::::::::::::::::::::::::::::::::::::: questions
-
-- How does this training relate to your work?
-- What are the benefits of using data science skills?
-- What are the challenges for teams and management?
-
-::::::::::::::::::::::::::::::::::::::::::::::::::
-
-
 :::::: Instructor
 
 This chapter about motivation can be used to convince people to sign up to the course.
