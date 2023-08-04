@@ -10,24 +10,56 @@ title: Publication and release
 
 While the output of research projects is usually centred around publishing a journal article, this format of science communication and knowledge sharing is increasingly restrictive with the new ways scientific research is conducted. The requirements from journals themselves is also expanding, you are now often asked to upload data sets and code as part of your publication. Releasing data is increasingly a requirement from funding bodies, and outputs from research groups can go beyond a single paper, releasing tools and methods that can be used worldwide.
 
-In general there are different degrees of openness.
+In general, there are different degrees of openness, depending on what, when and how research outputs are shared. 
+In order to produce outputs that can be shared, one should **start preparing for publication at the beginning of a project**.
+This overall course is about getting ready to share code and data in the lab, such that sharing it with the world is only one click away.
 
-- Fully private data and code, unavailable
-- Pseudo-open -- "available on request"
-- Released static code parallel to a research paper, see Zenodo or Figshare
-- Open online repository -- CRAN, GitHub
-- Collaborative, open science tool with ongoing development
+### What can be released:
 
-What can be released:
-
+- **Open Access manuscritps and preprints**: Making the story and interpretation of your research freely accessible for maximum use and impact.
 - **Open Data**: Documenting and sharing research data openly for re-use.
 - **Open Source Software**: Documenting research code and routines, and making them freely accessible and available.
 - **Open Hardware**: Documenting designs, materials, and other relevant information related to hardware, and making them freely accessible and available.
-- **Open Access**: Making all published outputs freely accessible for maximum use and impact.
 - **Open Notebooks**: An emerging practice, documenting and sharing the experimental process of trial and error.
 
 > [https://the-turing-way.netlify.app/reproducible-research/open.html](https://the-turing-way.netlify.app/reproducible-research/open.html)
 
+### When to release:
+
+- Never: Fully private data and code, unavailable
+- Pseudo-open -- "available on request"
+- Released static output parallel to a research paper
+- Release versioned outputs during the research process in Open online repository -- CRAN, GitHub
+- Open per default: Collaborative, open science tool with ongoing development
+
+::::::::::::: challenge
+
+What are the equivalent of these openness steps for research manuscript ?
+
+:::::: solution
+- There were a time when researchers were not sharing their discovery at all.
+- The publishing industry made it to a available on request kind of state.
+- Open access publication make it a static released. 
+- Preprints are released versions
+- blog posts may be considered open per default.
+::::::
+:::::::::::::
+
+
+
+### How can it be released
+
+This relates to the license used: what will people be allowed to do with your released research outputs.
+
+Without going into details, different types of outputs should be released using different licenses. 
+Licenses are usually of different forms, giving the rights to use without restriction (public domain), allowing to use as long as the original authors are credited (with attribution). 
+Allowed to re-use the work as long as the new work is released with a similar license (weak copyleft) or the same license (hard copyleft).
+
+Some license also restrict the use to non-commercial use or preventing derivatives.
+
+In addition, one should think about where things are released (how long will it be available, how will it be found), and how to indicate how people should credit your work.
+
+::::::: testimonial
 ## Open or Private?
 
 Researchers often worry that they need to hide their code to prevent others stealing it.
@@ -38,7 +70,7 @@ Researchers often worry that they need to hide their code to prevent others stea
 
 [https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3000246](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3000246)
 
-
+::::::::::::
 
 ## Making your research object citable
 
