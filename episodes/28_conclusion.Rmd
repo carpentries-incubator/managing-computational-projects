@@ -4,5 +4,15 @@ teaching: 5
 exercises: 10
 ---
 
+::::::::::::::::::::::::::::::::::::::: objectives
+
+- Overview of what has been learned
+- consolidation of learning
+
+::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::::::::::::::::::::::::::::::: questions
+- What are the most important take home message
+::::::::::::::::::::::::::::::::::::::::
 
 Feedback, questions
