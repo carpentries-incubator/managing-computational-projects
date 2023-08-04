@@ -53,9 +53,11 @@ This relates to the license used: what will people be allowed to do with your re
 
 Without going into details, different types of outputs should be released using different licenses. 
 Licenses are usually of different forms, giving the rights to use without restriction (public domain), allowing to use as long as the original authors are credited (with attribution). 
-Allowed to re-use the work as long as the new work is released with a similar license (weak copyleft) or the same license (hard copyleft).
+In addition one can restrict re-use the work as long as the new work is released with a similar license (weak copyleft) or the same license (hard copyleft).
 
 Some license also restrict the use to non-commercial use or preventing derivatives.
+
+> See [https://the-turing-way.netlify.app/reproducible-research/licensing](https://the-turing-way.netlify.app/reproducible-research/licensing) and linked tools for details.
 
 In addition, one should think about where things are released (how long will it be available, how will it be found), and how to indicate how people should credit your work.
 
@@ -85,6 +87,8 @@ Each pre-print and publication is published with a DOI, but independent of the p
 Repositories usually collect the citation information before providing a DOI, so that the metadata associated with the DOI is indexed. 
 
 Look for a data repository at https://www.re3data.org. 
+
+See [https://the-turing-way.netlify.app/communication/citable.html](https://the-turing-way.netlify.app/communication/citable.html) for details.
 
 :::::::::::::::::::::::::::::::: instructor
 Some of these servers are [Zenodo](https://zenodo.org/), [FigShare](https://figshare.com/), [Data Dryad](https://datadryad.org/stash) (for data), [Open Grants](https://www.ogrants.org/) (for grant proposals) and [Open Science Framework](https://osf.io/) (OSF) (for different components of an open research project).
