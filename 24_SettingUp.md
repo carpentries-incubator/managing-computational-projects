@@ -4,16 +4,6 @@ teaching: 40
 exercises: 10
 ---
 
-
-
-
-
-
-
-
-
-## Setting up a Project
-
 ::::::::::::::::::::::::::::::::::::::: objectives
 
 - Describe best practices for setting a project repository
@@ -21,7 +11,10 @@ exercises: 10
 - Plan computational reproducibility and project management practices
 - Make it easy for each contributor to participate, contribute and be recognised for their work
 
-
+- Demonstrate GitHub Project Board to enable project management.
+- Discuss the importance of code quality, modular programming, and code testing for reusable error-free code.
+- Encourage researchers to combine code with documentation to communicate their work.
+- Learn about methods to capture reproducible research environments.
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
 :::::::::::::::::::::::::::::::::::::::: questions
@@ -30,7 +23,21 @@ exercises: 10
 - What main concerns and challenges exist and how to address them?
 - How to create a project repository for sharing, collaboration and an intention to release?
 - What extra tools may be used ?
+
+- How to manage and oversee tasks and track progress of your projects?
+- How collaborative practices help ensure code quality, testing and reuse?
+- What is literate programming and how does it help with early communication, testing and collaboration?
+
 ::::::::::::::::::::::::::::::::::::::::::::::::::
+
+
+
+
+
+
+## Setting up a Project
+
+
 
 ![](fig/research-cycle.jpg){alt='The research process is represented as a perpetual cycle of generating research ideas, performing data planning and design, data collection, and data processing and analysis, publishing, preserving and hence, allowing re-use of data.'}
 
@@ -175,26 +182,9 @@ NB: You can use that template on other git platforms.
 
 
 
-
-
 ## Project Management Tools
 
-::::::::::::::::::::::::::::::::::::::: objectives
 
-- Demonstrate GitHub Project Board to enable project management.
-- Discuss the importance of code quality, modular programming, and code testing for reusable error-free code.
-- Encourage researchers to combine code with documentation to communicate their work.
-- Learn about methods to capture reproducible research environments.
-
-::::::::::::::::::::::::::::::::::::::::::::::::::
-
-:::::::::::::::::::::::::::::::::::::::: questions
-
-- How to manage and oversee tasks and track progress of your projects?
-- How collaborative practices help ensure code quality, testing and reuse?
-- What is literate programming and how does it help with early communication, testing and collaboration?
-
-::::::::::::::::::::::::::::::::::::::::::::::::::
 
 In the previous chapters, we have already discussed practices that enable the effective management of projects in:
 

@@ -16,3 +16,19 @@ keypoints:
 
 
 - Combining template creation and git version control: https://gin-tonic.netlify.app
+
+## Rstudio
+ 
+Rstudio can be a good software to show basic Git workflows, and literate programing.
+
+
+
+- created to write R code and R packages
+
+- Can be now used for writing python and other languages
+
+- "quarto native" (literate programing)
+
+- simple Git commands available (pull/push/history)
+
+- make writing markdown easy

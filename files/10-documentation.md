@@ -1,7 +1,5 @@
 ---
 title: Fostering documentation
-teaching: 10
-exercises: 0
 ---
 
 ### Provide a Process for Documentation

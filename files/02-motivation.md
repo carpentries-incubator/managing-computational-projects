@@ -1,20 +1,8 @@
 ---
 title: "Better and faster research !"
-teaching: 10
-exercises: 0
 ---
 
 ## Your research project is a computational project.
-
-
-
-:::::::::::::::::::::::::::::::::::::::: questions
-
-- How does this training relate to your work?
-- What are the benefits of using data science skills?
-- What are the challenges for teams and management?
-
-::::::::::::::::::::::::::::::::::::::::::::::::::
 
 
 :::::: Instructor

@@ -1,9 +1,18 @@
 ---
-title: 'Managing coding work'
+title: 'Conclusion and feedback'
 teaching: 5
-exercises: 25
+exercises: 10
 ---
 
+::::::::::::::::::::::::::::::::::::::: objectives
 
-still empty... 
+- Overview of what has been learned
+- consolidation of learning
 
+::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::::::::::::::::::::::::::::::: questions
+- What are the most important take home message
+::::::::::::::::::::::::::::::::::::::::
+
+Feedback, questions

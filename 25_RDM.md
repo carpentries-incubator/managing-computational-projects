@@ -4,16 +4,6 @@ teaching: 40
 exercises: 10
 ---
 
-
-
-
-
-
-
-
-
-## Research Data Management
-
 ::::::::::::::::::::::::::::::::::::::: objectives
 
 - Describe research data management (RDM)
@@ -31,6 +21,15 @@ exercises: 10
 - Why care about documentation and metadata standards?
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
+
+
+
+
+
+
+
+## Research Data Management
+
 
 ## Main Challenges and Concerns
 

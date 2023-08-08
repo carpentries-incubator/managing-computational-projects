@@ -1,7 +1,5 @@
 ---
 title: Scientific rigour with code
-teaching: 10
-exercises: 0
 ---
 
 ## Statistics and rigour

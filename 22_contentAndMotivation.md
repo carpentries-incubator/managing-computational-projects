@@ -1,5 +1,5 @@
 ---
-title: Course content and motivation
+title: 'Course content and motivation'
 teaching: 40
 exercises: 10
 ---
@@ -13,12 +13,31 @@ exercises: 10
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
+:::::::::::::::::::::::::::::::::::::::: questions
+
+-Content:
+  - Get an overview of the training material
+  - understand how the different aspects of this material relates to one another
+
+- Motivation:
+  - How does this training relate to your work?
+  - What are the benefits of using data science skills?
+  - What are the challenges for teams and management?
+
+::::::::::::::::::::::::::::::::::::::::::::::::::
 
 
 
 
 
 
+
+## Short overview of project management in a research context
+
+- Research workflow/cycle
+- team management
+- data management
+- methods & tools: Kanban, Gantt
 
 
 
@@ -94,18 +113,8 @@ The goal is to enable effective management and sharing of their computational pr
 
 
 
-
-
 ## Overview of this training material
 
-
-
-:::::::::::::::::::::::::::::::::::::::: questions
-
-- Get an overview of the training material
-- understand how the different aspects of this material relates to one another
-
-::::::::::::::::::::::::::::::::::::::::::::::::::
 
 
 
@@ -206,19 +215,7 @@ In this course, we will have a strong emphasis on version control, while we will
 
 
 
-
-
 ## Your research project is a computational project.
-
-
-
-:::::::::::::::::::::::::::::::::::::::: questions
-
-- How does this training relate to your work?
-- What are the benefits of using data science skills?
-- What are the challenges for teams and management?
-
-::::::::::::::::::::::::::::::::::::::::::::::::::
 
 
 :::::: Instructor
