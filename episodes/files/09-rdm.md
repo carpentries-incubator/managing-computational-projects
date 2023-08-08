@@ -1,28 +1,9 @@
 ---
 title: Research Data Management
-teaching: 20
-exercises: 30
 ---
 
 ## Research Data Management
 
-::::::::::::::::::::::::::::::::::::::: objectives
-
-- Describe research data management (RDM)
-- Explain FAIR principles and practices for RDM
-- Introduce data storage and organisation plan
-- Discuss documentation and metadata practices
-
-::::::::::::::::::::::::::::::::::::::::::::::::::
-
-:::::::::::::::::::::::::::::::::::::::: questions
-
-- What is considered research data?
-- How to start building a research data management plan?
-- What is FAIR principles for data management?
-- Why care about documentation and metadata standards?
-
-::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ## Main Challenges and Concerns
 

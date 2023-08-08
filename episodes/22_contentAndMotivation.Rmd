@@ -1,5 +1,5 @@
 ---
-title: Course content and motivation
+title: 'Course content and motivation'
 teaching: 40
 exercises: 10
 ---
@@ -13,6 +13,18 @@ exercises: 10
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
+:::::::::::::::::::::::::::::::::::::::: questions
+
+-Content:
+  - Get an overview of the training material
+  - understand how the different aspects of this material relates to one another
+
+- Motivation:
+  - How does this training relate to your work?
+  - What are the benefits of using data science skills?
+  - What are the challenges for teams and management?
+
+::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ```{r, child='files/01-introduction.md'}
 ```

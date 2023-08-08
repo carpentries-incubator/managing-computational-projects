@@ -1,28 +1,10 @@
 ---
 title: Setting up a computational project
-teaching: 15
-exercises: 15
 ---
 
 ## Setting up a Project
 
-::::::::::::::::::::::::::::::::::::::: objectives
 
-- Describe best practices for setting a project repository
-- Build a basis for collaboration and co-creation in team projects
-- Plan computational reproducibility and project management practices
-- Make it easy for each contributor to participate, contribute and be recognised for their work
-
-
-::::::::::::::::::::::::::::::::::::::::::::::::::
-
-:::::::::::::::::::::::::::::::::::::::: questions
-
-- How to set up a computational project?
-- What main concerns and challenges exist and how to address them?
-- How to create a project repository for sharing, collaboration and an intention to release?
-- What extra tools may be used ?
-::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ![](fig/research-cycle.jpg){alt='The research process is represented as a perpetual cycle of generating research ideas, performing data planning and design, data collection, and data processing and analysis, publishing, preserving and hence, allowing re-use of data.'}
 
