@@ -86,11 +86,11 @@
   Managing Open and Reproducible Computational Projects
 </div>
 
-<aside class="col-md-12 lesson-progress"><div style="width: 76%" class="percentage">
-    76%
+<aside class="col-md-12 lesson-progress"><div style="width: 79%" class="percentage">
+    79%
   </div>
   <div class="progress incubator">
-    <div class="progress-bar incubator" role="progressbar" style="width: 76%" aria-valuenow="76" aria-label="Lesson Progress" aria-valuemin="0" aria-valuemax="100">
+    <div class="progress-bar incubator" role="progressbar" style="width: 79%" aria-valuenow="79" aria-label="Lesson Progress" aria-valuemin="0" aria-valuemax="100">
     </div>
   </div>
 </aside><div class="container">
@@ -201,13 +201,13 @@
     <div id="flush-collapsecurrent" class="accordion-collapse collapse show" aria-labelledby="flush-headingcurrent" data-bs-parent="#accordionFlushcurrent">
       <div class="accordion-body">
         <ul><li><a href="#publications">Publications</a></li>
-<li><a href="#open-or-private">Open or Private?</a></li>
-<li><a href="#code-release">Code release</a></li>
-<li><a href="#collaborative-open-code">Collaborative Open Code</a></li>
-<li><a href="#open-science-tools-research-software-with-impact">Open Science Tools – Research Software with Impact</a></li>
+<li><a href="#making-your-research-object-citable">Making your research object citable</a></li>
+<li><a href="#citable-code">Citable Code</a></li>
 <li><a href="#apply-open-science-best-practices">Apply Open Science Best Practices</a></li>
 <li><a href="#conclusion">Conclusion</a></li>
 <li><a href="#resources-and-references-for-technical-details">Resources and References for Technical Details</a></li>
+<li><a href="#citing-others">Citing others</a></li>
+<li><a href="#citing-yourself">Citing yourself</a></li>
         </ul></div><!--/div.accordion-body-->
     </div><!--/div.accordion-collapse-->
         
@@ -217,7 +217,7 @@
 <div class="accordion accordion-flush" id="accordionFlush8">
   <div class="accordion-item">
     <div class="accordion-header" id="flush-heading8">
-        <a href="28_conclusion.html">7. Managing coding work</a>
+        <a href="28_conclusion.html">7. Conclusion and feedback</a>
     </div><!--/div.accordion-header-->
         
   </div><!--/div.accordion-item-->
@@ -270,11 +270,11 @@
       <!-- content for large screens -->
       <div class="d-none d-sm-none d-md-block">
         <a class="chapter-link" href="../instructor/26_Coding.html" rel="prev"><i aria-hidden="true" class="small-arrow" data-feather="arrow-left"></i>Previous: Managing code</a>
-        <a class="chapter-link float-end" href="../instructor/28_conclusion.html" rel="next">Next: Managing coding work... <i aria-hidden="true" class="small-arrow" data-feather="arrow-right"></i></a>
+        <a class="chapter-link float-end" href="../instructor/28_conclusion.html" rel="next">Next: Conclusion and... <i aria-hidden="true" class="small-arrow" data-feather="arrow-right"></i></a>
       </div>
       <hr></nav><main id="main-content" class="main-content"><div class="container lesson-content">
         <h1>Managing publication</h1>
-        <p> Last updated on 2023-07-25 | 
+        <p> Last updated on 2023-08-08 | 
         
         <a href="https://github.com/carpentries-incubator/managing-computational-projects/edit/main/episodes/27_publications.Rmd" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
         
@@ -288,9 +288,7 @@
 
         
 
-<section id="publications"><h2 class="section-heading">Publications<a class="anchor" aria-label="anchor" href="#publications"></a>
-</h2>
-<hr class="half-width"><div class="overview card">
+<div class="overview card">
 <h2 class="card-header">Overview</h2>
 <div class="row g-0">
 <div class="col-md-4">
@@ -316,255 +314,7 @@ your project?</li>
 </div>
 </div>
 </div>
-<figure><img src="https://the-turing-way.netlify.app/_images/evolution-open-research.jpg" alt="drawing" width="500" class="figure mx-auto d-block"></figure><p>While the output of research projects is usually centred around
-publishing a journal article, this format of science communication and
-knowledge sharing is increasingly restrictive with the new ways
-scientific research is conducted. The requirements from journals
-themselves is also expanding, you are now often asked to upload data
-sets and code as part of your publication. Releasing data is
-increasingly a requirement from funding bodies, and outputs from
-research groups can go beyond a single paper, releasing tools and
-methods that can be used worldwide.</p>
-<p>In general there are different degrees of openness.</p>
-<ul><li>Fully private data and code, unavailable</li>
-<li>Pseudo-open – “available on request”</li>
-<li>Released static code parallel to a research paper, see Zenodo or
-Figshare</li>
-<li>Open online repository – CRAN, GitHub</li>
-<li>Collaborative, open science tool with ongoing development</li>
-</ul><p>What can be released:</p>
-<ul><li>
-<strong>Open Data</strong>: Documenting and sharing research data
-openly for re-use.</li>
-<li>
-<strong>Open Source Software</strong>: Documenting research code and
-routines, and making them freely accessible and available.</li>
-<li>
-<strong>Open Hardware</strong>: Documenting designs, materials, and
-other relevant information related to hardware, and making them freely
-accessible and available.</li>
-<li>
-<strong>Open Access</strong>: Making all published outputs freely
-accessible for maximum use and impact.</li>
-<li>
-<strong>Open Notebooks</strong>: An emerging practice, documenting
-and sharing the experimental process of trial and error.</li>
-</ul><blockquote>
-<p><a href="https://the-turing-way.netlify.app/reproducible-research/open.html" class="external-link">https://the-turing-way.netlify.app/reproducible-research/open.html</a></p>
-</blockquote>
-</section><section id="open-or-private"><h2 class="section-heading">Open or Private?<a class="anchor" aria-label="anchor" href="#open-or-private"></a>
-</h2>
-<hr class="half-width"><p>Researchers often worry that they need to hide their code to prevent
-others stealing it.</p>
-<blockquote>
-<p>“After giving talks about open science I’ve sometimes been approached
-by skeptics who say, ‘Why would I help out my competitors by sharing
-ideas and data on these new websites? Isn’t that just inviting other
-people to steal my data, or to scoop me? Only someone naive could think
-this will ever be widespread.’ As things currently stand, there’s a lot
-of truth to this point of view. But it’s also important to understand
-its limits. What these skeptics forget is that they already freely share
-their ideas and discoveries, whenever they publish papers describing
-their own scientific work. They’re so stuck inside the
-citation-measurement-reward system for papers that they view it as a
-natural law, and forget that it’s socially constructed. It’s an
-agreement. And because it’s a social agreement, that agreement can be
-changed. All that’s needed for open science to succeed is for the
-sharing of scientific knowledge in new media to carry the same kind of
-cachet that papers do today”</p>
-<p>Nielsen, M. Reinventing Discovery: The New Era of Networked Science.
-Princeton University Press, 2011.</p>
-</blockquote>
-<p><a href="https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3000246" class="external-link">https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3000246</a></p>
-</section><section id="code-release"><h2 class="section-heading">Code release<a class="anchor" aria-label="anchor" href="#code-release"></a>
-</h2>
-<hr class="half-width"><p>For computational projects, releasing your work in an open repository
-has parallels with publications.</p>
-<figure><img src="https://i.imgur.com/I9EKxdF.png" alt="drawing" width="800" class="figure mx-auto d-block"></figure><p>There can be specific requirements to keep code bases and/or data
-private. See the section below for good and not so good reasons for
-keeping work private.</p>
-<p>You can release code and data associated with a research article as a
-series of files/folders. If your project follows the folder template
-introduced in a previous episode, for example:
-<img src="https://github.com/jcolomb/gintonic-blog/raw/forreview/50_figures/pulication_ready_figures/2draft-templates.png" alt="drawing" width="300" class="figure"></p>
-<blockquote>
-<p>Examples of a template folder tree for a computational project. <a href="https://github.com/tonic-team/Tonic-Research-Project-Template" class="external-link">https://github.com/tonic-team/Tonic-Research-Project-Template</a></p>
-</blockquote>
-<p>You could bundle folders into a <code>.zip</code> file and upload it
-to Zenodo.</p>
-<div class="section level3">
-<h3 id="zenodo">Zenodo<a class="anchor" aria-label="anchor" href="#zenodo"></a></h3>
-<figure><img src="https://i.imgur.com/SUWUTKK.png" alt="drawing" width="500" class="figure mx-auto d-block"></figure><blockquote>
-<p>Zenodo is a general-purpose open-access repository developed under
-the European OpenAIRE program and operated by CERN. It allows
-researchers to deposit research papers, data sets, research software,
-reports, and any other research related digital artefacts.</p>
-<p>Uploads to Zenodo are:</p>
-<ul><li>
-<strong>Safe</strong> — your research is stored safely for the
-future in CERN’s Data Centre for as long as CERN exists.</li>
-<li>
-<strong>Trusted</strong> — built and operated by CERN and OpenAIRE
-to ensure that everyone can join in Open Science.</li>
-<li>
-<strong>Citeable</strong> — every upload is assigned a Digital
-Object Identifier (DOI), to make them citable and trackable. No waiting
-time — Uploads are made available online as soon as you hit publish, and
-your DOI is registered within seconds.</li>
-<li>
-<strong>Open or closed</strong> — Share e.g. anonymized clinical
-trial data with only medical professionals via our restricted access
-mode.</li>
-<li>
-<strong>Versioning</strong> — Easily update your dataset with our
-versioning feature.</li>
-<li>
-<strong>GitHub integration</strong> — Easily preserve your GitHub
-repository in Zenodo.</li>
-<li>
-<strong>Usage statistics</strong> — All uploads display standards
-compliant usage statistics</li>
-</ul></blockquote>
-</div>
-<div class="section level3">
-<h3 id="citable-code">Citable Code<a class="anchor" aria-label="anchor" href="#citable-code"></a></h3>
-<p>The Citation File Format provides citation metadata, for software or
-datasets, in plaintext files that are easy to read by both humans and
-machines.</p>
-<p>Adding a <code>CITATION.cff</code> file to your folder means it can
-be cited when others use it, increasing recognition for your work and
-your research project’s impact.</p>
-<p>See more at <a href="https://the-turing-way.netlify.app/communication/citable/citable-cff.html" class="external-link">The
-Turing Way: CITATION.cff</a></p>
-<p><a href="https://the-turing-way.netlify.app/_images/software-credit.jpg" class="external-link">https://the-turing-way.netlify.app/_images/software-credit.jpg</a></p>
-</div>
-</section><section id="collaborative-open-code"><h2 class="section-heading">Collaborative Open Code<a class="anchor" aria-label="anchor" href="#collaborative-open-code"></a>
-</h2>
-<hr class="half-width"><figure><img src="https://the-turing-way.netlify.app/_images/decolonising-knowledge.jpg" alt="drawing" width="300" class="figure mx-auto d-block"></figure><p>Downloading code and data files from Zenodo or other open access
-repositories can be useful when someone wants to review your the final
-outcome of your computational work. However, with an open GitHub
-repository, sharing code becomes much more collaborative and in
-real-time.</p>
-<figure><img src="https://foundations.projectpythia.org/_images/GitHub-logo.png" alt="drawing" width="200" class="figure mx-auto d-block"></figure><p>Uploading code in progress to an open GitHub Repo is the best and
-most well-used method for programming collaboration.</p>
-<p>As you develop a tool or methodology, users have the ability to use
-your code while it is a work in progress and others can contribute or
-add features.</p>
-<figure><img src="https://cran.r-project.org/CRANlogo.png" alt="drawing" width="150" class="figure mx-auto d-block"></figure><p>When using specifically R, you could release R packages on <a href="https://cran.r-project.org/" class="external-link">CRAN</a> where anyone can then
-download and use you code.</p>
-</section><section id="open-science-tools-research-software-with-impact"><h2 class="section-heading">Open Science Tools – Research Software with Impact<a class="anchor" aria-label="anchor" href="#open-science-tools-research-software-with-impact"></a>
-</h2>
-<hr class="half-width"><p>Many research groups produce widely used tools and software that are
-used across biomedical and life sciences. Examples of an open science
-tool in ongoing development and collaboration:</p>
-<div class="section level4">
-<h4 id="deeplabcut">DeepLabCut<a class="anchor" aria-label="anchor" href="#deeplabcut"></a></h4>
-<p><a href="https://github.com/DeepLabCut/DeepLabCut" class="external-link">https://github.com/DeepLabCut/DeepLabCut</a></p>
-<p>A toolbox for markerless pose estimation of animals performing
-various tasks.</p>
-<figure><img src="https://images.squarespace-cdn.com/content/v1/57f6d51c9f74566f55ecf271/1628250004229-KVYD7JJVHYEFDJ32L9VJ/DLClogo2021.jpg?format=1000w" alt="drawing" width="300" class="figure mx-auto d-block"></figure><figure><img src="https://camo.githubusercontent.com/70d402b832b850477701ed679425d7dac297c827d5867877f5c730bc007cba7e/68747470733a2f2f737461746963312e73717561726573706163652e636f6d2f7374617469632f3537663664353163396637343536366635356563663237312f742f3563336662656437346661353161636563643633646565622f313534373638313533343733362f4d6f7573654c6f636f6d6f74696f6e5f77617272656e2e6769663f666f726d61743d35303077" class="figure mx-auto d-block"></figure></div>
-<div class="section level4">
-<h4 id="cellpose">Cellpose<a class="anchor" aria-label="anchor" href="#cellpose"></a></h4>
-<p><a href="https://github.com/MouseLand/cellpose" class="external-link">https://github.com/MouseLand/cellpose</a></p>
-<p><a href="https://cellpose.readthedocs.io/en/latest/" class="external-link">https://cellpose.readthedocs.io/en/latest/</a></p>
-<p>A generalist algorithm for cell and nucleus segmentation.</p>
-<figure><img src="https://github.com/MouseLand/cellpose/raw/master/docs/_static/cellpose_gui.png" alt="drawing" width="300" class="figure mx-auto d-block"></figure><figure><img src="https://cellpose.readthedocs.io/en/latest/_images/fig1.PNG" alt="drawing" width="500" class="figure mx-auto d-block"></figure></div>
-<div class="section level4">
-<h4 id="qupath">Qupath<a class="anchor" aria-label="anchor" href="#qupath"></a></h4>
-<p><a href="https://github.com/qupath/qupath" class="external-link">https://github.com/qupath/qupath</a></p>
-<p>Extensive tools to annotate and view images, including whole slide
-&amp; microscopy images. Interactive machine learning for both object
-&amp; pixel classification.
-<img src="https://qupath.readthedocs.io/en/stable/_images/ki67_detecting_final_markup.jpg" alt="drawing" width="500" class="figure"></p>
-<!--
-## Code release
-
-- Packaging (R/Python package)
-- Environment (conda, binder, docker)
-- Code release (Zenodo, Figshare)
-  - Connecting to Zenodo
-  - Citable code: CFF
-
-## Data Release 
-- Institute's policy for archival
-- Public data deposit like Data Dryad)
-- Contributing to open tools
-
-## Manuscript, Pre-prints and Peer Review
-
-- Best practices and examples
-
-## Supporting Materials
-
-- GitHub repo
-- Interactive page for your project
-- Jupyter/Binder
-
-## Conclusion
-- What gaps have we filled in this section
-- Project management overview 
-
-## Resources for taking this to next level
-
-- Turing Data Stories, The Turing Way, Shiny app
-
-## Next Steps
-
-In addition to the referenced linked under different sections in this lesson, please see the following references:
-- [Add recommendations from 1:1 interviews, open communities such as Open Life Science and The Turing Way.]
--->
-</div>
-<div class="section level3">
-<h3 id="research-objects-can-be-released-with-digital-object-identifiers-doi">Research Objects can be Released with Digital Object Identifiers
-(DOI)<a class="anchor" aria-label="anchor" href="#research-objects-can-be-released-with-digital-object-identifiers-doi"></a></h3>
-<p>DOIs are alphanumerical unique and persistent identifiers with a
-permanent web address for different research objects that can be cited
-by you and other researchers. Each pre-print and publication is
-published with a DOI, but independent of the paper, different research
-objects can be published online on servers that offer DOIs at any stage
-of your research. Some of these servers are <a href="https://zenodo.org/" class="external-link">Zenodo</a>, <a href="https://figshare.com/" class="external-link">FigShare</a>, <a href="https://datadryad.org/stash" class="external-link">Data Dryad</a> (for data), <a href="https://www.ogrants.org/" class="external-link">Open Grants</a> (for grant proposals)
-and <a href="https://osf.io/" class="external-link">Open Science Framework</a> (OSF) (for
-different components of an open research project). It allows you to show
-connections between different parts of research as well as cite
-different objects from your work independently.</p>
-<p>When working on GitHub for instance, you can <a href="https://docs.github.com/en/repositories/archiving-a-github-repository/referencing-and-citing-content" class="external-link">connect
-the project repository with Zenodo</a> to get a DOI for your repository.
-The <a href="https://citation-file-format.github.io/" class="external-link">Citation File
-Format</a>, then lets you provide citation metadata, for software or
-datasets, in plaintext files that are easy to read by both humans and
-machines. Read the <a href="https://the-turing-way.netlify.app/communication/citable.html" class="external-link">Making
-Research Objects Citable</a> chapter in <em>The Turing Way</em> Guide to
-Communication.</p>
-<div id="discussion1" class="callout discussion">
-<div class="callout-square">
-<i class="callout-icon" data-feather="message-circle"></i>
-</div>
-<div class="callout-inner">
-<h3 class="callout-title">Challenge<a class="anchor" aria-label="anchor" href="#discussion1"></a>
-</h3>
-<div class="callout-content">
-<p>Add a CITATION.cff file to your Github repository.</p>
-</div>
-</div>
-</div>
-<div id="keypoints1" class="callout keypoints">
-<div class="callout-square">
-<i class="callout-icon" data-feather="key"></i>
-</div>
-<div class="callout-inner">
-<h3 class="callout-title">Keypoints<a class="anchor" aria-label="anchor" href="#keypoints1"></a>
-</h3>
-<div class="callout-content">
-<ul><li>Online Persistent Identifiers or Digital Object Identifiers are
-useful for releasing and citing different versions of research
-objects.</li>
-</ul></div>
-</div>
-</div>
-</div>
-</section><section id="apply-open-science-best-practices"><h2 class="section-heading">Apply Open Science Best Practices<a class="anchor" aria-label="anchor" href="#apply-open-science-best-practices"></a>
-</h2>
-<hr class="half-width"><div class="overview card">
+<div class="overview card">
 <h2 class="card-header">Overview</h2>
 <div class="row g-0">
 <div class="col-md-4">
@@ -618,7 +368,402 @@ research</li>
 </div>
 </div>
 </div>
-<p>Open Science invites all researchers to share their work, data and
+<div class="overview card">
+<h2 class="card-header">Overview</h2>
+<div class="row g-0">
+<div class="col-md-4">
+<div class="card-body">
+<div class="inner">
+<h3 class="card-title">Questions</h3>
+<ul><li>How to maintain history of contributions and contributors?</li>
+<li>How to apply open science practices to work transparently and
+collaborate openly?</li>
+</ul></div>
+</div>
+</div>
+<div class="col-md-8">
+<div class="card-body">
+<div class="inner bordered">
+<h3 class="card-title">Objectives</h3>
+<ul><li>Learn why and how to cite the work of others, as well as your own
+research output</li>
+</ul></div>
+</div>
+</div>
+</div>
+</div>
+<div class="overview card">
+<h2 class="card-header">Overview</h2>
+<div class="row g-0">
+<div class="col-md-4">
+<div class="card-body">
+<div class="inner">
+<h3 class="card-title">Questions</h3>
+<ul><li>How should I mention and cite the software or data I am using</li>
+</ul></div>
+</div>
+</div>
+<div class="col-md-8">
+<div class="card-body">
+<div class="inner bordered">
+<h3 class="card-title">Objectives</h3>
+<ul><li>Learn why and how to cite the work of others, as well as your own
+research output</li>
+</ul></div>
+</div>
+</div>
+</div>
+</div>
+<section id="publications"><h2 class="section-heading">Publications<a class="anchor" aria-label="anchor" href="#publications"></a>
+</h2>
+<hr class="half-width"><figure><img src="https://the-turing-way.netlify.app/_images/evolution-open-research.jpg" alt="drawing" width="500" class="figure mx-auto d-block"></figure><p>While the output of research projects is usually centred around
+publishing a journal article, this format of science communication and
+knowledge sharing is increasingly restrictive with the new ways
+scientific research is conducted. The requirements from journals
+themselves is also expanding, you are now often asked to upload data
+sets and code as part of your publication. Releasing data is
+increasingly a requirement from funding bodies, and outputs from
+research groups can go beyond a single paper, releasing tools and
+methods that can be used worldwide.</p>
+<p>In general, there are different degrees of openness, depending on
+what, when and how research outputs are shared. In order to produce
+outputs that can be shared, one should <strong>start preparing for
+publication at the beginning of a project</strong>. This overall course
+is about getting ready to share code and data in the lab, such that
+sharing it with the world is only one click away.</p>
+<div class="section level3">
+<h3 id="what-can-be-released">What can be released:<a class="anchor" aria-label="anchor" href="#what-can-be-released"></a></h3>
+<ul><li>
+<strong>Open Access manuscritps and preprints</strong>: Making the
+story and interpretation of your research freely accessible for maximum
+use and impact.</li>
+<li>
+<strong>Open Data</strong>: Documenting and sharing research data
+openly for re-use.</li>
+<li>
+<strong>Open Source Software</strong>: Documenting research code and
+routines, and making them freely accessible and available.</li>
+<li>
+<strong>Open Hardware</strong>: Documenting designs, materials, and
+other relevant information related to hardware, and making them freely
+accessible and available.</li>
+<li>
+<strong>Open Notebooks</strong>: An emerging practice, documenting
+and sharing the experimental process of trial and error.</li>
+</ul><blockquote>
+<p><a href="https://the-turing-way.netlify.app/reproducible-research/open.html" class="external-link">https://the-turing-way.netlify.app/reproducible-research/open.html</a></p>
+</blockquote>
+</div>
+<div class="section level3">
+<h3 id="when-to-release">When to release:<a class="anchor" aria-label="anchor" href="#when-to-release"></a></h3>
+<ul><li>Never: Fully private data and code, unavailable</li>
+<li>Pseudo-open – “available on request”</li>
+<li>Released static output parallel to a research paper</li>
+<li>Release versioned outputs during the research process in Open online
+repository – CRAN, GitHub</li>
+<li>Open per default: Collaborative, open science tool with ongoing
+development</li>
+</ul><div id="challenge1" class="callout challenge">
+<div class="callout-square">
+<i class="callout-icon" data-feather="zap"></i>
+</div>
+<div class="callout-inner">
+<h3 class="callout-title">Challenge<a class="anchor" aria-label="anchor" href="#challenge1"></a>
+</h3>
+<div class="callout-content">
+<p>What are the equivalent of these openness steps for research
+manuscript ?</p>
+</div>
+</div>
+</div>
+<div id="accordionSolution1" class="accordion challenge-accordion accordion-flush">
+<div class="accordion-item">
+<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
+  <h4 class="accordion-header" id="headingSolution1">
+  Show me the solution
+  </h4>
+</button>
+<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
+<div class="accordion-body">
+<ul><li>There were a time when researchers were not sharing their discovery
+at all.</li>
+<li>The publishing industry made it to a available on request kind of
+state.</li>
+<li>Open access publication make it a static released.</li>
+<li>Preprints are released versions</li>
+<li>blog posts may be considered open per default.</li>
+</ul></div>
+</div>
+</div>
+</div>
+</div>
+<div class="section level3">
+<h3 id="how-can-it-be-released">How can it be released<a class="anchor" aria-label="anchor" href="#how-can-it-be-released"></a></h3>
+<p>This relates to the license used: what will people be allowed to do
+with your released research outputs.</p>
+<p>Without going into details, different types of outputs should be
+released using different licenses. Licenses are usually of different
+forms, giving the rights to use without restriction (public domain),
+allowing to use as long as the original authors are credited (with
+attribution). In addition one can restrict re-use the work as long as
+the new work is released with a similar license (weak copyleft) or the
+same license (hard copyleft).</p>
+<p>Some license also restrict the use to non-commercial use or
+preventing derivatives.</p>
+<blockquote>
+<p>See <a href="https://the-turing-way.netlify.app/reproducible-research/licensing" class="external-link">https://the-turing-way.netlify.app/reproducible-research/licensing</a>
+and linked tools for details.</p>
+</blockquote>
+<p>In addition, one should think about where things are released (how
+long will it be available, how will it be found), and how to indicate
+how people should credit your work.</p>
+<div id="open-or-private" class="callout testimonial">
+<div class="callout-square">
+<i class="callout-icon" data-feather="heart"></i>
+</div>
+<div id="open-or-private" class="callout-inner">
+<h3 class="callout-title">Open or Private?<a class="anchor" aria-label="anchor" href="#open-or-private"></a>
+</h3>
+<div class="callout-content">
+<p>Researchers often worry that they need to hide their code to prevent
+others stealing it.</p>
+<blockquote>
+<p>“After giving talks about open science I’ve sometimes been approached
+by skeptics who say, ‘Why would I help out my competitors by sharing
+ideas and data on these new websites? Isn’t that just inviting other
+people to steal my data, or to scoop me? Only someone naive could think
+this will ever be widespread.’ As things currently stand, there’s a lot
+of truth to this point of view. But it’s also important to understand
+its limits. What these skeptics forget is that they already freely share
+their ideas and discoveries, whenever they publish papers describing
+their own scientific work. They’re so stuck inside the
+citation-measurement-reward system for papers that they view it as a
+natural law, and forget that it’s socially constructed. It’s an
+agreement. And because it’s a social agreement, that agreement can be
+changed. All that’s needed for open science to succeed is for the
+sharing of scientific knowledge in new media to carry the same kind of
+cachet that papers do today”</p>
+<p>Nielsen, M. Reinventing Discovery: The New Era of Networked Science.
+Princeton University Press, 2011.</p>
+</blockquote>
+<p><a href="https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3000246" class="external-link">https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3000246</a></p>
+</div>
+</div>
+</div>
+</div>
+</section><section id="making-your-research-object-citable"><h2 class="section-heading">Making your research object citable<a class="anchor" aria-label="anchor" href="#making-your-research-object-citable"></a>
+</h2>
+<hr class="half-width"><figure><img src="../fig/DOI.*" alt="This image shows three boxes with materials on top. The main box in the middle has 'identifiers' written on it with three discs on top of it that are labelled 'data sets'. Both boxes by their side have journal articles on top of them. An arrow on the top of the image points to these images as being 'Digital Object Identifiers'. There is text at the bottom of the image which says 'Persistent', 'Unique', 'Trusted'." width="500" class="figure mx-auto d-block"></figure><p><em>Digital Object Identifiers or DOIs are persistent, unique and
+trusted. <em>The Turing Way</em> project illustration by Scriberia. Used
+under a CC-BY 4.0 licence. DOI: <a href="https://doi.org/10.5281/zenodo.3332807" class="external-link">10.5281/zenodo.3332807</a>.</em></p>
+<p>DOIs are alphanumerical unique and persistent identifiers with a
+permanent web address for different research objects that can be cited
+by you and other researchers. Each pre-print and publication is
+published with a DOI, but independent of the paper, different research
+objects can be published online on servers that offer DOIs at any stage
+of your research.</p>
+<p>Repositories usually collect the citation information before
+providing a DOI, so that the metadata associated with the DOI is
+indexed.</p>
+<p>Look for a data repository at <a href="https://www.re3data.org" class="external-link uri">https://www.re3data.org</a>.</p>
+<p>See <a href="https://the-turing-way.netlify.app/communication/citable.html" class="external-link">https://the-turing-way.netlify.app/communication/citable.html</a>
+for details.</p>
+<div id="accordionInstructor1" class="accordion instructor-note accordion-flush">
+<div class="accordion-item">
+<button class="accordion-button instructor-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseInstructor1" aria-expanded="false" aria-controls="collapseInstructor1">
+  <h3 class="accordion-header" id="headingInstructor1">
+  <div class="note-square"><i aria-hidden="true" class="callout-icon" data-feather="edit-2"></i></div>
+  Instructor Note
+  </h3>
+</button>
+<div id="collapseInstructor1" class="accordion-collapse collapse" data-bs-parent="#accordionInstructor1" aria-labelledby="headingInstructor1">
+<div class="accordion-body">
+<p>Some of these servers are <a href="https://zenodo.org/" class="external-link">Zenodo</a>,
+<a href="https://figshare.com/" class="external-link">FigShare</a>, <a href="https://datadryad.org/stash" class="external-link">Data Dryad</a> (for data), <a href="https://www.ogrants.org/" class="external-link">Open Grants</a> (for grant proposals)
+and <a href="https://osf.io/" class="external-link">Open Science Framework</a> (OSF) (for
+different components of an open research project). It allows you to show
+connections between different parts of research as well as cite
+different objects from your work independently.</p>
+<p>When working on GitHub for instance, you can <a href="https://docs.github.com/en/repositories/archiving-a-github-repository/referencing-and-citing-content" class="external-link">connect
+the project repository with Zenodo</a> to get a DOI for your repository.
+The <a href="https://citation-file-format.github.io/" class="external-link">Citation File
+Format</a>, then lets you provide citation metadata, for software or
+datasets, in plaintext files that are easy to read by both humans and
+machines.</p>
+</div>
+</div>
+</div>
+</div>
+<p>You may want to read the <a href="https://the-turing-way.netlify.app/communication/citable.html" class="external-link">Making
+Research Objects Citable</a> chapter in <em>The Turing Way</em> Guide to
+Communication.</p>
+</section><section id="citable-code"><h2 class="section-heading">Citable Code<a class="anchor" aria-label="anchor" href="#citable-code"></a>
+</h2>
+<hr class="half-width"><p>While it is possible to cite software from GitHub (see below using a
+Citation File Format file), it is better to cite an archived version of
+the software (a code release). The possibility to get integration with
+zenodo from GitHub or GitLab, makes it easy to get DOIs for each version
+of the software.</p>
+<div class="section level3">
+<h3 id="citation-file-format">Citation File Format<a class="anchor" aria-label="anchor" href="#citation-file-format"></a></h3>
+<p>The Citation File Format provides citation metadata, for software or
+datasets, in plaintext files that are easy to read by both humans and
+machines.</p>
+<p>Adding a <code>CITATION.cff</code> file to your folder means it can
+be cited when others use it, increasing recognition for your work and
+your research project’s impact.</p>
+<p>See more at <a href="https://the-turing-way.netlify.app/communication/citable/citable-cff.html" class="external-link">The
+Turing Way: CITATION.cff</a></p>
+<p><a href="https://the-turing-way.netlify.app/_images/software-credit.jpg" class="external-link">https://the-turing-way.netlify.app/_images/software-credit.jpg</a></p>
+</div>
+<div class="section level3">
+<h3 id="code-release">Code release<a class="anchor" aria-label="anchor" href="#code-release"></a></h3>
+<p>For computational projects, releasing your work in an open repository
+has parallels with publications.</p>
+<figure><img src="https://i.imgur.com/I9EKxdF.png" alt="drawing" width="800" class="figure mx-auto d-block"></figure><p>There can be specific requirements to keep code bases and/or data
+private. See the section below for good and not so good reasons for
+keeping work private.</p>
+<p>You can release code and data associated with a research article as a
+series of files/folders. If your project follows the folder template
+introduced in a previous episode, for example:
+<img src="https://github.com/jcolomb/gintonic-blog/raw/forreview/50_figures/pulication_ready_figures/2draft-templates.png" alt="drawing" width="300" class="figure"></p>
+<blockquote>
+<p>Examples of a template folder tree for a computational project. <a href="https://github.com/tonic-team/Tonic-Research-Project-Template" class="external-link">https://github.com/tonic-team/Tonic-Research-Project-Template</a></p>
+</blockquote>
+<p>You could bundle folders into a <code>.zip</code> file and upload it
+to Zenodo.</p>
+</div>
+<div class="section level3">
+<h3 id="zenodo">Zenodo<a class="anchor" aria-label="anchor" href="#zenodo"></a></h3>
+<figure><img src="https://i.imgur.com/SUWUTKK.png" alt="drawing" width="500" class="figure mx-auto d-block"></figure><blockquote>
+<p>Zenodo is a general-purpose open-access repository developed under
+the European OpenAIRE program and operated by CERN. It allows
+researchers to deposit research papers, data sets, research software,
+reports, and any other research related digital artefacts.</p>
+<p>Uploads to Zenodo are:</p>
+<ul><li>
+<strong>Safe</strong> — your research is stored safely for the
+future in CERN’s Data Centre for as long as CERN exists.</li>
+<li>
+<strong>Trusted</strong> — built and operated by CERN and OpenAIRE
+to ensure that everyone can join in Open Science.</li>
+<li>
+<strong>Citeable</strong> — every upload is assigned a Digital
+Object Identifier (DOI), to make them citable and trackable. No waiting
+time — Uploads are made available online as soon as you hit publish, and
+your DOI is registered within seconds.</li>
+<li>
+<strong>Open or closed</strong> — Share e.g. anonymized clinical
+trial data with only medical professionals via our restricted access
+mode.</li>
+<li>
+<strong>Versioning</strong> — Easily update your dataset with our
+versioning feature.</li>
+<li>
+<strong>GitHub integration</strong> — Easily preserve your GitHub
+repository in Zenodo.</li>
+<li>
+<strong>Usage statistics</strong> — All uploads display standards
+compliant usage statistics</li>
+</ul></blockquote>
+<div id="accordionInstructor2" class="accordion instructor-note accordion-flush">
+<div class="accordion-item">
+<button class="accordion-button instructor-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseInstructor2" aria-expanded="false" aria-controls="collapseInstructor2">
+  <h3 class="accordion-header" id="headingInstructor2">
+  <div class="note-square"><i aria-hidden="true" class="callout-icon" data-feather="edit-2"></i></div>
+  Instructor Note
+  </h3>
+</button>
+<div id="collapseInstructor2" class="accordion-collapse collapse" data-bs-parent="#accordionInstructor2" aria-labelledby="headingInstructor2">
+<div class="accordion-body">
+<p>This goes in more details about collaborative code, it may be usefull
+if collaboration is the main topic of your workshop.</p>
+<div class="section level2">
+<h2 id="collaborative-open-code">Collaborative Open Code<a class="anchor" aria-label="anchor" href="#collaborative-open-code"></a></h2>
+<figure><img src="https://the-turing-way.netlify.app/_images/decolonising-knowledge.jpg" alt="drawing" width="300" class="figure mx-auto d-block"></figure><p>Downloading code and data files from Zenodo or other open access
+repositories can be useful when someone wants to review your the final
+outcome of your computational work. However, with an open GitHub
+repository, sharing code becomes much more collaborative and in
+real-time.</p>
+<figure><img src="https://foundations.projectpythia.org/_images/GitHub-logo.png" alt="drawing" width="200" class="figure mx-auto d-block"></figure><p>Uploading code in progress to an open GitHub Repo is the best and
+most well-used method for programming collaboration.</p>
+<p>As you develop a tool or methodology, users have the ability to use
+your code while it is a work in progress and others can contribute or
+add features.</p>
+<figure><img src="https://cran.r-project.org/CRANlogo.png" alt="drawing" width="150" class="figure mx-auto d-block"></figure><p>When using specifically R, you could release R packages on <a href="https://cran.r-project.org/" class="external-link">CRAN</a> where anyone can then
+download and use you code.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!--
+## Code release
+
+- Packaging (R/Python package)
+- Environment (conda, binder, docker)
+- Code release (Zenodo, Figshare)
+  - Connecting to Zenodo
+  - Citable code: CFF
+
+## Data Release 
+- Institute's policy for archival
+- Public data deposit like Data Dryad)
+- Contributing to open tools
+
+## Manuscript, Pre-prints and Peer Review
+
+- Best practices and examples
+
+## Supporting Materials
+
+- GitHub repo
+- Interactive page for your project
+- Jupyter/Binder
+
+## Conclusion
+- What gaps have we filled in this section
+- Project management overview 
+
+## Resources for taking this to next level
+
+- Turing Data Stories, The Turing Way, Shiny app
+
+## Next Steps
+
+In addition to the referenced linked under different sections in this lesson, please see the following references:
+- [Add recommendations from 1:1 interviews, open communities such as Open Life Science and The Turing Way.]
+-->
+<div id="discussion1" class="callout discussion">
+<div class="callout-square">
+<i class="callout-icon" data-feather="message-circle"></i>
+</div>
+<div class="callout-inner">
+<h3 class="callout-title">Challenge<a class="anchor" aria-label="anchor" href="#discussion1"></a>
+</h3>
+<div class="callout-content">
+<p>Add a CITATION.cff file to your Github repository.</p>
+</div>
+</div>
+</div>
+<div id="keypoints1" class="callout keypoints">
+<div class="callout-square">
+<i class="callout-icon" data-feather="key"></i>
+</div>
+<div class="callout-inner">
+<h3 class="callout-title">Keypoints<a class="anchor" aria-label="anchor" href="#keypoints1"></a>
+</h3>
+<div class="callout-content">
+<ul><li>Online Persistent Identifiers or Digital Object Identifiers are
+useful for releasing and citing different versions of research
+objects.</li>
+</ul></div>
+</div>
+</div>
+</div>
+</section><section id="apply-open-science-best-practices"><h2 class="section-heading">Apply Open Science Best Practices<a class="anchor" aria-label="anchor" href="#apply-open-science-best-practices"></a>
+</h2>
+<hr class="half-width"><p>Open Science invites all researchers to share their work, data and
 research components openly so that others can read, reuse, reproduce,
 build upon and share them. Particularly in computational research and
 software development projects, open source practices are widely
@@ -775,50 +920,35 @@ objects.</li>
 </ul></div>
 </div>
 </div>
-<div class="overview card">
-<h2 class="card-header">Overview</h2>
-<div class="row g-0">
-<div class="col-md-4">
-<div class="card-body">
-<div class="inner">
-<h3 class="card-title">Questions</h3>
-<ul><li>How to maintain history of contributions and contributors?</li>
-<li>How to apply open science practices to work transparently and
-collaborate openly?</li>
-</ul></div>
-</div>
-</div>
-<div class="col-md-8">
-<div class="card-body">
-<div class="inner bordered">
-<h3 class="card-title">Objectives</h3>
-<ul><li>Learn why and how to cite the work of others</li>
-</ul></div>
-</div>
-</div>
-</div>
-</div>
-<div class="overview card">
-<h2 class="card-header">Overview</h2>
-<div class="row g-0">
-<div class="col-md-4">
-<div class="card-body">
-<div class="inner">
-<h3 class="card-title">Questions</h3>
-<ul><li>How should I mention and cite the software or data I am using</li>
-</ul></div>
-</div>
-</div>
-<div class="col-md-8">
-<div class="card-body">
-<div class="inner bordered">
-<h3 class="card-title">Objectives</h3>
-<ul><li>Learn why and how to cite the work of others</li>
-</ul></div>
-</div>
-</div>
-</div>
-</div>
+</section><section id="citing-others"><h2 class="section-heading">Citing others<a class="anchor" aria-label="anchor" href="#citing-others"></a>
+</h2>
+<hr class="half-width"><p>You should cite research objects directly in the paper in places
+where it is relevant. This is a commonly practiced way of citing
+publications and is valid for citing other research components like
+data, hardware and software.</p>
+<p>A citation includes the following information: - Author - Title -
+Year of publication - Publisher (for data, this is often the data
+repository where it is housed) - Version (if indicated) - Access
+information (a URL or DOI)</p>
+<p>You should use a citation manager to collect and use this
+information, <a href="https://www.zotero.org" class="external-link">zotero</a> is the free and
+open source software option.</p>
+<p>If the author of the research object did not provide a easy way to
+collect the information, try to contact them. You can refer them to the
+[turing way chapter] (<a href="https://the-turing-way.netlify.app/communication/citable.html" class="external-link uri">https://the-turing-way.netlify.app/communication/citable.html</a>)
+, which is also a source for this course.</p>
+</section><section id="citing-yourself"><h2 class="section-heading">Citing yourself<a class="anchor" aria-label="anchor" href="#citing-yourself"></a>
+</h2>
+<hr class="half-width"><p>Make your research objects are citable, as described later. Then do
+not forget to insert citation of these research objects in your own
+papers. Provide data, software and hardware availability statement, for
+example:</p>
+<p>The data/software/harware that support the findings will be available
+in [repository name] at [URL / DOI] following a [6 month] embargo from
+the date of publication, to allow for the commercialization of research
+findings.”</p>
+<p>Note that you can often reserve a DOI without publishing your data
+and code, if you want for the paper to come out first.</p>
 <div id="keypoints3" class="callout keypoints">
 <div class="callout-square">
 <i class="callout-icon" data-feather="key"></i>
@@ -827,7 +957,7 @@ collaborate openly?</li>
 <h3 class="callout-title">Keypoints<a class="anchor" aria-label="anchor" href="#keypoints3"></a>
 </h3>
 <div class="callout-content">
-<ul><li>Best practices in citing code and data</li>
+<ul><li>Cite code and data from others</li>
 </ul></div>
 </div>
 </div>
@@ -839,7 +969,7 @@ collaborate openly?</li>
       <!-- content for large screens -->
       <div class="d-none d-sm-none d-md-block">
         <a class="chapter-link" href="../instructor/26_Coding.html" rel="prev"><i aria-hidden="true" class="small-arrow" data-feather="arrow-left"></i>Previous: Managing code</a>
-        <a class="chapter-link float-end" href="../instructor/28_conclusion.html" rel="next">Next: Managing coding work... <i aria-hidden="true" class="small-arrow" data-feather="arrow-right"></i></a>
+        <a class="chapter-link float-end" href="../instructor/28_conclusion.html" rel="next">Next: Conclusion and... <i aria-hidden="true" class="small-arrow" data-feather="arrow-right"></i></a>
       </div>
     </nav></div> <!-- / div.primary-content.col-xs-12 -->
 <!-- END:   inst/pkgdown/templates/content-instructor.html-->
@@ -884,7 +1014,7 @@ collaborate openly?</li>
   "url": "https://carpentries-incubator.github.io/managing-computational-projects/instructor/27_publications.html",
   "identifier": "https://carpentries-incubator.github.io/managing-computational-projects/instructor/27_publications.html",
   "dateCreated": "2021-08-20",
-  "dateModified": "2023-07-25",
+  "dateModified": "2023-08-08",
   "datePublished": "2023-08-08"
 }
 

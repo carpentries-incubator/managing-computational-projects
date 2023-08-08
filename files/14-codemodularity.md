@@ -1,7 +1,5 @@
 ---
 title: Code Modularity
-teaching: 10
-exercises: 0
 ---
 
 ### Modular Programming (Functions)

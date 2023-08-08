@@ -1,19 +1,9 @@
 ---
 title: What is special in data science project ?
-teaching: 10
-exercises: 0
 ---
 
 ## Overview of this training material
 
-
-
-:::::::::::::::::::::::::::::::::::::::: questions
-
-- Get an overview of the training material
-- understand how the different aspects of this material relates to one another
-
-::::::::::::::::::::::::::::::::::::::::::::::::::
 
 
 

@@ -1,8 +1,15 @@
 ---
 title: "What is data science"
-teaching: 10
-exercises: 10
 ---
+
+
+## Short overview of project management in a research context
+
+- Research workflow/cycle
+- team management
+- data management
+- methods & tools: Kanban, Gantt
+
 
 
 

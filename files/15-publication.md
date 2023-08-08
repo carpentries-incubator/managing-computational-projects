@@ -1,48 +1,67 @@
 ---
 title: Publication and release
-teaching: 20
-exercises: 10
 ---
 
 ## Publications
 
-::::::::::::::::::::::::::::::::::::::: objectives
 
-- Understand the importance of PID.
-- Know how to make data and code citable
-
-::::::::::::::::::::::::::::::::::::::::::::::::::
-
-:::::::::::::::::::::::::::::::::::::::: questions
-
-- Why should I make my research objects available?
-- What open source tools to use for applying data science practices in bioscience?
-- How to get your research work cited and invite more contributions to your project?
-
-::::::::::::::::::::::::::::::::::::::::::::::::::
 
 <img src="https://the-turing-way.netlify.app/_images/evolution-open-research.jpg" alt="drawing" width="500"/> 
 
 While the output of research projects is usually centred around publishing a journal article, this format of science communication and knowledge sharing is increasingly restrictive with the new ways scientific research is conducted. The requirements from journals themselves is also expanding, you are now often asked to upload data sets and code as part of your publication. Releasing data is increasingly a requirement from funding bodies, and outputs from research groups can go beyond a single paper, releasing tools and methods that can be used worldwide.
 
-In general there are different degrees of openness.
+In general, there are different degrees of openness, depending on what, when and how research outputs are shared. 
+In order to produce outputs that can be shared, one should **start preparing for publication at the beginning of a project**.
+This overall course is about getting ready to share code and data in the lab, such that sharing it with the world is only one click away.
 
-- Fully private data and code, unavailable
-- Pseudo-open -- "available on request"
-- Released static code parallel to a research paper, see Zenodo or Figshare
-- Open online repository -- CRAN, GitHub
-- Collaborative, open science tool with ongoing development
+### What can be released:
 
-What can be released:
-
+- **Open Access manuscritps and preprints**: Making the story and interpretation of your research freely accessible for maximum use and impact.
 - **Open Data**: Documenting and sharing research data openly for re-use.
 - **Open Source Software**: Documenting research code and routines, and making them freely accessible and available.
 - **Open Hardware**: Documenting designs, materials, and other relevant information related to hardware, and making them freely accessible and available.
-- **Open Access**: Making all published outputs freely accessible for maximum use and impact.
 - **Open Notebooks**: An emerging practice, documenting and sharing the experimental process of trial and error.
 
 > [https://the-turing-way.netlify.app/reproducible-research/open.html](https://the-turing-way.netlify.app/reproducible-research/open.html)
 
+### When to release:
+
+- Never: Fully private data and code, unavailable
+- Pseudo-open -- "available on request"
+- Released static output parallel to a research paper
+- Release versioned outputs during the research process in Open online repository -- CRAN, GitHub
+- Open per default: Collaborative, open science tool with ongoing development
+
+::::::::::::: challenge
+
+What are the equivalent of these openness steps for research manuscript ?
+
+:::::: solution
+- There were a time when researchers were not sharing their discovery at all.
+- The publishing industry made it to a available on request kind of state.
+- Open access publication make it a static released. 
+- Preprints are released versions
+- blog posts may be considered open per default.
+::::::
+:::::::::::::
+
+
+
+### How can it be released
+
+This relates to the license used: what will people be allowed to do with your released research outputs.
+
+Without going into details, different types of outputs should be released using different licenses. 
+Licenses are usually of different forms, giving the rights to use without restriction (public domain), allowing to use as long as the original authors are credited (with attribution). 
+In addition one can restrict re-use the work as long as the new work is released with a similar license (weak copyleft) or the same license (hard copyleft).
+
+Some license also restrict the use to non-commercial use or preventing derivatives.
+
+> See [https://the-turing-way.netlify.app/reproducible-research/licensing](https://the-turing-way.netlify.app/reproducible-research/licensing) and linked tools for details.
+
+In addition, one should think about where things are released (how long will it be available, how will it be found), and how to indicate how people should credit your work.
+
+::::::: testimonial
 ## Open or Private?
 
 Researchers often worry that they need to hide their code to prevent others stealing it.
@@ -53,7 +72,51 @@ Researchers often worry that they need to hide their code to prevent others stea
 
 [https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3000246](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3000246)
 
-## Code release
+::::::::::::
+
+## Making your research object citable
+
+<img src="fig/DOI.*" alt="This image shows three boxes with materials on top. The main box in the middle has 'identifiers' written on it with three discs on top of it that are labelled 'data sets'. Both boxes by their side have journal articles on top of them. An arrow on the top of the image points to these images as being 'Digital Object Identifiers'. There is text at the bottom of the image which says 'Persistent', 'Unique', 'Trusted'." width="500"/>
+
+*Digital Object Identifiers or DOIs are persistent, unique and trusted. _The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).*
+
+
+DOIs are alphanumerical unique and persistent identifiers with a permanent web address for different research objects that can be cited by you and other researchers.
+Each pre-print and publication is published with a DOI, but independent of the paper, different research objects can be published online on servers that offer DOIs at any stage of your research.
+
+Repositories usually collect the citation information before providing a DOI, so that the metadata associated with the DOI is indexed. 
+
+Look for a data repository at https://www.re3data.org. 
+
+See [https://the-turing-way.netlify.app/communication/citable.html](https://the-turing-way.netlify.app/communication/citable.html) for details.
+
+:::::::::::::::::::::::::::::::: instructor
+Some of these servers are [Zenodo](https://zenodo.org/), [FigShare](https://figshare.com/), [Data Dryad](https://datadryad.org/stash) (for data), [Open Grants](https://www.ogrants.org/) (for grant proposals) and [Open Science Framework](https://osf.io/) (OSF) (for different components of an open research project).
+It allows you to show connections between different parts of research as well as cite different objects from your work independently.
+
+When working on GitHub for instance, you can [connect the project repository with Zenodo](https://docs.github.com/en/repositories/archiving-a-github-repository/referencing-and-citing-content) to get a DOI for your repository.
+The [Citation File Format](https://citation-file-format.github.io/), then lets you provide citation metadata, for software or datasets, in plaintext files that are easy to read by both humans and machines.
+
+
+::::::::::::::::::::::::::::::::
+
+You may want to read the [Making Research Objects Citable](https://the-turing-way.netlify.app/communication/citable.html) chapter in *The Turing Way* Guide to Communication.
+
+
+## Citable Code
+
+While it is possible to cite software from GitHub (see below using a Citation File Format file), it is better to cite an archived version of the software (a code release). The possibility to get integration with zenodo from GitHub or GitLab, makes it easy to get DOIs for each version of the software.
+
+### Citation File Format
+The Citation File Format provides citation metadata, for software or datasets, in plaintext files that are easy to read by both humans and machines.
+
+Adding a `CITATION.cff` file to your folder means it can be cited when others use it, increasing recognition for your work and your research project's impact.
+
+See more at [The Turing Way: CITATION.cff](https://the-turing-way.netlify.app/communication/citable/citable-cff.html)
+
+[https://the-turing-way.netlify.app/\_images/software-credit.jpg](https://the-turing-way.netlify.app/_images/software-credit.jpg)
+
+### Code release
 
 For computational projects, releasing your work in an open repository has parallels with publications.
 
@@ -85,15 +148,9 @@ You could bundle folders into a `.zip` file and upload it to Zenodo.
 > - **GitHub integration** — Easily preserve your GitHub repository in Zenodo.
 > - **Usage statistics** — All uploads display standards compliant usage statistics
 
-### Citable Code
+:::::::::::::::::::::::: instructor
 
-The Citation File Format provides citation metadata, for software or datasets, in plaintext files that are easy to read by both humans and machines.
-
-Adding a `CITATION.cff` file to your folder means it can be cited when others use it, increasing recognition for your work and your research project's impact.
-
-See more at [The Turing Way: CITATION.cff](https://the-turing-way.netlify.app/communication/citable/citable-cff.html)
-
-[https://the-turing-way.netlify.app/\_images/software-credit.jpg](https://the-turing-way.netlify.app/_images/software-credit.jpg)
+This goes in more details about collaborative code, it may be usefull if collaboration is the main topic of your workshop.
 
 ## Collaborative Open Code
 
@@ -111,38 +168,8 @@ As you develop a tool or methodology, users have the ability to use your code wh
 
 When using specifically R, you could release R packages on [CRAN](https://cran.r-project.org/) where anyone can then download and use you code.
 
-## Open Science Tools -- Research Software with Impact
+::::::::::::::::::::::::
 
-Many research groups produce widely used tools and software that are used across biomedical and life sciences. Examples of an open science tool in ongoing development and collaboration:
-
-#### DeepLabCut
-
-[https://github.com/DeepLabCut/DeepLabCut](https://github.com/DeepLabCut/DeepLabCut)
-
-A toolbox for markerless pose estimation of animals performing various tasks.
-
-<img src="https://images.squarespace-cdn.com/content/v1/57f6d51c9f74566f55ecf271/1628250004229-KVYD7JJVHYEFDJ32L9VJ/DLClogo2021.jpg?format=1000w" alt="drawing" width="300"/> 
-
-![](https://camo.githubusercontent.com/70d402b832b850477701ed679425d7dac297c827d5867877f5c730bc007cba7e/68747470733a2f2f737461746963312e73717561726573706163652e636f6d2f7374617469632f3537663664353163396637343536366635356563663237312f742f3563336662656437346661353161636563643633646565622f313534373638313533343733362f4d6f7573654c6f636f6d6f74696f6e5f77617272656e2e6769663f666f726d61743d35303077)
-
-#### Cellpose
-
-[https://github.com/MouseLand/cellpose](https://github.com/MouseLand/cellpose)
-
-[https://cellpose.readthedocs.io/en/latest/](https://cellpose.readthedocs.io/en/latest/)
-
-A generalist algorithm for cell and nucleus segmentation.
-
-<img src="https://github.com/MouseLand/cellpose/raw/master/docs/_static/cellpose_gui.png" alt="drawing" width="300"/> 
-
- <img src="https://cellpose.readthedocs.io/en/latest/_images/fig1.PNG" alt="drawing" width="500"/> 
-
-#### Qupath
-
-[https://github.com/qupath/qupath](https://github.com/qupath/qupath)
-
-Extensive tools to annotate and view images, including whole slide \& microscopy images. Interactive machine learning for both object \& pixel classification.
-<img src="https://qupath.readthedocs.io/en/stable/_images/ki67_detecting_final_markup.jpg" alt="drawing" width="500"/>
 
 <!--
 ## Code release
@@ -182,16 +209,7 @@ In addition to the referenced linked under different sections in this lesson, pl
 - [Add recommendations from 1:1 interviews, open communities such as Open Life Science and The Turing Way.]
 -->
 
-### Research Objects can be Released with Digital Object Identifiers (DOI)
 
-DOIs are alphanumerical unique and persistent identifiers with a permanent web address for different research objects that can be cited by you and other researchers.
-Each pre-print and publication is published with a DOI, but independent of the paper, different research objects can be published online on servers that offer DOIs at any stage of your research.
-Some of these servers are [Zenodo](https://zenodo.org/), [FigShare](https://figshare.com/), [Data Dryad](https://datadryad.org/stash) (for data), [Open Grants](https://www.ogrants.org/) (for grant proposals) and [Open Science Framework](https://osf.io/) (OSF) (for different components of an open research project).
-It allows you to show connections between different parts of research as well as cite different objects from your work independently.
-
-When working on GitHub for instance, you can [connect the project repository with Zenodo](https://docs.github.com/en/repositories/archiving-a-github-repository/referencing-and-citing-content) to get a DOI for your repository.
-The [Citation File Format](https://citation-file-format.github.io/), then lets you provide citation metadata, for software or datasets, in plaintext files that are easy to read by both humans and machines.
-Read the [Making Research Objects Citable](https://the-turing-way.netlify.app/communication/citable.html) chapter in *The Turing Way* Guide to Communication.
 
 :::::::::::::::::::::::::::::::::::::::  challenge
 
@@ -205,5 +223,6 @@ Add a CITATION.cff file to your Github repository.
 
 - Online Persistent Identifiers or Digital Object Identifiers are useful for releasing and citing different versions of research objects.
 ::::::::::::::::::::::::::::::::::::::::::::::::::
+
 
 

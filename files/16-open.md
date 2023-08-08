@@ -1,25 +1,10 @@
 ---
 title: Open Science Practices
-teaching: 5
-exercises: 15
 ---
 
 ## Apply Open Science Best Practices
 
-::::::::::::::::::::::::::::::::::::::: objectives
 
-- Describe the importance of version control systems
-- Nudge the use of GitHub/GitLab for open collaboration
-- Share open science practices for transparent and ethical research
-
-::::::::::::::::::::::::::::::::::::::::::::::::::
-
-:::::::::::::::::::::::::::::::::::::::: questions
-
-- How to maintain history of contributions and contributors?
-- How to apply open science practices to work transparently and collaborate openly?
-
-::::::::::::::::::::::::::::::::::::::::::::::::::
 
 Open Science invites all researchers to share their work, data and research components openly so that others can read, reuse, reproduce, build upon and share them.
 Particularly in computational research and software development projects, open source practices are widely promoted.
