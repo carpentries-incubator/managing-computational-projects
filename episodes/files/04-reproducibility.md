@@ -26,8 +26,7 @@ In order to make results reproducible, one needs to access and reuse the data an
 Since both code and data may evolve over time (errors may be found, variables may be changed), it is important to link the figure created with a specific version of the code and the data, this is called keeping provenance information.
 
 
-
->!figure provenance
+![](fig/data-provenance.jpg){alt='A figure explaining the concept of provenance: Silos labeled raw data, preprocessed data, analysis, and paper are connected and points representing data are flowing from the first to the last silo.'}
 
 
 
