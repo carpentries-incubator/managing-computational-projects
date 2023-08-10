@@ -6,8 +6,12 @@ exercises: 10
 
 ::::::::::::::::::::::::::::::::::::::: objectives
 
-- First learning objective. (FIXME)
-- To make informed decisions using data.
+- Understand the basics of coding
+- Understand the advantages of modular code
+- How to foster good practices:
+  - using code review
+  - using tests
+
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -17,29 +21,26 @@ exercises: 10
 - What is literate programming?
 - How to use data visualisation for insight and communication?
 
-::::::::::::::::::::::::::::::::::::::::::::::::::
-
-::::::::::::::::::::::::::::::::::::::: objectives
-
-- Explain different processes and best practices for code review.
-- Discuss tips, tricks and benefits of code review.
-- Share some ways to involve all group members in code review.
-
-::::::::::::::::::::::::::::::::::::::::::::::::::
-
-:::::::::::::::::::::::::::::::::::::::: questions
-
 - What are the main objectives and best practices for testing and reviewing code?
-- What can continous integration help?
-- How can group leaders facilitate a collaborative environment for code review?
+- When can continuous integration help?
+
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
+
+## Basics of coding
+
+As a project manager, you do not need to code or know how coding works.
+However, it is important to understand the data workflow and foster documentation, as well as coding best practices, such that you can understand the analysis. 
+
+This chapter gives a small introduction into coding and data analysis workflow, code modularity, and then how foster good code with tests and review.
 
 ```{r, child='files/12-analysis.md'}
+```
+
+```{r, child='files/14-codemodularity.md'}
 ```
 
 ```{r, child='files/13-codereview.md'}
 ```
 
-```{r, child='files/14-codemodularity.md'}
-```
+
