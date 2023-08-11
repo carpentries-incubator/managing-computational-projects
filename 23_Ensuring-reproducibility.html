@@ -274,7 +274,7 @@
       </div>
       <hr></nav><main id="main-content" class="main-content"><div class="container lesson-content">
         <h1>Ensuring reproducibility</h1>
-        <p> Last updated on 2023-08-08 | 
+        <p> Last updated on 2023-08-11 | 
         
         <a href="https://github.com/carpentries-incubator/managing-computational-projects/edit/main/episodes/23_Ensuring-reproducibility.Rmd" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
         
@@ -307,9 +307,10 @@ research?</p></li>
 <div class="inner bordered">
 <h3 class="card-title">Objectives</h3>
 <ul><li>Understand the different concepts related to reproducibility.</li>
-<li>Present tools for computer reproducibility (long term).</li>
+<li>Learn about methods to capture reproducible research
+environments.</li>
 <li>Understand the concept of provenance and version control.</li>
-<li>Understand the power and pitfalls of git</li>
+<li>Understand the power and pitfalls of Git</li>
 </ul></div>
 </div>
 </div>
@@ -357,10 +358,7 @@ data may evolve over time (errors may be found, variables may be
 changed), it is important to link the figure created with a specific
 version of the code and the data, this is called keeping provenance
 information.</p>
-<blockquote>
-<p>!figure provenance</p>
-</blockquote>
-</section><section id="long-term-reproducibility"><h2 class="section-heading">Long term reproducibility<a class="anchor" aria-label="anchor" href="#long-term-reproducibility"></a>
+<figure><img src="fig/data-provenance.jpg" alt="A figure explaining the concept of provenance: Silos labeled raw data, preprocessed data, analysis, and paper are connected and points representing data are flowing from the first to the last silo." class="figure mx-auto d-block"></figure></section><section id="long-term-reproducibility"><h2 class="section-heading">Long term reproducibility<a class="anchor" aria-label="anchor" href="#long-term-reproducibility"></a>
 </h2>
 <hr class="half-width"><p>Both data and software should be in a form where the analysis can run
 on a different hardware. Because software evolve quite rapidly, it may
@@ -402,10 +400,7 @@ applications.</li>
 <strong>Literate Programming</strong> using <a href="https://jupyter.org/" class="external-link">Jupyter Notebook</a> is an extremely
 powerful way to use a web-based online interactive computing environment
 to execute code and script while adding notes and additional information
-about the application. To learn more about how to create a reproducible
-environment, the chapter on <a href="https://the-turing-way.netlify.app/reproducible-research/renv.html" class="external-link">Reproducible
-Environments</a> in <em>The Turing way</em> is a good place to
-start.</li>
+about the application.</li>
 </ul></div>
 </div>
 </div>
@@ -415,13 +410,16 @@ start.</li>
 install new software, and move to different computers. If the project
 environment is not captured and the researchers need to return to their
 project after months or years (as is common in research), they will be
-unable to do so confidently. a computational environment is a system
-where a program is run. This includes features of hardware (such as the
-numbers of cores in any CPUs) and features of the software (such as the
-operating system, programming languages, supporting packages, other
-pieces of installed software, along with their versions and
-configurations).</p>
-<figure><img src="https://the-turing-way.netlify.app/_images/computational-environments.jpg" alt="Ways of capturing computational environments" class="figure mx-auto d-block"></figure><p>There are several ways of capturing computational environments. The
+unable to do so confidently.</p>
+<p>This includes features of hardware (such as the numbers of cores in
+any CPUs) and features of the software (such as the operating system,
+programming languages, supporting packages, other pieces of installed
+software, along with their versions and configurations).</p>
+<figure><img src="https://the-turing-way.netlify.app/_images/computational-environments.jpg" alt="Ways of capturing computational environments" class="figure mx-auto d-block"></figure><p>To learn more about how to create a reproducible environment, the
+chapter on <a href="https://the-turing-way.netlify.app/reproducible-research/renv.html" class="external-link">Reproducible
+Environments</a> in <em>The Turing way</em> is a good place to
+start.</p>
+<p>There are several ways of capturing computational environments. The
 major ones covered in this chapter will be Package Management Systems,
 Binder, Virtual Machines, and Containers. Each has its pros and cons,
 and the most appropriate option for you will depend on the nature of
@@ -559,33 +557,24 @@ contributions and contributor information openly.</p></li>
 </ul></div>
 </div>
 </div>
-<div id="keypoints3" class="callout keypoints">
+<div id="discussion1" class="callout discussion">
 <div class="callout-square">
-<i class="callout-icon" data-feather="key"></i>
+<i class="callout-icon" data-feather="message-circle"></i>
 </div>
 <div class="callout-inner">
-<h3 class="callout-title">Keypoints<a class="anchor" aria-label="anchor" href="#keypoints3"></a>
+<h3 class="callout-title">Discussion<a class="anchor" aria-label="anchor" href="#discussion1"></a>
 </h3>
 <div class="callout-content">
-<ul><li><p>Open Science is an umbrella term that involves best practices for
-research transparency and reproducibility.</p></li>
-<li><p>Version-controlled repository help record different contributions
-and contributor information openly.</p></li>
-<li><p>Online Persistent Identifiers or Digital Object Identifiers are
-useful for releasing and citing different versions of research
-objects.</p></li>
-</ul></div>
-</div>
-</div>
-<div class="exercises">
-<ul><li><p>Which of the OS principles are you already implementing in your
-work and how?</p></li>
+<ul><li><p>Which of the reproducible research principles are you already
+implementing in your work and how?</p></li>
 <li><p>How do you currently version control your projects? What changes
 will you introduce to ensure fair credit and citation of your and your
 team’s work?</p></li>
 <li><p>What are other measures to ensure reproducibility in your
 research documentation and that of your team?”</p></li>
 </ul></div>
+</div>
+</div>
 </section></div> <!-- / div.lesson-content -->
     </main><!-- / main#main-content.main-content --><nav class="bottom-pagination mx-md-4" aria-label="Previous and Next Chapter"><div class="d-block d-sm-block d-md-none">
         <a class="chapter-link" href="22_contentAndMotivation.html"><i aria-hidden="true" class="small-arrow" data-feather="arrow-left"></i>Previous</a>
@@ -639,8 +628,8 @@ research documentation and that of your team?”</p></li>
   "url": "https://carpentries-incubator.github.io/managing-computational-projects/23_Ensuring-reproducibility.html",
   "identifier": "https://carpentries-incubator.github.io/managing-computational-projects/23_Ensuring-reproducibility.html",
   "dateCreated": "2021-08-20",
-  "dateModified": "2023-08-08",
-  "datePublished": "2023-08-08"
+  "dateModified": "2023-08-11",
+  "datePublished": "2023-08-11"
 }
 
   </script><script>

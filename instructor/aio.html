@@ -921,7 +921,7 @@ how can you give them credit?</p>
   Needs from the future you
   </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
 <div class="accordion-body">
 <p>It is very interesting to consider your future self as one
 collaborator in your project. Anything you may forget in the next three
@@ -1088,7 +1088,7 @@ and cloud computing. Metabolomics 15, 125 (2019). <a href="https://doi.org/10.10
 </div>
 </section></section><section id="aio-23_Ensuring-reproducibility"><p>Content from <a href="23_Ensuring-reproducibility.html">Ensuring reproducibility</a></p>
 <hr>
-<p> Last updated on 2023-08-08 | 
+<p> Last updated on 2023-08-11 | 
         
         <a href="https://github.com/carpentries-incubator/managing-computational-projects/edit/main/episodes/23_Ensuring-reproducibility.Rmd" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <p>Estimated time <i aria-hidden="true" data-feather="clock"></i> 50 minutes </p>
@@ -1119,9 +1119,10 @@ research?</p></li>
 <h3 class="card-title">Objectives</h3>
 <ul>
 <li>Understand the different concepts related to reproducibility.</li>
-<li>Present tools for computer reproducibility (long term).</li>
+<li>Learn about methods to capture reproducible research
+environments.</li>
 <li>Understand the concept of provenance and version control.</li>
-<li>Understand the power and pitfalls of git</li>
+<li>Understand the power and pitfalls of Git</li>
 </ul>
 </div>
 </div>
@@ -1173,10 +1174,7 @@ data may evolve over time (errors may be found, variables may be
 changed), it is important to link the figure created with a specific
 version of the code and the data, this is called keeping provenance
 information.</p>
-<blockquote>
-<p>!figure provenance</p>
-</blockquote>
-</section><section id="long-term-reproducibility"><h2 class="section-heading">Long term reproducibility<a class="anchor" aria-label="anchor" href="#long-term-reproducibility"></a>
+<figure><img src="../fig/data-provenance.jpg" alt="A figure explaining the concept of provenance: Silos labeled raw data, preprocessed data, analysis, and paper are connected and points representing data are flowing from the first to the last silo." class="figure mx-auto d-block"></figure></section><section id="long-term-reproducibility"><h2 class="section-heading">Long term reproducibility<a class="anchor" aria-label="anchor" href="#long-term-reproducibility"></a>
 </h2>
 <hr class="half-width">
 <p>Both data and software should be in a form where the analysis can run
@@ -1220,10 +1218,7 @@ applications.</li>
 <strong>Literate Programming</strong> using <a href="https://jupyter.org/" class="external-link">Jupyter Notebook</a> is an extremely
 powerful way to use a web-based online interactive computing environment
 to execute code and script while adding notes and additional information
-about the application. To learn more about how to create a reproducible
-environment, the chapter on <a href="https://the-turing-way.netlify.app/reproducible-research/renv.html" class="external-link">Reproducible
-Environments</a> in <em>The Turing way</em> is a good place to
-start.</li>
+about the application.</li>
 </ul>
 </div>
 </div>
@@ -1235,13 +1230,16 @@ start.</li>
 install new software, and move to different computers. If the project
 environment is not captured and the researchers need to return to their
 project after months or years (as is common in research), they will be
-unable to do so confidently. a computational environment is a system
-where a program is run. This includes features of hardware (such as the
-numbers of cores in any CPUs) and features of the software (such as the
-operating system, programming languages, supporting packages, other
-pieces of installed software, along with their versions and
-configurations).</p>
-<figure><img src="https://the-turing-way.netlify.app/_images/computational-environments.jpg" alt="Ways of capturing computational environments" class="figure mx-auto d-block"></figure><p>There are several ways of capturing computational environments. The
+unable to do so confidently.</p>
+<p>This includes features of hardware (such as the numbers of cores in
+any CPUs) and features of the software (such as the operating system,
+programming languages, supporting packages, other pieces of installed
+software, along with their versions and configurations).</p>
+<figure><img src="https://the-turing-way.netlify.app/_images/computational-environments.jpg" alt="Ways of capturing computational environments" class="figure mx-auto d-block"></figure><p>To learn more about how to create a reproducible environment, the
+chapter on <a href="https://the-turing-way.netlify.app/reproducible-research/renv.html" class="external-link">Reproducible
+Environments</a> in <em>The Turing way</em> is a good place to
+start.</p>
+<p>There are several ways of capturing computational environments. The
 major ones covered in this chapter will be Package Management Systems,
 Binder, Virtual Machines, and Containers. Each has its pros and cons,
 and the most appropriate option for you will depend on the nature of
@@ -1388,30 +1386,17 @@ contributions and contributor information openly.</p></li>
 </div>
 </div>
 </div>
-<div id="keypoints3" class="callout keypoints">
+<div id="discussion1" class="callout discussion">
 <div class="callout-square">
-<i class="callout-icon" data-feather="key"></i>
+<i class="callout-icon" data-feather="message-circle"></i>
 </div>
 <div class="callout-inner">
-<h3 class="callout-title">Keypoints<a class="anchor" aria-label="anchor" href="#keypoints3"></a>
+<h3 class="callout-title">Discussion<a class="anchor" aria-label="anchor" href="#discussion1"></a>
 </h3>
 <div class="callout-content">
 <ul>
-<li><p>Open Science is an umbrella term that involves best practices for
-research transparency and reproducibility.</p></li>
-<li><p>Version-controlled repository help record different contributions
-and contributor information openly.</p></li>
-<li><p>Online Persistent Identifiers or Digital Object Identifiers are
-useful for releasing and citing different versions of research
-objects.</p></li>
-</ul>
-</div>
-</div>
-</div>
-<div class="exercises">
-<ul>
-<li><p>Which of the OS principles are you already implementing in your
-work and how?</p></li>
+<li><p>Which of the reproducible research principles are you already
+implementing in your work and how?</p></li>
 <li><p>How do you currently version control your projects? What changes
 will you introduce to ensure fair credit and citation of your and your
 team’s work?</p></li>
@@ -1419,9 +1404,11 @@ team’s work?</p></li>
 research documentation and that of your team?”</p></li>
 </ul>
 </div>
+</div>
+</div>
 </section></section><section id="aio-24_SettingUp"><p>Content from <a href="24_SettingUp.html">Managing project start and collaborations</a></p>
 <hr>
-<p> Last updated on 2023-08-08 | 
+<p> Last updated on 2023-08-11 | 
         
         <a href="https://github.com/carpentries-incubator/managing-computational-projects/edit/main/episodes/24_SettingUp.Rmd" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <p>Estimated time <i aria-hidden="true" data-feather="clock"></i> 50 minutes </p>
@@ -1466,12 +1453,6 @@ practices</p></li>
 be recognised for their work</p></li>
 <li><p>Demonstrate GitHub Project Board to enable project
 management.</p></li>
-<li><p>Discuss the importance of code quality, modular programming, and
-code testing for reusable error-free code.</p></li>
-<li><p>Encourage researchers to combine code with documentation to
-communicate their work.</p></li>
-<li><p>Learn about methods to capture reproducible research
-environments.</p></li>
 </ul>
 </div>
 </div>
@@ -1931,9 +1912,41 @@ process.</li>
 </div>
 </div>
 </div>
+<div id="discussion3" class="callout discussion">
+<div class="callout-square">
+<i class="callout-icon" data-feather="message-circle"></i>
+</div>
+<div class="callout-inner">
+<h3 class="callout-title">Discussion<a class="anchor" aria-label="anchor" href="#discussion3"></a>
+</h3>
+<div class="callout-content">
+<p>What measures described in this session are meant to make research
+more reproducible, what measures are meant to facilitate team work. How
+does the different measures interact ?</p>
+<div id="accordionSolution2" class="accordion challenge-accordion accordion-flush">
+<div class="accordion-item">
+<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
+  <h4 class="accordion-header" id="headingSolution2">
+  Show me the solution
+  </h4>
+</button>
+<div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
+<div class="accordion-body">
+<p>Making interaction measure is also making the research more
+reproducible. Indeed most of the reusability of the data and code can be
+best tested when several people interact on a project. Documenting for a
+current collaborator helps a lot to make sure documentation will be
+enough for new collaboratory coming in the project later on.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
 </section></section><section id="aio-25_RDM"><p>Content from <a href="25_RDM.html">Managing Data</a></p>
 <hr>
-<p> Last updated on 2023-08-08 | 
+<p> Last updated on 2023-08-11 | 
         
         <a href="https://github.com/carpentries-incubator/managing-computational-projects/edit/main/episodes/25_RDM.Rmd" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <p>Estimated time <i aria-hidden="true" data-feather="clock"></i> 50 minutes </p>
@@ -2006,11 +2019,11 @@ stored, described and reused. Data here is used as a generic term to
 encompass all digital objects. RDM is a vital part of enabling
 reproducible research. RDM ensures efficiency in research workflows, and
 also greater reach and impact, as data become FAIR (Findable,
-Accessible, Interoperable and Reusable). Data should be stored in
-multiple locations and backed up regularly to prevent loss or data
-corruption. It is also important to consider the whole life cycle of the
-data (especially making collected data computer readable) when designing
-data management plan and tasks.</p>
+Accessible, Interoperable and Reusable).</p>
+<p>Data should be stored in multiple locations and backed up regularly
+to prevent loss or data corruption. It is also important to consider the
+whole life cycle of the data (especially making collected data computer
+readable) when designing data management plan and tasks.</p>
 </section><section id="plan-for-reproducible-research"><h2 class="section-heading">Plan for reproducible research<a class="anchor" aria-label="anchor" href="#plan-for-reproducible-research"></a>
 </h2>
 <hr class="half-width">
@@ -2024,18 +2037,25 @@ which file you will be using in your analysis (in most cases, using the
 raw data will make your analysis more robust and easier to reuse for
 other researchers).</p>
 <p>When building spreadsheets, one should make them tidy, so they are
-easy to use in computer programs.
-::::::::::::::::::::::::::::::::::::::::: callout</p>
-</section><section id="tidy-spreadsheets"><h2 class="section-heading">Tidy spreadsheets<a class="anchor" aria-label="anchor" href="#tidy-spreadsheets"></a>
-</h2>
-<hr class="half-width">
+easy to use in computer programs.</p>
+<div id="tidy-spreadsheets" class="callout callout">
+<div class="callout-square">
+<i class="callout-icon" data-feather="bell"></i>
+</div>
+<div id="tidy-spreadsheets" class="callout-inner">
+<h3 class="callout-title">Tidy spreadsheets<a class="anchor" aria-label="anchor" href="#tidy-spreadsheets"></a>
+</h3>
+<div class="callout-content">
 <p>There are very simple rules to facilitate data use, which go into the
 concept of <a href="https://en.wikipedia.org/w/index.php?title=Tidy_data&amp;oldid=962241815" class="external-link">tidy
 data</a>. The tidy data format allows for filtering and sorting data
 easily in spreadsheet software.</p>
-<figure><img src="../ttps:/the-turing-way.netlify.app/_images/tidy-1.png" alt="" class="figure mx-auto d-block"><figcaption>An illustration of tidy data: variables are in
+<figure><img src="../fig/tidy-1.png" alt="" class="figure mx-auto d-block"><figcaption>An illustration of tidy data: variables are in
 columns, observations in rows and there is one value per cell.</figcaption></figure><p><a href="https://the-turing-way.netlify.app/reproducible-research/rdm/rdm-spreadsheets.html?highlight=tidy#tidy-format-for-spreadsheets" class="external-link">More
-infos</a> :::::::::::::::::::::::::::::::::::::::::</p>
+infos</a></p>
+</div>
+</div>
+</div>
 <div id="why-this-is-useful" class="callout callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
@@ -2057,6 +2077,39 @@ data.</p>
 <p>Clearly describing data using documentation and metadata ensures that
 others know how to access, use and reuse your data, and also enable
 conditions for sharing and publishing data to be outlined.</p>
+</section><section id="defining-data"><h2 class="section-heading">Defining Data<a class="anchor" aria-label="anchor" href="#defining-data"></a>
+</h2>
+<hr class="half-width">
+<p>Data are objects that you use and produce during your research life
+cycle, encompassing data sets, software, code, workflow, models,
+figures, tables, images and videos, interviews, articles. Data are your
+research asset. A good way of thinking about what might be classed as
+data that needs to be managed is to ask yourself the questions:</p>
+<ul>
+<li>What is the information that I need to use and write about in my
+paper or book?</li>
+<li>What information would I need to back up my conclusions?</li>
+<li>What information is needed by others to understand and possibly
+replicate the research that I have done? This information is your
+data.</li>
+</ul>
+<div id="discussion1" class="callout discussion">
+<div class="callout-square">
+<i class="callout-icon" data-feather="message-circle"></i>
+</div>
+<div class="callout-inner">
+<h3 class="callout-title">Discussion<a class="anchor" aria-label="anchor" href="#discussion1"></a>
+</h3>
+<div class="callout-content">
+<ul>
+<li>What data are you collecting ?</li>
+<li>Is it all digitalised?</li>
+<li>Do you work with an open format, which will be readable in 10 years
+?</li>
+</ul>
+</div>
+</div>
+</div>
 </section><section id="file-names-and-folder-structure"><h2 class="section-heading">File names and folder structure<a class="anchor" aria-label="anchor" href="#file-names-and-folder-structure"></a>
 </h2>
 <hr class="half-width">
@@ -2070,12 +2123,42 @@ human and computer readable (conveying information about the file
 content, in a way a computer can extract it.)</p>
 <p>It is important to have written conventions that are easy to find. <a href="https://the-turing-way.netlify.app/reproducible-research/rdm/rdm-storage.html?highlight=name#file-naming-conventions" class="external-link">turingway
 chapter</a></p>
-<div id="callout2" class="callout callout">
+<div id="challenge1" class="callout challenge">
+<div class="callout-square">
+<i class="callout-icon" data-feather="zap"></i>
+</div>
+<div class="callout-inner">
+<h3 class="callout-title">Challenge<a class="anchor" aria-label="anchor" href="#challenge1"></a>
+</h3>
+<div class="callout-content">
+<p>What date is this date : 01.03.1931</p>
+<p>January 3st 1931 ? (USA) March 1st 1931 ? (the rest of the world)</p>
+<p>How to write the date in an excel spreadsheet ?</p>
+</div>
+</div>
+</div>
+<div id="accordionSolution1" class="accordion challenge-accordion accordion-flush">
+<div class="accordion-item">
+<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
+  <h4 class="accordion-header" id="headingSolution1">
+  Show me the solution
+  </h4>
+</button>
+<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
+<div class="accordion-body">
+<p>While the standard is 1931-03-01 (YYYY-MM-DD), excel will transform
+this into a number, the only safe way to deal with dates in Excel is to
+have 3 columns.</p>
+</div>
+</div>
+</div>
+</div>
+<div id="callout3" class="callout callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
 </div>
 <div class="callout-inner">
-<h3 class="callout-title">Callout<a class="anchor" aria-label="anchor" href="#callout2"></a>
+<h3 class="callout-title">Callout<a class="anchor" aria-label="anchor" href="#callout3"></a>
 </h3>
 <div class="callout-content">
 <p>Naming files tips:</p>
@@ -2088,7 +2171,8 @@ about</li>
 <li>when using dates, use ISO format: yyyy-mm-dd (yyyymmdd can work
 too)</li>
 <li>no special characters (no space) in filenames, use - or _</li>
-<li>use only lowercase</li>
+<li>use only lowercase or be very careful (linux versus other
+systems)</li>
 </ul>
 <p>see <a href="https://speakerdeck.com/jennybc/how-to-name-files" class="external-link uri">https://speakerdeck.com/jennybc/how-to-name-files</a></p>
 </div>
@@ -2156,22 +2240,7 @@ three working groups is shared online via <a href="https://docs.google.com/sprea
 </div>
 </div>
 </div>
-</section><section id="defining-data"><h2 class="section-heading">Defining Data<a class="anchor" aria-label="anchor" href="#defining-data"></a>
-</h2>
-<hr class="half-width">
-<p>Data are objects that you use and produce during your research life
-cycle, encompassing data sets, software, code, workflow, models,
-figures, tables, images and videos, interviews, articles. Data are your
-research asset. A good way of thinking about what might be classed as
-data that needs to be managed is to ask yourself the questions:</p>
-<ul>
-<li>What is the information that I need to use and write about in my
-paper or book?</li>
-<li>What information would I need to back up my conclusions?</li>
-<li>What information is needed by others to understand and possibly
-replicate the research that I have done? This information is your
-data.</li>
-</ul></section><section id="the-research-data-lifecycle---a-model-for-data-management"><h2 class="section-heading">The Research Data Lifecycle - A Model for Data Management<a class="anchor" aria-label="anchor" href="#the-research-data-lifecycle---a-model-for-data-management"></a>
+</section><section id="the-research-data-lifecycle---a-model-for-data-management"><h2 class="section-heading">The Research Data Lifecycle - A Model for Data Management<a class="anchor" aria-label="anchor" href="#the-research-data-lifecycle---a-model-for-data-management"></a>
 </h2>
 <hr class="half-width">
 <p>Research data often follows a ‘lifecycle’ that follows the research
@@ -2283,6 +2352,7 @@ other data and interoperate with applications or workflows.</li>
 <strong>Reusable</strong>: Data should be well-described so that
 they can be used, combined, and extended in different settings.</li>
 </ul>
+<figure><img src="../fig/fair-principles.jpg" alt="Four FAIR principles depicted." class="figure mx-auto d-block"></figure>
 </div>
 </div>
 </div>
@@ -2463,20 +2533,17 @@ collaborative research (1.0.1). Zenodo. <a href="https://doi.org/10.5281/zenodo.
 </h3>
 <div class="callout-content">
 <ul>
-<li>Good research data management practices esures findability of your
-research data.</li>
-<li>Storing, regular backing-up and archiving prevents data loss.</li>
-<li>Sharing all types of research data transparently makes them easier
-to understand and reuse by others.</li>
-<li>Gives fair recognition to people generating, handling and using
-data, and further stimulates collaboration with others.</li>
+<li>All information is present and digitalised</li>
+<li>Data is safe (backup)</li>
+<li>Data is FAIR (findable, accessible, interoperable and reusable)</li>
+<li>Data can be opened</li>
 </ul>
 </div>
 </div>
 </div>
 </section></section><section id="aio-26_Coding"><p>Content from <a href="26_Coding.html">Managing code</a></p>
 <hr>
-<p> Last updated on 2023-08-08 | 
+<p> Last updated on 2023-08-11 | 
         
         <a href="https://github.com/carpentries-incubator/managing-computational-projects/edit/main/episodes/26_Coding.Rmd" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <p>Estimated time <i aria-hidden="true" data-feather="clock"></i> 50 minutes </p>
@@ -2491,9 +2558,13 @@ data, and further stimulates collaboration with others.</li>
 <div class="inner">
 <h3 class="card-title">Questions</h3>
 <ul>
-<li>What is the role of data wrangling?</li>
-<li>What is literate programming?</li>
-<li>How to use data visualisation for insight and communication?</li>
+<li><p>What is the role of data wrangling?</p></li>
+<li><p>What is literate programming?</p></li>
+<li><p>How to use data visualisation for insight and
+communication?</p></li>
+<li><p>What are the main objectives and best practices for testing and
+reviewing code?</p></li>
+<li><p>When can continuous integration help?</p></li>
 </ul>
 </div>
 </div>
@@ -2503,152 +2574,52 @@ data, and further stimulates collaboration with others.</li>
 <div class="inner bordered">
 <h3 class="card-title">Objectives</h3>
 <ul>
-<li>First learning objective. (FIXME)</li>
-<li>To make informed decisions using data.</li>
-</ul>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="overview card">
-<h2 class="card-header">Overview</h2>
-<div class="row g-0">
-<div class="col-md-4">
-<div class="card-body">
-<div class="inner">
-<h3 class="card-title">Questions</h3>
+<li>Understand the basics of coding</li>
+<li>Understand the advantages of modular code</li>
+<li>How to foster good practices:
 <ul>
-<li>What is the role of data wrangling?</li>
-<li>What is literate programming?</li>
-<li>How to use data visualisation for insight and communication?</li>
+<li>using code review</li>
+<li>using tests</li>
 </ul>
-</div>
-</div>
-</div>
-<div class="col-md-8">
-<div class="card-body">
-<div class="inner bordered">
-<h3 class="card-title">Objectives</h3>
-<ul>
-<li>Explain different processes and best practices for code review.</li>
-<li>Discuss tips, tricks and benefits of code review.</li>
-<li>Share some ways to involve all group members in code review.</li>
+</li>
+<li>Discuss the importance of code quality, modular programming, and
+code testing for reusable error-free code.</li>
+<li>Encourage researchers to combine code with documentation to
+communicate their work.</li>
 </ul>
 </div>
 </div>
 </div>
 </div>
 </div>
-<div class="overview card">
-<h2 class="card-header">Overview</h2>
-<div class="row g-0">
-<div class="col-md-4">
-<div class="card-body">
-<div class="inner">
-<h3 class="card-title">Questions</h3>
-<ul>
-<li>What are the main objectives and best practices for testing and
-reviewing code?</li>
-<li>What can continous integration help?</li>
-<li>How can group leaders facilitate a collaborative environment for
-code review?</li>
-</ul>
-</div>
-</div>
-</div>
-<div class="col-md-8">
-<div class="card-body">
-<div class="inner bordered">
-<h3 class="card-title">Objectives</h3>
-<ul>
-<li>Explain different processes and best practices for code review.</li>
-<li>Discuss tips, tricks and benefits of code review.</li>
-<li>Share some ways to involve all group members in code review.</li>
-</ul>
-</div>
-</div>
-</div>
-</div>
-</div>
-<section id="planning-for-reproducibility-and-provenance"><h2 class="section-heading">Planning for reproducibility and provenance<a class="anchor" aria-label="anchor" href="#planning-for-reproducibility-and-provenance"></a>
+<section id="basics-of-coding"><h2 class="section-heading">Basics of coding<a class="anchor" aria-label="anchor" href="#basics-of-coding"></a>
 </h2>
 <hr class="half-width">
-<div class="section level3">
-<h3 id="literate-programming">Literate Programming<a class="anchor" aria-label="anchor" href="#literate-programming"></a>
-</h3>
-<p>Literate programming is about comments and documentation and telling
-other humans what is happening in your pipeline. Depending on the scale
-of your computational projects, you may use one or multiple of these
-options:</p>
-<ul>
-<li>Inline comments when writing code (directly written in the script
-file)</li>
-<li>A README file describing what your code does</li>
-<li>An online documentation as a user and developer guide with
-step-by-step explanation</li>
-<li>RMarkdown or Jupyter Notebook with examples</li>
-</ul>
-<p>Most of these files can be written in Markdown. Markdown is a way of
-writing plain text in any simple text editor that doesn’t need specific
-(proprietary) software to read it (no need for Microsoft Word), which
-can be converted to many formats including HTML, PDF or even Word
-documents. Many online tools including GitHub support Markdown files
-(.md files).</p>
-<p>Marking up your text and code is quite simple:</p>
-<ul>
-<li>
-<code>**bold**</code> –&gt; <strong>bold</strong>
-</li>
-<li>
-<code>_italics_</code> –&gt; <em>italics</em>
-</li>
-<li>“<code>code snippet</code>” –&gt; <code>code snippet</code>
-</li>
-<li>
-<code>[LINK](https://carpentries-incubator.github.io/managing-computational-projects/)</code>
-–&gt; <a href="https://carpentries-incubator.github.io/managing-computational-projects/" class="external-link">LINK</a>
-</li>
-</ul>
-<p>You can do much more:</p>
-<ul>
-<li>
-<code># Title</code> (first level header)</li>
-<li>
-<code>## Heading</code> (second level header)</li>
-<li>
-<code>### Subheading</code> (third level header)</li>
-<li>
-<code>![IMAGE](image-path/link)</code> (insert via a link)</li>
-</ul>
-<p>See more in the <a href="https://www.markdownguide.org/cheat-sheet/" class="external-link">MarkDown
-cheatsheet</a>.</p>
-<p>MarkDown files are however static, meaning that you can only read the
-files, but not execute code. <a href="https://rmarkdown.rstudio.com/" class="external-link">R
-Markdown</a> and <a href="https://jupyter.org/" class="external-link">Jupyter Notebook</a>
-provide an interactive environment to work and share your code with
-documentation and examples for your project. For practice details about
-R Markdown, please see <a href="https://bookdown.org/yihui/rmarkdown" class="external-link">The Definitive Guide</a> and
-for Jupyter Notebook, please see <a href="https://jupyter-notebook-beginner-guide.readthedocs.io/en/latest/what_is_jupyter.html%5D" class="external-link">Jupyter/IPython
-Notebook Quick Start Guide</a>.</p>
-<p>These options are useful for communicating about the analysis
-workflow and results at any stage with other collaborators or the wider
-research community when developing open source code. Please note that
-sharing code in any format would require your collaborators to run and
-test your code locally. There are easier options to allow to run code in
-the browser using <a href="https://mybinder.org/" class="external-link">Binder</a>, which we
-will discuss in the last lesson.</p>
-</div>
-</section><section id="coding-tips-and-tricks"><h2 class="section-heading">coding tips and tricks<a class="anchor" aria-label="anchor" href="#coding-tips-and-tricks"></a>
-</h2>
-<hr class="half-width"></section><section id="pipeline"><h2 class="section-heading">Pipeline<a class="anchor" aria-label="anchor" href="#pipeline"></a>
+<p>As a project manager, you do not need to code or know how coding
+works. However, it is important to understand the data workflow and
+foster documentation, as well as coding best practices, such that you
+can understand the analysis.</p>
+<p>This chapter gives a small introduction into coding and data analysis
+workflow, code modularity, and then how foster good code with tests and
+review.</p>
+</section><section id="analysis-workflow"><h2 class="section-heading">Analysis workflow<a class="anchor" aria-label="anchor" href="#analysis-workflow"></a>
 </h2>
 <hr class="half-width">
-<p>data processing - statistical analysis plan - visualisation -
-stats.</p>
-<div class="section level3">
-<h3 id="data-wrangling-and-cleaning">Data Wrangling and Cleaning<a class="anchor" aria-label="anchor" href="#data-wrangling-and-cleaning"></a>
+<p>A usual workflow involves some data processing, before the actual
+analysis can be done. Statistical analysis and figure production should
+be decided before the data is looked at to prevent harking. Explorative
+analysis (looking for correlation and interpretation of the results) can
+be done anytime, as long as no hypothesis is rejected from that
+analysis.</p>
+<figure><img src="../fig/dataflow.png" class="figure mx-auto d-block"></figure><div class="section level3">
+<h3 id="data-pre-processing">Data (pre-)processing<a class="anchor" aria-label="anchor" href="#data-pre-processing"></a>
 </h3>
+<p>Code that cleans and processes data (<strong>processing
+code</strong>) provides the very beginning of the data analysis
+pipeline: starting with raw data and resulting in processed data. When
+the data was not collected in a computer readable format, or when
+metadata is missing, this step can be the most time consuming of
+all.</p>
 <blockquote>
 <p>Data wrangling involves cleaning data so it can be easily read and
 analysed by machines. It can also involve integration, extraction,
@@ -2656,23 +2627,17 @@ removing missing points, and anything that makes data useable and
 functional. Regardless of the methods, the code involved with data
 cleaning steps should be carefully documented so that the steps involved
 can be repeated from raw data to cleaned data.</p>
-<p>When working with data sets, <code>ggplot</code> (in R) or
-<code>matplotlib</code>/<code>seaborn</code> (in Python) libraries
-provide attractive figures that can be produced very quickly.
-Visualising data should not not wait for the point of publication, and
-can be used to explore data from the start, and also illustrate
-methodology. This is particularly valuable in Jupyter Notebooks. Code to
-produce figures should be literate, functional, reuseable in the same
-way as data cleaning and analysis code. That way future visualisations
-can be easily updated or reused.</p>
 </blockquote>
-</div>
-<div class="section level3">
-<h3 id="data-wrangling">Data wrangling<a class="anchor" aria-label="anchor" href="#data-wrangling"></a>
-</h3>
-<div class="section level4">
-<h4 id="definition">Definition<a class="anchor" aria-label="anchor" href="#definition"></a>
-</h4>
+<div id="accordionInstructor1" class="accordion instructor-note accordion-flush">
+<div class="accordion-item">
+<button class="accordion-button instructor-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseInstructor1" aria-expanded="false" aria-controls="collapseInstructor1">
+  <h3 class="accordion-header" id="headingInstructor1">
+  <div class="note-square"><i aria-hidden="true" class="callout-icon" data-feather="edit-2"></i></div>
+  Instructor Note
+  </h3>
+</button>
+<div id="collapseInstructor1" class="accordion-collapse collapse" data-bs-parent="#accordionInstructor1" aria-labelledby="headingInstructor1">
+<div class="accordion-body">
 <p>Data wrangling—also called data cleaning, data remediation, or data
 munging—refers to a variety of processes designed to transform raw data
 into more readily used formats. The exact methods differ from project to
@@ -2689,45 +2654,51 @@ you’re working on,</li>
 <li>Identifying extreme outliers in data and either explaining the
 discrepancies or removing them so that analysis can take place.</li>
 </ul>
+</div>
+</div>
+</div>
+</div>
 <p>Data wrangling can be a manual or automated process. In scenarios
 where datasets are exceptionally large, automated data cleaning becomes
 a necessity.</p>
-<p>Code that cleans and processes data (<strong>processing
-code</strong>) provides the very beginning of the data analysis
-pipeline: starting with raw data and resulting in processed data.</p>
-<figure><img src="https://i.imgur.com/YnWOBja.png" alt="drawing" width="800" class="figure mx-auto d-block"></figure><p>Cleaning data means it can be easily read and analysed by machines
+<p>Cleaning data means it can be easily read and analysed by machines
 and used in analysis pipelines. It can involve changing labels,
 subsetting, integration, extraction, removing missing points, and
-anything that makes data useable and functional. Regardless of the
-methods, the code involved in data cleaning steps should be carefully
-documented so that the steps involved can be repeated from raw data to
-clean data. When reviewing this type of code, consider whether the steps
-involved are readable and in the correct order.</p>
+anything that makes data usable and functional.</p>
+<p>Regardless of the methods, the code involved in data cleaning steps
+should be carefully documented so that the steps involved can be
+repeated from raw data to clean data. When reviewing this type of code,
+consider whether the steps involved are readable and in the correct
+order. Especially, when filtering data out, this should be consistent
+and indicated in the main method description.</p>
 </div>
-</div>
-</section><section id="data-analysis-and-statistics"><h2 class="section-heading">Data Analysis and Statistics<a class="anchor" aria-label="anchor" href="#data-analysis-and-statistics"></a>
+</section><section id="data-visualisation-analysis-and-statistics"><h2 class="section-heading">Data visualisation, Analysis and Statistics<a class="anchor" aria-label="anchor" href="#data-visualisation-analysis-and-statistics"></a>
 </h2>
 <hr class="half-width">
-<blockquote>
-<p>(Need to discuss this further, what is patronising?)</p>
-</blockquote>
-<p>With readable, clean, processed data that you have explored using
-figures, the next stage of the data pipeline is analysis. There may be
-many variables that are related directly or indirectly to the objective.
-For that, we first need to study about all the variables whether it is
-nominal or ordinal. Preparing the data for analysis is done after
-understanding the data. While understanding we get to know about missing
-in the data, finding the independent and dependent variables, etc.</p>
-<figure><img src="https://i.imgur.com/YnWOBja.png" alt="drawing" width="800" class="figure mx-auto d-block"></figure><p>Depending on your computational project, this may involve elaborate
+<div class="warnings">
+<p>Visualising data before designing the data analysis is a form of
+harking, as you will cherry pick your data (filtering some data out) or
+cherry pick an analysis (what looks promising). You should always design
+your analysis before visualising the data, or use visualised data as
+training data, not included in the final analysis.</p>
+</div>
+<p>With readable, clean, processed data, the next stage of the data
+pipeline is analysis.</p>
+<p>Depending on your computational project, this may involve elaborate
 and complex analyses, modelling, simulation, and even machine learning.
 However, even if this step is just running a single statistics test,
-keeping the code modular in clearly defined steps is key.</p>
+keeping the code documented and modular in clearly defined steps is
+key.</p>
 <p>Here is an example of applying a Butterworth filter to some data in
 Python. The specifics don’t matter, you can consider this code
 pseudocode for any kind of analysis step.</p>
 <pre><code>genomeProject/analysis/01_butterworth_filter.py
 
+#### 01_butterworth_filter, v1.0
+##this code read processed data and apply a low pass filter,
+## the output variable is called  filtered_data
 
+#  Import dependencies
 import numpy as np
 from scipy.signal import butter,filtfilt
 
@@ -2753,8 +2724,53 @@ def butter_lowpass_filter(data, cutoff, fs, order):
     return filtered_data
 
 # (D) Apply Butterworth Filter Function to the data
-filtered_data = butter_lowpass_filter(data, cutoff, fs, order)
+filtered_data = butter_lowpass_filter(df, cutoff, fs, order)
 </code></pre>
+<div id="challenge1" class="callout challenge">
+<div class="callout-square">
+<i class="callout-icon" data-feather="zap"></i>
+</div>
+<div class="callout-inner">
+<h3 class="callout-title">Challenge<a class="anchor" aria-label="anchor" href="#challenge1"></a>
+</h3>
+<div class="callout-content">
+<pre><code>genomeProject/analysis/01_bf.py
+
+import numpy as np
+from scipy.signal import butter,filtfilt
+
+df = pd.read_csv('genomeProject/data/220103_GenomicData_processed.csv')
+
+normc = 2 / 15
+b, a = butter(2, normc, btype='low', analog=False)
+filtered_data = filtfilt(b, a, df)
+
+</code></pre>
+<p>The code above will give the same result, why is the first one better
+on the long run ?</p>
+</div>
+</div>
+</div>
+<div id="accordionSolution1" class="accordion challenge-accordion accordion-flush">
+<div class="accordion-item">
+<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
+  <h4 class="accordion-header" id="headingSolution1">
+  Show me the solution
+  </h4>
+</button>
+<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
+<div class="accordion-body">
+<ul>
+<li>easier to read for non-coders</li>
+<li>commented</li>
+<li>variables easy to change</li>
+<li>better names</li>
+<li>function reusable + possibility to write tests</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
 <ol style="list-style-type: upper-alpha">
 <li>the processed data is read into the script. Next, (B) the fixed
 parameters are set and named with comments. These fixed numbers are
@@ -2772,6 +2788,16 @@ different scripts in case other projects also have similar methods. This
 is known as a package or library. This means altering a function doesn’t
 mean searching across every file on every project and changing it dozens
 of times.</p>
+<div id="accordionInstructor2" class="accordion instructor-note accordion-flush">
+<div class="accordion-item">
+<button class="accordion-button instructor-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseInstructor2" aria-expanded="false" aria-controls="collapseInstructor2">
+  <h3 class="accordion-header" id="headingInstructor2">
+  <div class="note-square"><i aria-hidden="true" class="callout-icon" data-feather="edit-2"></i></div>
+  Instructor Note
+  </h3>
+</button>
+<div id="collapseInstructor2" class="accordion-collapse collapse" data-bs-parent="#accordionInstructor2" aria-labelledby="headingInstructor2">
+<div class="accordion-body">
 <blockquote>
 <p><strong><em>Case Study</em></strong></p>
 <p><em>A postdoc wrote a helpful series of functions for data analysis
@@ -2793,16 +2819,31 @@ them to the repo, PhD students can choose to update their version of the
 functions. The students should document which version they have
 used.</em></p>
 </blockquote>
+</div>
+</div>
+</div>
+</div>
 <p>The output of the analysis code may be statistics results that are
 reported in a paper, and therefore the steps required to reproduce them
 are critically important.</p>
-</section><section id="figures-for-communicating-results"><h2 class="section-heading">Figures for Communicating Results<a class="anchor" aria-label="anchor" href="#figures-for-communicating-results"></a>
-</h2>
-<hr class="half-width">
+<div class="section level3">
+<h3 id="figures-for-communicating-results">Figures for Communicating Results<a class="anchor" aria-label="anchor" href="#figures-for-communicating-results"></a>
+</h3>
+<blockquote>
+<p>When working with data sets, <code>ggplot</code> (in R) or
+<code>matplotlib</code>/<code>seaborn</code> (in Python) libraries
+provide attractive figures that can be produced very quickly.
+Visualising data should not not wait for the point of publication, and
+can be used to explore data from the start, and also illustrate
+methodology. This is particularly valuable in Jupyter Notebooks. Code to
+produce figures should be literate, functional, reuseable in the same
+way as data cleaning and analysis code. That way future visualisations
+can be easily updated or reused.</p>
+</blockquote>
 <p>With the analysis complete, data visualisation is usually used to
-communicate results. The code used to produce figures is the next step
-in the data pipeline.</p>
-<figure><img src="https://i.imgur.com/YnWOBja.png" alt="drawing" width="800" class="figure mx-auto d-block"></figure><p>For publications or posters, well-constructed figures improve science
+communicate results. The code used to produce figures is often the next
+step in the data pipeline.</p>
+<p>For publications or posters, well-constructed figures improve science
 communication and help improve the impact of your research. Being able
 to produce multipanel figures with annotations and different colour
 schemes is complex but one of the advantages of learning a data science
@@ -2822,15 +2863,16 @@ and type of figure.</p>
 RNA compartmentalization and cell cycle-dependent gene expression, Xia
 et al 2019</em> <em><a href="https://www.pnas.org/doi/10.1073/pnas.1912459116" class="external-link">https://www.pnas.org/doi/10.1073/pnas.1912459116</a></em></p>
 </blockquote>
-<figure><img src="https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41593-019-0559-0/MediaObjects/41593_2019_559_Fig1_HTML.png?as=webp" alt="box plots" width="600" class="figure mx-auto d-block"></figure><p>These figures are more than just visualising data, they’re about
+<figure><img src="https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41593-019-0559-0/MediaObjects/41593_2019_559_Fig1_HTML.png" alt="box plots" width="600" class="figure mx-auto d-block"></figure><p>These figures are more than just visualising data, they’re about
 communication and require adjusting the styles and formats within
 <code>ggplot</code> or <code>matplotlib</code> or other libraries.</p>
 <p>As before, any code used to produce visualisations should be
-reproducible and literature. Often in peer review figures need to be
+reproducible and literate. Often in peer review figures need to be
 adjusted or altered, and having the code to do so makes the process much
 simpler.</p>
 <p>It is usually cleaner to keep data visualisation code separate from
 analysis, just to keep a code base organised and modular.</p>
+</div>
 <div class="section level3">
 <h3 id="accessibility">Accessibility<a class="anchor" aria-label="anchor" href="#accessibility"></a>
 </h3>
@@ -2855,30 +2897,8 @@ problem.</em></p>
 <p><em>Sisneros et al (2016) Chasing Rainbows: A Color-Theoretic
 Framework for Improving and Preserving Bad Colormaps. <a href="https://doi.org/10.1007/978-3-319-50835-1_36" class="external-link">https://doi.org/10.1007/978-3-319-50835-1_36</a></em></p>
 </blockquote>
-<ul>
-<li>Keeping readability in mind with text size/font and similar
-considerations =======</li>
-<li>“First key point. Brief Answer to questions. (FIXME)”</li>
-</ul>
-<hr>
-</div>
-</section><section id="data-exploration-and-insights"><h2 class="section-heading">Data exploration and insights<a class="anchor" aria-label="anchor" href="#data-exploration-and-insights"></a>
-</h2>
-<hr class="half-width">
-<p>Let us now create two different DataFrames and perform the merging
-operations on it.</p>
-<pre><code># import the pandas library
-import pandas as pd
-left = pd.DataFrame({
-         'id':[1,2,3,4,5],
-         'Name': ['Alnus', 'Agrostis', 'Betula', 'Vaccinium', 'Dactylis'],
-         'subject_id':['sub1','sub2','sub4','sub6','sub5']})
-right = pd.DataFrame(
-         {'id':[1,2,3,4,5],
-         'Name': ['Calune', 'Fallopia', 'Stachys', 'Stellaria', 'tiphy'],
-         'subject_id':['sub2','sub4','sub3','sub6','sub5']})
-print left
-print right</code></pre>
+<p>Also one should keep readability in mind with text size/font and
+similar considerations</p>
 <ul>
 <li>Data Visualisation as a tool
 <ul>
@@ -2886,7 +2906,9 @@ print right</code></pre>
 </li>
 </ul>
 </li>
-</ul></section><section id="statistical-analysis"><h2 class="section-heading">Statistical analysis<a class="anchor" aria-label="anchor" href="#statistical-analysis"></a>
+</ul>
+</div>
+</section><section id="statistical-analysis"><h2 class="section-heading">Statistical analysis<a class="anchor" aria-label="anchor" href="#statistical-analysis"></a>
 </h2>
 <hr class="half-width">
 <p>Selection of appropriate statistical method is very important step in
@@ -2908,104 +2930,50 @@ statistical methods are used in data analysis: descriptive statistics,
 which summarizes data using indexes such as mean, median, standard
 deviation and another is inferential statistics, which draws conclusions
 from data using statistical tests such as student’s t-test, ANOVA test,
-etc.[</p>
-<div class="section level3">
-<h3 id="type-and-distribution-of-data-used">Type and distribution of data used<a class="anchor" aria-label="anchor" href="#type-and-distribution-of-data-used"></a>
-</h3>
-<p>For the nominal, ordinal, discrete data, we use nonparametric methods
-while for continuous data, parametric methods as well as nonparametric
-methods are used. For example, in the regression analysis, when our
-outcome variable is categorical, logistic regression while for the
-continuous variable, linear regression model is used (<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6206790/" class="external-link">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6206790/</a>).</p>
-<p>The choice of the most appropriate representative measure for
-continuous variable is dependent on how the values are distributed. If
-continuous variable follows normal distribution, mean is the
-representative measure while for non-normal data, median is considered
-as the most appropriate representative measure of the data set.</p>
-<p>Similarly in the categorical data, proportion (percentage) while for
-the ranking/ordinal data, mean ranks are our representative measure. In
-the inferential statistics, hypothesis is constructed using these
-measures and further in the hypothesis testing, these measures are used
-to compare between/among the groups to calculate significance level.</p>
-<blockquote>
-<p><strong>Case Study</strong>:</p>
-</blockquote>
-<blockquote>
-<p><em>A Researcher wants to compare the diastolic blood pressure (DBP)
-between three age groups (years) (&lt;30, 30–50, &gt;50). If the DBP
-variable is normally distributed, &gt; mean value is the representative
-measure and null hypothesis stated that mean DBP values of the three age
-groups are statistically equal. In case of non-normal DBP variable,
-median value is the representative measure and null hypothesis stated
-that distribution of the DBP values among three age groups are
-statistically equal. In above example, one-way ANOVA test is used to
-compare the means when DBP follows normal distribution while
-Kruskal–Wallis H tests/median tests are used to compare &gt; the
-distribution of DBP among three age groups when DBP follows non-normal
-distribution.</em></p>
-</blockquote>
-<blockquote>
-<p><em>Similarly, suppose he wants to compare the mean arterial pressure
-(MAP) between treatment and control groups, if the MAP variable follows
-normal distribution, independent samples t-test while in case follow
-non-normal distribution, Mann–Whitney U test are used to compare the MAP
-between the treatment and control groups.</em></p>
-</blockquote>
-</div>
-<div class="section level3">
-<h3 id="other-statistical-methods">Other Statistical methods<a class="anchor" aria-label="anchor" href="#other-statistical-methods"></a>
-</h3>
+and many others</p>
+<p>Statistics goes outside the scope of this course.</p>
+</section><section id="coding-best-practices"><h2 class="section-heading">Coding best practices<a class="anchor" aria-label="anchor" href="#coding-best-practices"></a>
+</h2>
+<hr class="half-width">
+<p>The order of a script is usually:</p>
 <ul>
-<li>Logistic regression analysis is used to predict the categorical
-outcome variable using independent variable(s).</li>
-<li>Survival analysis is used to calculate the survival time/survival
-probability, comparison of the survival time between groups as well as
-to identify the predictors of the survival time of the subjects (Cox
-regression analysis).</li>
-<li>Receiver operating characteristics (ROC) curve is used to calculate
-area under curve (AUC) and cutoff values for given continuous variable
-with corresponding diagnostic accuracy using categorical outcome
-variable.</li>
-<li>Diagnostic accuracy of the test method is calculated as compared
-with another method (usually as compared with gold standard
-method).</li>
-<li>Sensitivity (proportion of the detected disease cases from the
-actual disease cases), specificity (proportion of the detected
-non-disease subjects from the actual non-disease subjects), overall
-accuracy (proportion of agreement between test and gold standard methods
-to correctly detect the disease and non-disease subjects) are the key
-measures used to assess the diagnostic accuracy of the test method.</li>
-<li>Other measures like false negative rate (1-sensitivity),
-false-positive rate (1-specificity), likelihood ratio positive
-(sensitivity/false-positive rate), likelihood ratio negative
-(false-negative rate/Specificity), positive predictive value (proportion
-of correctly detected disease cases by the test variable out of total
-detected disease cases by the itself), and negative predictive value
-(proportion of correctly detected non-disease subjects by test variable
-out of total non-disease subjects detected by the itself) are also used
-to calculate the diagnostic accuracy of the test method.</li>
+<li>main comments on the script function and goals</li>
+<li>importing all dependencies</li>
+<li>reading inputs, naming outputs</li>
+<li>listing all variables</li>
 </ul>
-<p>Summary of these methods can be found here <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6639881/table/T3/?report=objectonly" class="external-link">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6639881/table/T3/?report=objectonly</a></p>
-</div>
-</section><section id="communicating-results"><h2 class="section-heading">Communicating Results<a class="anchor" aria-label="anchor" href="#communicating-results"></a>
+<p>The latter element is particularly important. Variables are often a
+decision taken (for instance it could be some threshold value used for
+filtering data out, a type of low-pass filter used, or a time window
+that sub-set the data). Defining them at the start of the code makes it
+easier to change and spot.</p>
+<p>In practice, your figure and analysis may well depend on the version
+of the data, code and these variables, so it is often interesting to
+include this information into the output of the code. This may take the
+form of a pdf file, with the figure on the first page, and a table of
+variables and metadata on the following pages.</p>
+</section><section id="literate-programming"><h2 class="section-heading">Literate Programming<a class="anchor" aria-label="anchor" href="#literate-programming"></a>
 </h2>
 <hr class="half-width">
+<p>Literate programming is about comments and documentation and telling
+other humans what is happening in your pipeline. Depending on the scale
+of your computational projects, you may use one or multiple of these
+options:</p>
 <ul>
-<li>What elements are involved</li>
-</ul></section><section id="producing-figures"><h2 class="section-heading">Producing figures<a class="anchor" aria-label="anchor" href="#producing-figures"></a>
-</h2>
-<hr class="half-width">
-<ul>
-<li>Best practices</li>
-<li>Versions</li>
-<li>Publication with persistent identifier</li>
-</ul></section><section id="conclusion"><h2 class="section-heading">Conclusion<a class="anchor" aria-label="anchor" href="#conclusion"></a>
-</h2>
-<hr class="half-width">
-<ul>
-<li>What gaps have we filled in this section</li>
-<li>Project management overview</li>
-</ul></section><section id="resources-for-taking-this-to-next-level"><h2 class="section-heading">Resources for taking this to next level<a class="anchor" aria-label="anchor" href="#resources-for-taking-this-to-next-level"></a>
+<li>Inline comments when writing code (directly written in the script
+file)</li>
+<li>A README file describing what your code does</li>
+<li>An online documentation as a user and developer guide with
+step-by-step explanation</li>
+<li>Quarto/RMarkdown or Jupyter Notebook</li>
+</ul>
+<p>Most of these files can be written in Markdown.</p>
+<p>Often, literate programming refers to these notebooks form, where the
+documentation and the code are integrated in one file, which produce one
+output (html of pdf most of the time).</p>
+<p>This course can be thought as a literate programming content. Its
+source is markdown and Rmarkdown files, its output is a pdf.</p>
+</section><section id="resources-for-taking-this-to-next-level"><h2 class="section-heading">Resources for taking this to next level<a class="anchor" aria-label="anchor" href="#resources-for-taking-this-to-next-level"></a>
 </h2>
 <hr class="half-width">
 <ul>
@@ -3026,10 +2994,75 @@ to calculate the diagnostic accuracy of the test method.</li>
 </h3>
 <div class="callout-content">
 <ul>
-<li>First key point. Brief Answers to questions. (FIXME)</li>
+<li>Can you follow the analysis workflow without reading the code</li>
+<li>Is the code well commented and structures</li>
+<li>Are the figure created accessible</li>
+<li>Is the statistical analysis founded</li>
 </ul>
 </div>
 </div>
+</div>
+<div class="section level3">
+<h3 id="modular-programming-functions">Modular Programming (Functions)<a class="anchor" aria-label="anchor" href="#modular-programming-functions"></a>
+</h3>
+<!--
+- do a diagram of directories
+- no copying and pasting
+- mindset stable and not changed immutably
+-->
+<div id="testimonial1" class="callout testimonial">
+<div class="callout-square">
+<i class="callout-icon" data-feather="heart"></i>
+</div>
+<div class="callout-inner">
+<h3 class="callout-title">Testimonial<a class="anchor" aria-label="anchor" href="#testimonial1"></a>
+</h3>
+<div class="callout-content">
+<p><em>My postdoc wants to work with messy genomics data. I know my
+previous postdoc had to do the same thing and it took her months…. but
+it’s difficult to read her files so my new postdoc will have to work it
+out again.</em></p>
+</div>
+</div>
+</div>
+<p>Applying methods from one person’s work and applying it to another
+problem can take weeks, if not months, of work. Applying methods from
+publications is even harder: static PDF files can’t describe the lines
+of code and data that lead to those discoveries. This is an increasingly
+important problem in the face of growing mistrust in science, and a
+reproducibility crisis plaguing the sciences.</p>
+<p>Instead, functional programming is about writing code that works as
+modular steps. Each step is clearly commented on and carefully produced
+so that it can be reused in different contexts. Often when you are
+analysing data, you need to repeat the same task many times. For
+example, you might have several files that all need loading and clean in
+the same way, or you might need to perform the same analysis for
+multiple species or parameters. Rather than copying and pasting, writing
+a function and calling that function leads to fewer errors and confusion
+overall.</p>
+<p>We can think of this on a broad scale, say one student’s
+computational work has the following steps, where blue shows data
+cleaning, and yellow the analysis and statistics.</p>
+<figure><img src="../fig/IMP-pipeline1.png" alt="drawing" width="600" class="figure mx-auto d-block"></figure><p>Another student can take reuse the data cleaning and initial
+visualisation steps because her data was from the same source and is in
+the same format. She can later add her own model:</p>
+<figure><img src="../fig/IMP-pipeline2.png" alt="drawing" width="600" class="figure mx-auto d-block"></figure><p>On the micro-scale, functional programming ensures that each code
+file itself is comprised of modular blocks, whether for data processing,
+analysis pipeline, simulation and so on. Depending on your programming
+language, these may be used as a package or a library or saved in files
+that are available for installation. Just the same as the diagram above,
+making sure functions are robust and reuseable means they can be shared
+throughout different workflows and for different projects.</p>
+<blockquote>
+<p>Training in functional programming is usually an excellent
+pre-requisite for members of your lab.</p>
+</blockquote>
+<p>A first step can be to <strong>draw out</strong> and create diagrams
+to plan code before starting and identifying the modular steps involved.
+This does not require technical knowledge of a language and is,
+therefore, a great exercise for direct supervision. You can find
+practical details on reproducible code in the <a href="https://www.britishecologicalsociety.org/publications/guides-to" class="external-link">Guides
+to Better Science by British Ecological Society</a>.</p>
 </div>
 <div class="section level3">
 <h3 id="code-testing">Code Testing<a class="anchor" aria-label="anchor" href="#code-testing"></a>
@@ -3118,12 +3151,12 @@ Testing</a> chapter in <em>The Turing Way</em>.</p>
 </section><section id="code-review"><h2 class="section-heading">Code Review<a class="anchor" aria-label="anchor" href="#code-review"></a>
 </h2>
 <hr class="half-width">
-<div id="testimonial1" class="callout testimonial">
+<div id="testimonial2" class="callout testimonial">
 <div class="callout-square">
 <i class="callout-icon" data-feather="heart"></i>
 </div>
 <div class="callout-inner">
-<h3 class="callout-title">Testimonial<a class="anchor" aria-label="anchor" href="#testimonial1"></a>
+<h3 class="callout-title">Testimonial<a class="anchor" aria-label="anchor" href="#testimonial2"></a>
 </h3>
 <div class="callout-content">
 <p>The most difficult part of writing code is always to make it
@@ -3247,12 +3280,12 @@ version of the script to the postdoc’s repo with a merge request.</p>
 developing can help make the code review process a lot more efficient.
 Asynchronous feedback removes the time pressure but can be easily
 forgotten!</p>
-<div id="testimonial2" class="callout testimonial">
+<div id="testimonial3" class="callout testimonial">
 <div class="callout-square">
 <i class="callout-icon" data-feather="heart"></i>
 </div>
 <div class="callout-inner">
-<h3 class="callout-title">Testimonial<a class="anchor" aria-label="anchor" href="#testimonial2"></a>
+<h3 class="callout-title">Testimonial<a class="anchor" aria-label="anchor" href="#testimonial3"></a>
 </h3>
 <div class="callout-content">
 <p>Reviewing more than 400 lines of code (LoC) can have an adverse
@@ -3286,14 +3319,14 @@ typically a fast, flexible, and interactive process.</p>
 </div>
 </div>
 </div>
-<div id="accordionSolution1" class="accordion challenge-accordion accordion-flush">
+<div id="accordionSolution2" class="accordion challenge-accordion accordion-flush">
 <div class="accordion-item">
-<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
-  <h4 class="accordion-header" id="headingSolution1">
+<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
+  <h4 class="accordion-header" id="headingSolution2">
   Github features to help with code review (Click to see)
   </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
+<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
 <div class="accordion-body">
 <p><strong>Commit changes</strong>: uploading snapshots when the code
 changes. The history of all changes are therefore saved and can be
@@ -3394,12 +3427,12 @@ to look for when code reviewing</em></a></em></p>
 <div class="section level3">
 <h3 id="benefits-of-code-review">Benefits of Code Review<a class="anchor" aria-label="anchor" href="#benefits-of-code-review"></a>
 </h3>
-<div id="testimonial3" class="callout testimonial">
+<div id="testimonial4" class="callout testimonial">
 <div class="callout-square">
 <i class="callout-icon" data-feather="heart"></i>
 </div>
 <div class="callout-inner">
-<h3 class="callout-title">Testimonial<a class="anchor" aria-label="anchor" href="#testimonial3"></a>
+<h3 class="callout-title">Testimonial<a class="anchor" aria-label="anchor" href="#testimonial4"></a>
 </h3>
 <div class="callout-content">
 <p>In a group of 11 programs developed by the same group of people, the
@@ -3559,68 +3592,6 @@ researchers or collaborators in different time zones.</li>
 </ul>
 </div>
 </div>
-</div>
-<div class="section level3">
-<h3 id="modular-programming-functions">Modular Programming (Functions)<a class="anchor" aria-label="anchor" href="#modular-programming-functions"></a>
-</h3>
-<!--
-- do a diagram of directories
-- no copying and pasting
-- mindset stable and not changed immutably
--->
-<div id="testimonial4" class="callout testimonial">
-<div class="callout-square">
-<i class="callout-icon" data-feather="heart"></i>
-</div>
-<div class="callout-inner">
-<h3 class="callout-title">Testimonial<a class="anchor" aria-label="anchor" href="#testimonial4"></a>
-</h3>
-<div class="callout-content">
-<p><em>My postdoc wants to work with messy genomics data. I know my
-previous postdoc had to do the same thing and it took her months…. but
-it’s difficult to read her files so my new postdoc will have to work it
-out again.</em></p>
-</div>
-</div>
-</div>
-<p>Applying methods from one person’s work and applying it to another
-problem can take weeks, if not months, of work. Applying methods from
-publications is even harder: static PDF files can’t describe the lines
-of code and data that lead to those discoveries. This is an increasingly
-important problem in the face of growing mistrust in science, and a
-reproducibility crisis plaguing the sciences.</p>
-<p>Instead, functional programming is about writing code that works as
-modular steps. Each step is clearly commented on and carefully produced
-so that it can be reused in different contexts. Often when you are
-analysing data, you need to repeat the same task many times. For
-example, you might have several files that all need loading and clean in
-the same way, or you might need to perform the same analysis for
-multiple species or parameters. Rather than copying and pasting, writing
-a function and calling that function leads to fewer errors and confusion
-overall.</p>
-<p>We can think of this on a broad scale, say one student’s
-computational work has the following steps, where blue shows data
-cleaning, and yellow the analysis and statistics.</p>
-<figure><img src="../fig/IMP-pipeline1.png" alt="drawing" width="600" class="figure mx-auto d-block"></figure><p>Another student can take reuse the data cleaning and initial
-visualisation steps because her data was from the same source and is in
-the same format. She can later add her own model:</p>
-<figure><img src="../fig/IMP-pipeline2.png" alt="drawing" width="600" class="figure mx-auto d-block"></figure><p>On the micro-scale, functional programming ensures that each code
-file itself is comprised of modular blocks, whether for data processing,
-analysis pipeline, simulation and so on. Depending on your programming
-language, these may be used as a package or a library or saved in files
-that are available for installation. Just the same as the diagram above,
-making sure functions are robust and reuseable means they can be shared
-throughout different workflows and for different projects.</p>
-<blockquote>
-<p>Training in functional programming is usually an excellent
-pre-requisite for members of your lab.</p>
-</blockquote>
-<p>A first step can be to <strong>draw out</strong> and create diagrams
-to plan code before starting and identifying the modular steps involved.
-This does not require technical knowledge of a language and is,
-therefore, a great exercise for direct supervision. You can find
-practical details on reproducible code in the <a href="https://www.britishecologicalsociety.org/publications/guides-to" class="external-link">Guides
-to Better Science by British Ecological Society</a>.</p>
 </div>
 </section></section><section id="aio-27_publications"><p>Content from <a href="27_publications.html">Managing publication</a></p>
 <hr>
@@ -4450,8 +4421,8 @@ and code, if you want for the paper to come out first.</p>
   "url": "https://carpentries-incubator.github.io/managing-computational-projects/instructor/aio.html",
   "identifier": "https://carpentries-incubator.github.io/managing-computational-projects/instructor/aio.html",
   "dateCreated": "2021-08-20",
-  "dateModified": "2023-08-08",
-  "datePublished": "2023-08-08"
+  "dateModified": "2023-08-11",
+  "datePublished": "2023-08-11"
 }
 
   </script><script>
