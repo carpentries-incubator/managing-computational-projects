@@ -6,12 +6,13 @@ exercises: 10
 
 ::::::::::::::::::::::::::::::::::::::: objectives
 
-- Understand the basics of coding
+- Understand the basics of coding 
 - Understand the advantages of modular code
 - How to foster good practices:
   - using code review
   - using tests
-
+- Discuss the importance of code quality, modular programming, and code testing for reusable error-free code.
+- Encourage researchers to combine code with documentation to communicate their work.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 

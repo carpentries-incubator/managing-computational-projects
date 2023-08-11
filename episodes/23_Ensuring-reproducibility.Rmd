@@ -7,9 +7,10 @@ exercises: 10
 ::::::::::::::::::::::::::::::::::::::: objectives
 
 - Understand the different concepts related to reproducibility.
-- Present tools for computer reproducibility (long term).
+- Learn about methods to capture reproducible research environments.
 - Understand the concept of provenance and version control.
-- Understand the power and pitfalls of git
+- Understand the power and pitfalls of Git
+
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -35,7 +36,7 @@ exercises: 10
 
 ::::::::::::::::::::::::::::::::::::::::::::::: discussion
 
-- Which of the OS principles are you already implementing in your work and how?
+- Which of the reproducible research principles are you already implementing in your work and how?
 
 - How do you currently version control your projects? What changes will you introduce to ensure fair credit and citation of your and your team's work?
 
