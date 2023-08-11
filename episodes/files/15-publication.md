@@ -6,7 +6,6 @@ title: Publication and release
 
 ![evolution toward open research](fig/evolution-open-research.png)
 
-
 While the output of research projects is usually centred around publishing a journal article, this format of science communication and knowledge sharing is increasingly restrictive with the new ways scientific research is conducted. The requirements from journals themselves is also expanding, you are now often asked to upload data sets and code as part of your publication. Releasing data is increasingly a requirement from funding bodies, and outputs from research groups can go beyond a single paper, releasing tools and methods that can be used worldwide.
 
 In general, there are different degrees of openness, depending on what, when and how research outputs are shared. 
@@ -75,7 +74,7 @@ Researchers often worry that they need to hide their code to prevent others stea
 
 ## Making your research object citable
 
-<img src="fig/DOI.*" alt="This image shows three boxes with materials on top. The main box in the middle has 'identifiers' written on it with three discs on top of it that are labelled 'data sets'. Both boxes by their side have journal articles on top of them. An arrow on the top of the image points to these images as being 'Digital Object Identifiers'. There is text at the bottom of the image which says 'Persistent', 'Unique', 'Trusted'." width="500"/>
+<img src="fig/DOI.jpg" alt="This image shows three boxes with materials on top. The main box in the middle has 'identifiers' written on it with three discs on top of it that are labelled 'data sets'. Both boxes by their side have journal articles on top of them. An arrow on the top of the image points to these images as being 'Digital Object Identifiers'. There is text at the bottom of the image which says 'Persistent', 'Unique', 'Trusted'." width="500"/>
 
 *Digital Object Identifiers or DOIs are persistent, unique and trusted. _The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).*
 
@@ -169,7 +168,14 @@ When using specifically R, you could release R packages on [CRAN](https://cran.r
 
 ::::::::::::::::::::::::
 
+:::::: callout
 
+It might be particularly important to credit all people who have indeed participated in the research. The use of a contribution statement in the paper (see [https://tenzing.club](https://tenzing.club)) or contribution section in the repository readme can be useful (see [https://allcontributors.org](https://allcontributors.org)).
+
+For contributors who will not be in the author list of the main paper, one can make them authors of the published dataset/code, and/or add them in the aknowledgements. 
+The first solution has the advantage to be sent to orcid (if people have an orcid account) such that the contribution is more visible and measurable.
+
+::::::
 <!--
 ## Code release
 
@@ -212,8 +218,8 @@ In addition to the referenced linked under different sections in this lesson, pl
 
 :::::::::::::::::::::::::::::::::::::::  challenge
 
-Add a CITATION.cff file to your Github repository.
-
+- Add a CITATION.cff file to your Github repository.
+- Create a tenzing spreadsheet to record contribution.
 ::::::::::::::::::::::::::::::::::::::: 
 
 
@@ -221,6 +227,7 @@ Add a CITATION.cff file to your Github repository.
 
 
 - Online Persistent Identifiers or Digital Object Identifiers are useful for releasing and citing different versions of research objects.
+- Planning for publication will change your workflow, making these decisions early and allocating time to implement your decision is key 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
 
