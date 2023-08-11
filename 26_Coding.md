@@ -6,8 +6,13 @@ exercises: 10
 
 ::::::::::::::::::::::::::::::::::::::: objectives
 
-- First learning objective. (FIXME)
-- To make informed decisions using data.
+- Understand the basics of coding 
+- Understand the advantages of modular code
+- How to foster good practices:
+  - using code review
+  - using tests
+- Discuss the importance of code quality, modular programming, and code testing for reusable error-free code.
+- Encourage researchers to combine code with documentation to communicate their work.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -17,87 +22,43 @@ exercises: 10
 - What is literate programming?
 - How to use data visualisation for insight and communication?
 
-::::::::::::::::::::::::::::::::::::::::::::::::::
-
-::::::::::::::::::::::::::::::::::::::: objectives
-
-- Explain different processes and best practices for code review.
-- Discuss tips, tricks and benefits of code review.
-- Share some ways to involve all group members in code review.
-
-::::::::::::::::::::::::::::::::::::::::::::::::::
-
-:::::::::::::::::::::::::::::::::::::::: questions
-
 - What are the main objectives and best practices for testing and reviewing code?
-- What can continous integration help?
-- How can group leaders facilitate a collaborative environment for code review?
+- When can continuous integration help?
+
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
+## Basics of coding
+
+As a project manager, you do not need to code or know how coding works.
+However, it is important to understand the data workflow and foster documentation, as well as coding best practices, such that you can understand the analysis. 
+
+This chapter gives a small introduction into coding and data analysis workflow, code modularity, and then how foster good code with tests and review.
 
 
 
 
 
-## Planning for reproducibility and provenance
 
+ 
 
+## Analysis workflow
 
-### Literate Programming
+A usual workflow involves some data processing, before the actual analysis can be done. Statistical analysis and figure production should be decided before the data is looked at to prevent harking. Explorative analysis (looking for correlation and interpretation of the results) can be done anytime, as long as no hypothesis is rejected from that analysis. 
 
-Literate programming is about comments and documentation and telling other humans what is happening in your pipeline.
-Depending on the scale of your computational projects, you may use one or multiple of these options:
+![](fig/dataflow.png)
 
-- Inline comments when writing code (directly written in the script file)
-- A README file describing what your code does
-- An online documentation as a user and developer guide with step-by-step explanation
-- RMarkdown or Jupyter Notebook with examples
+### Data (pre-)processing
 
-Most of these files can be written in Markdown.
-Markdown is a way of writing plain text in any simple text editor that doesn't need specific (proprietary) software to read it (no need for Microsoft Word), which can be converted to many formats including HTML, PDF or even Word documents.
-Many online tools including GitHub support Markdown files (.md files).
+Code that cleans and processes data (**processing code**) provides the very beginning of the data analysis pipeline: starting with raw data and resulting in processed data.
+When the data was not collected in a computer readable format, or when metadata is missing, this step can be the most time consuming of all.
 
-Marking up your text and code is quite simple:
-
-- `**bold**` --> **bold**
-- `_italics_` --> *italics*
-- "`code snippet`" --> `code snippet`
-- `[LINK](https://carpentries-incubator.github.io/managing-computational-projects/)` --> [LINK](https://carpentries-incubator.github.io/managing-computational-projects/)
-
-You can do much more:
-
-- `# Title` (first level header)
-- `## Heading` (second level header)
-- `### Subheading` (third level header)
-- `![IMAGE](image-path/link)` (insert via a link)
-
-See more in the [MarkDown cheatsheet](https://www.markdownguide.org/cheat-sheet/).
-
-MarkDown files are however static, meaning that you can only read the files, but not execute code.
-[R Markdown](https://rmarkdown.rstudio.com/) and [Jupyter Notebook](https://jupyter.org/) provide an interactive environment to work and share your code with documentation and examples for your project.
-For practice details about R Markdown, please see [The Definitive Guide](https://bookdown.org/yihui/rmarkdown) and for Jupyter Notebook, please see [Jupyter/IPython Notebook Quick Start Guide](https://jupyter-notebook-beginner-guide.readthedocs.io/en/latest/what_is_jupyter.html]).
-
-These options are useful for communicating about the analysis workflow and results at any stage with other collaborators or the wider research community when developing open source code.
-Please note that sharing code in any format would require your collaborators to run and test your code locally.
-There are easier options to allow to run code in the browser using [Binder](https://mybinder.org/), which we will discuss in the last lesson.
-
-## coding tips and tricks
-
-## Pipeline
-
-data processing - statistical analysis plan - visualisation - stats.
-
-### Data Wrangling and Cleaning
 
 > Data wrangling involves cleaning data so it can be easily read and analysed by machines. It can also involve integration, extraction, removing missing points, and anything that makes data useable and functional. Regardless of the methods, the code involved with data cleaning steps should be carefully documented so that the steps involved can be repeated from raw data to cleaned data.
-> 
-> When working with data sets, `ggplot` (in R) or `matplotlib`/`seaborn` (in Python) libraries provide attractive figures that can be produced very quickly. Visualising data should not not wait for the point of publication, and can be used to explore data from the start, and also illustrate methodology. This is particularly valuable in Jupyter Notebooks. Code to produce figures should be literate, functional, reuseable in the same way as data cleaning and analysis code. That way future visualisations can be easily updated or reused.
 
-### Data wrangling
 
-#### Definition
 
+::::::::instructor
 Data wrangling—also called data cleaning, data remediation, or data munging—refers to a variety of processes designed to transform raw data into more readily used formats. The exact methods differ from project to project depending on the data you're leveraging and the goal you're trying to achieve.
 
 Some examples of data wrangling include:
@@ -107,27 +68,32 @@ Some examples of data wrangling include:
 - Deleting data that's either unnecessary or irrelevant to the project you're working on,
 - Identifying extreme outliers in data and either explaining the discrepancies or removing them so that analysis can take place.
 
+::::::::
+
 Data wrangling can be a manual or automated process. In scenarios where datasets are exceptionally large, automated data cleaning becomes a necessity.
 
-Code that cleans and processes data (**processing code**) provides the very beginning of the data analysis pipeline: starting with raw data and resulting in processed data.
 
-<img src="https://i.imgur.com/YnWOBja.png" alt="drawing" width="800"/>
+
 
 Cleaning data means it can be easily read and analysed by machines and used in analysis pipelines.
-It can involve changing labels, subsetting, integration, extraction, removing missing points, and anything that makes data useable and functional.
+It can involve changing labels, subsetting, integration, extraction, removing missing points, and anything that makes data usable and functional.
+
 Regardless of the methods, the code involved in data cleaning steps should be carefully documented so that the steps involved can be repeated from raw data to clean data.
 When reviewing this type of code, consider whether the steps involved are readable and in the correct order.
+Especially, when filtering data out, this should be consistent and indicated in the main method description.
 
-## Data Analysis and Statistics
+## Data visualisation, Analysis and Statistics
 
-> (Need to discuss this further, what is patronising?)
+:::warnings
+Visualising data before designing the data analysis is a form of harking, as you will cherry pick your data (filtering some data out) or cherry pick an analysis (what looks promising). You should always design your analysis before visualising the data, or use visualised data as training data, not included in the final analysis.
+:::
 
-With readable, clean, processed data that you have explored using figures, the next stage of the data pipeline is analysis. There may be many variables that are related directly or indirectly to the objective. For that, we first need to study about all the variables whether it is nominal or ordinal. Preparing the data for analysis is done after understanding the data. While understanding we get to know about missing in the data, finding the independent and dependent variables, etc.
 
-<img src="https://i.imgur.com/YnWOBja.png" alt="drawing" width="800"/>
+With readable, clean, processed data, the next stage of the data pipeline is analysis. 
+
 
 Depending on your computational project, this may involve elaborate and complex analyses, modelling, simulation, and even machine learning.
-However, even if this step is just running a single statistics test, keeping the code modular in clearly defined steps is key.
+However, even if this step is just running a single statistics test, keeping the code documented and modular in clearly defined steps is key.
 
 Here is an example of applying a Butterworth filter to some data in Python.
 The specifics don't matter, you can consider this code pseudocode for any kind of analysis step.
@@ -135,7 +101,11 @@ The specifics don't matter, you can consider this code pseudocode for any kind o
 ```
 genomeProject/analysis/01_butterworth_filter.py
 
+#### 01_butterworth_filter, v1.0
+##this code read processed data and apply a low pass filter,
+## the output variable is called  filtered_data
 
+#  Import dependencies
 import numpy as np
 from scipy.signal import butter,filtfilt
 
@@ -161,9 +131,37 @@ def butter_lowpass_filter(data, cutoff, fs, order):
     return filtered_data
 
 # (D) Apply Butterworth Filter Function to the data
-filtered_data = butter_lowpass_filter(data, cutoff, fs, order)
+filtered_data = butter_lowpass_filter(df, cutoff, fs, order)
 
 ```
+
+
+::::::: challenge
+```
+genomeProject/analysis/01_bf.py
+
+import numpy as np
+from scipy.signal import butter,filtfilt
+
+df = pd.read_csv('genomeProject/data/220103_GenomicData_processed.csv')
+
+normc = 2 / 15
+b, a = butter(2, normc, btype='low', analog=False)
+filtered_data = filtfilt(b, a, df)
+
+
+```
+The code above will give the same result, why is the first one better on the long run ?
+
+:::solution
+- easier to read for non-coders
+- commented
+- variables easy to change
+- better names
+- function reusable + possibility to write tests
+:::
+
+:::::::
 
 (A) the processed data is read into the script. Next, (B) the fixed parameters are set and named with comments.
 These fixed numbers are saved as variables with names.  In (C) the filter itself is written as a Python Function, which means it can be called multiple times throughout the script.
@@ -173,6 +171,7 @@ You can also call this function in other scripts.
 It can make sense to produce a file with the functions inside that can be imported into different scripts in case other projects also have similar methods.  This is known as a package or library.
 This means altering a function doesn't mean searching across every file on every project and changing it dozens of times.
 
+::::instructor
 > ***Case Study***
 > 
 > *A postdoc wrote a helpful series of functions for data analysis with neurophysiology recordings.
@@ -185,15 +184,17 @@ This means altering a function doesn't mean searching across every file on every
 > With the functions saved in a library, the PhD students can import them into their scripts.
 > Now when the postdoc changes the functions and saves them to the repo, PhD students can choose to update their version of the functions.
 > The students should document which version they have used.*
+::::
 
 The output of the analysis code may be statistics results that are reported in a paper, and therefore the steps required to reproduce them are critically important.
 
-## Figures for Communicating Results
+### Figures for Communicating Results
+
+> When working with data sets, `ggplot` (in R) or `matplotlib`/`seaborn` (in Python) libraries provide attractive figures that can be produced very quickly. Visualising data should not not wait for the point of publication, and can be used to explore data from the start, and also illustrate methodology. This is particularly valuable in Jupyter Notebooks. Code to produce figures should be literate, functional, reuseable in the same way as data cleaning and analysis code. That way future visualisations can be easily updated or reused.
 
 With the analysis complete, data visualisation is usually used to communicate results.
-The code used to produce figures is the next step in the data pipeline.
+The code used to produce figures is often the next step in the data pipeline.
 
-<img src="https://i.imgur.com/YnWOBja.png" alt="drawing" width="800"/>
 
 For publications or posters, well-constructed figures improve science communication and help improve the impact of your research.
 Being able to produce multipanel figures with annotations and different colour schemes is complex but one of the advantages of learning a data science language.
@@ -212,11 +213,11 @@ Producing figures in Excel is limiting and often frustrating, particularly as th
 > *Spatial transcriptome profiling by MERFISH reveals subcellular RNA compartmentalization and cell cycle-dependent gene expression, Xia et al 2019*
 > *[https://www.pnas.org/doi/10.1073/pnas.1912459116](https://www.pnas.org/doi/10.1073/pnas.1912459116)*
 
-<img src="https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41593-019-0559-0/MediaObjects/41593_2019_559_Fig1_HTML.png?as=webp" alt="box plots" width="600"/>
+<img src="https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41593-019-0559-0/MediaObjects/41593_2019_559_Fig1_HTML.png" alt="box plots" width="600"/>
 
 These figures are more than just visualising data, they're about communication and require adjusting the styles and formats within `ggplot` or `matplotlib` or other libraries.
 
-As before, any code used to produce visualisations should be reproducible and literature. Often in peer review figures need to be adjusted or altered, and having the code to do so makes the process much simpler.
+As before, any code used to produce visualisations should be reproducible and literate. Often in peer review figures need to be adjusted or altered, and having the code to do so makes the process much simpler.
 
 It is usually cleaner to keep data visualisation code separate from analysis, just to keep a code base organised and modular.
 
@@ -235,94 +236,116 @@ It is usually cleaner to keep data visualisation code separate from analysis, ju
 > 
 > *Sisneros et al (2016) Chasing Rainbows: A Color-Theoretic Framework for Improving and Preserving Bad Colormaps. [https://doi.org/10.1007/978-3-319-50835-1\_36](https://doi.org/10.1007/978-3-319-50835-1_36)*
 
-- Keeping readability in mind with text size/font and similar considerations
-  \=======
-- "First key point. Brief Answer to questions. (FIXME)"
+Also one should keep readability in mind with text size/font and similar considerations
 
-***
 
-## Data exploration and insights
 
-Let us now create two different DataFrames and perform the merging operations on it.
-
-```
-# import the pandas library
-import pandas as pd
-left = pd.DataFrame({
-         'id':[1,2,3,4,5],
-         'Name': ['Alnus', 'Agrostis', 'Betula', 'Vaccinium', 'Dactylis'],
-         'subject_id':['sub1','sub2','sub4','sub6','sub5']})
-right = pd.DataFrame(
-         {'id':[1,2,3,4,5],
-         'Name': ['Calune', 'Fallopia', 'Stachys', 'Stellaria', 'tiphy'],
-         'subject_id':['sub2','sub4','sub3','sub6','sub5']})
-print left
-print right
-```
 
 - Data Visualisation as a tool
   - Reference: [https://helenajambor.wordpress.com/2022/01/04/science-visualization-trends-of-2021/](https://helenajambor.wordpress.com/2022/01/04/science-visualization-trends-of-2021/)
 
 ## Statistical analysis
 
-Selection of appropriate statistical method is very important step in analysis of data. A wrong selection of the statistical method not only creates some serious problem during the interpretation of the findings but also affects the conclusion of the study. In statistics, for each specific situation, statistical methods are available to analysis and interpretation of the data. To select the appropriate statistical method, one need to know the assumption and conditions of the statistical methods, so that proper statistical method can be selected for data analysis. Other than knowledge of the statistical methods, another very important aspect is nature and type of the data collected and objective of the study because as per objective, corresponding statistical methods are selected which are suitable on given data. Incorrect statistical methods can be seen in many conditions like use of unpaired t-test on paired data or use of parametric test for the data which does not follow the normal distribution, etc., Two main statistical methods are used in data analysis: descriptive statistics, which summarizes data using indexes such as mean, median, standard deviation and another is inferential statistics, which draws conclusions from data using statistical tests such as student's t-test, ANOVA test, etc.[
+Selection of appropriate statistical method is very important step in analysis of data. A wrong selection of the statistical method not only creates some serious problem during the interpretation of the findings but also affects the conclusion of the study. In statistics, for each specific situation, statistical methods are available to analysis and interpretation of the data. To select the appropriate statistical method, one need to know the assumption and conditions of the statistical methods, so that proper statistical method can be selected for data analysis. Other than knowledge of the statistical methods, another very important aspect is nature and type of the data collected and objective of the study because as per objective, corresponding statistical methods are selected which are suitable on given data. Incorrect statistical methods can be seen in many conditions like use of unpaired t-test on paired data or use of parametric test for the data which does not follow the normal distribution, etc., Two main statistical methods are used in data analysis: descriptive statistics, which summarizes data using indexes such as mean, median, standard deviation and another is inferential statistics, which draws conclusions from data using statistical tests such as student's t-test, ANOVA test, and many others
 
-### Type and distribution of data used
+Statistics goes outside the scope of this course.
 
-For the nominal, ordinal, discrete data, we use nonparametric methods while for continuous data, parametric methods as well as nonparametric methods are used. For example, in the regression analysis, when our outcome variable is categorical, logistic regression while for the continuous variable, linear regression model is used ([https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6206790/](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6206790/)).
 
-The choice of the most appropriate representative measure for continuous variable is dependent on how the values are distributed. If continuous variable follows normal distribution, mean is the representative measure while for non-normal data, median is considered as the most appropriate representative measure of the data set.
+## Coding best practices
 
-Similarly in the categorical data, proportion (percentage) while for the ranking/ordinal data, mean ranks are our representative measure. In the inferential statistics, hypothesis is constructed using these measures and further in the hypothesis testing, these measures are used to compare between/among the groups to calculate significance level.
+The order of a script is usually:
 
-> **Case Study**:
+- main comments on the script function and goals
+- importing all dependencies
+- reading inputs, naming outputs
+- listing all variables
 
-> *A Researcher wants to compare the diastolic blood pressure (DBP) between three age groups (years) (\<30, 30--50, >50). If the DBP variable is normally distributed,  > mean value is the representative measure and null hypothesis stated that mean DBP values of the three age groups are statistically equal. In case of non-normal DBP
-> variable, median value is the representative measure and null hypothesis stated that distribution of the DBP values among three age groups are statistically equal.
-> In above example, one-way ANOVA test is used to compare the means when DBP follows normal distribution while Kruskal--Wallis H tests/median tests are used to compare > the distribution of DBP among three age groups when DBP follows non-normal distribution.*
+The latter element is particularly important.
+Variables are often a decision taken (for instance it could be some threshold value used for filtering data out, a type of low-pass filter used, or a time window that sub-set the data).
+Defining them at the start of the code makes it easier to change and spot.
 
-> *Similarly, suppose he wants to compare the mean arterial pressure (MAP) between treatment and control groups, if the MAP variable follows normal distribution,
-> independent samples t-test while in case follow non-normal distribution, Mann--Whitney U test are used to compare the MAP between the treatment and control groups.*
+In practice, your figure and analysis may well depend on the version of the data, code and these variables, so it is often interesting to include this information into the output of the code.
+This may take the form of a pdf file, with the figure on the first page, and a table of variables and metadata on the following pages.
 
-### Other Statistical methods
+## Literate Programming
 
-- Logistic regression analysis is used to predict the categorical outcome variable using independent variable(s).
-- Survival analysis is used to calculate the survival time/survival probability, comparison of the survival time between groups  as well as to identify the predictors of the survival time of the subjects (Cox regression analysis).
-- Receiver operating characteristics (ROC) curve is used to calculate area under curve (AUC) and cutoff values for given continuous variable with corresponding diagnostic accuracy using categorical outcome variable.
-- Diagnostic accuracy of the test method is calculated as compared with another method (usually as compared with gold standard method).
-- Sensitivity (proportion of the detected disease cases from the actual disease cases), specificity (proportion of the detected non-disease subjects from the actual non-disease subjects), overall accuracy (proportion of agreement between test and gold standard methods to correctly detect the disease and non-disease subjects) are the key measures used to assess the diagnostic accuracy of the test method.
-- Other measures like false negative rate (1-sensitivity), false-positive rate (1-specificity), likelihood ratio positive (sensitivity/false-positive rate), likelihood ratio negative (false-negative rate/Specificity), positive predictive value (proportion of correctly detected disease cases by the test variable out of total detected disease cases by the itself), and negative predictive value (proportion of correctly detected non-disease subjects by test variable out of total non-disease subjects detected by the itself) are also used to calculate the diagnostic accuracy of the test method.
+Literate programming is about comments and documentation and telling other humans what is happening in your pipeline.
+Depending on the scale of your computational projects, you may use one or multiple of these options:
 
-Summary of these methods can be found here [https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6639881/table/T3/?report=objectonly](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6639881/table/T3/?report=objectonly)
+- Inline comments when writing code (directly written in the script file)
+- A README file describing what your code does
+- An online documentation as a user and developer guide with step-by-step explanation
+- Quarto/RMarkdown or Jupyter Notebook
 
-## Communicating Results
+Most of these files can be written in Markdown.
 
-- What elements are involved
+Often, literate programming refers to these notebooks form, where the documentation and the code are integrated in one file, which produce one output (html of pdf most of the time).
 
-## Producing figures
-
-- Best practices
-- Versions
-- Publication with persistent identifier
-
-## Conclusion
-
-- What gaps have we filled in this section
-- Project management overview
+This course can be thought as a literate programming content. Its source is markdown and Rmarkdown files, its output is a pdf.
 
 ## Resources for taking this to next level
 
 - [https://the-turing-way.netlify.app/collaboration/new-community.html](https://the-turing-way.netlify.app/collaboration/new-community.html)
 - Data Visualisation as a tool
   - Reference: [https://helenajambor.wordpress.com/2022/01/04/science-visualization-trends-of-2021/](https://helenajambor.wordpress.com/2022/01/04/science-visualization-trends-of-2021/)
-
-
-
+  
 :::::::::::::::::::::::::::::::::::::::: keypoints
 
-- First key point. Brief Answers to questions. (FIXME)
+- Can you follow the analysis workflow without reading the code
+- Is the code well commented and structures
+- Are the figure created accessible
+- Is the statistical analysis founded
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
+
+
+
+
+
+
+
+
+### Modular Programming (Functions)
+
+<!--
+- do a diagram of directories
+- no copying and pasting
+- mindset stable and not changed immutably
+-->
+
+:::::::::::::::::::::::::::::::::::::  testimonial
+
+*My postdoc wants to work with messy genomics data. I know my previous postdoc had to do the same thing and it took her months.... but it's difficult to read her files so my new postdoc will have to work it out again.*
+
+::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Applying methods from one person's work and applying it to another problem can take weeks, if not months, of work.
+Applying methods from publications is even harder: static PDF files can't describe the lines of code and data that lead to those discoveries.
+This is an increasingly important problem in the face of growing mistrust in science, and a reproducibility crisis plaguing the sciences.
+
+Instead, functional programming is about writing code that works as modular steps.
+Each step is clearly commented on and carefully produced so that it can be reused in different contexts.
+Often when you are analysing data, you need to repeat the same task many times.
+For example, you might have several files that all need loading and clean in the same way, or you might need to perform the same analysis for multiple species or parameters.
+Rather than copying and pasting, writing a function and calling that function leads to fewer errors and confusion overall.
+
+We can think of this on a broad scale, say one student's computational work has the following steps, where blue shows data cleaning, and yellow the analysis and statistics.
+
+<img src="fig/IMP-pipeline1.png" alt="drawing" width="600"/>
+
+Another student can take reuse the data cleaning and initial visualisation steps because her data was from the same source and is in the same format. She can later add her own model:
+
+<img src="fig/IMP-pipeline2.png" alt="drawing" width="600"/>
+
+On the micro-scale, functional programming ensures that each code file itself is comprised of modular blocks, whether for data processing, analysis pipeline, simulation and so on.
+Depending on your programming language, these may be used as a package or a library or saved in files that are available for installation.
+Just the same as the diagram above, making sure functions are robust and reuseable means they can be shared throughout different workflows and for different projects.
+
+> Training in functional programming is usually an excellent pre-requisite for members of your lab.
+
+A first step can be to **draw out** and create diagrams to plan code before starting and identifying the modular steps involved.
+This does not require technical knowledge of a language and is, therefore, a great exercise for direct supervision.
+You can find practical details on reproducible code in the [Guides to Better Science by British Ecological Society](https://www.britishecologicalsociety.org/publications/guides-to).
 
 
 
@@ -660,52 +683,5 @@ To learn more about different CI tools and how to use them, please read the [Con
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
 
-
-
-
-
-
-
-### Modular Programming (Functions)
-
-<!--
-- do a diagram of directories
-- no copying and pasting
-- mindset stable and not changed immutably
--->
-
-:::::::::::::::::::::::::::::::::::::  testimonial
-
-*My postdoc wants to work with messy genomics data. I know my previous postdoc had to do the same thing and it took her months.... but it's difficult to read her files so my new postdoc will have to work it out again.*
-
-::::::::::::::::::::::::::::::::::::::::::::::::::
-
-Applying methods from one person's work and applying it to another problem can take weeks, if not months, of work.
-Applying methods from publications is even harder: static PDF files can't describe the lines of code and data that lead to those discoveries.
-This is an increasingly important problem in the face of growing mistrust in science, and a reproducibility crisis plaguing the sciences.
-
-Instead, functional programming is about writing code that works as modular steps.
-Each step is clearly commented on and carefully produced so that it can be reused in different contexts.
-Often when you are analysing data, you need to repeat the same task many times.
-For example, you might have several files that all need loading and clean in the same way, or you might need to perform the same analysis for multiple species or parameters.
-Rather than copying and pasting, writing a function and calling that function leads to fewer errors and confusion overall.
-
-We can think of this on a broad scale, say one student's computational work has the following steps, where blue shows data cleaning, and yellow the analysis and statistics.
-
-<img src="fig/IMP-pipeline1.png" alt="drawing" width="600"/>
-
-Another student can take reuse the data cleaning and initial visualisation steps because her data was from the same source and is in the same format. She can later add her own model:
-
-<img src="fig/IMP-pipeline2.png" alt="drawing" width="600"/>
-
-On the micro-scale, functional programming ensures that each code file itself is comprised of modular blocks, whether for data processing, analysis pipeline, simulation and so on.
-Depending on your programming language, these may be used as a package or a library or saved in files that are available for installation.
-Just the same as the diagram above, making sure functions are robust and reuseable means they can be shared throughout different workflows and for different projects.
-
-> Training in functional programming is usually an excellent pre-requisite for members of your lab.
-
-A first step can be to **draw out** and create diagrams to plan code before starting and identifying the modular steps involved.
-This does not require technical knowledge of a language and is, therefore, a great exercise for direct supervision.
-You can find practical details on reproducible code in the [Guides to Better Science by British Ecological Society](https://www.britishecologicalsociety.org/publications/guides-to).
 
 

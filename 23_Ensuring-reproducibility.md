@@ -7,9 +7,10 @@ exercises: 10
 ::::::::::::::::::::::::::::::::::::::: objectives
 
 - Understand the different concepts related to reproducibility.
-- Present tools for computer reproducibility (long term).
+- Learn about methods to capture reproducible research environments.
 - Understand the concept of provenance and version control.
-- Understand the power and pitfalls of git
+- Understand the power and pitfalls of Git
+
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -56,8 +57,7 @@ In order to make results reproducible, one needs to access and reuse the data an
 Since both code and data may evolve over time (errors may be found, variables may be changed), it is important to link the figure created with a specific version of the code and the data, this is called keeping provenance information.
 
 
-
->!figure provenance
+![](fig/data-provenance.jpg){alt='A figure explaining the concept of provenance: Silos labeled raw data, preprocessed data, analysis, and paper are connected and points representing data are flowing from the first to the last silo.'}
 
 
 
@@ -86,7 +86,9 @@ The idea is to facilitate others in recreating the setup process necessary to re
 - **Dependency managers** such as [Conda](https://docs.conda.io/en/latest/) keep dependencies updated and make sure the same version of dependencies used in the development environments are also used when reproducing a result.
 - **Containers** such as [Docker](https://www.docker.com/) is a way to create computational environments with configurations required for developing, testing and using research software isolated/independent from other applications.
 - **Literate Programming** using [Jupyter Notebook](https://jupyter.org/) is an extremely powerful way to use a web-based online interactive computing environment to execute code and script while adding notes and additional information about the application.
-  To learn more about how to create a reproducible environment, the chapter on [Reproducible Environments](https://the-turing-way.netlify.app/reproducible-research/renv.html) in *The Turing way* is a good place to start.
+  
+  
+
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -94,10 +96,12 @@ The idea is to facilitate others in recreating the setup process necessary to re
 
 Researchers' working environments evolve as they update software, install new software, and move to different computers.
 If the project environment is not captured and the researchers need to return to their project after months or years (as is common in research), they will be unable to do so confidently.
-a computational environment is a system where a program is run.
+
 This includes features of hardware (such as the numbers of cores in any CPUs) and features of the software (such as the operating system, programming languages, supporting packages, other pieces of installed software, along with their versions and configurations).
 
 ![](https://the-turing-way.netlify.app/_images/computational-environments.jpg){alt='Ways of capturing computational environments'}
+
+To learn more about how to create a reproducible environment, the chapter on [Reproducible Environments](https://the-turing-way.netlify.app/reproducible-research/renv.html) in *The Turing way* is a good place to start.
 
 There are several ways of capturing computational environments. The major ones covered in this chapter will be Package Management Systems, Binder, Virtual Machines, and Containers. Each has its pros and cons, and the most appropriate option for you will depend on the nature of your project.
 They can be broadly split into two categories: those that capture only the software and its versions used in an environment (Package Management Systems), and those that replicate an entire computational environment - including the operating system and customised settings (Virtual Machines and Containers).
@@ -181,25 +185,18 @@ The Contributor Roles Taxonomy [CRediT](https://credit.niso.org/) is a good way 
 
 
 
+::::::::::::::::::::::::::::::::::::::::::::::: discussion
 
-::::::::::::::::::::::::::::::::::::::::::::::: keypoints
-
-- Open Science is an umbrella term that involves best practices for research transparency and reproducibility.
-
-- Version-controlled repository help record different contributions and contributor information openly.
-
-- Online Persistent Identifiers or Digital Object Identifiers are useful for releasing and citing different versions of research objects.
-
-::::::::::::::::::::::::::::::::::::::::::::::::::
-
-::::::::::::::::::::::::::::::::::::::::::::::: exercises
-
-- Which of the OS principles are you already implementing in your work and how?
+- Which of the reproducible research principles are you already implementing in your work and how?
 
 - How do you currently version control your projects? What changes will you introduce to ensure fair credit and citation of your and your team's work?
 
 - What are other measures to ensure reproducibility in your research documentation and that of your team?"
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
+
+
+
+
 
 
