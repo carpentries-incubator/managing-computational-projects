@@ -24,6 +24,7 @@ Meta data allows data to be future proofed for further research and even innovat
 
 Research Data Management (RDM) covers how research data can be stored, described and reused. Data here is used as a generic term to encompass all digital objects. RDM is a vital part of enabling reproducible research.
 RDM ensures efficiency in research workflows, and also greater reach and impact, as data become FAIR (Findable, Accessible, Interoperable and Reusable).
+
 Data should be stored in multiple locations and backed up regularly to prevent loss or data corruption. It is also important to consider the whole life cycle of the data (especially making collected data computer readable) when designing data management plan and tasks.
 
 ## Plan for reproducible research
@@ -31,16 +32,18 @@ Data should be stored in multiple locations and backed up regularly to prevent l
 When planning a reproducible analysis, your data management plan will change. Because you want to avoid any manual wrangling of the data (copy-paste, analysis in excel, ...), you need to take particular care of the format of the raw data, making it if possible computer readable with the programming language you will be using. Also when a software provide you with both raw data and pre-analysed data, you should consider early which file you will be using in your analysis (in most cases, using the raw data will make your analysis more robust and easier to reuse for other researchers). 
 
 When building spreadsheets, one should make them tidy, so they are easy to use in computer programs. 
+
 :::::::::::::::::::::::::::::::::::::::::  callout
 
 ## Tidy spreadsheets
 
 There are very simple rules to facilitate data use, which go into the concept of [tidy data](https://en.wikipedia.org/w/index.php?title=Tidy_data&oldid=962241815). The tidy data format allows for filtering and sorting data easily in spreadsheet software.
 
-![An illustration of tidy data: variables are in columns, observations in rows and there is one value per cell.](ttps://the-turing-way.netlify.app/_images/tidy-1.png)
+![An illustration of tidy data: variables are in columns, observations in rows and there is one value per cell.](fig//tidy-1.png)
 
 [More infos](https://the-turing-way.netlify.app/reproducible-research/rdm/rdm-spreadsheets.html?highlight=tidy#tidy-format-for-spreadsheets)
-:::::::::::::::::::::::::::::::::::::::::  
+
+::::::::::::::::::::::::::::::::::::::::::::::::::
 
 :::::::::::::::::::::::::::::::::::::::::  callout
 
@@ -53,15 +56,51 @@ It stimulates collaboration with others, who will find it easier to understand a
 RDM is cost/time efficient, as you will always be able to find and use your data.
 
 
-::::::::::::::::::::::::::::::::::::::::::::::::::
+:::::::::::::::::::::::::::::::::::::::::
 
 Clearly describing data using documentation and metadata ensures that others know how to access, use and reuse your data, and also enable conditions for sharing and publishing data to be outlined.
+
+## Defining Data
+
+Data are objects that you use and produce during your research life cycle, encompassing data
+sets, software, code, workflow, models, figures, tables, images and videos, interviews, articles. Data are your research asset.
+A good way of thinking about what might be classed as data that needs to be managed is to ask yourself the questions:
+
+- What is the information that I need to use and write about in my paper or book?
+- What information would I need to back up my conclusions?
+- What information is needed by others to understand and possibly replicate the research that I have done?
+  This information is your data.
+
+:::::::::: discussion
+
+- What data are you collecting ?
+- Is it all digitalised?
+- Do you work with an open format, which will be readable in 10 years ?
+
+::::::::::
+  
 
 ## File names and folder structure
 
 While some structure may be given during the project setup, one should keep track of the sub-structure added, make sure the files are saved in the correct folder. In addition, one should make sure that file names are chosen carefully. Indeed, the file name is the first encounter with a file and making names informative can save a lot of time especially when searching for a specific file. File names should be both human and computer readable (conveying information about the file content, in a way a computer can extract it.)
 
 It is important to have written conventions that are easy to find. [turingway chapter](https://the-turing-way.netlify.app/reproducible-research/rdm/rdm-storage.html?highlight=name#file-naming-conventions)
+
+::::challenge
+What date is this date : 01.03.1931
+ 
+January 3st 1931 ? (USA)
+March 1st 1931 ? (the rest of the world)
+
+How to write the date in an excel spreadsheet ? 
+
+::::::::::::::: solution
+ 
+While the standard is 1931-03-01 (YYYY-MM-DD), excel will transform this into a number, the only safe way to deal with dates in Excel is to have 3 columns.
+
+:::::::::::::::
+
+::::
 
 ::::::::::::::: callout
 
@@ -73,9 +112,10 @@ Naming files tips:
 - avoid abbreviation if possible, document them well otherwise.
 - when using dates, use ISO format: yyyy-mm-dd (yyyymmdd can work too)
 - no special characters (no space) in filenames, use - or _
-- use only lowercase
+- use only lowercase or be very careful (linux versus other systems)
 
 see https://speakerdeck.com/jennybc/how-to-name-files
+
 :::::::::::::::
 
 
@@ -116,16 +156,7 @@ The current version of REMBI, including examples from the fields covered by the 
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
-## Defining Data
 
-Data are objects that you use and produce during your research life cycle, encompassing data
-sets, software, code, workflow, models, figures, tables, images and videos, interviews, articles. Data are your research asset.
-A good way of thinking about what might be classed as data that needs to be managed is to ask yourself the questions:
-
-- What is the information that I need to use and write about in my paper or book?
-- What information would I need to back up my conclusions?
-- What information is needed by others to understand and possibly replicate the research that I have done?
-  This information is your data.
 
 ## The Research Data Lifecycle - A Model for Data Management
 
@@ -171,7 +202,7 @@ The FAIR principles facilitate the availability of research data so that others 
 - **Interoperable**: Data needs to be integrated with other data and interoperate with applications or workflows.
 - **Reusable**: Data should be well-described so that they can be used, combined, and extended in different settings.
   
-
+![](fig/fair-principles.jpg){alt='Four FAIR principles depicted.'}
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
 Making data ‘FAIR' is not the same as making it ‘open'. Accessible means that there is a procedure in place to access the data. Data should be as open as possible, and as closed as necessary. It is also important to say that the FAIR principles are aspirational: they do not strictly define how to achieve a state of FAIRness, but rather describe a continuum of features, attributes, and behaviours that will move a digital resource closer to that goal. Even though the FAIR principles have been defined to allow machines to find and use digital objects automatically, they improve the reusability of data by humans as well. The capacity of computational systems to find, access, interoperate, and reuse data, with minimal human intervention, is essential in today's data-driven era.
@@ -264,10 +295,10 @@ Learn more about this in *The Turing Way* chapter on [sharing and archiving Data
 
 :::::::::::::::::::::::::::::::::::::::: keypoints
 
-- Good research data management practices esures findability of your research data.
-- Storing, regular backing-up and archiving prevents data loss.
-- Sharing all types of research data transparently makes them easier to understand and reuse by others.
-- Gives fair recognition to people generating, handling and using data, and further stimulates collaboration with others.
+- All information is present and digitalised
+- Data is safe (backup)
+- Data is FAIR (findable, accessible, interoperable and reusable)
+- Data can be opened
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
