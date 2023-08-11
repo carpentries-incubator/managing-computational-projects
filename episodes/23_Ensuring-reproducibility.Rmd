@@ -33,18 +33,7 @@ exercises: 10
 ```{r, child='files/05-versioncontrol.md'}
 ```
 
-
-::::::::::::::::::::::::::::::::::::::::::::::: keypoints
-
-- Open Science is an umbrella term that involves best practices for research transparency and reproducibility.
-
-- Version-controlled repository help record different contributions and contributor information openly.
-
-- Online Persistent Identifiers or Digital Object Identifiers are useful for releasing and citing different versions of research objects.
-
-::::::::::::::::::::::::::::::::::::::::::::::::::
-
-::::::::::::::::::::::::::::::::::::::::::::::: exercises
+::::::::::::::::::::::::::::::::::::::::::::::: discussion
 
 - Which of the OS principles are you already implementing in your work and how?
 
@@ -53,5 +42,9 @@ exercises: 10
 - What are other measures to ensure reproducibility in your research documentation and that of your team?"
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
+
+
+
+
 
 
