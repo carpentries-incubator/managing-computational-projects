@@ -19,7 +19,7 @@ exercises: 10
 - How to start building a research data management plan?
 - What is FAIR principles for data management?
 - Why care about documentation and metadata standards?
-
+  
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
 
