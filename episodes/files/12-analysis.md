@@ -8,7 +8,7 @@ title: Coding basics
 
 A usual workflow involves some data processing, before the actual analysis can be done. Statistical analysis and figure production should be decided before the data is looked at to prevent harking. Explorative analysis (looking for correlation and interpretation of the results) can be done anytime, as long as no hypothesis is rejected from that analysis. 
 
-
+![](fig/dataflow.png)
 
 ### Data (pre-)processing
 
@@ -35,7 +35,7 @@ Some examples of data wrangling include:
 Data wrangling can be a manual or automated process. In scenarios where datasets are exceptionally large, automated data cleaning becomes a necessity.
 
 
-<img src="https://i.imgur.com/YnWOBja.png" alt="drawing" width="800"/>
+
 
 Cleaning data means it can be easily read and analysed by machines and used in analysis pipelines.
 It can involve changing labels, subsetting, integration, extraction, removing missing points, and anything that makes data usable and functional.
@@ -53,7 +53,6 @@ Visualising data before designing the data analysis is a form of harking, as you
 
 With readable, clean, processed data, the next stage of the data pipeline is analysis. 
 
-<img src="https://i.imgur.com/YnWOBja.png" alt="drawing" width="800"/>
 
 Depending on your computational project, this may involve elaborate and complex analyses, modelling, simulation, and even machine learning.
 However, even if this step is just running a single statistics test, keeping the code documented and modular in clearly defined steps is key.
@@ -159,8 +158,6 @@ With the analysis complete, data visualisation is usually used to communicate re
 The code used to produce figures is often the next step in the data pipeline.
 
 
-<img src="https://i.imgur.com/YnWOBja.png" alt="drawing" width="800"/>
-
 For publications or posters, well-constructed figures improve science communication and help improve the impact of your research.
 Being able to produce multipanel figures with annotations and different colour schemes is complex but one of the advantages of learning a data science language.
 
@@ -178,7 +175,7 @@ Producing figures in Excel is limiting and often frustrating, particularly as th
 > *Spatial transcriptome profiling by MERFISH reveals subcellular RNA compartmentalization and cell cycle-dependent gene expression, Xia et al 2019*
 > *[https://www.pnas.org/doi/10.1073/pnas.1912459116](https://www.pnas.org/doi/10.1073/pnas.1912459116)*
 
-<img src="https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41593-019-0559-0/MediaObjects/41593_2019_559_Fig1_HTML.png?as=webp" alt="box plots" width="600"/>
+<img src="https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41593-019-0559-0/MediaObjects/41593_2019_559_Fig1_HTML.png" alt="box plots" width="600"/>
 
 These figures are more than just visualising data, they're about communication and require adjusting the styles and formats within `ggplot` or `matplotlib` or other libraries.
 

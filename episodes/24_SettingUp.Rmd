@@ -12,9 +12,6 @@ exercises: 10
 - Make it easy for each contributor to participate, contribute and be recognised for their work
 
 - Demonstrate GitHub Project Board to enable project management.
-- Discuss the importance of code quality, modular programming, and code testing for reusable error-free code.
-- Encourage researchers to combine code with documentation to communicate their work.
-- Learn about methods to capture reproducible research environments.
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
 :::::::::::::::::::::::::::::::::::::::: questions
@@ -35,3 +32,14 @@ exercises: 10
 
 ```{r, child='files/08-collaborativeworking.md'}
 ```
+
+:::: discussion
+
+What measures described in this session are meant to make research more reproducible, what measures are meant to facilitate team work. How does the different measures interact ?
+
+::::: solution
+
+Making interaction measure is also making the research more reproducible. Indeed most of the reusability of the data and code can be best tested when several people interact on a project. Documenting for a current collaborator helps a lot to make sure documentation will be enough for new collaboratory coming in the project later on.
+:::::
+
+::::
