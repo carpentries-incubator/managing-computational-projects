@@ -118,7 +118,7 @@ See more at [The Turing Way: CITATION.cff](https://the-turing-way.netlify.app/co
 
 For computational projects, releasing your work in an open repository has parallels with publications.
 
-<img src="https://i.imgur.com/I9EKxdF.png" alt="drawing" width="800"/> 
+<img src="fig/parallel.png" alt="similarity between publication and repository use" width="800"/> 
 
 There can be specific requirements to keep code bases and/or data private. See the section below for good and not so good reasons for keeping work private.
 
