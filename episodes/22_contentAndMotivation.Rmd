@@ -7,22 +7,18 @@ exercises: 20
 
 ::::::::::::::::::::::::::::::::::::::: objectives
 
-- Understand how this training material is organised.
+- Understanding the scope and structure of this course.
+- Contextualising computational project management for biomedicine and life science research.
+- Knowing the next steps to take after this workshop.
 
-- Understand how this training material will help your research (and career).
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
 :::::::::::::::::::::::::::::::::::::::: questions
 
--Content:
-  - Get an overview of the training material
-  - understand how the different aspects of this material relates to one another
-
-- Motivation:
   - How does this training relate to your work?
-  - What are the benefits of using data science skills?
-  - What are the challenges for teams and management?
+  - What are the benefits of using data science skills in research project management?
+  - What are common challenges for research teams and research project management?
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
