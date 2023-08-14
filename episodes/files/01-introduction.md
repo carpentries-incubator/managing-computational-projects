@@ -16,7 +16,10 @@ title: "What is data science"
 
 The research workflow, also known as the research cycle, usually starts with a research idea, via a literature search on what is already known on the subject, to data collection and analysis, to writing, publishing, and the final assessment of a study. Each of these steps in a given research project involves aspects of project management that such as planning, coordination, execution and monitoring of the team, resources (budgets, materials, equipment), and timeliness according to schedule. 
 
-**Project Design and Planning** involves defining the project plan which includes the scope, objectives, milestones, and deliverables within the available timeline. A great way to visualise the project plan is the Gantt chart, a horizontal bar chart on a time scale, reflecting all of a project’s components, dependencies, and responsibilities. [GanttProject](https://www.ganttproject.biz/) and [GNOME Planner](https://wiki.gnome.org/Apps/Planner/) are two open-source project management applications that allow you to visualise your project plan in a Gantt chart. 
+**Project Design and Planning** involves defining the project plan which includes the scope, objectives, milestones, and deliverables within the available timeline.
+This includes the creation of a timetable or Gantt chart usually created during the grant application.
+
+  A great way to visualise the project plan is the Gantt chart, a horizontal bar chart on a time scale, reflecting all of a project’s components, dependencies, and responsibilities. [GanttProject](https://www.ganttproject.biz/) and [GNOME Planner](https://wiki.gnome.org/Apps/Planner/) are two open-source project management applications that allow you to visualise your project plan in a Gantt chart. 
 
 **Resource Management** includes the managing of the budget, allocation of funds to each step over time, and ensuring that deliverables and objectives will be met within the available timeframe.
 
