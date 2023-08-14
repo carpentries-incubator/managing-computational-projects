@@ -27,7 +27,7 @@ exercises: 20
 - Without going into underlying technical details, the contents provide a general overview and present selected relevant biomedical case studies.
 
 
-- To what extent do you apply data science practices in your research projects? (A) Not at all, (B) Sometimes, (C) In most projects, (D) In every project.
+- To what extent do you apply data science practices in your research projects? (A) Not yet, (B) Sometimes, (C) In most projects, (D) In every project.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
