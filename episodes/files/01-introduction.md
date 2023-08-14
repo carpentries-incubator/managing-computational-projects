@@ -38,7 +38,7 @@ Electronic Lab Notebooks (ELNs) provide a certain amount of interoperability bet
 **Monitoring and Evaluation** involves ensuring quality control throughout the execution of the project and the adherence to research policies and procedures, lessons learned and conclusions that can be drawn from the results.  
 
 
-**Project Management tools**
+## Project Management tools
 
 Several digital project management tools exist that facilitate the remote coordination and management of research teams with their projects. Widely used proprietary examples include Trello, Asana, ClickUp, Notion, and Zoho Projects. Each of these has a different set of features, while all of them work with a Kanban board for process documentation.
 
