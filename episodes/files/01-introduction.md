@@ -23,7 +23,9 @@ This includes the creation of a timetable or Gantt chart usually created during 
 
 **Resource Management** includes the managing of the budget, allocation of funds to each step over time, and ensuring that deliverables and objectives will be met within the available timeframe.
 
-**Team Management** defines the responsibilities for every team member on specific steps and aspects of the research project. It also includes task assignments, progress monitoring, and team efficiency to thus produce results (data)and thereby meet the objectives and goals of the research project. Research teams often work remotely with team members being located in different parts of the world, and therefore need tools that allow for real-time collaboration, as well as access to process documentation, files, and data to all team members at any given time. 
+**Team Management** is the task of making people work together. It includes the definition of the responsibilities for every team member on specific steps and aspects of the research project, task assignments, progress monitoring, and team efficiency measures to thus produce results. It is core in meeting the objectives and goals of a research project.
+
+Research teams often work remotely with team members being located in different parts of the world, and therefore need tools that allow for real-time collaboration, as well as access to process documentation, files, and data to all team members at any given time.
 
 **Data Management** is the core of every research project, including the collection, organisation, analysis and secure storing of research data. A Data Management Plan (DMP) is increasingly a necessary component of the project design process and in research proposals, and describes in all details how and where the collected research will be recorded, stored securely, and made accessible for analysis and reuse. Furthermore, the F.A.I.R. Data Principles are equally important to comply with to make research data human- as well as machine-readability to ensure they are findable, accessible, interoperable and reusable, and thus FAIR. We will discuss FAIR data in more detail in episode XX.
 
