@@ -16,9 +16,18 @@ exercises: 20
 
 :::::::::::::::::::::::::::::::::::::::: questions
 
-  - How does this training relate to your work?
-  - What are the benefits of using data science skills in research project management?
-  - What are common challenges for research teams and research project management?
+- How does this training relate to your work?
+- What are the benefits of using data science skills in research project management?
+- What are common challenges for research teams and research project management?
+
+:::::::::::::::::::::::::::::::::::::::: keypoints
+
+- The course provides an introduction to Managing Open and Reproducible Computational Projects to senior biomedical researchers in order to equip them with tools and techniques to generate and document and manage complex reproducible computational projects.
+
+- Without going into underlying technical details, the contents provide a general overview and present selected relevant biomedical case studies.
+
+
+- To what extent do you apply data science practices in your research projects? (A) Not at all, (B) Sometimes, (C) In most projects, (D) In every project.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
