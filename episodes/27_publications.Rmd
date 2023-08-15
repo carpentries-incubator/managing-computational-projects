@@ -30,8 +30,20 @@ exercises: 10
 ```{r, child='files/15-publication.md'}
 ```
 
+<br><br><br><br>
+
+---
+
+<br><br>
+
 ```{r, child='files/16-open.md'}
 ```
+
+<br><br><br><br>
+
+---
+
+<br><br>
 
 ```{r, child='files/17-citation.md'}
 ```

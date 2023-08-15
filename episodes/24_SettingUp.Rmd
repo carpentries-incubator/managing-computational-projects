@@ -30,6 +30,12 @@ exercises: 10
 ```{r, child='files/07-setup.md'}
 ```
 
+<br><br><br><br>
+
+---
+
+<br><br>
+
 ```{r, child='files/08-collaborativeworking.md'}
 ```
 
