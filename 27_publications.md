@@ -20,7 +20,8 @@ exercises: 10
 - What open source tools to use for applying data science practices in bioscience?
 - How to get your research work cited and invite more contributions to your project?
 - How to maintain history of contributions and contributors?
-- How should I mention and cite the software or data I am using
+- How should I mention and cite the software or data I am using?
+
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
 
