@@ -20,6 +20,7 @@ exercises: 20
 - What are the benefits of using data science skills in research project management?
 - What are common challenges for research teams and research project management?
 
+
 ::::::::::::::::::::::::::::::::::::::::
 
 
@@ -57,3 +58,4 @@ To what extent do you apply data science practices in your research projects? (A
 
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
+

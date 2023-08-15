@@ -115,6 +115,7 @@ In this training material for learning how to manage computational projects, we 
 We present unfamiliar and complex topics from computation and data science to biologists by providing examples and recommendations from their fields.
 The goal is to enable effective management and sharing of their computational projects. We therefore encourage you to go through this training material before taking our second workshop, more focused in AI and Data Science.
 
+
 ## Project management in open and reproducible projects
 
 This course aims at giving an overview of project management techniques particularly useful for open and reproducible computational project. 
