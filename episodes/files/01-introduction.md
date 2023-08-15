@@ -26,7 +26,7 @@ Research teams often work remotely with team members being located in different 
 
 It is the core of every research project, including the collection, organisation, analysis and secure storing of research data. A Data Management Plan (DMP) is increasingly a necessary component of the project design process and in research proposals, and describes in all details how and where the collected research will be recorded, stored securely, and made accessible for analysis and reuse. Furthermore, the F.A.I.R. Data Principles are equally important to comply with to make research data human- as well as machine-readability to ensure they are findable, accessible, interoperable and reusable, and thus FAIR. We will discuss FAIR data in more detail in episode XX.
 
-## Communication and Reporting
+### Communication and Reporting
 It includes the effective communication among team members and project stakeholders (project partners, funders, librarians, publishers, …) to keep everyone updated on the project’s progress. A key component here is the strategic  documentation and reporting of the methodologies and any adjustments along the execution of the project. 
 Electronic Lab Notebooks (ELNs) provide a certain amount of interoperability between systems to automate some of the documentation process, thereby making it easier and more efficient to comply with the FAIR principles. 
 -	ELNs
@@ -43,11 +43,13 @@ With a [S.W.O.T. Analysis](https://en.wikipedia.org/wiki/SWOT_analysis#) as part
 It involves ensuring quality control throughout the execution of the project and the adherence to research policies and procedures, lessons learned and conclusions that can be drawn from the results.  
 
 
-### Project Management tools
+## Project Management tools overview
 
 Several digital project management tools exist that facilitate the remote coordination and management of research teams with their projects. Widely used proprietary examples include Trello, Asana, ClickUp, Notion, and Zoho Projects. Each of these has a different set of features, while all of them work with a Kanban board for process documentation.
 
-[Kanboard](https://kanboard.org/), [WeKan](https://wekan.github.io/), and [Taiga](https://taiga.io/) are examples for open-source project management software that contain Kanban boards. 
+Another approach is to use GitHub , GitLab (or other Git platforms) and their integrated "issue" and kanban systems.
+
+[Kanboard](https://kanboard.org/), [WeKan](https://wekan.github.io/), [Open project](https://www.openproject.org) and [Taiga](https://taiga.io/) are examples for open-source project management software that contain Kanban boards. 
 
 
 
@@ -113,7 +115,7 @@ In this training material for learning how to manage computational projects, we 
 We present unfamiliar and complex topics from computation and data science to biologists by providing examples and recommendations from their fields.
 The goal is to enable effective management and sharing of their computational projects. We therefore encourage you to go through this training material before taking our second workshop, more focused in AI and Data Science.
 
-
+::: testing
 ## Project management in open and reproducible projects
 
 This course aims at giving an overview of project management techniques particularly useful for open and reproducible computational project. 
@@ -121,6 +123,6 @@ This means we will not talk much about risk assessment, and resource management,
 This has of course repercussion in the project design and planning, the communication and reporting strategy, and monitoring and quality control is at the core of the code management topic.
 
 In this course, we will also present some software that may help to share project management tasks and results in a distributed team.
-
+:::
 
 

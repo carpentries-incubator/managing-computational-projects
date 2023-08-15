@@ -1,7 +1,7 @@
 ---
 title: 'Course content and motivation'
 teaching: 40
-exercises: 10
+exercises: 20
 ---
 
 
@@ -29,11 +29,21 @@ exercises: 10
 ```{r, child='files/01-introduction.md'}
 ```
 
+<br><br><br><br>
+
+---
+
+<br><br>
 
 ```{r, child='files/03-overview.md'}
 ```
 
+<br><br><br><br>
+
 ---
+
+<br><br>
 
 ```{r, child='files/02-motivation.md'}
 ```
+

@@ -38,8 +38,20 @@ This chapter gives a small introduction into coding and data analysis workflow, 
 ```{r, child='files/12-analysis.md'}
 ```
 
+<br><br><br><br>
+
+---
+
+<br><br>
+
 ```{r, child='files/14-codemodularity.md'}
 ```
+
+<br><br><br><br>
+
+---
+
+<br><br>
 
 ```{r, child='files/13-codereview.md'}
 ```

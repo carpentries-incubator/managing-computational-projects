@@ -31,6 +31,12 @@ exercises: 10
 ```{r, child='files/04-reproducibility.md'}
 ```
 
+<br><br><br><br>
+
+---
+
+<br><br>
+
 ```{r, child='files/05-versioncontrol.md'}
 ```
 
