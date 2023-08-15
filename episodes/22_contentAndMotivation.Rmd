@@ -1,39 +1,61 @@
 ---
 title: 'Course content and motivation'
 teaching: 40
-exercises: 10
+exercises: 20
 ---
 
 
 ::::::::::::::::::::::::::::::::::::::: objectives
 
-- Understand how this training material is organised.
+- Understanding the scope and structure of this course.
+- Contextualising computational project management for biomedicine and life science research.
+- Knowing the next steps to take after this workshop.
 
-- Understand how this training material will help your research (and career).
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
 :::::::::::::::::::::::::::::::::::::::: questions
 
--Content:
-  - Get an overview of the training material
-  - understand how the different aspects of this material relates to one another
+- How does this training relate to your work?
+- What are the benefits of using data science skills in research project management?
+- What are common challenges for research teams and research project management?
 
-- Motivation:
-  - How does this training relate to your work?
-  - What are the benefits of using data science skills?
-  - What are the challenges for teams and management?
 
-::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::
+
+
 
 ```{r, child='files/01-introduction.md'}
 ```
 
+<br><br><br><br>
+
+---
+
+<br><br>
 
 ```{r, child='files/03-overview.md'}
 ```
 
+<br><br><br><br>
+
 ---
+
+<br><br>
 
 ```{r, child='files/02-motivation.md'}
 ```
+
+:::: discussion
+To what extent do you apply data science practices in your research projects? (A) Not yet, (B) Sometimes, (C) In most projects, (D) In every project.
+::::
+
+:::::::::::::::::::::::::::::::::::::::: keypoints
+
+- The course provides an introduction to Managing Open and Reproducible Computational Projects to senior biomedical researchers, in order to equip them with tools and techniques to generate and document and manage complex reproducible computational projects.
+
+- Without going into underlying technical details, the contents provide a general overview and present selected relevant biomedical case studies.
+
+
+::::::::::::::::::::::::::::::::::::::::::::::::::
+

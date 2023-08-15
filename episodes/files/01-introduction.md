@@ -33,11 +33,13 @@ Research teams often work remotely with team members being located in different 
 The core of every research project, including the collection, organisation, analysis, and secure storing of research data. A [Data Management Plan](https://en.wikipedia.org/wiki/Data_management_plan) (DMP) is increasingly a necessary component of the project design process and in research proposals, and describes in detail how and where the collected research will be recorded, stored securely, and made accessible for analysis and reuse. Furthermore, the F.A.I.R. Data Principles are equally important to comply with to make research data human- as well as machine-readability to ensure they are findable, accessible, interoperable and reusable, and thus FAIR. We will discuss FAIR data in more detail in episode XX.
 
 
+
 ### Communication and Reporting
 
 Effective communication among team members and project stakeholders (project partners, funders, librarians, publishers, …) to keep everyone updated on the project’s progress. 
 A key component here is the strategic documentation and reporting of the methodologies and any adjustments along the execution of the project. 
 Electronic Lab Notebooks (ELNs) provide a certain amount of interoperability between systems to automate some of the documentation processes, thereby making it easier and more efficient to comply with the FAIR principles. 
+
 -	ELNs
 -	Progress reports
 
@@ -56,11 +58,15 @@ Monitoring and Evaluation involves ensuring quality control throughout the execu
 Making research results Findable, Accessible, Interoperable, and Reusable (see again the [F.A.I.R. principles[(https://www.go-fair.org/fair-principles/)) is key to the dissemination plan of a research project. Datasets and code should be archived in standardised repositories (see [re3data.org](https://www.re3data.org/) for lists of region- and discipline-specific as well as generalist repositories you can use).
 
 
-## Project Management tools
+
+## Project Management tools overview
+
 
 Several digital project management tools exist that facilitate the remote coordination and management of research teams with their projects. Widely used proprietary examples include Trello, Asana, ClickUp, Notion, and Zoho Projects. Each of these has a different set of features, and all of them work with a [Kanban board](https://en.wikipedia.org/wiki/Kanban_board) for process documentation.
 
-[Kanboard](https://kanboard.org/), [WeKan](https://wekan.github.io/), and [Taiga](https://taiga.io/) are examples of open-source project management software that contain Kanban boards. 
+
+[Kanboard](https://kanboard.org/), [WeKan](https://wekan.github.io/), [Open project](https://www.openproject.org), and [Taiga](https://taiga.io/) are examples of open-source project management software that contain Kanban boards. 
+
 
 
 
@@ -134,6 +140,5 @@ This means we will not talk much about risk assessment, and resource management,
 This has of course repercussion in the project design and planning, the communication and reporting strategy, and monitoring and quality control is at the core of the code management topic.
 
 In this course, we will also present some software that may help to share project management tasks and results in a distributed team.
-
 
 
