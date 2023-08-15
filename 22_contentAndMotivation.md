@@ -1,30 +1,27 @@
 ---
 title: 'Course content and motivation'
 teaching: 40
-exercises: 10
+exercises: 20
 ---
 
 
 ::::::::::::::::::::::::::::::::::::::: objectives
 
-- Understand how this training material is organised.
+- Understanding the scope and structure of this course.
+- Contextualising computational project management for biomedicine and life science research.
+- Knowing the next steps to take after this workshop.
 
-- Understand how this training material will help your research (and career).
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
 :::::::::::::::::::::::::::::::::::::::: questions
 
--Content:
-  - Get an overview of the training material
-  - understand how the different aspects of this material relates to one another
+- How does this training relate to your work?
+- What are the benefits of using data science skills in research project management?
+- What are common challenges for research teams and research project management?
 
-- Motivation:
-  - How does this training relate to your work?
-  - What are the benefits of using data science skills?
-  - What are the challenges for teams and management?
 
-::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::
 
 
 
@@ -32,12 +29,55 @@ exercises: 10
 
 
 
-## Short overview of project management in a research context
 
-- Research workflow/cycle
-- team management
-- data management
-- methods & tools: Kanban, Gantt
+
+## Project Management in a research context
+
+The research workflow, also known as the research cycle, usually starts with a research idea, via a literature search on what is already known on the subject, to data collection and analysis, to writing, publishing, and the final assessment of a study. Each of these steps in a given research project involves aspects of project management that such as planning, coordination, execution and monitoring of the team, resources (budgets, materials, equipment), and timeliness according to schedule. 
+
+### Project Design and Planning
+It involves defining the project plan which includes the scope, objectives, milestones, and deliverables within the available timeline.
+This includes the creation of a timetable or Gantt chart usually created during the grant application.
+
+  A great way to visualise the project plan is the Gantt chart, a horizontal bar chart on a time scale, reflecting all of a project’s components, dependencies, and responsibilities. [GanttProject](https://www.ganttproject.biz/) and [GNOME Planner](https://wiki.gnome.org/Apps/Planner/) are two open-source project management applications that allow you to visualise your project plan in a Gantt chart. 
+
+### Resource Management
+
+It includes the managing of the budget, allocation of funds to each step over time, and ensuring that deliverables and objectives will be met within the available timeframe.
+
+### Team Management
+It is the task of making people work together. It includes the definition of the responsibilities for every team member on specific steps and aspects of the research project, task assignments, progress monitoring, and team efficiency measures to thus produce results. It is core in meeting the objectives and goals of a research project.
+
+Research teams often work remotely with team members being located in different parts of the world, and therefore need tools that allow for real-time collaboration, as well as access to process documentation, files, and data to all team members at any given time.
+
+### Data Management
+
+It is the core of every research project, including the collection, organisation, analysis and secure storing of research data. A Data Management Plan (DMP) is increasingly a necessary component of the project design process and in research proposals, and describes in all details how and where the collected research will be recorded, stored securely, and made accessible for analysis and reuse. Furthermore, the F.A.I.R. Data Principles are equally important to comply with to make research data human- as well as machine-readability to ensure they are findable, accessible, interoperable and reusable, and thus FAIR. We will discuss FAIR data in more detail in episode XX.
+
+### Communication and Reporting
+It includes the effective communication among team members and project stakeholders (project partners, funders, librarians, publishers, …) to keep everyone updated on the project’s progress. A key component here is the strategic  documentation and reporting of the methodologies and any adjustments along the execution of the project. 
+Electronic Lab Notebooks (ELNs) provide a certain amount of interoperability between systems to automate some of the documentation process, thereby making it easier and more efficient to comply with the FAIR principles. 
+-	ELNs
+-	Progress reports
+
+### Risk Management
+
+It is an assessment and documentation of any foreseeable events that might arise and interfere with the success of the project. and adaption
+With a [S.W.O.T. Analysis](https://en.wikipedia.org/wiki/SWOT_analysis#) as part of the project plan, it is possible to describe strengths and weaknesses of the project idea, and also opportunities and threats that might impact the project through external factors. A thorough risk assessment allows you to make contingency plans to address any challenges or issues should they occur.
+
+
+
+### Monitoring and Evaluation
+It involves ensuring quality control throughout the execution of the project and the adherence to research policies and procedures, lessons learned and conclusions that can be drawn from the results.  
+
+
+## Project Management tools overview
+
+Several digital project management tools exist that facilitate the remote coordination and management of research teams with their projects. Widely used proprietary examples include Trello, Asana, ClickUp, Notion, and Zoho Projects. Each of these has a different set of features, while all of them work with a Kanban board for process documentation.
+
+Another approach is to use GitHub , GitLab (or other Git platforms) and their integrated "issue" and kanban systems.
+
+[Kanboard](https://kanboard.org/), [WeKan](https://wekan.github.io/), [Open project](https://www.openproject.org) and [Taiga](https://taiga.io/) are examples for open-source project management software that contain Kanban boards. 
 
 
 
@@ -104,9 +144,21 @@ We present unfamiliar and complex topics from computation and data science to bi
 The goal is to enable effective management and sharing of their computational projects. We therefore encourage you to go through this training material before taking our second workshop, more focused in AI and Data Science.
 
 
+## Project management in open and reproducible projects
+
+This course aims at giving an overview of project management techniques particularly useful for open and reproducible computational project. 
+This means we will not talk much about risk assessment, and resource management, but focus on team and data management.
+This has of course repercussion in the project design and planning, the communication and reporting strategy, and monitoring and quality control is at the core of the code management topic.
+
+In this course, we will also present some software that may help to share project management tasks and results in a distributed team.
 
 
 
+<br><br><br><br>
+
+---
+
+<br><br>
 
 
 
@@ -208,7 +260,11 @@ In this course, we will have a strong emphasis on version control, while we will
 
 
 
+<br><br><br><br>
+
 ---
+
+<br><br>
 
 
 
@@ -489,4 +545,18 @@ For instance, *The Turing Way* guide for data science and research provides seve
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
+
+
+:::: discussion
+To what extent do you apply data science practices in your research projects? (A) Not yet, (B) Sometimes, (C) In most projects, (D) In every project.
+::::
+
+:::::::::::::::::::::::::::::::::::::::: keypoints
+
+- The course provides an introduction to Managing Open and Reproducible Computational Projects to senior biomedical researchers, in order to equip them with tools and techniques to generate and document and manage complex reproducible computational projects.
+
+- Without going into underlying technical details, the contents provide a general overview and present selected relevant biomedical case studies.
+
+
+::::::::::::::::::::::::::::::::::::::::::::::::::
 

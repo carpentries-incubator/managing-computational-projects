@@ -300,6 +300,12 @@ This course can be thought as a literate programming content. Its source is mark
 
 
 
+<br><br><br><br>
+
+---
+
+<br><br>
+
 
 
 
@@ -348,6 +354,12 @@ This does not require technical knowledge of a language and is, therefore, a gre
 You can find practical details on reproducible code in the [Guides to Better Science by British Ecological Society](https://www.britishecologicalsociety.org/publications/guides-to).
 
 
+
+<br><br><br><br>
+
+---
+
+<br><br>
 
 
 

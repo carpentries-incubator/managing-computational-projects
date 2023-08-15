@@ -148,7 +148,7 @@ See more at [The Turing Way: CITATION.cff](https://the-turing-way.netlify.app/co
 
 For computational projects, releasing your work in an open repository has parallels with publications.
 
-<img src="https://i.imgur.com/I9EKxdF.png" alt="drawing" width="800"/> 
+<img src="fig/parallel.png" alt="similarity between publication and repository use" width="800"/> 
 
 There can be specific requirements to keep code bases and/or data private. See the section below for good and not so good reasons for keeping work private.
 
@@ -263,6 +263,12 @@ In addition to the referenced linked under different sections in this lesson, pl
 
 
 
+<br><br><br><br>
+
+---
+
+<br><br>
+
 
 
 
@@ -334,9 +340,7 @@ There are many community-driven resources, guidance and opportunities in open sc
 For instance, *The Turing Way* [chapter on Open Research](https://the-turing-way.netlify.app/reproducible-research/open.html) and [FOSTER Open Science](https://www.fosteropenscience.eu/learning/what-is-open-science/#/id/5ab8ea32dd1827131b90e3ac) provides an introduction to help researchers understand what open science is and why it is something you should care about.
 Another hands-on opportunity is provided by [Open Life Science](https://openlifesci.org), which is a 16-week long training and mentoring for anyone in research interested in going through the programme to apply open science practices systematically in their research projects.
 
-## Conclusion
 
-[What gaps have we filled in this section - add biological context]
 
 ## Resources and References for Technical Details
 
@@ -360,6 +364,12 @@ Another hands-on opportunity is provided by [Open Life Science](https://openlife
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
 
+
+<br><br><br><br>
+
+---
+
+<br><br>
 
 
 
