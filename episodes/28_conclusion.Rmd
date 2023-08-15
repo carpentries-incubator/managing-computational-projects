@@ -12,7 +12,9 @@ exercises: 10
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
 :::::::::::::::::::::::::::::::::::::::: questions
-- What are the most important take home message
+
+- What are the most important take home messages?
+
 ::::::::::::::::::::::::::::::::::::::::
 
 Feedback, questions
