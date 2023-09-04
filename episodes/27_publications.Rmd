@@ -33,7 +33,7 @@ exercises: 10
 ```{r, child='files/15-publication.md'}
 ```
 
-<br><br><br><br>
+<br><br><br><br> 
 
 ---
 
