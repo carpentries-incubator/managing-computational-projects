@@ -1,7 +1,9 @@
 ---
-title: "What is data science"
+title: "Defining project management, and data science"
 ---
 
+In this introduction, we will have an overview of what is meant with project management. Because we will use data science principles to tackle the question of open and reproducible research, we will also define what data science is.
+Reproducibility is introduced later in the course, while we expect participants to be quire knowledgable in open research. One can refer to the [additional content](learners/16-open.md) if openness needs a definition. 
 
 ## Project Management in a research context
 

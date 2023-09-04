@@ -5,7 +5,6 @@ title: Open Science Practices
 ## Apply Open Science Best Practices
 
 
-
 Open Science invites all researchers to share their work, data and research components openly so that others can read, reuse, reproduce, build upon and share them.
 Particularly in computational research and software development projects, open source practices are widely promoted.
 Unfortunately, making research components open doesn't always mean that they can be easily discovered by everyone, can be reproduced and built upon by others or everyone will know how to use them.
@@ -14,7 +13,7 @@ However, by normalising the use of research best practices on a day-to-day basis
 
 Open doesn't mean sharing everything, but making it 'as open as possible and as closed as necessary'.
 Your research can still be reproducible without all parts necessarily being open.
-Research projects that use sensitive data should be more careful and follow research data management plans closely (discussed in the next chapter).
+Research projects that use sensitive data should be more careful and follow research data management plans closely (discussed in another chapter).
 
 ### Important Reasons for Practicing Openness
 
@@ -70,24 +69,12 @@ Another hands-on opportunity is provided by [Open Life Science](https://openlife
 
 
 
-## Resources and References for Technical Details
-
-- *The Turing Way*. *The Turing Way Community. (2021). The Turing Way: A handbook for reproducible, ethical and collaborative research (1.0.1). Zenodo. [DOI: 10.5281/zenodo.5671094](https://doi.org/10.5281/zenodo.5671094)*
-  - [Version control](https://the-turing-way.netlify.app/reproducible-research/vcs.html)
-  - [Getting Started With GitHub](https://the-turing-way.netlify.app/collaboration/github-novice.html)
-  - [Open Science](https://the-turing-way.netlify.app/reproducible-research/open.html)
-  - [Managing a New Community and Team](https://the-turing-way.netlify.app/collaboration/new-community.html)
-  - [Making Research Objects Citable](https://the-turing-way.netlify.app/communication/citable.html)
-- [What is a Registered Report?](https://support.jmir.org/hc/en-us/articles/360003450852-What-is-a-Registered-Report-) by JMIR, referencing to [Registered Reports by Center for Open Science](https://www.cos.io/initiatives/registered-reports).
-- [Open Life Science training and Mentoring Programme](https://openlifesci.org). *Batut, Bérénice, Yehudi, Yo, Sharan, Malvika, Tsang, Emmy, \& Open Life Science Community. (2021). Open Life Science - Training and Mentoring programme - Website release 2019-2021 (1.0.0). Zenodo. [DOI: 10.5281/zenodo.5636584](https://doi.org/10.5281/zenodo.5636584)*
-
 
 
 :::::::::::::::::::::::::::::::::::::::: keypoints
 
-- Version controlled repository help record different contributions and contributor information openly.
 - Open Science is an umbrella term that involve different practices for research in the context of different research objects.
-- Online Persistent Identifiers or Digital Object Identifiers are useful for releasing and citing different versions of research objects.
+
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
