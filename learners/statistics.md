@@ -1,3 +1,7 @@
+---
+title: statistics, some details
+---
+
 ### Type and distribution of data used
 
 For the nominal, ordinal, discrete data, we use nonparametric methods while for continuous data, parametric methods as well as nonparametric methods are used. For example, in the regression analysis, when our outcome variable is categorical, logistic regression while for the continuous variable, linear regression model is used ([https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6206790/](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6206790/)).

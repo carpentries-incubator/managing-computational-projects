@@ -107,16 +107,12 @@ To ensure that all team members have a shared understanding of ways of working, 
 See [Teamwork for Research Software Development](https://nlesc.github.io/teamwork-for-research-software-development/) tutorial by Netherlands eScience Center with lessons on teamwork, agile and scrum framework, project board such as kanban, challenges and practical recommendations.
 See next lessons for more information about team work and collaborative working.
 
-## Conclusion
+## A good start
 
 In addition to ensuring effective development and collaboration during the lifetime of the project, a well-organised project also ensures sustainability and reusability of research for both the developers and future users more dynamically.
+But it all comes to implement the tools planned in the setting up phase.
+One may need to iteratively modify the plan and include different tools if the team changes or grow.
 This aspect is discussed in detail in the Research Data Management episode.
-
-<!--
-[What gaps have we filled in this section - add biological context]
--->
-
-
 
 :::::::::::::::::::::::::::::::::::::::  challenge
 

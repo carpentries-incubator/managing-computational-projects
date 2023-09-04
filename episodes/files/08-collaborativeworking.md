@@ -2,7 +2,7 @@
 title: Coordinate collaborative work. 
 ---
 
-::::::Instructor
+::::::instructor
 
 In order to indroduce kanbans, one can use different tools. We used miro to both collect feedback and introduce kanbans. Then we had a practical section with a mix of demo and hands-on using https://next.forgejo.org/. We choose that tool because it is a particularly not well known open source alternative.
 
