@@ -5,7 +5,21 @@ title: Research Data Management
 ## Research Data Management
 
 
-## Main Challenges and Concerns
+Research data management is a huge topic here, because only well managed data can be well analysed and can be usefully shared with the community. It raises concerns and challenges, but also opportunities.
+It represents about 5% of the time in a research project. Some estimate that it can save up (on average) about 15% of the research time (less time lost due to data loss, fewer errors in the data, automated analysis, data and analysis code reuse). 
+
+:::::::::::::::::::::::::::::::::::::::::  callout
+
+## Invest in data management because:
+
+- Managing your data allows you to always find your data and ensure the quality of scientific practice or research.
+- Storing your data properly and backing up regularly prevents data loss.
+- It can help with recognition for all research outputs.
+- It stimulates collaboration with others, who will find it easier to understand and reuse your data.
+- RDM is cost/time efficient, as you will always be able to find and use your data.
+
+
+:::::::::::::::::::::::::::::::::::::::::
 
 :::::::::::::::::::::::::::::::::::::  testimonial
 
@@ -27,30 +41,11 @@ RDM ensures efficiency in research workflows, and also greater reach and impact,
 
 Data should be stored in multiple locations and backed up regularly to prevent loss or data corruption. It is also important to consider the whole life cycle of the data (especially making collected data computer readable) when designing data management plan and tasks.
 
-:::::::::::::::::::::::::::::::::::::::::  callout
 
-## Why This is Useful
-
-Managing your data allows you to always find your data and ensure the quality of scientific practice or research.
-Storing your data properly and backing up regularly prevents data loss.
-It can help with recognition for all research outputs.
-It stimulates collaboration with others, who will find it easier to understand and reuse your data.
-RDM is cost/time efficient, as you will always be able to find and use your data.
-
-
-:::::::::::::::::::::::::::::::::::::::::
 
 Clearly describing data using documentation and metadata ensures that others know how to access, use and reuse your data, and also enable conditions for sharing and publishing data to be outlined.
 
-:::::::::::::::::::::::::::::::::::::::::  callout
-
-## Easy steps:
-
-- Raw data should stay raw
-- Spreadsheet shall be tidy (and validated), in .csv or .tsv format
-- Data management plan should involve the whole team.
-
-:::::::::::::::::::::::::::::::::::::::::  
+ 
 
 ### The Research Data Lifecycle - A Model for Data Management
 
@@ -85,7 +80,7 @@ Planning ahead on how to manage your data consistently can save you time later o
 :::::: callout
 ## Plan for reproducible research
 
-When planning a reproducible analysis, your data management plan will change. Because you want to avoid any manual wrangling of the data (copy-paste, analysis in excel, ...), you need to take particular care of the format of the raw data, making it if possible computer readable with the programming language you will be using. Also when a software provide you with both raw data and pre-analysed data, you should consider early which file you will be using in your analysis (in most cases, using the raw data will make your analysis more robust and easier to reuse for other researchers). 
+When planning a reproducible analysis, your data management plan will change. Because you want to avoid any manual wrangling of the data (copy-paste, analysis in excel, ...), you need to take particular care of the format of the raw data, making it if possible computer readable with the programming language you will be using. Keep the raw data as raw as possible so that errors can be avoided and calculations can be changed. Also when a software provide you with both raw data and pre-analysed data, you should consider early which file you will be using in your analysis (in most cases, using the raw data will make your analysis more robust and easier to reuse for other researchers). 
 Also information may be lost when transforming the raw data, so make new versions and keep the original file safe.
 
 :::::: 
@@ -110,6 +105,20 @@ A good way of thinking about what might be classed as data that needs to be mana
 - Do you work with an open format, which will be readable in 10 years ?
 
 ::::::::::
+
+:::::::::: discussion
+
+When collecting the Body-mass index (BMI) of participants, how would you do this ?
+
+::::::: solution
+
+Best to record the height and weight of the subject. These are more raw forms of the data. 
+
+- This is the information the recording devices will give so errors are avoided. 
+- the BMI may not be the best measure in the future, weight + height is more informative than the BMI.
+:::::::
+
+::::::::::
   
   
 ## Using spreadsheets
@@ -117,8 +126,7 @@ A good way of thinking about what might be classed as data that needs to be mana
 Here we made a special section on spreadsheets design and management, because  **most data analysis nightmares (and time waste) are due to bad spreadsheet design. **
 
 
-More information is available in the extra content of this course (see "More" button in the header).
-Please refer to the [Data Carpentry Ecology Lesson](https://datacarpentry.org/spreadsheet-ecology-lesson/) and *The Turing Way* chapter for [managing data in spreadsheet](https://the-turing-way.netlify.app/reproducible-research/rdm/rdm-spreadsheets.html) for best practices.
+More information is available in the [extra content of this course](learners/spreadsheets.md). Please refer to the [Data Carpentry Ecology Lesson](https://datacarpentry.org/spreadsheet-ecology-lesson/) and *The Turing Way* chapter for [managing data in spreadsheet](https://the-turing-way.netlify.app/reproducible-research/rdm/rdm-spreadsheets.html) for best practices.
 
 
 
@@ -329,8 +337,10 @@ Please read [Personal data management](https://the-turing-way.netlify.app/reprod
 
 :::::::::::::::::::::::::::::::::::::::: keypoints
 
+- Data management plan is produced by the whole team. 
 - All information is present and digitalised
-- Spreadsheets are tidy
+- Raw data is raw
+- Spreadsheets are tidy, validated and in text format (.tsv)
 - Data is safe (backup)
 - Data is FAIR (findable, accessible, interoperable and reusable)
 - Data can be opened and analysed in a programming language
