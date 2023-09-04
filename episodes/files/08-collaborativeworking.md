@@ -1,9 +1,8 @@
 ---
-title: Implementing tools and methods during the project
+title: Coordinate collaborative work. 
 ---
 
 ## Project Management Tools
-
 
 
 In the previous chapters, we have already discussed practices that enable the effective management of projects in:
@@ -85,6 +84,15 @@ Much research is now collaborative and a shared code repository can be effective
 
 Later in this material, we will go through best practices in code writing, testing, reviews and modularity, which help achieving computational reproducibility.
 Before that, we will look at ways to foster documentation of the work, and how research data management is necessary for efficient collaboration and reproducible research.
+
+
+## Document collaborations
+
+It is important to document who does what in a project, such that credit can be fairly attributed. This starts at day one, when roles and responsibilities are set, but needs to be often updated as the roles may change during the project.
+In large team, this may be an essential part of growing a community, especially if one does recognize roles usually overseen in the research environment.
+
+The tenzing spreadsheet (https://tenzing.club) will allow to present the contribution in publications and may be a good tool to start the collection of contribution. A lot of open source project, like The turing way, are using a bot (https://allcontributors.org, works only on GitHub) to collect and show several contribution types.
+
 
 
 
