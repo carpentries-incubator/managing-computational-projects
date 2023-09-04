@@ -1,7 +1,7 @@
 ---
 title: 'Managing project start and collaborations'
-teaching: 40
-exercises: 10
+teaching: 25
+exercises: 50
 ---
 
 ::::::::::::::::::::::::::::::::::::::: objectives
@@ -102,6 +102,8 @@ Provide overarching as well as short-term goals and describe expected outcomes t
 Describe the possible expansion of the project to give an idea of what to expect beyond the initial implementation.
 All proposed plans for the project with information on available resources and recommended practices to ensure everyone is on the same page.
 
+
+
 ### Role and Responsibilities
 
 Create a folder/directory to give information about the different team members with their roles in the project, key skills, interests and contact information (when possible).
@@ -114,7 +116,12 @@ You may use a spreadsheet to keep an overview of the members responsability and 
 
 ### Data management plan
 
-[...]
+This will be discussed in detail in the Research Data Management section.
+
+:::::: discussion
+What research output are you aiming for? Will you publish the data, the code, the hardware documentation, the protocols independently of the main manuscript publication?
+
+::::::
 
 > ## Start with an intention to Release/publish
 > 
@@ -128,25 +135,14 @@ You may use a spreadsheet to keep an overview of the members responsability and 
 
 To ensure that all team members have a shared understanding of ways of working, select or adapt a [Team Framework](https://the-turing-way.netlify.app/collaboration/new-community/new-community-teamwork.html) that provides guidance on how to best work in your team. For instance, Agile workflow for teamwork enables iterative development, with frequent interaction between interested parties to decide and update requirements.
 See [Teamwork for Research Software Development](https://nlesc.github.io/teamwork-for-research-software-development/) tutorial by Netherlands eScience Center with lessons on teamwork, agile and scrum framework, project board such as kanban, challenges and practical recommendations.
+See next lessons for more information about team work and collaborative working.
 
-## Conclusion
+## A good start
 
 In addition to ensuring effective development and collaboration during the lifetime of the project, a well-organised project also ensures sustainability and reusability of research for both the developers and future users more dynamically.
+But it all comes to implement the tools planned in the setting up phase.
+One may need to iteratively modify the plan and include different tools if the team changes or grow.
 This aspect is discussed in detail in the Research Data Management episode.
-
-<!--
-[What gaps have we filled in this section - add biological context]
--->
-
-## Resources and References for Technical Details
-
-- *The Turing Way*. *The Turing Way Community. (2021). The Turing Way: A handbook for reproducible, ethical and collaborative research (1.0.1). Zenodo. [DOI: 10.5281/zenodo.5671094](https://doi.org/10.5281/zenodo.5671094)*
-  - [Guide to Project Design](https://the-turing-way.netlify.app/project-design/project-repo.html)
-  - [Creating Project Repositories](https://the-turing-way.netlify.app/project-design/project-repo.html)
-  - [Naming files, folders and other things](https://the-turing-way.netlify.app/project-design/filenaming.html)
-  - [Licensing](https://the-turing-way.netlify.app/reproducible-research/licensing.html)
-- [The Good Research Code Handbook](https://goodresearch.dev/setup.html) by Patrick Mineault.
-- [Open Life Science training and Mentoring Programme](https://openlifesci.org). *Batut, Bérénice, Yehudi, Yo, Sharan, Malvika, Tsang, Emmy, \& Open Life Science Community. (2021). Open Life Science - Training and Mentoring programme - Website release 2019-2021 (1.0.0). Zenodo. [DOI: 10.5281/zenodo.5636584](https://doi.org/10.5281/zenodo.5636584)*
 
 :::::::::::::::::::::::::::::::::::::::  challenge
 
@@ -185,8 +181,13 @@ NB: You can use that template on other git platforms.
 
 
 
-## Project Management Tools
+::::::instructor
 
+In order to indroduce kanbans, one can use different tools. We used miro to both collect feedback and introduce kanbans. Then we had a practical section with a mix of demo and hands-on using https://next.forgejo.org/. We choose that tool because it is a particularly not well known open source alternative.
+
+::::::
+
+## Project Management Tools
 
 
 In the previous chapters, we have already discussed practices that enable the effective management of projects in:
@@ -198,15 +199,28 @@ In the previous chapters, we have already discussed practices that enable the ef
 
 It is important to communicate tasks and responsibilities to different stakeholders of the project.
 However, what is even more important is to allow all members to understand where in the entire project their tasks fit and how they can track the progress of the entire project.
-Project management tools such as Kanban provide a visual overview of the tasks, their status (to do, in progress, done) and the people responsible for them.
-These tasks can be visualised on a digital board where different columns can present different statuses, different task groups or priorities.
+
+### Gantt charts
+
+Gantt charts are timeline views of the project plan. It defines which task should be done (and finished) at which time (and by whom). Some advanced tools allows to visualise dependencies between tasks. It is an important tool to stay on track or redefine priorities when milestones are not met in time. 
+
+
+### Kanban
+
+Kanban provide a visual overview of the tasks, their status (to do, in progress, done) and the people responsible for them in a columnar form.
+While physical boards and post-it (of different colors and forms) are often used,
+these tasks can be visualised on a digital board where different columns can present different statuses, different task groups or priorities.
+
+It is also a tool to focus the work on a few tasks. Indeed the "in progress" tab should only contain 1-3 elements per team member, so that one finish one task before starting a new one. Kanban can also be used to communicate what is in progress to other team members and coordinate the work.
+
 
 Some tools that are popular among research community is [Asana](https://asana.com/), [Trello](https://trello.com/en-GB), [Todoist](https://blog.doist.com/todoist-project-management/) and [Notion](https://www.notion.so/).
 
-For computational projects, researchers already use online repositories on Github/GitLab to store and version control their projects.
-They can use several advanced features on these platforms for project management.
+The majorities of Git repositories have advanced features like embedded kanban systems, allowing some automation of cards movement and links between task management and data storage.
 
-### GitHub for Project Management
+### Git repositories for Project Management
+
+Similar features on GitHub, GitLab, Codeberg or GIN can be used for project management. The following section takes GitHub as an example, but most of this can be applied in other platforms.
 
 **Issue** is a GitHub integrated feature that allows everyone to track the progress on GitHub.
 Similar to a 'To-Do List', issues can be anything from a project milestone (releasing an R package, submitting to an online data repository, a working simulation) but also specific issues with code (fixing a bug, adding a function, updating tests).
@@ -245,7 +259,15 @@ Github also allows different summary views for collaborative issues across multi
 
 <img src="https://i.postimg.cc/d37Yv66Y/Screenshot-2022-02-10-at-19-47-51.png" alt="drawing" width="600"/>
 
-**Author: Lydia France (Junior Data Scientist, The Alan Turing Institute, UK)**
+*Author: Lydia France (Junior Data Scientist, The Alan Turing Institute, UK)*
+
+Similar walkthrough can be done with https://next.forgejo.org (Codeberg-like test platform). Lecturer prepare a repository with a readme, a project and one issue. Fake user should be added to the platform before the course, so that people do not have to register, and users are added as collaborators on the repository.
+
+- create an issue "adding myself to the participant list"
+- assign it to the project
+- move it in the board view
+- assign someone, add a label, add a milestone.
+- modify readme file, commit change with a new branch.
 
 :::::::::::::::::::::::::
 
@@ -256,16 +278,16 @@ Much research is now collaborative and a shared code repository can be effective
 Later in this material, we will go through best practices in code writing, testing, reviews and modularity, which help achieving computational reproducibility.
 Before that, we will look at ways to foster documentation of the work, and how research data management is necessary for efficient collaboration and reproducible research.
 
-## References
 
-- *The Turing Way* Community. (2021). The Turing Way: A handbook for reproducible, ethical and collaborative research (1.0.1). Zenodo. [https://doi.org/10.5281/zenodo.5671094](https://doi.org/10.5281/zenodo.5671094). This episode reuses contents from the following *The Turing Way* chapters:
-  - [Continuous Integration](https://the-turing-way.netlify.app/reproducible-research/ci/ci-options.html)
-  - [Code Testing](https://the-turing-way.netlify.app/reproducible-research/testing.html)
-  - [Code Quality](https://the-turing-way.netlify.app/reproducible-research/code-quality.html) chapter in *The Turing Way*.
-  - [Capturing Computational Environments](https://the-turing-way.netlify.app/reproducible-research/renv/renv-options.html)
-- [The Definitive Guide](https://bookdown.org/yihui/rmarkdown)
-- [Jupyter/IPython Notebook Quick Start Guide](https://jupyter-notebook-beginner-guide.readthedocs.io/en/latest/what_is_jupyter.html)
-- [Guides to Better Science by British Ecological Society](https://www.britishecologicalsociety.org/publications/guides-to).
+## Document collaborations
+
+It is important to document who does what in a project, such that credit can be fairly attributed. This starts at day one, when roles and responsibilities are set, but needs to be often updated as the roles may change during the project.
+In large team, this may be an essential part of growing a community, especially if one does recognize roles usually overseen in the research environment.
+
+The tenzing spreadsheet (https://tenzing.club) will allow to present the contribution in publications and may be a good tool to start the collection of contribution. A lot of open source project, like The turing way, are using a bot (https://allcontributors.org, works only on GitHub) to collect and show several contribution types.
+
+
+
 
 :::::::::::::::::::::::::::::::::::::::  challenge
 

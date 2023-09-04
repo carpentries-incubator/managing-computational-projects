@@ -5,11 +5,12 @@ title: "Better and faster research !"
 ## Your research project is a computational project.
 
 
-:::::: Instructor
+::::::::instructor
 
 This chapter about motivation can be used to convince people to sign up to the course.
 It can also be used as a small starter for each lessons.
-::::::
+::::::::
+
 As a researcher, you are likely to use some sort of computational tools to process, analyse, and visualise data.
 You are also likely to work on your project with other members of the lab, and the success of your work may well depend on your interactions with your peers.
 **In that sense any research project can be defined as a collaborative, computational project.**
@@ -261,19 +262,7 @@ For instance, *The Turing Way* guide for data science and research provides seve
 
 *The Turing Way project illustration by Scriberia for The Turing Way Community Shared under CC-BY 4.0 License. Zenodo. [http://doi.org/10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807)*
 
-## References
-
-- A Quick Guide to Organizing Computational Biology Projects
-  Noble WS (2009) A Quick Guide to Organizing Computational Biology Projects. PLOS Computational Biology 5(7): e1000424. [https://doi.org/10.1371/journal.pcbi.1000424](https://doi.org/10.1371/journal.pcbi.1000424)
-- Seddighi, M, Allanson, D, Rothwell, G, Takrouri, K. Study on the use of a combination of IPython Notebook and an industry-standard package in educating a CFD course. Comput Appl Eng Educ. 2020; 28: 952– 964. [https://doi.org/10.1002/cae.22273](https://doi.org/10.1002/cae.22273)
-- Mendez, K.M., Pritchard, L., Reinke, S.N. et al. Toward collaborative open data science in metabolomics using Jupyter Notebooks and cloud computing. Metabolomics 15, 125 (2019). [https://doi.org/10.1007/s11306-019-1588-0](https://doi.org/10.1007/s11306-019-1588-0)
 
 
-
-:::::::::::::::::::::::::::::::::::::::: keypoints
-
-- motivations
-
-::::::::::::::::::::::::::::::::::::::::::::::::::
 
 

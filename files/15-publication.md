@@ -2,7 +2,7 @@
 title: Publication and release
 ---
 
-## Publications
+## What and when to publish
 
 ![evolution toward open research](fig/evolution-open-research.png)
 
@@ -36,9 +36,9 @@ What are the equivalent of these openness steps for research manuscript ?
 
 :::::: solution
 - There were a time when researchers were not sharing their discovery at all.
-- The publishing industry made it to a available on request kind of state.
-- Open access publication make it a static released. 
-- Preprints are released versions
+- The publishing industry made it to a "available on request" kind of state.
+- Open access publication made it a static released. 
+- Preprints are released versions.
 - blog posts may be considered open per default.
 ::::::
 :::::::::::::
@@ -74,6 +74,8 @@ Researchers often worry that they need to hide their code to prevent others stea
 
 ## Making your research object citable
 
+### Getting a doi
+
 <img src="fig/DOI.jpg" alt="This image shows three boxes with materials on top. The main box in the middle has 'identifiers' written on it with three discs on top of it that are labelled 'data sets'. Both boxes by their side have journal articles on top of them. An arrow on the top of the image points to these images as being 'Digital Object Identifiers'. There is text at the bottom of the image which says 'Persistent', 'Unique', 'Trusted'." width="500"/>
 
 *Digital Object Identifiers or DOIs are persistent, unique and trusted. _The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).*
@@ -83,8 +85,45 @@ DOIs are alphanumerical unique and persistent identifiers with a permanent web a
 Each pre-print and publication is published with a DOI, but independent of the paper, different research objects can be published online on servers that offer DOIs at any stage of your research.
 
 Repositories usually collect the citation information before providing a DOI, so that the metadata associated with the DOI is indexed. 
+Necessary information includes a title and a list of authors.
 
+
+
+You may want to read the [Making Research Objects Citable](https://the-turing-way.netlify.app/communication/citable.html) chapter in *The Turing Way* Guide to Communication.
+
+### Authors and contributors
+
+In order to get correct metadata, give credits to all contributors and actually have the rights to make things public, you need to collect information and agreements from all authors.
+As usual, it is best to get it as soon as possible in the research process; and as usual you may well have postponed it until the latest moment.
+
+It is advisable to use a spreadsheet to collect information (names, affiliation, orcid number). The Tenzing spreadsheet can be used, as it will allow the program to create author list automatically from the spreadsheet, as well as collect information on each author contribution.
+
+:::::: callout
+
+It might be particularly important to credit all people who have indeed participated in the research. The use of a contribution statement in the paper (see [https://tenzing.club](https://tenzing.club)) or contribution section in the repository readme can be useful (see [https://allcontributors.org](https://allcontributors.org)).
+
+For contributors who will not be in the author list of the main paper, one can make them authors of the published dataset/code, and/or add them in the aknowledgements. 
+The first solution has the advantage to be sent to orcid (if people have an orcid account) such that the contribution is more visible and measurable.
+
+::::::
+
+### Citation File Format
+
+The Citation File Format provides citation metadata, for software or datasets, in plaintext files that are easy to read by both humans and machines.
+
+Adding a `CITATION.cff` file to your folder means it can be cited when others use it, increasing recognition for your work and your research project's impact.
+
+See more at [The Turing Way: CITATION.cff](https://the-turing-way.netlify.app/communication/citable/citable-cff.html)
+
+[https://the-turing-way.netlify.app/\_images/software-credit.jpg](https://the-turing-way.netlify.app/_images/software-credit.jpg)
+
+### Citable data
+
+Data is best published in domain specific repositories.
 Look for a data repository at https://www.re3data.org. 
+
+Costs associated with data publication can be important, so it is best to plan ahead, so you are sure you have the resources needed.
+Whether the raw or some derived data should be published openly will depend on costs and may depend on legislations.
 
 See [https://the-turing-way.netlify.app/communication/citable.html](https://the-turing-way.netlify.app/communication/citable.html) for details.
 
@@ -98,40 +137,29 @@ The [Citation File Format](https://citation-file-format.github.io/), then lets y
 
 ::::::::::::::::::::::::::::::::
 
-You may want to read the [Making Research Objects Citable](https://the-turing-way.netlify.app/communication/citable.html) chapter in *The Turing Way* Guide to Communication.
 
 
-## Citable Code
 
-While it is possible to cite software from GitHub (see below using a Citation File Format file), it is better to cite an archived version of the software (a code release). The possibility to get integration with zenodo from GitHub or GitLab, makes it easy to get DOIs for each version of the software.
 
-### Citation File Format
-The Citation File Format provides citation metadata, for software or datasets, in plaintext files that are easy to read by both humans and machines.
-
-Adding a `CITATION.cff` file to your folder means it can be cited when others use it, increasing recognition for your work and your research project's impact.
-
-See more at [The Turing Way: CITATION.cff](https://the-turing-way.netlify.app/communication/citable/citable-cff.html)
-
-[https://the-turing-way.netlify.app/\_images/software-credit.jpg](https://the-turing-way.netlify.app/_images/software-credit.jpg)
-
-### Code release
+### Citable Code
 
 For computational projects, releasing your work in an open repository has parallels with publications.
-
 <img src="fig/parallel.png" alt="similarity between publication and repository use" width="800"/> 
 
-There can be specific requirements to keep code bases and/or data private. See the section below for good and not so good reasons for keeping work private.
 
-You can release code and data associated with a research article as a series of files/folders. If your project follows the folder template introduced in a previous episode, for example:
-<img src="https://github.com/jcolomb/gintonic-blog/raw/forreview/50_figures/pulication_ready_figures/2draft-templates.png" alt="drawing" width="300"/>
 
-> Examples of a template folder tree for a computational project. [https://github.com/tonic-team/Tonic-Research-Project-Template](https://github.com/tonic-team/Tonic-Research-Project-Template)
+While it is possible to cite software from GitHub (see below using a Citation File Format file), it is better to cite an archived version of the software (a code release). You can release code and data associated with a research article as a series of files/folders. 
+You could for example bundle folders into a `.zip` file and upload it to Zenodo.
 
-You could bundle folders into a `.zip` file and upload it to Zenodo.
+The possibility to get integration with zenodo from GitHub or GitLab, makes it easy to get DOIs for each version of the software.
+These automated archive of release may even read the CITATION.cff file to create metadata. This is explained in more detail in the Turing way book at https://the-turing-way.netlify.app/communication/citable/citable-cite.tml
+
+
+:::::::::::::::::::::::: instructor
 
 ### Zenodo
 
-<img src="https://i.imgur.com/SUWUTKK.png" alt="drawing" width="500"/>
+<img src="https://i.imgur.com/SUWUTKK.png" alt="zenodo entry example which is synchronised with GitHub." width="500"/>
 
 > Zenodo is a general-purpose open-access repository developed under the European OpenAIRE program and operated by CERN. It allows researchers to deposit research papers, data sets, research software, reports, and any other research related digital artefacts.
 > 
@@ -146,9 +174,9 @@ You could bundle folders into a `.zip` file and upload it to Zenodo.
 > - **GitHub integration** — Easily preserve your GitHub repository in Zenodo.
 > - **Usage statistics** — All uploads display standards compliant usage statistics
 
-:::::::::::::::::::::::: instructor
 
-This goes in more details about collaborative code, it may be usefull if collaboration is the main topic of your workshop.
+
+This goes in more details about collaborative code, it may be useful if collaboration is the main topic of your workshop.
 
 ## Collaborative Open Code
 
@@ -168,14 +196,7 @@ When using specifically R, you could release R packages on [CRAN](https://cran.r
 
 ::::::::::::::::::::::::
 
-:::::: callout
 
-It might be particularly important to credit all people who have indeed participated in the research. The use of a contribution statement in the paper (see [https://tenzing.club](https://tenzing.club)) or contribution section in the repository readme can be useful (see [https://allcontributors.org](https://allcontributors.org)).
-
-For contributors who will not be in the author list of the main paper, one can make them authors of the published dataset/code, and/or add them in the aknowledgements. 
-The first solution has the advantage to be sent to orcid (if people have an orcid account) such that the contribution is more visible and measurable.
-
-::::::
 <!--
 ## Code release
 

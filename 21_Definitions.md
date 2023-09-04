@@ -1,6 +1,33 @@
 ---
-title: "Defining project management, and data science"
+title: 'Project management, data science'
+teaching: 20
+exercises: 25
 ---
+
+
+::::::::::::::::::::::::::::::::::::::: objectives
+
+- Understanding what project management and data science entail.
+
+- Knowing the next steps to take after this workshop.
+
+
+::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::::::::::::::::::::::::::::::: questions
+
+- What are the benefits of using data science skills in research project management?
+- What are common challenges for research teams and research project management?
+
+
+::::::::::::::::::::::::::::::::::::::::
+
+
+
+
+
+
+
 
 In this introduction, we will have an overview of what is meant with project management. Because we will use data science principles to tackle the question of open and reproducible research, we will also define what data science is.
 Reproducibility is introduced later in the course, while we expect participants to be quire knowledgable in open research. One can refer to the [additional content](learners/16-open.md) if openness needs a definition. 
@@ -184,4 +211,54 @@ This has of course repercussion in the project design and planning, the communic
 
 In this course, we will also present some software that may help to share project management tasks and results in a distributed team.
 
+
+
+
+## Some References and resources
+
+### General guides
+
+- A Quick Guide to Organizing Computational Biology Projects
+  Noble WS (2009) A Quick Guide to Organizing Computational Biology Projects. PLOS Computational Biology 5(7): e1000424. [https://doi.org/10.1371/journal.pcbi.1000424](https://doi.org/10.1371/journal.pcbi.1000424)
+- Seddighi, M, Allanson, D, Rothwell, G, Takrouri, K. Study on the use of a combination of IPython Notebook and an industry-standard package in educating a CFD course. Comput Appl Eng Educ. 2020; 28: 952– 964. [https://doi.org/10.1002/cae.22273](https://doi.org/10.1002/cae.22273)
+- Mendez, K.M., Pritchard, L., Reinke, S.N. et al. Toward collaborative open data science in metabolomics using Jupyter Notebooks and cloud computing. Metabolomics 15, 125 (2019). [https://doi.org/10.1007/s11306-019-1588-0](https://doi.org/10.1007/s11306-019-1588-0)
+- [The Good Research Code Handbook](https://goodresearch.dev/setup.html) by Patrick Mineault.
+- [Guides to Better Science by British Ecological Society](https://www.britishecologicalsociety.org/publications/guides-to).
+
+### Relevant turing way chapters
+
+- *The Turing Way*. *The Turing Way Community. (2021). The Turing Way: A handbook for reproducible, ethical and collaborative research (1.0.1). Zenodo. [DOI: 10.5281/zenodo.5671094](https://doi.org/10.5281/zenodo.5671094)*
+  - [Guide to Project Design](https://the-turing-way.netlify.app/project-design/project-repo.html)
+  - [Creating Project Repositories](https://the-turing-way.netlify.app/project-design/project-repo.html)
+  - [Naming files, folders and other things](https://the-turing-way.netlify.app/project-design/filenaming.html)
+  - [Licensing](https://the-turing-way.netlify.app/reproducible-research/licensing.html)
+  - [Continuous Integration](https://the-turing-way.netlify.app/reproducible-research/ci/ci-options.html)
+  - [Code Testing](https://the-turing-way.netlify.app/reproducible-research/testing.html)
+  - [Code Quality](https://the-turing-way.netlify.app/reproducible-research/code-quality.html) chapter in *The Turing Way*.
+  - [Capturing Computational Environments](https://the-turing-way.netlify.app/reproducible-research/renv/renv-options.html)
+- [Version control](https://the-turing-way.netlify.app/reproducible-research/vcs.html)
+  - [Getting Started With GitHub](https://the-turing-way.netlify.app/collaboration/github-novice.html)
+  - [Open Science](https://the-turing-way.netlify.app/reproducible-research/open.html)
+  - [Managing a New Community and Team](https://the-turing-way.netlify.app/collaboration/new-community.html)
+  - [Making Research Objects Citable](https://the-turing-way.netlify.app/communication/citable.html)
+## others
+
+- [Open Life Science training and Mentoring Programme](https://openlifesci.org). *Batut, Bérénice, Yehudi, Yo, Sharan, Malvika, Tsang, Emmy, \& Open Life Science Community. (2021). Open Life Science - Training and Mentoring programme - Website release 2019-2021 (1.0.0). Zenodo. [DOI: 10.5281/zenodo.5636584](https://doi.org/10.5281/zenodo.5636584)*
+
+- [What is a Registered Report?](https://support.jmir.org/hc/en-us/articles/360003450852-What-is-a-Registered-Report-) by JMIR, referencing to [Registered Reports by Center for Open Science](https://www.cos.io/initiatives/registered-reports)
+
+### literate programing guide
+
+  
+- [The Definitive Guide](https://bookdown.org/yihui/rmarkdown)
+- [Jupyter/IPython Notebook Quick Start Guide](https://jupyter-notebook-beginner-guide.readthedocs.io/en/latest/what_is_jupyter.html)
+
+
+
+:::::::::::::::::::::::::::::::::::::::: keypoints
+
+- Project management includes resource, team, data, communication and risk management.
+- Data science is dealing with large and diverse team, working remotely while using and re-using code to achieve reproducible analysis.
+
+::::::::::::::::::::::::::::::::::::::::::::::::::
 

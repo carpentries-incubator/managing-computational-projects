@@ -8,7 +8,6 @@ exercises: 10
 
 - Understand the importance of PID.
 - Know how to make data and code citable
-- Share open science practices for transparent and ethical research
 - Nudge the use of GitHub/GitLab for open collaboration
 - Learn why and how to cite the work of others, as well as your own research output
 
@@ -25,6 +24,9 @@ exercises: 10
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
 
+---
+
+<br><br>
 
 
 
@@ -33,7 +35,7 @@ exercises: 10
 
 
 
-## Publications
+## What and when to publish
 
 ![evolution toward open research](fig/evolution-open-research.png)
 
@@ -67,9 +69,9 @@ What are the equivalent of these openness steps for research manuscript ?
 
 :::::: solution
 - There were a time when researchers were not sharing their discovery at all.
-- The publishing industry made it to a available on request kind of state.
-- Open access publication make it a static released. 
-- Preprints are released versions
+- The publishing industry made it to a "available on request" kind of state.
+- Open access publication made it a static released. 
+- Preprints are released versions.
 - blog posts may be considered open per default.
 ::::::
 :::::::::::::
@@ -105,6 +107,8 @@ Researchers often worry that they need to hide their code to prevent others stea
 
 ## Making your research object citable
 
+### Getting a doi
+
 <img src="fig/DOI.jpg" alt="This image shows three boxes with materials on top. The main box in the middle has 'identifiers' written on it with three discs on top of it that are labelled 'data sets'. Both boxes by their side have journal articles on top of them. An arrow on the top of the image points to these images as being 'Digital Object Identifiers'. There is text at the bottom of the image which says 'Persistent', 'Unique', 'Trusted'." width="500"/>
 
 *Digital Object Identifiers or DOIs are persistent, unique and trusted. _The Turing Way_ project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807).*
@@ -114,8 +118,45 @@ DOIs are alphanumerical unique and persistent identifiers with a permanent web a
 Each pre-print and publication is published with a DOI, but independent of the paper, different research objects can be published online on servers that offer DOIs at any stage of your research.
 
 Repositories usually collect the citation information before providing a DOI, so that the metadata associated with the DOI is indexed. 
+Necessary information includes a title and a list of authors.
 
+
+
+You may want to read the [Making Research Objects Citable](https://the-turing-way.netlify.app/communication/citable.html) chapter in *The Turing Way* Guide to Communication.
+
+### Authors and contributors
+
+In order to get correct metadata, give credits to all contributors and actually have the rights to make things public, you need to collect information and agreements from all authors.
+As usual, it is best to get it as soon as possible in the research process; and as usual you may well have postponed it until the latest moment.
+
+It is advisable to use a spreadsheet to collect information (names, affiliation, orcid number). The Tenzing spreadsheet can be used, as it will allow the program to create author list automatically from the spreadsheet, as well as collect information on each author contribution.
+
+:::::: callout
+
+It might be particularly important to credit all people who have indeed participated in the research. The use of a contribution statement in the paper (see [https://tenzing.club](https://tenzing.club)) or contribution section in the repository readme can be useful (see [https://allcontributors.org](https://allcontributors.org)).
+
+For contributors who will not be in the author list of the main paper, one can make them authors of the published dataset/code, and/or add them in the aknowledgements. 
+The first solution has the advantage to be sent to orcid (if people have an orcid account) such that the contribution is more visible and measurable.
+
+::::::
+
+### Citation File Format
+
+The Citation File Format provides citation metadata, for software or datasets, in plaintext files that are easy to read by both humans and machines.
+
+Adding a `CITATION.cff` file to your folder means it can be cited when others use it, increasing recognition for your work and your research project's impact.
+
+See more at [The Turing Way: CITATION.cff](https://the-turing-way.netlify.app/communication/citable/citable-cff.html)
+
+[https://the-turing-way.netlify.app/\_images/software-credit.jpg](https://the-turing-way.netlify.app/_images/software-credit.jpg)
+
+### Citable data
+
+Data is best published in domain specific repositories.
 Look for a data repository at https://www.re3data.org. 
+
+Costs associated with data publication can be important, so it is best to plan ahead, so you are sure you have the resources needed.
+Whether the raw or some derived data should be published openly will depend on costs and may depend on legislations.
 
 See [https://the-turing-way.netlify.app/communication/citable.html](https://the-turing-way.netlify.app/communication/citable.html) for details.
 
@@ -129,40 +170,29 @@ The [Citation File Format](https://citation-file-format.github.io/), then lets y
 
 ::::::::::::::::::::::::::::::::
 
-You may want to read the [Making Research Objects Citable](https://the-turing-way.netlify.app/communication/citable.html) chapter in *The Turing Way* Guide to Communication.
 
 
-## Citable Code
 
-While it is possible to cite software from GitHub (see below using a Citation File Format file), it is better to cite an archived version of the software (a code release). The possibility to get integration with zenodo from GitHub or GitLab, makes it easy to get DOIs for each version of the software.
 
-### Citation File Format
-The Citation File Format provides citation metadata, for software or datasets, in plaintext files that are easy to read by both humans and machines.
-
-Adding a `CITATION.cff` file to your folder means it can be cited when others use it, increasing recognition for your work and your research project's impact.
-
-See more at [The Turing Way: CITATION.cff](https://the-turing-way.netlify.app/communication/citable/citable-cff.html)
-
-[https://the-turing-way.netlify.app/\_images/software-credit.jpg](https://the-turing-way.netlify.app/_images/software-credit.jpg)
-
-### Code release
+### Citable Code
 
 For computational projects, releasing your work in an open repository has parallels with publications.
-
 <img src="fig/parallel.png" alt="similarity between publication and repository use" width="800"/> 
 
-There can be specific requirements to keep code bases and/or data private. See the section below for good and not so good reasons for keeping work private.
 
-You can release code and data associated with a research article as a series of files/folders. If your project follows the folder template introduced in a previous episode, for example:
-<img src="https://github.com/jcolomb/gintonic-blog/raw/forreview/50_figures/pulication_ready_figures/2draft-templates.png" alt="drawing" width="300"/>
 
-> Examples of a template folder tree for a computational project. [https://github.com/tonic-team/Tonic-Research-Project-Template](https://github.com/tonic-team/Tonic-Research-Project-Template)
+While it is possible to cite software from GitHub (see below using a Citation File Format file), it is better to cite an archived version of the software (a code release). You can release code and data associated with a research article as a series of files/folders. 
+You could for example bundle folders into a `.zip` file and upload it to Zenodo.
 
-You could bundle folders into a `.zip` file and upload it to Zenodo.
+The possibility to get integration with zenodo from GitHub or GitLab, makes it easy to get DOIs for each version of the software.
+These automated archive of release may even read the CITATION.cff file to create metadata. This is explained in more detail in the Turing way book at https://the-turing-way.netlify.app/communication/citable/citable-cite.tml
+
+
+:::::::::::::::::::::::: instructor
 
 ### Zenodo
 
-<img src="https://i.imgur.com/SUWUTKK.png" alt="drawing" width="500"/>
+<img src="https://i.imgur.com/SUWUTKK.png" alt="zenodo entry example which is synchronised with GitHub." width="500"/>
 
 > Zenodo is a general-purpose open-access repository developed under the European OpenAIRE program and operated by CERN. It allows researchers to deposit research papers, data sets, research software, reports, and any other research related digital artefacts.
 > 
@@ -177,9 +207,9 @@ You could bundle folders into a `.zip` file and upload it to Zenodo.
 > - **GitHub integration** — Easily preserve your GitHub repository in Zenodo.
 > - **Usage statistics** — All uploads display standards compliant usage statistics
 
-:::::::::::::::::::::::: instructor
 
-This goes in more details about collaborative code, it may be usefull if collaboration is the main topic of your workshop.
+
+This goes in more details about collaborative code, it may be useful if collaboration is the main topic of your workshop.
 
 ## Collaborative Open Code
 
@@ -199,14 +229,7 @@ When using specifically R, you could release R packages on [CRAN](https://cran.r
 
 ::::::::::::::::::::::::
 
-:::::: callout
 
-It might be particularly important to credit all people who have indeed participated in the research. The use of a contribution statement in the paper (see [https://tenzing.club](https://tenzing.club)) or contribution section in the repository readme can be useful (see [https://allcontributors.org](https://allcontributors.org)).
-
-For contributors who will not be in the author list of the main paper, one can make them authors of the published dataset/code, and/or add them in the aknowledgements. 
-The first solution has the advantage to be sent to orcid (if people have an orcid account) such that the contribution is more visible and measurable.
-
-::::::
 <!--
 ## Code release
 
@@ -264,120 +287,11 @@ In addition to the referenced linked under different sections in this lesson, pl
 
 
 
-<br><br><br><br>
+<br><br><br><br> 
 
 ---
 
 <br><br>
-
-
-
-
-
-
-## Apply Open Science Best Practices
-
-
-
-Open Science invites all researchers to share their work, data and research components openly so that others can read, reuse, reproduce, build upon and share them.
-Particularly in computational research and software development projects, open source practices are widely promoted.
-Unfortunately, making research components open doesn't always mean that they can be easily discovered by everyone, can be reproduced and built upon by others or everyone will know how to use them.
-Applying open and inclusive principles to open science and reproducible research requires time, intention, resources and collaboration, which can be overwhelming for many (see [Ten arguments against Open Science that you can win](https://www.software.ac.uk/blog/2020-12-17-ten-arguments-against-open-science-you-can-win)).
-However, by normalising the use of research best practices on a day-to-day basis, you can ensure that everyone has a chance to build habits around opening their work for others in the team, asking for regular feedback, getting attributed for their work and enjoying the process of collaboration.
-
-Open doesn't mean sharing everything, but making it 'as open as possible and as closed as necessary'.
-Your research can still be reproducible without all parts necessarily being open.
-Research projects that use sensitive data should be more careful and follow research data management plans closely (discussed in the next chapter).
-
-### Important Reasons for Practicing Openness
-
-:::::::::::::::::::::::::::::::::::::::::  callout
-
-## Open Science in Research
-
-- **Maintains transparency**
-- **Allows others to attribute your work fairly**
-- **Stops others from reinventing the wheel**
-- **Invites collaborators from all around the world**
-- **Makes your work easy to release to be cited by others**
-  
-
-::::::::::::::::::::::::::::::::::::::::::::::::::
-
-![](https://zenodo.org/api/iiif/v2/5c8c70c9-4119-4917-91d1-bc955943f586:b7d2f709-d5f6-4091-bd12-27455cd9e239:open-vs-close-research-with-text.jpg/full/750,/0/default.jpg){alt='Image shows a person having internal debate about open vesus closed research. Open means new opportunities and inclusivity but closed maybe required to ensure data sensitivity or wrongly assumed for funding for novel work.'}
-
-*Open versus Closed Research. The Turing Way project illustration by Scriberia for The Turing Way Community Shared under CC-BY 4.0 License. Zenodo. [http://doi.org/10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807)*
-
-- When a project is designed in an open repository, it **allows all stakeholders to track the progress, raise errors and collaborate** to improve the project.
-- When developed openly, such as on GitLab or through the registered report, it is easy to point to the timeline when an idea or experiment was proposed and **exhibit how the project developed, who contributed and how others can attribute the work**.
-- Having your research open from the start can **help others working in similar subjects or starting research**. It allows them to conduct their review work effectively and build on the existing work, rather than starting from scratch, or 'reinventing the wheel'.
-- With open repositories and descriptions for where you need help or how others can collaborate, you can **get people in your area with complementing skills and new ideas interested in your work**, even when you don't know them.
-
-### Choose a License
-
-Research does not have to be completed to be useful to others. Having a license is the way to communicate how do you want your research to be used and shared.
-There are different types of licenses depending on the type of research objects such as code, data or documentation and preferences for re-use and sharing.
-The [choosealicense](https://choosealicense.com/) website has a good mechanism to help you pick a license.
-To learn more about how to add a license to your project, read the [Licensing chapter](https://the-turing-way.netlify.app/reproducible-research/licensing.html) in **The Turing way** Guide for Reproducible Research.
-
-### Every Little Step Counts towards Openness
-
-Open Science can mean different things in different contexts: open data, open source code, open access publication, open scholarship, open hardware, open education, open notebook, citizen science and inclusive research.
-Expert open science practitioners might consider applying a combination of open science practices and make decisions in their work to maintain different kinds of openness.
-However, for the new starters in your team, open science can be as simple as ensuring that:
-
-- everyone has added an appropriate license to their project repository,
-- recorded their work and shared their project's roadmap on a README/landing page,
-- provided some basic manual for how to use their work and how to contribute,
-- given credit to previous work upon which they build, and
-- regularly communicate about their research.
-
-![](https://zenodo.org/api/iiif/v2/514d0fdf-b1b3-4e94-842d-85b09f344668:1016fa41-7b71-425b-8aa9-436f42008339:EvolutionOpenResearch.jpg/full/750,/0/default.jpg){alt='Image shows a woman slowly gaining trust and confidence in opening up her research project and benefitting from open collaboration'}
-
-*Small steps towards open science. The Turing Way project illustration by Scriberia for The Turing Way Community Shared under CC-BY 4.0 License. Zenodo. [http://doi.org/10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807)*
-
-Encourage taking small steps towards openness as a responsibility towards research integrity in your team.
-There are many community-driven resources, guidance and opportunities in open science that provided structured support to learn about open science.
-For instance, *The Turing Way* [chapter on Open Research](https://the-turing-way.netlify.app/reproducible-research/open.html) and [FOSTER Open Science](https://www.fosteropenscience.eu/learning/what-is-open-science/#/id/5ab8ea32dd1827131b90e3ac) provides an introduction to help researchers understand what open science is and why it is something you should care about.
-Another hands-on opportunity is provided by [Open Life Science](https://openlifesci.org), which is a 16-week long training and mentoring for anyone in research interested in going through the programme to apply open science practices systematically in their research projects.
-
-
-
-## Resources and References for Technical Details
-
-- *The Turing Way*. *The Turing Way Community. (2021). The Turing Way: A handbook for reproducible, ethical and collaborative research (1.0.1). Zenodo. [DOI: 10.5281/zenodo.5671094](https://doi.org/10.5281/zenodo.5671094)*
-  - [Version control](https://the-turing-way.netlify.app/reproducible-research/vcs.html)
-  - [Getting Started With GitHub](https://the-turing-way.netlify.app/collaboration/github-novice.html)
-  - [Open Science](https://the-turing-way.netlify.app/reproducible-research/open.html)
-  - [Managing a New Community and Team](https://the-turing-way.netlify.app/collaboration/new-community.html)
-  - [Making Research Objects Citable](https://the-turing-way.netlify.app/communication/citable.html)
-- [What is a Registered Report?](https://support.jmir.org/hc/en-us/articles/360003450852-What-is-a-Registered-Report-) by JMIR, referencing to [Registered Reports by Center for Open Science](https://www.cos.io/initiatives/registered-reports).
-- [Open Life Science training and Mentoring Programme](https://openlifesci.org). *Batut, Bérénice, Yehudi, Yo, Sharan, Malvika, Tsang, Emmy, \& Open Life Science Community. (2021). Open Life Science - Training and Mentoring programme - Website release 2019-2021 (1.0.0). Zenodo. [DOI: 10.5281/zenodo.5636584](https://doi.org/10.5281/zenodo.5636584)*
-
-
-
-:::::::::::::::::::::::::::::::::::::::: keypoints
-
-- Version controlled repository help record different contributions and contributor information openly.
-- Open Science is an umbrella term that involve different practices for research in the context of different research objects.
-- Online Persistent Identifiers or Digital Object Identifiers are useful for releasing and citing different versions of research objects.
-
-::::::::::::::::::::::::::::::::::::::::::::::::::
-
-
-
-<br><br><br><br>
-
----
-
-<br><br>
-
-
-
-
-
-
-
 
 
 
@@ -414,7 +328,7 @@ Note that you can often reserve a DOI without publishing your data and code, if 
 
 :::::::::::::::::::::::::::::::::::::::: keypoints
 
-- Cite code and data from others
+- Cite code and data
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 

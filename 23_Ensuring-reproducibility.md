@@ -1,6 +1,6 @@
 ---
 title: 'Ensuring reproducibility'
-teaching: 40
+teaching: 15
 exercises: 10
 ---
 
@@ -157,6 +157,11 @@ Read *[All you need to know about Git, GitHub \& GitLab](https://towardsdatascie
 ## Basics of Version Control 
 
 We have all seen a simple file versioning approach where different versions of a file are stored with a different name.
+Often, files are getting a number suffix that grows with the version number (v001 to v999 for example). When many version exists, it is useful to store old version in a subfolder and keep a record of what has changed in each version.
+Git is a tool that automates that process. As explained below, Git uses repositories to handle collaborative working, but is not a real-time collaborative tool.
+
+![A figure showing manual (left) versus GIT (right) version control.](fig/manualversioncontrol.jpg){alt='A figure showing manual versus GIT version control. On the left, we have one folder with a file named thesis_latest, a spreadsheet and one subfolder; on the right one folder with a file named thesis and a hidden folder called ".git". Below a screenshot of the spreadsheet on the left with some comments for each version saved in the subfolder; on the right a view of a Git software showing the same comments entered via Git, and a view of the difference added in one of the version. Figure by Julien Colomb, CC-BY 4.0.'}
+
 Tools such as Google Drive and Microsoft Teams offer platforms to share and edit files with others in real-time, collaboratively.
 More sophisticated VCS exists within tools like [Google docs](https://docs.google.com/) or [HackMD](https://hackmd.io/).
 These allow collaborators to update files while storing each version in its version history (we will discuss this in detail).
