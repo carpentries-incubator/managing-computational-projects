@@ -5,9 +5,33 @@ title: "What is data science"
 
 ## Project Management in a research context
 
+::::::::::::::::::::::::::::::::::::::  discussion
+
+What defines a research project ? 
+What makes two projects in a lab different? 
+
+:::::: solution
+The answer may vary with domain and lab culture, but the main components are very similar to what defines one research publication:
+
+- The vision or specific research question
+- The team: different people may be involved inside and outside the lab
+- The funding source
+- The methods used
+
+Different types of experiments can be part of the same project.
+
+As lab resources are often pooled between project, this means that lab and project management are linked, while being independent.
+::::::
+
+
+::::::::::::::::::::::::::::::::::::::::::::::::::
+
 The research workflow, also known as the research cycle, usually starts with a research idea, via a literature search on what is already known on the subject, to data collection and analysis, to writing, publishing, and the final assessment of a study. Each of these steps in a given research project involves aspects of project management that such as planning, coordination, execution and monitoring of the team, resources (budgets, materials, equipment), and timeliness according to schedule. 
 
+ 
+
 ### Project Design and Planning
+
 It involves defining the project plan which includes the scope, objectives, milestones, and deliverables within the available timeline.
 This includes the creation of a timetable or Gantt chart usually created during the grant application.
 
@@ -18,6 +42,7 @@ This includes the creation of a timetable or Gantt chart usually created during 
 It includes the managing of the budget, allocation of funds to each step over time, and ensuring that deliverables and objectives will be met within the available timeframe.
 
 ### Team Management
+
 It is the task of making people work together. It includes the definition of the responsibilities for every team member on specific steps and aspects of the research project, task assignments, progress monitoring, and team efficiency measures to thus produce results. It is core in meeting the objectives and goals of a research project.
 
 Research teams often work remotely with team members being located in different parts of the world, and therefore need tools that allow for real-time collaboration, as well as access to process documentation, files, and data to all team members at any given time.
@@ -42,6 +67,18 @@ With a [S.W.O.T. Analysis](https://en.wikipedia.org/wiki/SWOT_analysis#) as part
 ### Monitoring and Evaluation
 It involves ensuring quality control throughout the execution of the project and the adherence to research policies and procedures, lessons learned and conclusions that can be drawn from the results.  
 
+:::::::::::::::::::::::::::::::::::::  testimonial
+
+I often manage projects where I do not have decision power.
+My work usually starts by making sure decisions are taken and documented.
+The documentation is very important, because  the implementation of the decision often requires me to remind people of their decision.
+Indeed, during the rest of the project, my role consist in monitoring progresses and remind people of the objectives, such that specific work is done at the right time.
+For instance, a team may well aim for publishing data at the start of a project, but this objective will not be met unless a specific workflow is implemented at the start of the project. My work is then to make sure the researchers are aware of the problems and that they do not take shortcuts that go against the long term objectives.
+
+As a project manager, one needs to make sure the resources are sufficient to achieve the goals set in the plan. In research, it often consists in making sure the people are indeed working toward the goal and are not investing their time to other projects or other objectives of the lab. 
+This is particularly important when short term individual incentives are not aligned with the project long term vision. For instance, data management is primordial in team science, but, too often, data collector cannot recognize its importance.
+
+:::::::::::::::::::::::::::::::::::::
 
 ## Project Management tools overview
 
@@ -51,7 +88,9 @@ Another approach is to use GitHub , GitLab (or other Git platforms) and their in
 
 [Kanboard](https://kanboard.org/), [WeKan](https://wekan.github.io/), [Open project](https://www.openproject.org) and [Taiga](https://taiga.io/) are examples for open-source project management software that contain Kanban boards. 
 
-
+:::: discussion
+What project management (digital) tools are you using ?
+::::
 
 
 ## What is data science
@@ -97,8 +136,12 @@ As pictured below, in order to apply these tools, researcher first need to under
 
 ::::::::::::::::::::::::::::::::::::::  discussion
 
-In what aspects of your projects do you already apply computational and statistical approaches?
-Do you consider data science relevant for your project? Why/Why not?
+- In what aspects of your projects do you already apply computational and statistical approaches?
+
+- Do you consider data science relevant for your project? Why/Why not?
+
+- To what extent do you apply data science practices in your research projects? (A) Not yet, (B) Sometimes, (C) In most projects, (D) In every project.
+
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 

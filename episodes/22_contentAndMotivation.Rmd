@@ -8,6 +8,7 @@ exercises: 20
 ::::::::::::::::::::::::::::::::::::::: objectives
 
 - Understanding the scope and structure of this course.
+- Understanding what project management and data science entail.
 - Contextualising computational project management for biomedicine and life science research.
 - Knowing the next steps to take after this workshop.
 
@@ -46,9 +47,7 @@ exercises: 20
 ```{r, child='files/02-motivation.md'}
 ```
 
-:::: discussion
-To what extent do you apply data science practices in your research projects? (A) Not yet, (B) Sometimes, (C) In most projects, (D) In every project.
-::::
+
 
 :::::::::::::::::::::::::::::::::::::::: keypoints
 
