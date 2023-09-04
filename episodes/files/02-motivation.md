@@ -265,10 +265,3 @@ For instance, *The Turing Way* guide for data science and research provides seve
 
 
 
-:::::::::::::::::::::::::::::::::::::::: keypoints
-
-- motivations
-
-::::::::::::::::::::::::::::::::::::::::::::::::::
-
-

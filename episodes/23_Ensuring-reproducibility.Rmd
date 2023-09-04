@@ -1,6 +1,6 @@
 ---
 title: 'Ensuring reproducibility'
-teaching: 40
+teaching: 15
 exercises: 10
 ---
 
