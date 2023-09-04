@@ -2,6 +2,12 @@
 title: Coordinate collaborative work. 
 ---
 
+:::::: Instructor
+
+In order to indroduce kanbans, one can use different tools. We used miro to both collect feedback and introduce kanbans. Then we had a practical section with a mix of demo and hands-on using https://next.forgejo.org/. We choose that tool because it is a particularly not well known open source alternative.
+
+::::::
+
 ## Project Management Tools
 
 
@@ -75,6 +81,14 @@ Github also allows different summary views for collaborative issues across multi
 <img src="https://i.postimg.cc/d37Yv66Y/Screenshot-2022-02-10-at-19-47-51.png" alt="drawing" width="600"/>
 
 *Author: Lydia France (Junior Data Scientist, The Alan Turing Institute, UK)*
+
+Similar walkthrough can be done with https://next.forgejo.org (Codeberg-like test platform). Lecturer prepare a repository with a readme, a project and one issue. Fake user should be added to the platform before the course, so that people do not have to register, and users are added as collaborators on the repository.
+
+- create an issue "adding myself to the participant list"
+- assign it to the project
+- move it in the board view
+- assign someone, add a label, add a milestone.
+- modify readme file, commit change with a new branch.
 
 :::::::::::::::::::::::::
 
