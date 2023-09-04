@@ -1,7 +1,7 @@
 ---
 title: 'Course content and motivation'
-teaching: 40
-exercises: 20
+teaching: 10
+exercises: 10
 ---
 
 
@@ -25,13 +25,6 @@ exercises: 20
 
 
 
-```{r, child='files/01-introduction.md'}
-```
-
-<br><br><br><br>
-
----
-
 <br><br>
 
 ```{r, child='files/03-overview.md'}
@@ -46,9 +39,7 @@ exercises: 20
 ```{r, child='files/02-motivation.md'}
 ```
 
-:::: discussion
-To what extent do you apply data science practices in your research projects? (A) Not yet, (B) Sometimes, (C) In most projects, (D) In every project.
-::::
+
 
 :::::::::::::::::::::::::::::::::::::::: keypoints
 

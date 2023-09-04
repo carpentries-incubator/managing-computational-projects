@@ -1,7 +1,7 @@
 ---
 title: 'Managing Data'
-teaching: 40
-exercises: 10
+teaching: 30
+exercises: 20
 ---
 
 ::::::::::::::::::::::::::::::::::::::: objectives
@@ -10,6 +10,7 @@ exercises: 10
 - Explain FAIR principles and practices for RDM
 - Introduce data storage and organisation plan
 - Discuss documentation and metadata practices
+- Overview of best practices for spreadsheet design
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 

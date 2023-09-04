@@ -1,7 +1,7 @@
 ---
 title: 'Managing project start and collaborations'
-teaching: 40
-exercises: 10
+teaching: 25
+exercises: 50
 ---
 
 ::::::::::::::::::::::::::::::::::::::: objectives

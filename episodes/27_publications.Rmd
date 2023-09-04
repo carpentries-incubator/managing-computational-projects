@@ -8,7 +8,6 @@ exercises: 10
 
 - Understand the importance of PID.
 - Know how to make data and code citable
-- Share open science practices for transparent and ethical research
 - Nudge the use of GitHub/GitLab for open collaboration
 - Learn why and how to cite the work of others, as well as your own research output
 
@@ -25,22 +24,16 @@ exercises: 10
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
 
+---
+
+<br><br>
 
 
 
 ```{r, child='files/15-publication.md'}
 ```
 
-<br><br><br><br>
-
----
-
-<br><br>
-
-```{r, child='files/16-open.md'}
-```
-
-<br><br><br><br>
+<br><br><br><br> 
 
 ---
 
