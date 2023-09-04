@@ -71,13 +71,14 @@ episodes:
 
 # Information for Learners
 learners: 
-- discuss.md
 - reference.md
 - setup.md
 - 04-FAIRHowTo.md
 - 08-KanbanTutorial.md
 - 09-GithubCodeReview.md
 - 51-datawrangling.md
+- spreadsheets.md
+- statistics.md
 
 # Information for Instructors
 instructors: 

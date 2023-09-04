@@ -29,21 +29,6 @@ Data should be stored in multiple locations and backed up regularly to prevent l
 
 :::::::::::::::::::::::::::::::::::::::::  callout
 
-# Important easy steps:
-
-- Raw data should stay raw
-- Spreadsheet shall be tidy
-
-:::::::::::::::::::::::::::::::::::::::::  
-
-## Plan for reproducible research
-
-When planning a reproducible analysis, your data management plan will change. Because you want to avoid any manual wrangling of the data (copy-paste, analysis in excel, ...), you need to take particular care of the format of the raw data, making it if possible computer readable with the programming language you will be using. Also when a software provide you with both raw data and pre-analysed data, you should consider early which file you will be using in your analysis (in most cases, using the raw data will make your analysis more robust and easier to reuse for other researchers). 
-Also information may be lost when transforming the raw data, so make new versions and keep the original file safe.
-
-
-:::::::::::::::::::::::::::::::::::::::::  callout
-
 ## Why This is Useful
 
 Managing your data allows you to always find your data and ensure the quality of scientific practice or research.
@@ -57,79 +42,55 @@ RDM is cost/time efficient, as you will always be able to find and use your data
 
 Clearly describing data using documentation and metadata ensures that others know how to access, use and reuse your data, and also enable conditions for sharing and publishing data to be outlined.
 
-## Using spreadsheets
+:::::::::::::::::::::::::::::::::::::::::  callout
 
-Here we made a special section on spreadsheets design and management, because  **most data analysis nightmares (and time waste) are due to bad spreadsheet design. **
+## Easy steps:
 
-Spreadsheets, such as Microsoft Excel files, google sheets, and their Open Source alternative [(for instance) LibreOffice](https://www.libreoffice.org), are commonly used by wet-lab experimentalists to collect, store, manipulate, analyse, and share research data.
-Spreadsheets are convenient and easy-to-use tools for organising information into an easy to write and easy to read forms for humans.
-However, one should use them with caution, as the use of an inappropriate spreadsheet is a major cause of mistakes in the data analysis workflow.
+- Raw data should stay raw
+- Spreadsheet shall be tidy (and validated), in .csv or .tsv format
+- Data management plan should involve the whole team.
 
-Please refer to the [Data Carpentry Ecology Lesson](https://datacarpentry.org/spreadsheet-ecology-lesson/) and *The Turing Way* chapter for [managing data in spreadsheet](https://the-turing-way.netlify.app/reproducible-research/rdm/rdm-spreadsheets.html) for best practices.
+:::::::::::::::::::::::::::::::::::::::::  
 
+### The Research Data Lifecycle - A Model for Data Management
 
-### Information in tables
+Research data often follows a ‘lifecycle' that follows the research project as it evolves.
+This model provides a sound basis on which to plan for research data management, from data creation at the start of a research project, through to publishing and sharing research at the end of the project, and archiving any research data for the long-term and future re-use once the project has ended.
 
-Information can usually be stored in a triplet: subject, object and their relation. 
-This triplet is often best represented in a table, as they are easy to fill.
-Such tables are often used to collect data, or at least metadata of an experiment.
-For example, in the BIDS standard, the `participants.tsv` file is a spreadsheets collecting information about all subjects of an experiment.
- 
+The research data lifecycle involves data creation, data use, data publication and sharing, data archiving, and data re-use or destruction.
+However, data have a longer lifespan than the research project that creates them. In a Data Management Plan, you can structure how you will manage and share your research data.
 
+## Data Management Plan
 
-| subjects | relation |
-|------|------|
-|   subject 1  |  object   |
+A Data Management Plan (DMP), or Output Management Plan, is a document that describes how your research outputs will be generated, stored, used and shared within your project.
+A DMP is a living document, which can be updated throughout the research project as needed.
 
-example:
+A Data Management Plan is a roadmap for you to manage your data efficiently and securely. This can prevent data loss or breaches.
+Planning ahead on how to manage your data consistently can save you time later on!
 
-| subjects | eye_color |
-|------|------|
-|   Bob   |  blue   |
+### A Data Management Plan should provide information on five main topics
 
-NB: the .csv version of the table above will be:
-```
-subjects,eye_color
-Bob,blue
-````
+1. **Roles and Responsibilities** for the management of the data and code to help prevent confusion/miscommunication later in the project.
+  Please check the DMP recommendations and requirements library research support team of your institute and the website of your funder.
+  You can check if your funder or institute has a DMP template using [DMPonline](https://dmponline.dcc.ac.uk/).
+2. **A list of types, standards and formats** for data, documentation and metadata (discussed later) should allow team members to understand to comply with the recommendations from the start of the project.
 
+- A distinction can be described in the plan separately for different data types such as raw (primary), processed and ready to use (finalised to publish) datasets.
+- All types of data will have to be described to be placed into context by using metadata and adequate documentation which will allow anyone in your team to interpret the data in the future.
 
-The design of the table will depend on the type of analysis you will do.
-Spreadsheets are a way to create tables, One should always have **only one table in one sheet**, computers have difficulties to separate tables that are on the same sheet.
+3. **Data storage and backup procedures** should be assessed for each project and established depending on the institutional requirements, associated costs and recommended format from your field. We will diuscuss this in detail later in this lesson.
+4. **Preservation of the research outputs** can be managed differently based on if they can be made publicly available or not. Personal data or research outputs needed to apply for patents cannot be publicly shared but they still have to be preserved for several years, depending on the policies of your country, institute and funder. Learn more about this in detail in [Sharing and Archiving Data](https://the-turing-way.netlify.app/reproducible-research/rdm/rdm-sharing.html#rr-rdm-sharing) chapter in *The Turing Way*.
+5. **Reuse of your research outputs** should be ensured by selecting licenses for different components of your research when you make your output available on a repository (see the Licensing subchapters on [data](https://the-turing-way.netlify.app/reproducible-research/licensing/licensing-data.html#rr-licensing-data) and [software](https://the-turing-way.netlify.app/reproducible-research/licensing/licensing-software.html#rr-licensing-software) for more information). A dedicated document (such as a README file) is recommended for describing research outputs into context. UK Data Service has provided a [Data Management Checklist](https://ukdataservice.ac.uk/learning-hub/research-data-management/plan-to-share/checklist/) to help cover different aspects of the DMP.
 
-When planning to collect data in tables by hand, it is good to have one unique design for the digital spreadsheet and the printed one. This will fasten and reduce the error rate of the manual digitization of the data.
+:::::: callout
+## Plan for reproducible research
 
-### Information in .xlsx files
+When planning a reproducible analysis, your data management plan will change. Because you want to avoid any manual wrangling of the data (copy-paste, analysis in excel, ...), you need to take particular care of the format of the raw data, making it if possible computer readable with the programming language you will be using. Also when a software provide you with both raw data and pre-analysed data, you should consider early which file you will be using in your analysis (in most cases, using the raw data will make your analysis more robust and easier to reuse for other researchers). 
+Also information may be lost when transforming the raw data, so make new versions and keep the original file safe.
 
-While Excel or libreoffice are user-friendly software to create and fill spreadsheets, they propose functions which are making the information computer un-readable and should be avoided. 
-For instance, the "merging cells" function makes spreadsheet nice-looking but impossible to read in computer programs. 
-
-On the other hand, other function should be used with care: Colors, text formats or borders will also not be translated in any useful information for the data analyst. You can use them for purposes that are not data driven.
-
-As a simple rule, export your excel spreadsheet into the `.csv` format, that is the data included in your spreadsheet. `tsv`format is similar, it uses tabs instead of commas to separate the values.
+:::::: 
 
 
-### Tidy spreadsheets
-
-There are very simple rules to facilitate data use, which go into the concept of [tidy data](https://en.wikipedia.org/w/index.php?title=Tidy_data&oldid=962241815). The tidy data format allows for filtering and sorting data easily in spreadsheet software.
-
-![An illustration of tidy data: variables are in columns, observations in rows and there is one value per cell.](fig//tidy-1.png)
-
-[More infos](https://the-turing-way.netlify.app/reproducible-research/rdm/rdm-spreadsheets.html?highlight=tidy#tidy-format-for-spreadsheets)
-
-### Validation
-
-Since spreadsheets are often entered manually, if is good to validate them automatically. There are usually tools to make sure the spreadsheet is tidy, that all cells are non-empty, or that values were not typed wrongly.
-
-For instance, in the BIDS format, the participants.csv file we talked about earlier, comes with a json validator, which says what columns are required, and what values are accepted.
-
-### Some tips
-
-- If you really need some information about the column in the spreadsheet itself, put it in the firs raw and have the headers in the second raw: it is easy to tell the computer to read a spreadsheet starting at the second raw, much more difficult to tell it to ignore the second raw.
-- Instead of using colors, you can add one columns to add information usually given by the color. Software usually have a way to add colors to a row depening of the value of that new column.
-- Designing good spreadsheet is usually an iterative process. It is often interesting to involve the whole team, or even a larger community. This is similar to a standard creation work.
-- The process of naming columns should follow the same rules as naming files. 
-- For dates, use three columns (year, month, day): software will often change ISO formatted dates into a different format without telling you, during the file import.
 
 ## Defining Data
 
@@ -150,6 +111,36 @@ A good way of thinking about what might be classed as data that needs to be mana
 
 ::::::::::
   
+  
+## Using spreadsheets
+
+Here we made a special section on spreadsheets design and management, because  **most data analysis nightmares (and time waste) are due to bad spreadsheet design. **
+
+
+More information is available in the extra content of this course (see "More" button in the header).
+Please refer to the [Data Carpentry Ecology Lesson](https://datacarpentry.org/spreadsheet-ecology-lesson/) and *The Turing Way* chapter for [managing data in spreadsheet](https://the-turing-way.netlify.app/reproducible-research/rdm/rdm-spreadsheets.html) for best practices.
+
+
+
+
+
+Spreadsheets, such as Microsoft Excel files, google sheets, and their Open Source alternative [(for instance) LibreOffice](https://www.libreoffice.org), are commonly used by wet-lab experimentalists to collect, store, manipulate, analyse, and share research data.
+Spreadsheets are convenient and easy-to-use tools for organising information into an easy to write and easy to read forms for humans.
+However, one should use them with caution, as the use of an inappropriate spreadsheet is a major cause of mistakes in the data analysis workflow.
+
+As a project manager, it is important to see that spreadsheet are only used to collect information, but that manipulation and analysis are made in a programming environment. This also means that the information should be understandable by humans, and readable by machines.
+
+This includes:
+
+- Only one table per spreadsheets
+- Spreadsheet are stored as .csv or .tsv files (no color, no merging cells)
+- Spreadsheet can be read by the programming language in use (they are tidy)
+- At best, there is an automatic validation tool is run on the spreadsheet.
+- New data should lead to new rows (and not new columns).
+
+![An illustration of tidy data: variables are in columns, observations in rows and there is one value per cell.](fig//tidy-1.png){alt='An illustration of tidy data with three panels with three titles. Arrows are indicating the direction: vertical arrows for variables, as they should be indicated in columns, and horizontal arrows for observations , as they should be indicated in rows. In the third pannel, a circle is present on each cell to represent that there is one unique value per cell.'}
+
+
 
 ## File names and folder structure
 
@@ -229,35 +220,51 @@ The current version of REMBI, including examples from the fields covered by the 
 
 
 
-## The Research Data Lifecycle - A Model for Data Management
 
-Research data often follows a ‘lifecycle' that follows the research project as it evolves.
-This model provides a sound basis on which to plan for research data management, from data creation at the start of a research project, through to publishing and sharing research at the end of the project, and archiving any research data for the long-term and future re-use once the project has ended.
 
-The research data lifecycle involves data creation, data use, data publication and sharing, data archiving, and data re-use or destruction.
-However, data have a longer lifespan than the research project that creates them. In a Data Management Plan, you can structure how you will manage and share your research data.
 
-## Data Management Plan
 
-A Data Management Plan (DMP), or Output Management Plan, is a document that describes how your research outputs will be generated, stored, used and shared within your project.
-A DMP is a living document, which can be updated throughout the research project as needed.
 
-A Data Management Plan is a roadmap for you to manage your data efficiently and securely. This can prevent data loss or breaches.
-Planning ahead on how to manage your data consistently can save you time later on!
+## Data Storage, Organisation and Backup Procedures
 
-### A Data Management Plan should provide information on five main topics
+Data loss can be catastrophic for your research project and can happen often. You can prevent data loss by picking suitable storage solutions and backing your data up frequently.
 
-1. **Roles and Responsibilities** for the management of the data and code to help prevent confusion/miscommunication later in the project.
-  Please check the DMP recommendations and requirements library research support team of your institute and the website of your funder.
-  You can check if your funder or institute has a DMP template using [DMPonline](https://dmponline.dcc.ac.uk/).
-2. **A list of types, standards and formats** for data, documentation and metadata (discussed later) should allow team members to understand to comply with the recommendations from the start of the project.
+- Most institutions will provide a network drive that you can use to store data.
+- Portable storage media such as memory sticks (USB sticks) are more risky and vulnerable to loss and damage.
+- Cloud storage provides a convenient way to store, backup and retrieve data. You should check terms of use before using them for your research data.
 
-- A distinction can be described in the plan separately for different data types such as raw (primary), processed and ready to use (finalised to publish) datasets.
-- All types of data will have to be described to be placed into context by using metadata and adequate documentation which will allow anyone in your team to interpret the data in the future.
+Especially if you are handling personal or sensitive data, you need to ensure the cloud option is compliant with any data protection rules the data is bound by.
+To add an extra layer of security, you should encrypt devices and files where needed.
+Your institution might provide local storage solutions and policies or guidelines restricting what you can use.
+Thus, we recommend you familiarise yourself with your local policies and recommendations.
 
-3. **Data storage and backup procedures** should be assessed for each project and established depending on the institutional requirements, associated costs and recommended format from your field. We will diuscuss this in detail later in this lesson.
-4. **Preservation of the research outputs** can be managed differently based on if they can be made publicly available or not. Personal data or research outputs needed to apply for patents cannot be publicly shared but they still have to be preserved for several years, depending on the policies of your country, institute and funder. Learn more about this in detail in [Sharing and Archiving Data](https://the-turing-way.netlify.app/reproducible-research/rdm/rdm-sharing.html#rr-rdm-sharing) chapter in *The Turing Way*.
-5. **Reuse of your research outputs** should be ensured by selecting licenses for different components of your research when you make your output available on a repository (see the Licensing subchapters on [data](https://the-turing-way.netlify.app/reproducible-research/licensing/licensing-data.html#rr-licensing-data) and [software](https://the-turing-way.netlify.app/reproducible-research/licensing/licensing-software.html#rr-licensing-software) for more information). A dedicated document (such as a README file) is recommended for describing research outputs into context. UK Data Service has provided a [Data Management Checklist](https://ukdataservice.ac.uk/learning-hub/research-data-management/plan-to-share/checklist/) to help cover different aspects of the DMP.
+:::::::::::::::::::::::::::::::::::::::::  callout
+
+## Note
+
+- Some concepts discussed in the previous chapter such as setting up project repository, version controlling, pre-registration, and licensing apply to this point.
+- Also consider FAIR practices, data organisation and handling sensitive data practices, as well as metadata and documentation that are discussed below.
+  
+
+::::::::::::::::::::::::::::::::::::::::::::::::::
+
+
+### Backups
+
+To avoid losing your data, you should follow good backup practices.
+
+- You should have 2 or 3 copies of your files, stored on
+- at least 2 different storage media,
+- in different locations.
+
+The more important the data and the more often the datasets change, the more frequently you should back them up.
+If your files take up a large amount of space and backing up all of them proves to be challenging or expensive, you may want to create a set of criteria for when you back up the data. This can be part of your data management plan (DMP).
+
+When you are ready to release the data to the wider community, you can also search for the appropriate databases and repositories in [FAIRsharing](https://fairsharing.org/databases), according to your data type, and type of access to the data.
+Learn more about this in *The Turing Way* chapter on [sharing and archiving Data](https://the-turing-way.netlify.app/reproducible-research/rdm/rdm-sharing.html#rr-rdm-sharing).
+
+<!--
+[Add recommendations from 1:1 interviews, open communities such as Open Life Science and The Turing Way.]-->
 
 ## The FAIR Principles
 
@@ -310,46 +317,7 @@ Processing means doing anything with a person's information, including collectio
 Please review the national/institutional policies that apply to your research to ensure that you are up to date with the requirements of managing sensitive data.
 Please read [Personal data management](https://the-turing-way.netlify.app/reproducible-research/rdm/rdm-personal.html), [informed consent](https://the-turing-way.netlify.app/reproducible-research/rdm/rdm-personal.html#informed-consent), [Research Ethics Committees Processes](https://the-turing-way.netlify.app/ethical-research/ethics-committees.html) and [Open Data](https://the-turing-way.netlify.app/reproducible-research/open/open-data.html) sections in *The Turing Way* for further details.
 
-## Data Storage, Organisation and Backup Procedures
 
-Data loss can be catastrophic for your research project and can happen often. You can prevent data loss by picking suitable storage solutions and backing your data up frequently.
-
-- Most institutions will provide a network drive that you can use to store data.
-- Portable storage media such as memory sticks (USB sticks) are more risky and vulnerable to loss and damage.
-- Cloud storage provides a convenient way to store, backup and retrieve data. You should check terms of use before using them for your research data.
-
-Especially if you are handling personal or sensitive data, you need to ensure the cloud option is compliant with any data protection rules the data is bound by.
-To add an extra layer of security, you should encrypt devices and files where needed.
-Your institution might provide local storage solutions and policies or guidelines restricting what you can use.
-Thus, we recommend you familiarise yourself with your local policies and recommendations.
-
-:::::::::::::::::::::::::::::::::::::::::  callout
-
-## Note
-
-- Some concepts discussed in the previous chapter such as setting up project repository, version controlling, pre-registration, and licensing apply to this point.
-- Also consider FAIR practices, data organisation and handling sensitive data practices, as well as metadata and documentation that are discussed below.
-  
-
-::::::::::::::::::::::::::::::::::::::::::::::::::
-
-
-### Backups
-
-To avoid losing your data, you should follow good backup practices.
-
-- You should have 2 or 3 copies of your files, stored on
-- at least 2 different storage media,
-- in different locations.
-
-The more important the data and the more often the datasets change, the more frequently you should back them up.
-If your files take up a large amount of space and backing up all of them proves to be challenging or expensive, you may want to create a set of criteria for when you back up the data. This can be part of your data management plan (DMP).
-
-When you are ready to release the data to the wider community, you can also search for the appropriate databases and repositories in [FAIRsharing](https://fairsharing.org/databases), according to your data type, and type of access to the data.
-Learn more about this in *The Turing Way* chapter on [sharing and archiving Data](https://the-turing-way.netlify.app/reproducible-research/rdm/rdm-sharing.html#rr-rdm-sharing).
-
-<!--
-[Add recommendations from 1:1 interviews, open communities such as Open Life Science and The Turing Way.]-->
 
 ## Acknowledgement
 
@@ -365,7 +333,7 @@ Learn more about this in *The Turing Way* chapter on [sharing and archiving Data
 - Spreadsheets are tidy
 - Data is safe (backup)
 - Data is FAIR (findable, accessible, interoperable and reusable)
-- Data can be opened
+- Data can be opened and analysed in a programming language
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
