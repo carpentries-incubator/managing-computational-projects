@@ -106,7 +106,7 @@ A good way of thinking about what might be classed as data that needs to be mana
 
 ::::::::::
 
-:::::::::: discussion
+:::::::::: challenge
 
 When collecting the Body-mass index (BMI) of participants, how would you do this ?
 
@@ -234,6 +234,8 @@ The current version of REMBI, including examples from the fields covered by the 
 
 
 ## Data Storage, Organisation and Backup Procedures
+
+![BAckup, by Auke Herrema, CC-BY](fig/backup.jpg){alt='Illustration of backup need with the legend "a good advice". One big character is crying "always make a backup" loud. A second character is startled and let their computer labelled "all my work" fall on the floor and crash.'}
 
 Data loss can be catastrophic for your research project and can happen often. You can prevent data loss by picking suitable storage solutions and backing your data up frequently.
 
