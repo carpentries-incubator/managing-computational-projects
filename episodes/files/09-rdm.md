@@ -27,23 +27,20 @@ RDM ensures efficiency in research workflows, and also greater reach and impact,
 
 Data should be stored in multiple locations and backed up regularly to prevent loss or data corruption. It is also important to consider the whole life cycle of the data (especially making collected data computer readable) when designing data management plan and tasks.
 
+:::::::::::::::::::::::::::::::::::::::::  callout
+
+# Important easy steps:
+
+- Raw data should stay raw
+- Spreadsheet shall be tidy
+
+:::::::::::::::::::::::::::::::::::::::::  
+
 ## Plan for reproducible research
 
 When planning a reproducible analysis, your data management plan will change. Because you want to avoid any manual wrangling of the data (copy-paste, analysis in excel, ...), you need to take particular care of the format of the raw data, making it if possible computer readable with the programming language you will be using. Also when a software provide you with both raw data and pre-analysed data, you should consider early which file you will be using in your analysis (in most cases, using the raw data will make your analysis more robust and easier to reuse for other researchers). 
+Also information may be lost when transforming the raw data, so make new versions and keep the original file safe.
 
-When building spreadsheets, one should make them tidy, so they are easy to use in computer programs. 
-
-:::::::::::::::::::::::::::::::::::::::::  callout
-
-## Tidy spreadsheets
-
-There are very simple rules to facilitate data use, which go into the concept of [tidy data](https://en.wikipedia.org/w/index.php?title=Tidy_data&oldid=962241815). The tidy data format allows for filtering and sorting data easily in spreadsheet software.
-
-![An illustration of tidy data: variables are in columns, observations in rows and there is one value per cell.](fig//tidy-1.png)
-
-[More infos](https://the-turing-way.netlify.app/reproducible-research/rdm/rdm-spreadsheets.html?highlight=tidy#tidy-format-for-spreadsheets)
-
-::::::::::::::::::::::::::::::::::::::::::::::::::
 
 :::::::::::::::::::::::::::::::::::::::::  callout
 
@@ -59,6 +56,80 @@ RDM is cost/time efficient, as you will always be able to find and use your data
 :::::::::::::::::::::::::::::::::::::::::
 
 Clearly describing data using documentation and metadata ensures that others know how to access, use and reuse your data, and also enable conditions for sharing and publishing data to be outlined.
+
+## Using spreadsheets
+
+Here we made a special section on spreadsheets design and management, because  **most data analysis nightmares (and time waste) are due to bad spreadsheet design. **
+
+Spreadsheets, such as Microsoft Excel files, google sheets, and their Open Source alternative [(for instance) LibreOffice](https://www.libreoffice.org), are commonly used by wet-lab experimentalists to collect, store, manipulate, analyse, and share research data.
+Spreadsheets are convenient and easy-to-use tools for organising information into an easy to write and easy to read forms for humans.
+However, one should use them with caution, as the use of an inappropriate spreadsheet is a major cause of mistakes in the data analysis workflow.
+
+Please refer to the [Data Carpentry Ecology Lesson](https://datacarpentry.org/spreadsheet-ecology-lesson/) and *The Turing Way* chapter for [managing data in spreadsheet](https://the-turing-way.netlify.app/reproducible-research/rdm/rdm-spreadsheets.html) for best practices.
+
+
+### Information in tables
+
+Information can usually be stored in a triplet: subject, object and their relation. 
+This triplet is often best represented in a table, as they are easy to fill.
+Such tables are often used to collect data, or at least metadata of an experiment.
+For example, in the BIDS standard, the `participants.tsv` file is a spreadsheets collecting information about all subjects of an experiment.
+ 
+
+
+| subjects | relation |
+|------|------|
+|   subject 1  |  object   |
+
+example:
+
+| subjects | eye_color |
+|------|------|
+|   Bob   |  blue   |
+
+NB: the .csv version of the table above will be:
+```
+subjects,eye_color
+Bob,blue
+````
+
+
+The design of the table will depend on the type of analysis you will do.
+Spreadsheets are a way to create tables, One should always have **only one table in one sheet**, computers have difficulties to separate tables that are on the same sheet.
+
+When planning to collect data in tables by hand, it is good to have one unique design for the digital spreadsheet and the printed one. This will fasten and reduce the error rate of the manual digitization of the data.
+
+### Information in .xlsx files
+
+While Excel or libreoffice are user-friendly software to create and fill spreadsheets, they propose functions which are making the information computer un-readable and should be avoided. 
+For instance, the "merging cells" function makes spreadsheet nice-looking but impossible to read in computer programs. 
+
+On the other hand, other function should be used with care: Colors, text formats or borders will also not be translated in any useful information for the data analyst. You can use them for purposes that are not data driven.
+
+As a simple rule, export your excel spreadsheet into the `.csv` format, that is the data included in your spreadsheet. `tsv`format is similar, it uses tabs instead of commas to separate the values.
+
+
+### Tidy spreadsheets
+
+There are very simple rules to facilitate data use, which go into the concept of [tidy data](https://en.wikipedia.org/w/index.php?title=Tidy_data&oldid=962241815). The tidy data format allows for filtering and sorting data easily in spreadsheet software.
+
+![An illustration of tidy data: variables are in columns, observations in rows and there is one value per cell.](fig//tidy-1.png)
+
+[More infos](https://the-turing-way.netlify.app/reproducible-research/rdm/rdm-spreadsheets.html?highlight=tidy#tidy-format-for-spreadsheets)
+
+### Validation
+
+Since spreadsheets are often entered manually, if is good to validate them automatically. There are usually tools to make sure the spreadsheet is tidy, that all cells are non-empty, or that values were not typed wrongly.
+
+For instance, in the BIDS format, the participants.csv file we talked about earlier, comes with a json validator, which says what columns are required, and what values are accepted.
+
+### Some tips
+
+- If you really need some information about the column in the spreadsheet itself, put it in the firs raw and have the headers in the second raw: it is easy to tell the computer to read a spreadsheet starting at the second raw, much more difficult to tell it to ignore the second raw.
+- Instead of using colors, you can add one columns to add information usually given by the color. Software usually have a way to add colors to a row depening of the value of that new column.
+- Designing good spreadsheet is usually an iterative process. It is often interesting to involve the whole team, or even a larger community. This is similar to a standard creation work.
+- The process of naming columns should follow the same rules as naming files. 
+- For dates, use three columns (year, month, day): software will often change ISO formatted dates into a different format without telling you, during the file import.
 
 ## Defining Data
 
@@ -262,11 +333,6 @@ Thus, we recommend you familiarise yourself with your local policies and recomme
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
-Spreadsheets, such as Microsoft Excel files, google sheets, and their Open Source alternative [(for instance) LibreOffice](https://www.libreoffice.org), are commonly used by wet-lab experimentalists to collect, store, manipulate, analyse, and share research data.
-Spreadsheets are convenient and easy-to-use tools for organising information into an easy to write and easy to read forms for humans.
-However, one should use them with caution, as the use of an inappropriate spreadsheet is a major cause of mistakes in the data analysis workflow.
-
-Please refer to the [Data Carpentry Ecology Lesson](https://datacarpentry.org/spreadsheet-ecology-lesson/) and *The Turing Way* chapter for [managing data in spreadsheet](https://the-turing-way.netlify.app/reproducible-research/rdm/rdm-spreadsheets.html) for best practices.
 
 ### Backups
 
@@ -296,6 +362,7 @@ Learn more about this in *The Turing Way* chapter on [sharing and archiving Data
 :::::::::::::::::::::::::::::::::::::::: keypoints
 
 - All information is present and digitalised
+- Spreadsheets are tidy
 - Data is safe (backup)
 - Data is FAIR (findable, accessible, interoperable and reusable)
 - Data can be opened

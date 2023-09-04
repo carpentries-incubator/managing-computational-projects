@@ -10,6 +10,7 @@ exercises: 10
 - Explain FAIR principles and practices for RDM
 - Introduce data storage and organisation plan
 - Discuss documentation and metadata practices
+- Present best practives for spreadsheet design
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
