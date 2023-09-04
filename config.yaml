@@ -59,6 +59,7 @@ contact: 'msharan@turing.ac.uk'
 
 # Order of episodes in your lesson
 episodes: 
+- 21_Definitions.Rmd
 - 22_contentAndMotivation.Rmd
 - 23_Ensuring-reproducibility.Rmd
 - 24_SettingUp.Rmd
@@ -70,13 +71,15 @@ episodes:
 
 # Information for Learners
 learners: 
-- discuss.md
 - reference.md
 - setup.md
 - 04-FAIRHowTo.md
 - 08-KanbanTutorial.md
 - 09-GithubCodeReview.md
 - 51-datawrangling.md
+- spreadsheets.md
+- 16-open.md
+- statistics.md
 
 # Information for Instructors
 instructors: 

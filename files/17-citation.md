@@ -2,13 +2,6 @@
 title: Data and code citation
 ---
 
-
-
-
-
-
-
-
 ## Citing others
 
 You should cite research objects directly in the paper in places where it is relevant.
@@ -39,7 +32,7 @@ Note that you can often reserve a DOI without publishing your data and code, if 
 
 :::::::::::::::::::::::::::::::::::::::: keypoints
 
-- Cite code and data from others
+- Cite code and data
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 

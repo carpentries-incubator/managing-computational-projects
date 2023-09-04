@@ -61,6 +61,9 @@
     <loc>https://carpentries-incubator.github.io/managing-computational-projects/17-citation.html</loc>
   </url>
   <url>
+    <loc>https://carpentries-incubator.github.io/managing-computational-projects/21_Definitions.html</loc>
+  </url>
+  <url>
     <loc>https://carpentries-incubator.github.io/managing-computational-projects/22_contentAndMotivation.html</loc>
   </url>
   <url>
@@ -166,6 +169,9 @@
     <loc>https://carpentries-incubator.github.io/managing-computational-projects/instructor/17-citation.html</loc>
   </url>
   <url>
+    <loc>https://carpentries-incubator.github.io/managing-computational-projects/instructor/21_Definitions.html</loc>
+  </url>
+  <url>
     <loc>https://carpentries-incubator.github.io/managing-computational-projects/instructor/22_contentAndMotivation.html</loc>
   </url>
   <url>
@@ -223,6 +229,12 @@
     <loc>https://carpentries-incubator.github.io/managing-computational-projects/instructor/reference.html</loc>
   </url>
   <url>
+    <loc>https://carpentries-incubator.github.io/managing-computational-projects/instructor/spreadsheets.html</loc>
+  </url>
+  <url>
+    <loc>https://carpentries-incubator.github.io/managing-computational-projects/instructor/statistics.html</loc>
+  </url>
+  <url>
     <loc>https://carpentries-incubator.github.io/managing-computational-projects/instructor-notes.html</loc>
   </url>
   <url>
@@ -233,5 +245,11 @@
   </url>
   <url>
     <loc>https://carpentries-incubator.github.io/managing-computational-projects/reference.html</loc>
+  </url>
+  <url>
+    <loc>https://carpentries-incubator.github.io/managing-computational-projects/spreadsheets.html</loc>
+  </url>
+  <url>
+    <loc>https://carpentries-incubator.github.io/managing-computational-projects/statistics.html</loc>
   </url>
 </urlset>

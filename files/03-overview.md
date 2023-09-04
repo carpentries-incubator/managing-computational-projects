@@ -8,7 +8,7 @@ title: What is special in data science project ?
 
 
 This chapter gives you an overview of the topics of this course.
-It also corrsponds to specificity of data science work.
+It also corresponds to specificity of data science work.
 They are not treated in the same order as indicated here.
 
 This program will teach you best practices in data science project management and how to appyly them to research project.
