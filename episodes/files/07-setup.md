@@ -72,6 +72,8 @@ Provide overarching as well as short-term goals and describe expected outcomes t
 Describe the possible expansion of the project to give an idea of what to expect beyond the initial implementation.
 All proposed plans for the project with information on available resources and recommended practices to ensure everyone is on the same page.
 
+
+
 ### Role and Responsibilities
 
 Create a folder/directory to give information about the different team members with their roles in the project, key skills, interests and contact information (when possible).
@@ -84,7 +86,12 @@ You may use a spreadsheet to keep an overview of the members responsability and 
 
 ### Data management plan
 
-[...]
+This will be discussed in detail in the Research Data Management section.
+
+:::::: discussion
+What research output are you aiming for? Will you publish the data, the code, the hardware documentation, the protocols independently of the main manuscript publication?
+
+::::::
 
 > ## Start with an intention to Release/publish
 > 
@@ -98,6 +105,7 @@ You may use a spreadsheet to keep an overview of the members responsability and 
 
 To ensure that all team members have a shared understanding of ways of working, select or adapt a [Team Framework](https://the-turing-way.netlify.app/collaboration/new-community/new-community-teamwork.html) that provides guidance on how to best work in your team. For instance, Agile workflow for teamwork enables iterative development, with frequent interaction between interested parties to decide and update requirements.
 See [Teamwork for Research Software Development](https://nlesc.github.io/teamwork-for-research-software-development/) tutorial by Netherlands eScience Center with lessons on teamwork, agile and scrum framework, project board such as kanban, challenges and practical recommendations.
+See next lessons for more information about team work and collaborative working.
 
 ## Conclusion
 
@@ -108,15 +116,7 @@ This aspect is discussed in detail in the Research Data Management episode.
 [What gaps have we filled in this section - add biological context]
 -->
 
-## Resources and References for Technical Details
 
-- *The Turing Way*. *The Turing Way Community. (2021). The Turing Way: A handbook for reproducible, ethical and collaborative research (1.0.1). Zenodo. [DOI: 10.5281/zenodo.5671094](https://doi.org/10.5281/zenodo.5671094)*
-  - [Guide to Project Design](https://the-turing-way.netlify.app/project-design/project-repo.html)
-  - [Creating Project Repositories](https://the-turing-way.netlify.app/project-design/project-repo.html)
-  - [Naming files, folders and other things](https://the-turing-way.netlify.app/project-design/filenaming.html)
-  - [Licensing](https://the-turing-way.netlify.app/reproducible-research/licensing.html)
-- [The Good Research Code Handbook](https://goodresearch.dev/setup.html) by Patrick Mineault.
-- [Open Life Science training and Mentoring Programme](https://openlifesci.org). *Batut, Bérénice, Yehudi, Yo, Sharan, Malvika, Tsang, Emmy, \& Open Life Science Community. (2021). Open Life Science - Training and Mentoring programme - Website release 2019-2021 (1.0.0). Zenodo. [DOI: 10.5281/zenodo.5636584](https://doi.org/10.5281/zenodo.5636584)*
 
 :::::::::::::::::::::::::::::::::::::::  challenge
 

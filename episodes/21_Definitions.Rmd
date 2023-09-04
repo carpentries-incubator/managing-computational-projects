@@ -1,0 +1,67 @@
+---
+title: 'Project management, data science'
+teaching: 15
+exercises: 20
+---
+
+
+::::::::::::::::::::::::::::::::::::::: objectives
+
+- Understanding what project management and data science entail.
+
+- Knowing the next steps to take after this workshop.
+
+
+::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::::::::::::::::::::::::::::::: questions
+
+- What are the benefits of using data science skills in research project management?
+- What are common challenges for research teams and research project management?
+
+
+::::::::::::::::::::::::::::::::::::::::
+
+
+
+```{r, child='files/01-introduction.md'}
+```
+
+
+## Some References and resources
+
+### General guides
+
+- A Quick Guide to Organizing Computational Biology Projects
+  Noble WS (2009) A Quick Guide to Organizing Computational Biology Projects. PLOS Computational Biology 5(7): e1000424. [https://doi.org/10.1371/journal.pcbi.1000424](https://doi.org/10.1371/journal.pcbi.1000424)
+- Seddighi, M, Allanson, D, Rothwell, G, Takrouri, K. Study on the use of a combination of IPython Notebook and an industry-standard package in educating a CFD course. Comput Appl Eng Educ. 2020; 28: 952– 964. [https://doi.org/10.1002/cae.22273](https://doi.org/10.1002/cae.22273)
+- Mendez, K.M., Pritchard, L., Reinke, S.N. et al. Toward collaborative open data science in metabolomics using Jupyter Notebooks and cloud computing. Metabolomics 15, 125 (2019). [https://doi.org/10.1007/s11306-019-1588-0](https://doi.org/10.1007/s11306-019-1588-0)
+
+### Technical Details
+
+- *The Turing Way*. *The Turing Way Community. (2021). The Turing Way: A handbook for reproducible, ethical and collaborative research (1.0.1). Zenodo. [DOI: 10.5281/zenodo.5671094](https://doi.org/10.5281/zenodo.5671094)*
+  - [Guide to Project Design](https://the-turing-way.netlify.app/project-design/project-repo.html)
+  - [Creating Project Repositories](https://the-turing-way.netlify.app/project-design/project-repo.html)
+  - [Naming files, folders and other things](https://the-turing-way.netlify.app/project-design/filenaming.html)
+  - [Licensing](https://the-turing-way.netlify.app/reproducible-research/licensing.html)
+- [The Good Research Code Handbook](https://goodresearch.dev/setup.html) by Patrick Mineault.
+- [Open Life Science training and Mentoring Programme](https://openlifesci.org). *Batut, Bérénice, Yehudi, Yo, Sharan, Malvika, Tsang, Emmy, \& Open Life Science Community. (2021). Open Life Science - Training and Mentoring programme - Website release 2019-2021 (1.0.0). Zenodo. [DOI: 10.5281/zenodo.5636584](https://doi.org/10.5281/zenodo.5636584)*
+
+### References (was in collaborative working-needs some checks )
+
+- *The Turing Way* Community. (2021). The Turing Way: A handbook for reproducible, ethical and collaborative research (1.0.1). Zenodo. [https://doi.org/10.5281/zenodo.5671094](https://doi.org/10.5281/zenodo.5671094). This episode reuses contents from the following *The Turing Way* chapters:
+  - [Continuous Integration](https://the-turing-way.netlify.app/reproducible-research/ci/ci-options.html)
+  - [Code Testing](https://the-turing-way.netlify.app/reproducible-research/testing.html)
+  - [Code Quality](https://the-turing-way.netlify.app/reproducible-research/code-quality.html) chapter in *The Turing Way*.
+  - [Capturing Computational Environments](https://the-turing-way.netlify.app/reproducible-research/renv/renv-options.html)
+- [The Definitive Guide](https://bookdown.org/yihui/rmarkdown)
+- [Jupyter/IPython Notebook Quick Start Guide](https://jupyter-notebook-beginner-guide.readthedocs.io/en/latest/what_is_jupyter.html)
+- [Guides to Better Science by British Ecological Society](https://www.britishecologicalsociety.org/publications/guides-to).
+
+:::::::::::::::::::::::::::::::::::::::: keypoints
+
+- Project management includes resource, team, data, communication and risk management.
+- Data science is dealing with large and diverse team, working remotely while using and re-using code to achieve reproducible analysis.
+
+::::::::::::::::::::::::::::::::::::::::::::::::::
+

@@ -80,7 +80,7 @@ This is particularly important when short term individual incentives are not ali
 
 :::::::::::::::::::::::::::::::::::::
 
-## Project Management tools overview
+### Project Management tools overview
 
 Several digital project management tools exist that facilitate the remote coordination and management of research teams with their projects. Widely used proprietary examples include Trello, Asana, ClickUp, Notion, and Zoho Projects. Each of these has a different set of features, while all of them work with a Kanban board for process documentation.
 
@@ -168,21 +168,3 @@ This has of course repercussion in the project design and planning, the communic
 In this course, we will also present some software that may help to share project management tasks and results in a distributed team.
 
 
-## Some References and resources
-
-### General guides
-
-- A Quick Guide to Organizing Computational Biology Projects
-  Noble WS (2009) A Quick Guide to Organizing Computational Biology Projects. PLOS Computational Biology 5(7): e1000424. [https://doi.org/10.1371/journal.pcbi.1000424](https://doi.org/10.1371/journal.pcbi.1000424)
-- Seddighi, M, Allanson, D, Rothwell, G, Takrouri, K. Study on the use of a combination of IPython Notebook and an industry-standard package in educating a CFD course. Comput Appl Eng Educ. 2020; 28: 952– 964. [https://doi.org/10.1002/cae.22273](https://doi.org/10.1002/cae.22273)
-- Mendez, K.M., Pritchard, L., Reinke, S.N. et al. Toward collaborative open data science in metabolomics using Jupyter Notebooks and cloud computing. Metabolomics 15, 125 (2019). [https://doi.org/10.1007/s11306-019-1588-0](https://doi.org/10.1007/s11306-019-1588-0)
-
-### Technical Details
-
-- *The Turing Way*. *The Turing Way Community. (2021). The Turing Way: A handbook for reproducible, ethical and collaborative research (1.0.1). Zenodo. [DOI: 10.5281/zenodo.5671094](https://doi.org/10.5281/zenodo.5671094)*
-  - [Guide to Project Design](https://the-turing-way.netlify.app/project-design/project-repo.html)
-  - [Creating Project Repositories](https://the-turing-way.netlify.app/project-design/project-repo.html)
-  - [Naming files, folders and other things](https://the-turing-way.netlify.app/project-design/filenaming.html)
-  - [Licensing](https://the-turing-way.netlify.app/reproducible-research/licensing.html)
-- [The Good Research Code Handbook](https://goodresearch.dev/setup.html) by Patrick Mineault.
-- [Open Life Science training and Mentoring Programme](https://openlifesci.org). *Batut, Bérénice, Yehudi, Yo, Sharan, Malvika, Tsang, Emmy, \& Open Life Science Community. (2021). Open Life Science - Training and Mentoring programme - Website release 2019-2021 (1.0.0). Zenodo. [DOI: 10.5281/zenodo.5636584](https://doi.org/10.5281/zenodo.5636584)*
