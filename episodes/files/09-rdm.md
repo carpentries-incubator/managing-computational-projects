@@ -85,7 +85,20 @@ Also information may be lost when transforming the raw data, so make new version
 
 :::::: 
 
+### Who writes a Data Management Plan ?
 
+At best, the whole team should participate in the planning.
+It is often good to have some specialist who knows what are the backup and publication pathways at the institution or in the research domain.
+Only the data collectors will know details about the data, though.
+The data analysts need to be involved to make sure the data is relatively easy to analyse
+In addition, the researchers will have to implement the plan, so they need to be aware and to agree with it.
+
+:::::: callout
+
+When the data is meant to be open, researchers with different questions and needs may try to analyse the data in unexpected ways. These researchers will not be there at the Data management plan stage and the researchers will probably not have included their needs.
+
+A way to make the data the most useful is to take the FAIR principles into account, keep the raw data raw, and add metadata. A critical metadata component in this case is a contact person, who may be able to explain the data and its analysis to new researchers.
+::::::
 
 ## Defining Data
 
