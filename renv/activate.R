@@ -2,8 +2,8 @@
 local({
 
   # the requested version of renv
-  version <- "1.0.0.9000"
-  attr(version, "sha") <- "f62510604ffa366d9bccda98881f061277be99c4"
+  version <- "1.0.2.9000"
+  attr(version, "sha") <- "07d800d98f4b286db3844540d485c1c81791e510"
 
   # the project directory
   project <- getwd()
@@ -519,7 +519,7 @@ local({
   
     # open the bundle for reading
     # We use gzcon for everything because (from ?gzcon)
-    # > Reading from a connection which does not supply a ‘gzip’ magic
+    # > Reading from a connection which does not supply a 'gzip' magic
     # > header is equivalent to reading from the original connection
     conn <- gzcon(file(bundle, open = "rb", raw = TRUE))
     on.exit(close(conn))
@@ -782,10 +782,12 @@ local({
   renv_bootstrap_validate_version <- function(version, description = NULL) {
   
     # resolve description file
-    description <- description %||% {
-      path <- getNamespaceInfo("renv", "path")
-      packageDescription("renv", lib.loc = dirname(path))
-    }
+    #
+    # avoid passing lib.loc to `packageDescription()` below, since R will
+    # use the loaded version of the package by default anyhow. note that
+    # this function should only be called after 'renv' is loaded
+    # https://github.com/rstudio/renv/issues/1625
+    description <- description %||% packageDescription("renv")
   
     # check whether requested version 'version' matches loaded version of renv
     sha <- attr(version, "sha", exact = TRUE)
@@ -856,7 +858,7 @@ local({
     hooks <- getHook("renv::autoload")
     for (hook in hooks)
       if (is.function(hook))
-        tryCatch(hook(), error = warning)
+        tryCatch(hook(), error = warnify)
   
     # load the project
     renv::load(project)
@@ -1003,6 +1005,11 @@ local({
     paste(parts, collapse = "")
   }
   
+  renv_bootstrap_exec <- function(project, libpath, version) {
+    if (!renv_bootstrap_load(project, libpath, version))
+      renv_bootstrap_run(version, libpath)
+  }
+  
   renv_bootstrap_run <- function(version, libpath) {
   
     # perform bootstrap
@@ -1030,6 +1037,14 @@ local({
   
   renv_bootstrap_in_rstudio <- function() {
     commandArgs()[[1]] == "RStudio"
+  }
+  
+  # Used to work around buglet in RStudio if hook uses readline
+  renv_bootstrap_flush_console <- function() {
+    tryCatch({
+      tools <- as.environment("tools:rstudio")
+      tools$.rs.api.sendToConsole("", echo = FALSE, focus = FALSE)
+    }, error = function(cnd) {})
   }
   
   renv_json_read <- function(file = NULL, text = NULL) {
@@ -1170,25 +1185,15 @@ local({
   # construct full libpath
   libpath <- file.path(root, prefix)
 
-  # attempt to load
-  if (renv_bootstrap_load(project, libpath, version))
-    return(TRUE)
-
   if (renv_bootstrap_in_rstudio()) {
+    # RStudio only updates console once .Rprofile is finished, so
+    # instead run code on sessionInit
     setHook("rstudio.sessionInit", function(...) {
-      renv_bootstrap_run(version, libpath)
-
-      # Work around buglet in RStudio if hook uses readline
-      tryCatch(
-        {
-          tools <- as.environment("tools:rstudio")
-          tools$.rs.api.sendToConsole("", echo = FALSE, focus = FALSE)
-        },
-        error = function(cnd) {}
-      )
+      renv_bootstrap_exec(project, libpath, version)
+      renv_bootstrap_flush_console()
     })
   } else {
-    renv_bootstrap_run(version, libpath)
+    renv_bootstrap_exec(project, libpath, version)
   }
 
   invisible()
