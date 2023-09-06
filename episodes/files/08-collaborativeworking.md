@@ -62,7 +62,7 @@ You can read more about [Project Board in GitHub Documentation](https://docs.git
 
 *An example is Kanban for researcher project management. GitHub boards can be given any name.*
 
-:::::::::::::::  solution
+:::::::::::::::  spoiler
 
 ## Tutorial: Kanban Boards for Project Management (Click to view)
 
