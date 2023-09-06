@@ -12,7 +12,7 @@ Reproducibility is introduced later in the course, while we expect participants 
 What defines a research project ? 
 What makes two projects in a lab different? 
 
-:::::: solution
+:::::: spoiler
 The answer may vary with domain and lab culture, but the main components are very similar to what defines one research publication:
 
 - The vision or specific research question
