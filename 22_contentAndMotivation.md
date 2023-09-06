@@ -306,7 +306,7 @@ Can you think of people who can help you in your research, directly in your lab 
 Would it help for them to have access to your data? How could they participate,
 and how can you give them credit?
 
-:::::::::::::::  solution
+:::::::::::::::  spoiler
 
 ## Needs from the future you
 

@@ -241,7 +241,7 @@ You can read more about [Project Board in GitHub Documentation](https://docs.git
 
 *An example is Kanban for researcher project management. GitHub boards can be given any name.*
 
-:::::::::::::::  solution
+:::::::::::::::  spoiler
 
 ## Tutorial: Kanban Boards for Project Management (Click to view)
 
@@ -312,7 +312,9 @@ The tenzing spreadsheet (https://tenzing.club) will allow to present the contrib
 
 What measures described in this session are meant to make research more reproducible, what measures are meant to facilitate team work. How does the different measures interact ?
 
-::::: solution
+::::: spoiler
+
+### Authors' summary
 
 Making interaction measure is also making the research more reproducible. Indeed most of the reusability of the data and code can be best tested when several people interact on a project. Documenting for a current collaborator helps a lot to make sure documentation will be enough for new collaboratory coming in the project later on.
 :::::

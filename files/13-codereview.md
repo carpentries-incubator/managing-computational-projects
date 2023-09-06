@@ -149,7 +149,7 @@ This means code review is typically a fast, flexible, and interactive process.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
-:::::::::::::::  solution
+:::::::::::::::  spoiler
 
 ## Github features to help with code review (Click to see)
 
