@@ -13,6 +13,9 @@ What defines a research project ?
 What makes two projects in a lab different? 
 
 :::::: spoiler
+
+### Authors' summary
+
 The answer may vary with domain and lab culture, but the main components are very similar to what defines one research publication:
 
 - The vision or specific research question
