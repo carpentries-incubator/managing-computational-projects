@@ -1,0 +1,97 @@
+#------------------------------------------------------------
+# Values for this lesson.
+#------------------------------------------------------------
+
+# Which carpentry is this (swc, dc, lc, or cp)?
+# swc: Software Carpentry
+# dc: Data Carpentry
+# lc: Library Carpentry
+# cp: Carpentries (to use for instructor training for instance)
+# incubator: The Carpentries Incubator
+carpentry: 'incubator'
+
+# Overall title for pages.
+title: 'Managing Open and Reproducible Computational Projects'
+
+# Date the lesson was created (YYYY-MM-DD, this is empty by default)
+created: '2021-08-20'
+
+# Comma-separated list of keywords for the lesson
+keywords: 'software, data, lesson, The Carpentries'
+
+# Life cycle stage of the lesson
+# possible values: pre-alpha, alpha, beta, stable
+life_cycle: 'pre-alpha'
+
+# License of the lesson materials (recommended CC-BY 4.0)
+license: 'CC-BY 4.0'
+
+# Link to the source repository for this lesson
+source: 'https://github.com/carpentries-incubator/managing-computational-projects'
+
+# Default branch of your lesson
+branch: 'main'
+
+# Who to contact if there are any issues
+contact: 'msharan@turing.ac.uk'
+
+# Navigation ------------------------------------------------
+#
+# Use the following menu items to specify the order of
+# individual pages in each dropdown section. Leave blank to
+# include all pages in the folder.
+#
+# Example -------------
+#
+# episodes:
+# - introduction.md
+# - first-steps.md
+#
+# learners:
+# - setup.md
+#
+# instructors:
+# - instructor-notes.md
+#
+# profiles:
+# - one-learner.md
+# - another-learner.md
+
+# Order of episodes in your lesson
+episodes: 
+- 21_Definitions.Rmd
+- 22_contentAndMotivation.Rmd
+- 23_Ensuring-reproducibility.Rmd
+- 24_SettingUp.Rmd
+- 25_RDM.Rmd
+- 26_Coding.Rmd
+- 27_publications.Rmd
+- 28_conclusion.Rmd
+
+
+# Information for Learners
+learners: 
+- reference.md
+- setup.md
+- 04-FAIRHowTo.md
+- 08-KanbanTutorial.md
+- 09-GithubCodeReview.md
+- 51-datawrangling.md
+- spreadsheets.md
+- 16-open.md
+- statistics.md
+
+# Information for Instructors
+instructors: 
+- 06-ITtools.md
+- instructor-notes.md
+
+# Learner Profiles
+profiles: 
+
+# Customisation ---------------------------------------------
+#
+# This space below is where custom yaml items (e.g. pinning
+# sandpaper and varnish versions) should live
+
+url: https://carpentries-incubator.github.io/managing-computational-projects
