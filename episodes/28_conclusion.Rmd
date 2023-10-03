@@ -1,5 +1,5 @@
 ---
-title: 'Conclusion and feedback'
+title: 'Conclusion and how to choose your tool'
 teaching: 5
 exercises: 10
 ---
@@ -7,14 +7,19 @@ exercises: 10
 ::::::::::::::::::::::::::::::::::::::: objectives
 
 - Overview of what has been learned
-- consolidation of learning
+- Consolidation of learning
+- Setting a framework on how to choose your tools
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
 :::::::::::::::::::::::::::::::::::::::: questions
 
-- What are the most important take home messages?
+- What are the most important take home messages ?
+- What tool for which purpose will you be using ?
 
 ::::::::::::::::::::::::::::::::::::::::
 
-Feedback, questions
+
+
+```{r, child='files/06-it-tools.md'}
+```

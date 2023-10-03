@@ -80,14 +80,18 @@ Team members also need to be trained on using the tools, so you need people to s
 ds
 - Combining template creation and git version control: https://gin-tonic.netlify.app
 
-## Rstudio for reproducible analysis
+## Rstudio
  
-- Features: Build to create R code and packages, it now accepts python code natively. It comes with quarto for literate programming. It does not have project management features per se. 
+Rstudio can be a good software to show basic Git workflows, and literate programing. However, it is not very accessible to blind people, so you may need to think of a Rstudio independent workflow (and training) when setting it up. 
 
 
-- Resources: There is a free version, you can buy other versions if you need more features or a sever version. It is pretty easy to use and learn to use it. The features are quite broad, with a very easy way to use a Git-worklflow. While created to work with R, it does support other programming languages
 
+- created to write R code and R packages
 
-- Risks: It is not  accessible to blind people. Most function can be run without Rstudio, and nearly no Rstudio specific data is created. 
-- Risc Mitigation. Make sure someone understands enough the workflow to implement it without Rstudio. Vscode is another open source tool that may be used instead.
+- Can be now used for writing python and other languages
 
+- "quarto native" (literate programing)
+
+- simple Git commands available (pull/push/history)
+
+- make writing markdown easy
