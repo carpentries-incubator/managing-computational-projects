@@ -25,7 +25,7 @@ For details about the project and track management related information, please t
 - Lydia France was allocated as a developer on this project for six months in 0.5 FTE capacity.
 - Federico Nanni provided supervision for Lydia and contributed to the project planning
 
-***
+**External Reviewer**: Jo Havemann, Access 2 Perspective
 
 ## The Carpentries Incubator Programme
 
