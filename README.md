@@ -1,9 +1,7 @@
 # Data Science for Biomedical Scientists: Managing Open and Reproducible Computational Projects
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-
-[![All Contributors](https://img.shields.io/badge/all_contributors-12-orange.svg?style=flat-square)](#contributors-)
-
+[![All Contributors](https://img.shields.io/badge/all_contributors-13-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 **Thanks for contributing to The Carpentries Incubator!**
@@ -71,32 +69,31 @@ This lesson will be realeased on Zenodo for DOI (digital object identifier). Mea
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-
 <!-- prettier-ignore-start -->
-
 <!-- markdownlint-disable -->
-
 <table>
-  <tr>
-    <td align="center"><a href="http://malvikasharan.github.io/"><img src="https://avatars.githubusercontent.com/u/5370471?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Malvika Sharan</b></sub></a><br /><a href="#content-malvikasharan" title="Content">🖋</a> <a href="https://github.com/carpentries-incubator/managing-computational-projects/pulls?q=is%3Apr+reviewed-by%3Amalvikasharan" title="Reviewed Pull Requests">👀</a> <a href="https://github.com/carpentries-incubator/managing-computational-projects/commits?author=malvikasharan" title="Documentation">📖</a> <a href="#fundingFinding-malvikasharan" title="Funding Finding">🔍</a> <a href="#ideas-malvikasharan" title="Ideas, Planning, & Feedback">🤔</a> <a href="#mentoring-malvikasharan" title="Mentoring">🧑‍🏫</a> <a href="#projectManagement-malvikasharan" title="Project Management">📆</a></td>
-    <td align="center"><a href="https://github.com/LydiaFrance"><img src="https://avatars.githubusercontent.com/u/85945427?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Lydia France</b></sub></a><br /><a href="#content-LydiaFrance" title="Content">🖋</a> <a href="#ideas-LydiaFrance" title="Ideas, Planning, & Feedback">🤔</a> <a href="#example-LydiaFrance" title="Examples">💡</a></td>
-    <td align="center"><a href="https://github.com/EstherPlomp"><img src="https://avatars.githubusercontent.com/u/46314469?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Esther Plomp</b></sub></a><br /><a href="#content-EstherPlomp" title="Content">🖋</a> <a href="https://github.com/carpentries-incubator/managing-computational-projects/pulls?q=is%3Apr+reviewed-by%3AEstherPlomp" title="Reviewed Pull Requests">👀</a></td>
-    <td align="center"><a href="http://concarneau.mnhn.fr/"><img src="https://avatars.githubusercontent.com/u/7910679?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Yvan Le Bras</b></sub></a><br /><a href="https://github.com/carpentries-incubator/managing-computational-projects/issues?q=author%3Ayvanlebras" title="Bug reports">🐛</a></td>
-    <td align="center"><a href="https://github.com/fedenanni"><img src="https://avatars.githubusercontent.com/u/8415204?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Federico Nanni</b></sub></a><br /><a href="#mentoring-fedenanni" title="Mentoring">🧑‍🏫</a> <a href="#projectManagement-fedenanni" title="Project Management">📆</a> <a href="#ideas-fedenanni" title="Ideas, Planning, & Feedback">🤔</a></td>
-    <td align="center"><a href="https://tbyhdgs.info"><img src="https://avatars.githubusercontent.com/u/9694524?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Toby Hodges</b></sub></a><br /><a href="#infra-tobyhodges" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="#question-tobyhodges" title="Answering Questions">💬</a></td>
-    <td align="center"><a href="http://lisanna.github.io"><img src="https://avatars.githubusercontent.com/u/8490781?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Lisanna Paladin</b></sub></a><br /><a href="#ideas-Lisanna" title="Ideas, Planning, & Feedback">🤔</a> <a href="#example-Lisanna" title="Examples">💡</a></td>
-  </tr>
-  <tr>
-    <td align="center"><a href="http://www.mboalab.africa"><img src="https://avatars.githubusercontent.com/u/70091210?v=4?s=100" width="100px;" alt=""/><br /><sub><b>JAFSIA Elisee</b></sub></a><br /><a href="#ideas-jafsia" title="Ideas, Planning, & Feedback">🤔</a> <a href="#content-jafsia" title="Content">🖋</a></td>
-    <td align="center"><a href="https://orcid.org/0000-0002-3127-5520"><img src="https://avatars.githubusercontent.com/u/1876667?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Julien Colomb</b></sub></a><br /><a href="#ideas-jcolomb" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/carpentries-incubator/managing-computational-projects/pulls?q=is%3Apr+reviewed-by%3Ajcolomb" title="Reviewed Pull Requests">👀</a> <a href="#content-jcolomb" title="Content">🖋</a></td>
-    <td align="center"><a href="https://github.com/mlagisz"><img src="https://avatars.githubusercontent.com/u/13009327?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Malgorzata Lagisz</b></sub></a><br /><a href="#ideas-mlagisz" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/carpentries-incubator/managing-computational-projects/pulls?q=is%3Apr+reviewed-by%3Amlagisz" title="Reviewed Pull Requests">👀</a> <a href="#content-mlagisz" title="Content">🖋</a></td>
-    <td align="center"><a href="https://github.com/SaraVilla"><img src="https://avatars.githubusercontent.com/u/43204602?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Sara Villa</b></sub></a><br /><a href="#ideas-SaraVilla" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/carpentries-incubator/managing-computational-projects/pulls?q=is%3Apr+reviewed-by%3ASaraVilla" title="Reviewed Pull Requests">👀</a> <a href="#content-SaraVilla" title="Content">🖋</a></td>
-    <td align="center"><a href="http://@yalahowy"><img src="https://avatars.githubusercontent.com/u/23166543?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Sara</b></sub></a><br /><a href="#ideas-selgebali" title="Ideas, Planning, & Feedback">🤔</a> <a href="#content-selgebali" title="Content">🖋</a></td>
-  </tr>
+  <tbody>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="http://malvikasharan.github.io/"><img src="https://avatars.githubusercontent.com/u/5370471?v=4?s=100" width="100px;" alt="Malvika Sharan"/><br /><sub><b>Malvika Sharan</b></sub></a><br /><a href="#content-malvikasharan" title="Content">🖋</a> <a href="https://github.com/carpentries-incubator/managing-computational-projects/pulls?q=is%3Apr+reviewed-by%3Amalvikasharan" title="Reviewed Pull Requests">👀</a> <a href="https://github.com/carpentries-incubator/managing-computational-projects/commits?author=malvikasharan" title="Documentation">📖</a> <a href="#fundingFinding-malvikasharan" title="Funding Finding">🔍</a> <a href="#ideas-malvikasharan" title="Ideas, Planning, & Feedback">🤔</a> <a href="#mentoring-malvikasharan" title="Mentoring">🧑‍🏫</a> <a href="#projectManagement-malvikasharan" title="Project Management">📆</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/LydiaFrance"><img src="https://avatars.githubusercontent.com/u/85945427?v=4?s=100" width="100px;" alt="Lydia France"/><br /><sub><b>Lydia France</b></sub></a><br /><a href="#content-LydiaFrance" title="Content">🖋</a> <a href="#ideas-LydiaFrance" title="Ideas, Planning, & Feedback">🤔</a> <a href="#example-LydiaFrance" title="Examples">💡</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/EstherPlomp"><img src="https://avatars.githubusercontent.com/u/46314469?v=4?s=100" width="100px;" alt="Esther Plomp"/><br /><sub><b>Esther Plomp</b></sub></a><br /><a href="#content-EstherPlomp" title="Content">🖋</a> <a href="https://github.com/carpentries-incubator/managing-computational-projects/pulls?q=is%3Apr+reviewed-by%3AEstherPlomp" title="Reviewed Pull Requests">👀</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="http://concarneau.mnhn.fr/"><img src="https://avatars.githubusercontent.com/u/7910679?v=4?s=100" width="100px;" alt="Yvan Le Bras"/><br /><sub><b>Yvan Le Bras</b></sub></a><br /><a href="https://github.com/carpentries-incubator/managing-computational-projects/issues?q=author%3Ayvanlebras" title="Bug reports">🐛</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/fedenanni"><img src="https://avatars.githubusercontent.com/u/8415204?v=4?s=100" width="100px;" alt="Federico Nanni"/><br /><sub><b>Federico Nanni</b></sub></a><br /><a href="#mentoring-fedenanni" title="Mentoring">🧑‍🏫</a> <a href="#projectManagement-fedenanni" title="Project Management">📆</a> <a href="#ideas-fedenanni" title="Ideas, Planning, & Feedback">🤔</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://tbyhdgs.info"><img src="https://avatars.githubusercontent.com/u/9694524?v=4?s=100" width="100px;" alt="Toby Hodges"/><br /><sub><b>Toby Hodges</b></sub></a><br /><a href="#infra-tobyhodges" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="#question-tobyhodges" title="Answering Questions">💬</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="http://lisanna.github.io"><img src="https://avatars.githubusercontent.com/u/8490781?v=4?s=100" width="100px;" alt="Lisanna Paladin"/><br /><sub><b>Lisanna Paladin</b></sub></a><br /><a href="#ideas-Lisanna" title="Ideas, Planning, & Feedback">🤔</a> <a href="#example-Lisanna" title="Examples">💡</a></td>
+    </tr>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="http://www.mboalab.africa"><img src="https://avatars.githubusercontent.com/u/70091210?v=4?s=100" width="100px;" alt="JAFSIA Elisee"/><br /><sub><b>JAFSIA Elisee</b></sub></a><br /><a href="#ideas-jafsia" title="Ideas, Planning, & Feedback">🤔</a> <a href="#content-jafsia" title="Content">🖋</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://orcid.org/0000-0002-3127-5520"><img src="https://avatars.githubusercontent.com/u/1876667?v=4?s=100" width="100px;" alt="Julien Colomb"/><br /><sub><b>Julien Colomb</b></sub></a><br /><a href="#ideas-jcolomb" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/carpentries-incubator/managing-computational-projects/pulls?q=is%3Apr+reviewed-by%3Ajcolomb" title="Reviewed Pull Requests">👀</a> <a href="#content-jcolomb" title="Content">🖋</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/mlagisz"><img src="https://avatars.githubusercontent.com/u/13009327?v=4?s=100" width="100px;" alt="Malgorzata Lagisz"/><br /><sub><b>Malgorzata Lagisz</b></sub></a><br /><a href="#ideas-mlagisz" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/carpentries-incubator/managing-computational-projects/pulls?q=is%3Apr+reviewed-by%3Amlagisz" title="Reviewed Pull Requests">👀</a> <a href="#content-mlagisz" title="Content">🖋</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/SaraVilla"><img src="https://avatars.githubusercontent.com/u/43204602?v=4?s=100" width="100px;" alt="Sara Villa"/><br /><sub><b>Sara Villa</b></sub></a><br /><a href="#ideas-SaraVilla" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/carpentries-incubator/managing-computational-projects/pulls?q=is%3Apr+reviewed-by%3ASaraVilla" title="Reviewed Pull Requests">👀</a> <a href="#content-SaraVilla" title="Content">🖋</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="http://@yalahowy"><img src="https://avatars.githubusercontent.com/u/23166543?v=4?s=100" width="100px;" alt="Sara"/><br /><sub><b>Sara</b></sub></a><br /><a href="#ideas-selgebali" title="Ideas, Planning, & Feedback">🤔</a> <a href="#content-selgebali" title="Content">🖋</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://access2perspectives.org"><img src="https://avatars.githubusercontent.com/u/13553996?v=4?s=100" width="100px;" alt="Jo Havemann"/><br /><sub><b>Jo Havemann</b></sub></a><br /><a href="#content-johav" title="Content">🖋</a></td>
+    </tr>
+  </tbody>
 </table>
 
 <!-- markdownlint-restore -->
-
 <!-- prettier-ignore-end -->
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
