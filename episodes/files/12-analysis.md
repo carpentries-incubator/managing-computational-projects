@@ -21,6 +21,7 @@ When the data was not collected in a computer readable format, or when metadata 
 
 
 ::::::::instructor
+
 Data wrangling—also called data cleaning, data remediation, or data munging—refers to a variety of processes designed to transform raw data into more readily used formats. The exact methods differ from project to project depending on the data you're leveraging and the goal you're trying to achieve.
 
 Some examples of data wrangling include:
@@ -46,8 +47,12 @@ Especially, when filtering data out, this should be consistent and indicated in 
 
 ## Data visualisation, Analysis and Statistics
 
-:::warnings
+::: discussion
+
+### Warning
+
 Visualising data before designing the data analysis is a form of harking, as you will cherry pick your data (filtering some data out) or cherry pick an analysis (what looks promising). You should always design your analysis before visualising the data, or use visualised data as training data, not included in the final analysis.
+
 :::
 
 
@@ -99,6 +104,7 @@ filtered_data = butter_lowpass_filter(df, cutoff, fs, order)
 
 
 ::::::: challenge
+
 ```
 genomeProject/analysis/01_bf.py
 
@@ -115,12 +121,14 @@ filtered_data = filtfilt(b, a, df)
 ```
 The code above will give the same result, why is the first one better on the long run ?
 
-:::solution
+::: solution
+
 - easier to read for non-coders
 - commented
 - variables easy to change
 - better names
 - function reusable + possibility to write tests
+
 :::
 
 :::::::
@@ -134,6 +142,7 @@ It can make sense to produce a file with the functions inside that can be import
 This means altering a function doesn't mean searching across every file on every project and changing it dozens of times.
 
 ::::instructor
+
 > ***Case Study***
 > 
 > *A postdoc wrote a helpful series of functions for data analysis with neurophysiology recordings.
@@ -146,6 +155,7 @@ This means altering a function doesn't mean searching across every file on every
 > With the functions saved in a library, the PhD students can import them into their scripts.
 > Now when the postdoc changes the functions and saves them to the repo, PhD students can choose to update their version of the functions.
 > The students should document which version they have used.*
+
 ::::
 
 The output of the analysis code may be statistics results that are reported in a paper, and therefore the steps required to reproduce them are critically important.
