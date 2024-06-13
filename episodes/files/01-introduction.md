@@ -68,14 +68,12 @@ Effective communication among team members and project stakeholders (project par
 A key component here is the strategic documentation and reporting of the methodologies and any adjustments along the execution of the project. 
 Electronic Lab Notebooks (ELNs) provide a certain amount of interoperability between systems to automate some of the documentation processes, thereby making it easier and more efficient to comply with the FAIR principles. 
 
--	ELNs
--	Progress reports
 
 
 ### Risk Management
 
-It is an assessment and documentation of any foreseeable events that might arise and interfere with the success of the project. and adaption
-With a [S.W.O.T. Analysis](https://en.wikipedia.org/wiki/SWOT_analysis#) as part of the project plan, it is possible to describe strengths and weaknesses of the project idea, and also opportunities and threats that might impact the project through external factors. A thorough risk assessment allows you to make contingency plans to address any challenges or issues should they occur.
+An assessment and documentation of any foreseeable events that might arise and interfere with the success of the project. and adaption
+With a [S.W.O.T. Analysis](https://en.wikipedia.org/wiki/SWOT_analysis#) as part of the project plan, it is possible to describe strengths and weaknesses of the project idea, and also opportunities and threats that might impact the project through external factors. A thorough risk assessment allows you to make contingency plans to address any challenges or issues should they occur. Document any foreseeable events that might arise and interfere with the success of the project, such as funding constraints, team instability, restricted data access, or data loss.
 
 
 ### Monitoring and Evaluation
